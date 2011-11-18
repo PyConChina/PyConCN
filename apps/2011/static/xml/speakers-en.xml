@@ -5,9 +5,9 @@
 		<nickname>Sting Chen</nickname>
 		<company>2Style4You</company>
 		<position>CTO</position>
-		<desc>TopGeek社区创办人，现在全球领先的时尚科技公司2Style4You.com任CTO,1999年硕士毕业于上海交通大学计算机系，具有13年的互联网技术和互联网产品技术经验，还发起PMCamp社区等。也是ThinkinLAMP，ShanghaiOnRails，CPyUG，GTUG等社区的参与者或组织者。</desc>
+		<desc>TopGeek Fuounder, Now employeed at 2Style4You.com - a global leading mordern technology company. Master degree in Computer Departmart from Shanghai Jiao Tong University in 1999. 13 years expreience of Internet technology and products，founded PMCamp community, also active in ThinkinLAMP，ShanghaiOnRails，CPyUG，GTUG and etc.</desc>
 		<avatar>chenshixin.jpg</avatar>
-		<speech>大会致辞《Python让世界更精彩》</speech>
+		<speech>>Keynote - Python Enriches the World</speech>
 	</speaker>
 	
 	<speaker>
@@ -15,19 +15,19 @@
 		<nickname></nickname>
 		<company></company>
 		<position></position>
-		<desc>资深 python 开发者，高效能服务器 eurasia 的作者。湖州迅普信息技术有限公司创始人，广州遛宝计算机技术有限公司联合创始人、技术总监。</desc>
+		<desc>A senioir python developer, author of eurasia - a high efficency server. Founder of 湖州迅普信息技术有限公司; co-founder and CTO of 广州遛宝计算机技术有限公司.</desc>
 		<avatar>shenwai.jpg</avatar>
-		<speech>《Python ，通向未来之路》</speech>
+		<speech>Python, the Road to The Future</speech>
 	</speaker>
 	
 	<speaker>
 	    <fullname>Lin Wei</fullname>
 		<nickname></nickname>
-		<company>网易</company>
-		<position>资深技术主管</position>
-		<desc>网易资深技术主管，17年程序设计经验。</desc>
+		<company>Netease</company>
+		<position>Senioir technology manager</position>
+		<desc>Netease senioir tech. manager，17 years experince of programming.</desc>
 		<avatar>linwei.jpg</avatar>
-		<speech>《Python游戏开发探索与发现》</speech>
+		<speech>Python 游戏开发探索与发现》</speech>
 	</speaker>
 	
     <speaker>
