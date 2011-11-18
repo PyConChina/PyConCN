@@ -5,9 +5,9 @@
 		<nickname>Sting Chen</nickname>
 		<company>2Style4You</company>
 		<position>CTO</position>
-		<desc>TopGeek Fuounder, Now employeed at 2Style4You.com - a global leading mordern technology company. Master degree in Computer Departmart from Shanghai Jiao Tong University in 1999. 13 years expreience of Internet technology and products，founded PMCamp community, also active in ThinkinLAMP，ShanghaiOnRails，CPyUG，GTUG and etc.</desc>
+		<desc>TopGeek Fuounder, Now employed at 2Style4You.com - a global leading modern technology company. Master degree in Computer Department from Shanghai Jiao Tong University in 1999. 13 years of experience of Internet technology and products，founded PMCamp community, also active in ThinkinLAMP，ShanghaiOnRails，CPyUG，GTUG and etc.</desc>
 		<avatar>chenshixin.jpg</avatar>
-		<speech>>Keynote - Python Enriches the World</speech>
+		<speech>Keynote - Python Enriches the World</speech>
 	</speaker>
 	
 	<speaker>
@@ -25,17 +25,17 @@
 		<nickname></nickname>
 		<company>Netease</company>
 		<position>Senioir technology manager</position>
-		<desc>Netease senioir tech. manager，17 years experince of programming.</desc>
+		<desc>Netease senioir tech. manager，17 years of experience of programming.</desc>
 		<avatar>linwei.jpg</avatar>
-		<speech>Python 游戏开发探索与发现》</speech>
+		<speech>Python Exploration and Discovery of Game Development < /speech>
 	</speaker>
 	
     <speaker>
 	    <fullname>Hung Qiangning</fullname>
 		<nickname></nickname>
-		<company>豆瓣</company>
-		<position>首席架构师</position>
-		<desc>豆瓣首席架构师，豆瓣第一位全职员工。清华毕业后，洪强宁一直做嵌入式系统。在2002年开始接触Python语言，从硬件工程师变为软件工程师，对一种语言在计算机底层如何工作有深入的理解。</desc>
+		<company>Douban</company>
+		<position>Chief Architect</position>
+		<desc> Chief Architect of Douban, first full time employer of Douban.  Working on embedded systems, after graduating from Tsinghua University.  Start to use python from 2002, becoming a software engineer from hardware engineer. Has solid understanding  of how a computer programming language works at lower system level. </desc>
 		<avatar>hongqiangning.jpg</avatar>
 		<speech>《豆瓣的Python应用和创新》</speech>
 	</speaker>
@@ -45,16 +45,16 @@
 		<nickname></nickname>
 		<company>Google</company>
 		<position></position>
-		<desc>Google是世界上Python水平最高工程师的云集之地。Python的发明者Guido就在Google。Damien来自Google收购的Slide公司</desc>
+		<desc>Google has the highest level of python developers. Founder of Python – Guido is at Google. Damien is from Slide, a Google Company.</desc>
 		<avatar>damienhou.jpg</avatar>
-		<speech>《Scale web application stack with coro-thread》</speech>
+		<speech>Scale web application stack with coro-thread</speech>
 	</speaker>
 	
 	<speaker>
 	    <fullname>Pan Junyong</fullname>
 		<nickname></nickname>
 		<company>润普科技</company>
-		<position>创始人，CTO</position>
+		<position>Founder, CTO</position>
 		<desc>国内python社区最早的布道者之一，2002年开始创办Zope中文社区，同时也是润普公司创始人。2007年转向互联网软件，推出易度云办公(everydo.com)，专注企业云端办公方案。</desc>
 		<avatar>panjunyong.jpg</avatar>
 		<speech>《易度PaaS云开发平台技术内幕》</speech>
@@ -63,8 +63,8 @@
 	<speaker>
 	    <fullname>Huang Dong</fullname>
 		<nickname></nickname>
-		<company>土豆网</company>
-		<position>技术副总裁</position>
+		<company>Tudou</company>
+		<position>Vice President of Technology</position>
 		<desc>黄冬现任土豆网技术副总裁，主持设计和运营过多个大型高容量产品和系统。也是中国FreeBSD、Python社区的发起者和积极参与者，啄木鸟社区的创始人之一。此外，他还积极帮助各种创业项目，创立了彩虹流量和xBaynet系列产品。</desc>
 		<avatar>huangdong.jpg</avatar>
 		<speech>《大规模视频网站的计费与流量管理》</speech>
