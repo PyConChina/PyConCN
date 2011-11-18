@@ -37,7 +37,7 @@
 		<position>Chief Architect</position>
 		<desc> Chief Architect of Douban, first full time employer of Douban.  Working on embedded systems, after graduating from Tsinghua University.  Start to use python from 2002, becoming a software engineer from hardware engineer. Has solid understanding  of how a computer programming language works at lower system level. </desc>
 		<avatar>hongqiangning.jpg</avatar>
-		<speech>《豆瓣的Python应用和创新》</speech>
+		<speech>Python Application and Innovation at Douban</speech>
 	</speaker>
 	
 	<speaker>
@@ -55,27 +55,27 @@
 		<nickname></nickname>
 		<company>润普科技</company>
 		<position>Founder, CTO</position>
-		<desc>国内python社区最早的布道者之一，2002年开始创办Zope中文社区，同时也是润普公司创始人。2007年转向互联网软件，推出易度云办公(everydo.com)，专注企业云端办公方案。</desc>
+		<desc>One of pioneers in python community, held Zope Chinese community in2002 , founder of润普公司. Starting Internet software in 2007, released 易度云办公 everydo.com, specialized in enterprise cloud office application.</desc>
 		<avatar>panjunyong.jpg</avatar>
-		<speech>《易度PaaS云开发平台技术内幕》</speech>
+		<speech>Technical inside of Everydo PaaS Cloud Development Platform </speech>
 	</speaker>
 	
 	<speaker>
 	    <fullname>Huang Dong</fullname>
 		<nickname></nickname>
 		<company>Tudou</company>
-		<position>Vice President of Technology</position>
-		<desc>黄冬现任土豆网技术副总裁，主持设计和运营过多个大型高容量产品和系统。也是中国FreeBSD、Python社区的发起者和积极参与者，啄木鸟社区的创始人之一。此外，他还积极帮助各种创业项目，创立了彩虹流量和xBaynet系列产品。</desc>
+		<position> Technology  VP </position>
+		<desc> Dong Huang  is currently employed as Technology VP at Tudou. In Charge of design and running many large scale high volume product and system. Is also co-founder and active with FreeBSD、Python communities, One of the founders of 啄木鸟Community, is also actively helping many start-up projects.  He created彩虹流量 and xBaynet product series.</desc>
 		<avatar>huangdong.jpg</avatar>
-		<speech>《大规模视频网站的计费与流量管理》</speech>
+		<speech>Metering and Bandwidth Management in Large Scale Website</speech>
 	</speaker>
 	
 	<speaker>
 	    <fullname>Chen Zheng</fullname>
 		<nickname></nickname>
-		<company>新浪网</company>
+		<company>Sina</company>
 		<position></position>
-		<desc>新浪网研发中心平台架构部工程师，负责系统平台方面的研发，在云计算技术领域有多年的研发和实践经验。2009年以来，专注于新一代云平台的建设工作，新浪SAE(SinaApp Engine)、云存储等服务，在云计算领域拥有丰富的经验。关注程序的可扩展性和可靠性，自动化测试，程序语言设计等。 </desc>
+		<desc>Engineer at Sina.com development center, in charge of R&D of system platform, Multiple years of research and work experience of paradigm of cloud computing. From 2009, focused at new generation of could computing, Sina SAE(SinaApp Engine)  and could storage service, focused at scalability and reliability of programs, automated testing and designing of computer language.</desc>
 		<avatar>chenzheng.jpg</avatar>
 		<speech>《SAE(Sina AppEngine) 的 python 版实现》</speech>
 	</speaker>
@@ -105,9 +105,9 @@
 		<nickname></nickname>
 		<company>CCP Games</company>
 		<position></position>
-		<desc>CCPGames是全球第二大的桌面游戏公司，网游实力也很强大，公司里有很多Python的开发高手</desc>
+		<desc>CCPGames is the second largest company in desktop games , also very strong in Internet games. There are many Python talents in the company </desc>
 		<avatar></avatar>
-		<speech>《CCP Games的Python开发》</speech>
+		<speech>Python Development at CCP Games </speech>
 	</speaker>
 	
 	<speaker>
@@ -115,39 +115,39 @@
 		<nickname>Limodou</nickname>
 		<company></company>
 		<position></position>
-		<desc>Python 中文社区创始人及 Python 技术的关键推广者之一。广受欢迎的 Ulipad 编辑器，以及 web框架 Uliweb 的作者。</desc>
+		<desc>Founder of Python Chinese community and one of the key activists in Python, Author of popular editor - Ulipad , author of web framework – Uliweb.</desc>
 		<avatar>liyinghui.jpg</avatar>
-		<speech>《Web 框架开发思考与实践 — Uliweb》</speech>
+		<speech>Thoughts and Practise in Web Framework Development - Uliweb </speech>
 	</speaker>
 	
 	<speaker>
 	    <fullname>Lai Yonghao</fullname>
 		<nickname></nickname>
 		<company>江苏盛典</company>
-		<position>技术总监</position>
-		<desc>网游行业资深从业者，有丰富的 python 游戏开发经验。由其担纲的代表游戏有，新一代 MMOCAT大作《天下盛境》等。是珠三角技术沙龙的创办人和组委之一。</desc>
+		<position>CTO</position>
+		<desc>Senior developer in Internet Games, Rich experience with python game development. Icon producnts: New generation MMOCAT《天下盛境》 and etc. Founder and one of the organizing group of Tech Slalom Pearl Delta.</desc>
 		<avatar>laiyonghao.jpg</avatar>
-		<speech>《Python 之于 Webgame 的应用》</speech>
+		<speech>Python Usage in Web Games </speech>
 	</speaker>
 	
 	<speaker>
 	    <fullname>Wang Jian</fullname>
 		<nickname></nickname>
 		<company>广州黑崖网络科技有限公司</company>
-		<position>总经理兼技术总监</position>
+		<position>GM and CTO</position>
 		<desc>广州黑崖网络科技有限公司总经理兼技术总监。</desc>
 		<avatar>wangjian.jpg</avatar>
-		<speech>《中型角色扮演网络游戏服务器的 python 应用》</speech>
+		<speech>Python Usage in Medium Role Play Game Servers</speech>
 	</speaker>
 	
 	<speaker>
 	    <fullname>Zhou Qi</fullname>
 		<nickname>Zoom.Quiet</nickname>
-		<company>金山网络</company>
-		<position>过程改进经理</position>
-		<desc>Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区“大妈”；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。</desc>
+		<company>KingSoft</company>
+		<position>Process Improvement Manager </position>
+		<desc>Founder/Admin of Python Chinese Community , devoted in acitivies non-for-profit python community ,  AKA. Big Mummy, OBP and designer and host of 蟒营工程;participated and host many online/offline activities; producer of  “Lovely Python”; 坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！Now employed at KingSoft</desc>
 		<avatar>zhouqi.jpg</avatar>
-		<speech>快速演讲：《基于 MQ 解耦应用开发》</speech>
+		<speech>Light Talk: 解耦应用开发 Based on MQ</speech>
 	</speaker>
 	
 	<speaker>
@@ -155,10 +155,10 @@
 		<nickname></nickname>
 		<company>OpenERP</company>
 		<position></position>
-		<desc>2005年接触开源ERP，对各个开源ERP产品均有涉猎。主持参与了weberp、openbravo、openerp的汉化工作。2007年开始做OpenERP（原TinyERP）的本地化和推广。注重基于开源+威客的商业服务模式即实现程序员参与开源的长短期收益。现集中精力做OpenERP的远程二次开发团队，Python做ERP二次开发很爽，乐在其中......是http://openerp-china.org/ 站长和http://code.google.com/p/cloudteam/ 项目经理
-微博：http://weibo.com/opennewbazaar 爱好：ERP，开源，威客</desc>
+		<desc> Starting opensource ERP(Enterprise Resource Planning) in 2005, touched many opensource ERP product. Held and joined  Chinese translation for weberp, openbravo and openerp. Started to localize and introduce OpenERP (Original known as TinyERP).注重基于开源+威客的商业服务模式即实现程序员参与开源的长短期收益。现集中精力做OpenERP的远程二次开发团队，Python is cool at ERP二次开发，Enjoy it……  The owner of http://openerp-china.org/ and project manager  of http://code.google.com/p/cloudteam/ 
+Webibo: http://weibo.com/opennewbazaar ,  Interests: ERP, opensource and威客</desc>
 		<avatar>wangjianfeng.jpg</avatar>
-		<speech>快速演讲：《OpenERP方案介绍和二次开发》</speech>
+		<speech>Light Talk:  Intro to OpenERP Solution and Extenstion</speech>
 	</speaker>
 	
 	<speaker>
@@ -166,9 +166,9 @@
 		<nickname>Adieu</nickname>
 		<company></company>
 		<position></position>
-		<desc>独立程序员，Python爱好者，平时关注Django以及网站建设，闲时用Python写一些小工具解决遇到的问题。</desc>
+		<desc>Independent programmer, Python Lover, Interested in Django and web development,  Solving problems with small python programs in leisure .</desc>
 		<avatar>diaolizhi.jpg</avatar>
-		<speech>快速演讲：《用Python改进迅雷离线 — A Python Successful Story》</speech>
+		<speech>Light Talk: Improvement of Xunlei Offline with Python - A Python Successful Story</speech>
 	</speaker>
 	
 	<speaker>
@@ -176,8 +176,8 @@
 		<nickname></nickname>
 		<company>阿里云</company>
 		<position></position>
-		<desc>从业11年，给Python跑了8年的龙套。DOS年代起步，Windows桌面成长，赶上WEB的潮流，迈向未来的"云"时代。</desc>
+		<desc>11 years of experience,  8 years of side jobs with Python. Starting from DOS age, growing with Windows desktops, catching the fashion of the web, moving forward to cloud age. </desc>
 		<avatar>lijundong.jpg</avatar>
-		<speech>快速演讲：《与Python一路走来》</speech>
+		<speech>Light talk:  on the Journey with Python</speech>
 	</speaker>
 </speakers>
