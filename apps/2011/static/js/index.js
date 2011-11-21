@@ -33,14 +33,14 @@ $(function(){
 					}else{
 						html += '<h4>' + fullname + '</h4>'
 					}
-					html += LANG.indexOf('en')==-1 ? "<strong>主题：</strong>" : "<strong>Title:</strong>" + $(speaker).children("speech").text() + '<br />'
+					html += (LANG.indexOf('en')==-1 ? "<strong>主题：</strong>" : "<strong>Title:</strong>") + $(speaker).children("speech").text() + '<br />'
 					if ($(speaker).children("company").text()){
-					    html += LANG.indexOf('en')==-1 ? '<strong>组织：</strong>' : '<strong>Organization:</strong>' + $(speaker).children("company").text() + '<br />'
+					    html += (LANG.indexOf('en')==-1 ? '<strong>组织：</strong>' : '<strong>Organization:</strong>') + $(speaker).children("company").text() + '<br />'
 					}
 					if ($(speaker).children("position").text()){
-					    html += LANG.indexOf('en')==-1 ? '<strong>头衔：</strong>' : '<strong>Job:</strong>' + $(speaker).children("position").text() + '<br />'
+					    html += (LANG.indexOf('en')==-1 ? '<strong>头衔：</strong>' : '<strong>Job:</strong>') + $(speaker).children("position").text() + '<br />'
 					}
-					html += LANG.indexOf('en')==-1 ? "<strong>简介：</strong>" : "<strong>Description:</strong>" + $(speaker).children("desc").text()
+					html += (LANG.indexOf('en')==-1 ? "<strong>简介：</strong>" : "<strong>Description:</strong>") + $(speaker).children("desc").text()
 				    html += '<div style="clear:both; "></div>'
 					$(html).insertAfter(e)
 				}

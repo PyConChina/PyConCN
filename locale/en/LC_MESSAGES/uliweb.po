@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pycon China 2011\n"
 "POT-Creation-Date: 2011-11-16 10:54\n"
-"PO-Revision-Date: 2011-11-21 17:52+0800\n"
+"PO-Revision-Date: 2011-11-21 23:08+0800\n"
 "Last-Translator: dndx <dndx@idndx.com>\n"
 "Language-Team: Topgeek <LL@li.org>\n"
 "Language: \n"
@@ -1407,7 +1407,7 @@ msgstr "Li Yinghui"
 #: .\apps\2011\templates\index.html:138
 #: .\apps\2011\templates\siteView\schedule.html:244
 msgid "刁立知"
-msgstr "Diao Xizhi"
+msgstr "Diao Lizhi"
 
 #: .\apps\2011\templates\index.html:12
 #: .\apps\2011\templates\siteView\schedule.html:8
