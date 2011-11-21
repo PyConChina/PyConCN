@@ -2,7 +2,7 @@
     JavaScript for PyCon China Offical Website
     Author: Datong Sun (Dndx)
     Blog: idndx.com
-    Version: 2011.11.16
+    Version: 2011.11.21
 */
 $(function(){
     $("#hero-selector > div").filter(":first").addClass('active').end()
@@ -33,14 +33,14 @@ $(function(){
 					}else{
 						html += '<h4>' + fullname + '</h4>'
 					}
-					html += "<strong>主题：</strong>" + $(speaker).children("speech").text() + '<br />'
+					html += LANG.indexOf('en')==-1 ? "<strong>主题：</strong>" : "<strong>Title:</strong>" + $(speaker).children("speech").text() + '<br />'
 					if ($(speaker).children("company").text()){
-					    html += '<strong>组织：</strong>' + $(speaker).children("company").text() + '<br />'
+					    html += LANG.indexOf('en')==-1 ? '<strong>组织：</strong>' : '<strong>Organization:</strong>' + $(speaker).children("company").text() + '<br />'
 					}
 					if ($(speaker).children("position").text()){
-					    html += '<strong>头衔：</strong>' + $(speaker).children("position").text() + '<br />'
+					    html += LANG.indexOf('en')==-1 ? '<strong>头衔：</strong>' : '<strong>Job:</strong>' + $(speaker).children("position").text() + '<br />'
 					}
-					html += "<strong>简介：</strong>" + $(speaker).children("desc").text()
+					html += LANG.indexOf('en')==-1 ? "<strong>简介：</strong>" : "<strong>Description:</strong>" + $(speaker).children("desc").text()
 				    html += '<div style="clear:both; "></div>'
 					$(html).insertAfter(e)
 				}

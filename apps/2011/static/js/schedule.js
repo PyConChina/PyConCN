@@ -2,7 +2,7 @@
     JavaScript for PyCon China Offical Website
     Author: Datong Sun (Dndx)
     Blog: idndx.com
-    Version: 2011.11.16
+    Version: 2011.11.21
 */
 $(function(){
 	$.get('/static/xml/speakers-' + LANG + '.xml', function(data){
@@ -28,12 +28,12 @@ $(function(){
 					tip += '<img src="http://pycon.b0.upaiyun.com/images/speakers/nopic.gif" alt="' + $(this).children("fullname").text() + '" />'
 				}
 				if ($(this).children("company").text()){
-				    tip += "<strong>组织：</strong>" + $(this).children("company").text() + '<br />'
+				    tip += LANG.indexOf('en')==-1 ? "<strong>组织：</strong>" : "<strong>Organization:</strong>" + $(this).children("company").text() + '<br />'
 				}
 				if ($(this).children("position").text()){
-					tip += "<strong>头衔：</strong>" + $(this).children("position").text() + '<br />'
+					tip += LANG.indexOf('en')==-1 ? "<strong>头衔：</strong>" : "<strong>Job:</strong>" + $(this).children("position").text() + '<br />'
 				}
-				tip += "<strong>简介：</strong>" + $(this).children("desc").text()
+				tip += LANG.indexOf('en')==-1 ? "<strong>简介：</strong>" : "<strong>Description:</strong>" + $(this).children("desc").text()
 				tip += '<div style="clear:both; "></div>'
 			}
 		})

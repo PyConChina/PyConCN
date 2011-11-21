@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pycon China 2011\n"
 "POT-Creation-Date: 2011-11-16 10:54\n"
-"PO-Revision-Date: 2011-11-16 17:48+0800\n"
+"PO-Revision-Date: 2011-11-21 17:52+0800\n"
 "Last-Translator: dndx <dndx@idndx.com>\n"
 "Language-Team: Topgeek <LL@li.org>\n"
 "Language: \n"
@@ -1413,4 +1413,31 @@ msgstr "Diao Xizhi"
 #: .\apps\2011\templates\siteView\schedule.html:8
 msgid "cn"
 msgstr "en"
+
+#: .\apps\2011\templates\siteView\volunteer.html:142
+msgid "Ruby，Python，C开发者，澳大利亚墨尔本大学计算机系毕业，曾担任web 开发，硬件工程师，系统运维。感兴趣于：图像处理，计算机视觉，大规模信息处理，VOIP系统。"
+msgstr "Ruby, Python and C Developer, Graduated from University of Melbourne. Worked as Web developer, Hardware Developer and System Administrator, Current interests: Image processing, computer vision, large scale information retrieval and processing & VOIP Systems."
+
+#: .\apps\2011\templates\siteView\volunteer.html:126
+#: .\apps\2011\templates\siteView\volunteer.html:128
+msgid "aegiryy（葛馨阳）"
+msgstr "aegiryy（Ge Xinyang）"
+
+#: .\apps\2011\templates\siteView\volunteer.html:132
+#: .\apps\2011\templates\siteView\volunteer.html:144
+msgid "本次PyCon大会的翻译志愿者。"
+msgstr "Translater of this website."
+
+#: .\apps\2011\templates\siteView\volunteer.html:130
+msgid "南京大学大四学生。爱好广泛，从 Python 编程到 Hack Python 源代码；从 Web 应用开发到嵌入式实时系统移植都具有浓厚兴趣。热爱一切技术与非技术的东西。"
+msgstr "Xinyang is now a senior student in Nanjing University. He has variety of interests covering Python programming, hacking python code and even porting real-time operating system. He is a passionate geek loving everything technical and non-technical."
+
+#: .\apps\2011\templates\siteView\volunteer.html:134
+msgid "aegiryy的博客地址"
+msgstr "aegiryy's blog address"
+
+#: .\apps\2011\templates\siteView\volunteer.html:138
+#: .\apps\2011\templates\siteView\volunteer.html:140
+msgid "Yiling Cao（曹一凌）"
+msgstr "Yiling Cao（Cao Yiling）"
 
