@@ -101,13 +101,13 @@
 	</speaker>
 	
 	<speaker>
-	    <fullname>CCP Games</fullname>
-		<nickname></nickname>
-		<company>CCP Games</company>
-		<position></position>
-		<desc>CCPGames是全球第二大的桌面游戏公司，网游实力也很强大，公司里有很多Python的开发高手</desc>
-		<avatar></avatar>
-		<speech>《CCP Games的Python开发》</speech>
+	    <fullname>周琦</fullname>
+		<nickname>Zoom.Quiet</nickname>
+		<company>金山网络</company>
+		<position>过程改进经理</position>
+		<desc>Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区"大妈"；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。</desc>
+		<avatar>zhouqi.jpg</avatar>
+		<speech>快速演讲：《基于 MQ 解耦应用开发》</speech>
 	</speaker>
 	
 	<speaker>
@@ -138,16 +138,6 @@
 		<desc>广州黑崖网络科技有限公司总经理兼技术总监。</desc>
 		<avatar>wangjian.jpg</avatar>
 		<speech>《中型角色扮演网络游戏服务器的 python 应用》</speech>
-	</speaker>
-	
-	<speaker>
-	    <fullname>周琦</fullname>
-		<nickname>Zoom.Quiet</nickname>
-		<company>金山网络</company>
-		<position>过程改进经理</position>
-		<desc>Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区“大妈”；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。</desc>
-		<avatar>zhouqi.jpg</avatar>
-		<speech>快速演讲：《基于 MQ 解耦应用开发》</speech>
 	</speaker>
 	
 	<speaker>

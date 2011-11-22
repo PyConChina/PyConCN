@@ -102,13 +102,13 @@
 	</speaker>
 	
 	<speaker>
-	    <fullname>CCP Games</fullname>
-		<nickname></nickname>
-		<company>CCP Games</company>
-		<position></position>
-		<desc>CCPGames is the second largest company in desktop games , also very strong in Internet games. There are many Python talents in the company </desc>
-		<avatar></avatar>
-		<speech>Python Development at CCP Games </speech>
+	    <fullname>Zhou Qi</fullname>
+		<nickname>Zoom.Quiet</nickname>
+		<company>KingSoft</company>
+		<position>Process Improvement Manager </position>
+		<desc>Founder/Admin of Python Chinese Community , devoted in acitivies non-for-profit python community ,  AKA. Big Mummy, OBP and designer and host of PythoniCamp;participated and host many online/offline activities; producer of  "Lovely Python"; Use Pythonic influence people into world of FLOSS where Learning / sharing / creation！Now employed at KingSoft</desc>
+		<avatar>zhouqi.jpg</avatar>
+		<speech>Light Talk: make K.I.S.S web develop by MQ</speech>
 	</speaker>
 	
 	<speaker>
@@ -139,16 +139,6 @@
 		<desc>CTO of Guangzhou HeiYa Network Technology Co., Ltd. </desc>
 		<avatar>wangjian.jpg</avatar>
 		<speech>Python Usage in Medium Role Play Game Servers</speech>
-	</speaker>
-	
-	<speaker>
-	    <fullname>Zhou Qi</fullname>
-		<nickname>Zoom.Quiet</nickname>
-		<company>KingSoft</company>
-		<position>Process Improvement Manager </position>
-		<desc>Founder/Admin of Python Chinese Community , devoted in acitivies non-for-profit python community ,  AKA. Big Mummy, OBP and designer and host of PythoniCamp;participated and host many online/offline activities; producer of  “Lovely Python”; Use Pythonic influence people into world of FLOSS where Learning / sharing / creation！Now employed at KingSoft</desc>
-		<avatar>zhouqi.jpg</avatar>
-		<speech>Light Talk: make K.I.S.S web develop by MQ</speech>
 	</speaker>
 	
 	<speaker>
