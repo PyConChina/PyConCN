@@ -37,7 +37,7 @@
 		<position>Chief Architect</position>
 		<desc> Chief Architect of Douban, first full time employer of Douban.  Working on embedded systems, after graduating from Tsinghua University.  Start to use python from 2002, becoming a software engineer from hardware engineer. Has solid understanding  of how a computer programming language works at lower system level. </desc>
 		<avatar>hongqiangning.jpg</avatar>
-		<speech>Python Application and Innovation at Douban</speech>
+		<speech>Python Application at Douban</speech>
 	</speaker>
 	
 	<speaker>
@@ -170,5 +170,15 @@ Webibo: http://weibo.com/opennewbazaar ,  Interests: ERP, opensource and Witkey<
 		<desc>11 years of experience,  8 years of side jobs with Python. Starting from DOS age, growing with Windows desktops, catching the fashion of the web, moving forward to cloud age. </desc>
 		<avatar>lijundong.jpg</avatar>
 		<speech>Light talk:  on the Journey with Python</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Lin Jun</fullname>
+		<nickname></nickname>
+		<company>Python-CN maillist administrator</company>
+		<position></position>
+		<desc>Lin Jun, python lover, python-cn maillist admin,interested in building cool apps with the help of python.</desc>
+		<avatar></avatar>
+		<speech>Fast Speech: "Create realtime web app using Tornado"</speech>
 	</speaker>
 </speakers>

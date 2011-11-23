@@ -37,7 +37,7 @@
 		<position>首席架构师</position>
 		<desc>豆瓣首席架构师，豆瓣第一位全职员工。清华毕业后，洪强宁一直做嵌入式系统。在2002年开始接触Python语言，从硬件工程师变为软件工程师，对一种语言在计算机底层如何工作有深入的理解。</desc>
 		<avatar>hongqiangning.jpg</avatar>
-		<speech>《豆瓣的Python应用和创新》</speech>
+		<speech>《Python在豆瓣的应用》</speech>
 	</speaker>
 	
 	<speaker>
@@ -169,5 +169,15 @@
 		<desc>从业11年，给Python跑了8年的龙套。DOS年代起步，Windows桌面成长，赶上WEB的潮流，迈向未来的"云"时代。</desc>
 		<avatar>lijundong.jpg</avatar>
 		<speech>快速演讲：《与Python一路走来》</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>林君</fullname>
+		<nickname></nickname>
+		<company>Python-CN管理员</company>
+		<position></position>
+		<desc>机械维物主义，真名林君，python爱好者，python-cn管理员，关注用python搭积木，做好玩的应用。</desc>
+		<avatar></avatar>
+		<speech>快速演讲：《用Tornado搭建实时应用》</speech>
 	</speaker>
 </speakers>
