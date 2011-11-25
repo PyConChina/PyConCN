@@ -97,7 +97,7 @@
         ]]>
         </desc>
 		<avatar>ryanye.jpg</avatar>
-		<speech>《A Python approach to implement Schemaless model on MySQL》</speech>
+		<speech>《用Python实现基于MySQL为后台的Schemaless数据存储系统》</speech>
 	</speaker>
 	
 	<speaker>
@@ -177,7 +177,17 @@
 		<company>Python-CN管理员</company>
 		<position></position>
 		<desc>机械维物主义，真名林君，python爱好者，python-cn管理员，关注用python搭积木，做好玩的应用。</desc>
-		<avatar></avatar>
+		<avatar>linjun.jpg</avatar>
 		<speech>快速演讲：《用Tornado搭建实时应用》</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>孙大同</fullname>
+		<nickname>Dndx</nickname>
+		<company>PyCon China志愿者</company>
+		<position></position>
+		<desc>PyCon China志愿者，负责官方网站的搭建，详细资料请见“志愿者”页面。</desc>
+		<avatar>sundatong.jpg</avatar>
+		<speech>快速演讲：《PyCon China官网的开发及搭建》</speech>
 	</speaker>
 </speakers>

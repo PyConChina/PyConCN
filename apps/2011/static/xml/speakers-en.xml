@@ -178,7 +178,17 @@ Webibo: http://weibo.com/opennewbazaar ,  Interests: ERP, opensource and Witkey<
 		<company>Python-CN maillist administrator</company>
 		<position></position>
 		<desc>Lin Jun, python lover, python-cn maillist admin,interested in building cool apps with the help of python.</desc>
-		<avatar></avatar>
+		<avatar>linjun.jpg</avatar>
 		<speech>Fast Speech: "Create realtime web app using Tornado"</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Sun Datong</fullname>
+		<nickname>Dndx</nickname>
+		<company>PyCon China volunteer</company>
+		<position></position>
+		<desc>PyCon China colunteer, built the offical website of PyCon China 2011, more information can be found on "Volunteer" page.</desc>
+		<avatar>sundatong.jpg</avatar>
+		<speech>Short speech: "Develop of PyCon China offical website"</speech>
 	</speaker>
 </speakers>
