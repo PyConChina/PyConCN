@@ -180,7 +180,7 @@ msgstr "Introduction of organizers and sponsors"
 
 #: .\apps\2011\templates\index.html:186
 msgid "大会致辞《Python让世界更精彩》- 陈世欣"
-msgstr "address the Assembly\" Python makes the world more exciting \"- Shixin Chen"
+msgstr "Introduce the conference - \" Python makes the world more exciting \"- Sting Chen"
 
 #: .\apps\2011\templates\index.html:188
 msgid "Video联播《世界各国Python高手的演讲》- 各国Pythoner"
@@ -192,14 +192,14 @@ msgstr "\" Python, the road to the future \"- Wei Shen"
 
 #: .\apps\2011\templates\index.html:192
 msgid "《Python游戏开发探索与发现》 - 林伟"
-msgstr "\" Exploration and discovery of Python game developing \"- Wei Lin"
+msgstr "\" Exploring and discovering the game development in python \"- Wei Lin"
 
 #: .\apps\2011\templates\index.html:196
-msgid "《Scale web application stack with coro-thread》 - Damien Hou"
+msgid "《用coro-thread技术来扩展web应用程序栈》 - Damien Hou"
 msgstr "\" Scale web application stack with coro-thread \"- Damien Hou"
 
 #: .\apps\2011\templates\index.html:198
-msgid "《易度PaaS云开发平台技术内幕》 - 潘俊勇"
+msgid "《易度PaaS云发平台技术内幕》 - 潘俊勇"
 msgstr "\" Introduction of Easydo PaaS cloud developing platform technology \"- Junyong Pan "
 
 #: .\apps\2011\templates\index.html:200
@@ -630,7 +630,18 @@ msgstr "\" Exploration and discovery of Python game developing. \""
 
 #: .\apps\2011\templates\siteView\schedule.html:92
 msgid "当前的游戏开发，存在着游戏内容越来越繁杂，服务人数越来越多，市场变化越来越快等现状，导致一款游戏的开发的成本越来越高，风险越来越高，规模也越来越大。这一直是最棘手的问题。<br />如何才能利用 Python高效的开发速度来降低游戏开发的成本？如何用 Python架构上万人在线的游戏服务器？如何使用Python来快速开发图形和客户端逻辑？Py在现今的多核体系下是否力不从心？是否\"高性能\"永远不属于我们讨论的范围？Py在各个游戏项目中的使用情况如何？<br />所以本年度PyCon我们邀请到了这方面的专家--网易互动娱乐的资深技术主管，林伟，给大家分享他们把Py应用在游戏开发中的各种技术关键点。"
-msgstr ""
+msgstr "The current game developing have more difficulties, such as, the game content is more complicated; the players is more, the changing of game market is faster. 
+So, the cost for developing games is more expensive and risk for a new game is higher than before. 
+
+How to develop effectively for keeping the low development cost in python?
+How to build game server which will support 10,000 concurrent online players in python?
+How to develop graphics and client logic in python?
+Do the python software exploit the power of multi-core system well?
+Is "high performance" never belong to the scope of our discussion?
+How many internet games use python? What area will use python?
+
+LinWei, The senior technical director in NetEase Interactive Entertainment department, will share more technology and key points in game development.
+"
 
 #: .\apps\2011\templates\siteView\schedule.html:94
 msgid "12:00-13:00"
@@ -1371,11 +1382,11 @@ msgstr "Yiling Cao（Cao Yiling）"
 
 #: .\apps\2011\templates\siteView\schedule.html:174
 msgid "《基于 MQ 解耦应用开发》"
-msgstr "\"K.I.S.S web developing by MQ\""
+msgstr "\"K.I.S.S web developing by Message Queue\""
 
 #: .\apps\2011\templates\siteView\schedule.html:178
 msgid "分享一个基础命题的思考：\"在Web开发中,复杂功能系统一定也必须是复杂的吗？\"，分析基于MQ来令Web系统变成由各种小而美的脚本和谐串起来的类UNIX体系。"
-msgstr ""
+msgstr "Using Message Queue in web development for keeping system simple and stupid. (K.I.S.S) \"Does the complicated web site must usage complicated code? Definitely No!\" This topic will share some thoughts about how to use some tiny and simple scripts to build a big web system. And discuss the web architecture which is similar as UNIX system. "
 
 #: .\apps\2011\templates\index.html:144
 #: .\apps\2011\templates\siteView\schedule.html:260
@@ -1437,7 +1448,8 @@ msgstr "Discuss problems that may be found while developing website with Python 
 
 #: .\apps\2011\templates\siteView\schedule.html:276
 msgid "现场征集快速演讲嘉宾，演讲人分享自己的Python开发技术心得，演示产品等。"
-msgstr ""
+msgstr "lightning talk - sharing development experience and skills, or demonstrating products.
+The speakers will come from attendee. We will collect the topics during the conference."
 
 #: .\apps\2011\templates\index.html:228
 msgid "《PyCon China官网的开发及搭建》 - 孙大同"
