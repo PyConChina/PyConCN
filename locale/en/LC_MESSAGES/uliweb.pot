@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-11-25 18:39\n"
+"POT-Creation-Date: 2011-11-26 20:13\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -870,8 +870,11 @@ msgid "通过一款 Python 主力开发的中型角色扮演游戏，对游戏�
 msgstr ""
 
 #: .\apps\2011\templates\siteView\schedule.html:222
-#: .\apps\2011\templates\siteView\schedule.html:226
 msgid "14:55-15:05"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\schedule.html:226
+msgid "15:05-15:20"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\schedule.html:230

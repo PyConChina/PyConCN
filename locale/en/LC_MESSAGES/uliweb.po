@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pycon China 2011\n"
 "POT-Creation-Date: 2011-11-16 10:54\n"
-"PO-Revision-Date: 2011-11-25 18:39+0800\n"
+"PO-Revision-Date: 2011-11-26 20:16+0800\n"
 "Last-Translator: dndx <dndx@idndx.com>\n"
 "Language-Team: Topgeek <LL@li.org>\n"
 "Language: \n"
@@ -193,14 +193,6 @@ msgstr "\" Python, the road to the future \"- Wei Shen"
 #: .\apps\2011\templates\index.html:192
 msgid "《Python游戏开发探索与发现》 - 林伟"
 msgstr "\" Exploring and discovering the game development in python \"- Wei Lin"
-
-#: .\apps\2011\templates\index.html:196
-msgid "《用coro-thread技术来扩展web应用程序栈》 - Damien Hou"
-msgstr "\" Scale web application stack with coro-thread \"- Damien Hou"
-
-#: .\apps\2011\templates\index.html:198
-msgid "《易度PaaS云发平台技术内幕》 - 潘俊勇"
-msgstr "\" Introduction of Easydo PaaS cloud developing platform technology \"- Junyong Pan "
 
 #: .\apps\2011\templates\index.html:200
 msgid "《大规模视频网站的计费与流量管理》 - 黄冬"
@@ -563,7 +555,7 @@ msgstr "08:30-09:20"
 #: .\apps\2011\templates\siteView\schedule.html:50
 #: .\apps\2011\templates\siteView\schedule.html:154
 msgid "签到"
-msgstr "sign"
+msgstr "Sign"
 
 #: .\apps\2011\templates\siteView\schedule.html:52
 msgid "09:20-09:30"
@@ -618,7 +610,7 @@ msgstr "11:10-11:15"
 #: .\apps\2011\templates\siteView\schedule.html:186
 #: .\apps\2011\templates\siteView\schedule.html:228
 msgid "休息"
-msgstr "BReak"
+msgstr "Break"
 
 #: .\apps\2011\templates\siteView\schedule.html:86
 msgid "11:15-12:00"
@@ -630,18 +622,7 @@ msgstr "\" Exploration and discovery of Python game developing. \""
 
 #: .\apps\2011\templates\siteView\schedule.html:92
 msgid "当前的游戏开发，存在着游戏内容越来越繁杂，服务人数越来越多，市场变化越来越快等现状，导致一款游戏的开发的成本越来越高，风险越来越高，规模也越来越大。这一直是最棘手的问题。<br />如何才能利用 Python高效的开发速度来降低游戏开发的成本？如何用 Python架构上万人在线的游戏服务器？如何使用Python来快速开发图形和客户端逻辑？Py在现今的多核体系下是否力不从心？是否\"高性能\"永远不属于我们讨论的范围？Py在各个游戏项目中的使用情况如何？<br />所以本年度PyCon我们邀请到了这方面的专家--网易互动娱乐的资深技术主管，林伟，给大家分享他们把Py应用在游戏开发中的各种技术关键点。"
-msgstr "The current game developing have more difficulties, such as, the game content is more complicated; the players is more, the changing of game market is faster. 
-So, the cost for developing games is more expensive and risk for a new game is higher than before. 
-
-How to develop effectively for keeping the low development cost in python?
-How to build game server which will support 10,000 concurrent online players in python?
-How to develop graphics and client logic in python?
-Do the python software exploit the power of multi-core system well?
-Is "high performance" never belong to the scope of our discussion?
-How many internet games use python? What area will use python?
-
-LinWei, The senior technical director in NetEase Interactive Entertainment department, will share more technology and key points in game development.
-"
+msgstr "The current game developing have more difficulties, such as, the game content is more complicated; the players is more, the changing of game market is faster"
 
 #: .\apps\2011\templates\siteView\schedule.html:94
 msgid "12:00-13:00"
@@ -821,7 +802,6 @@ msgid "通过一款 Python 主力开发的中型角色扮演游戏，对游戏�
 msgstr "developed through a medium-sized Python main role-playing game, the game server architecture described, and the core of the fighting in the game and other aspects of the model Detailed."
 
 #: .\apps\2011\templates\siteView\schedule.html:222
-#: .\apps\2011\templates\siteView\schedule.html:226
 msgid "14:55-15:05"
 msgstr "14:55-15:05"
 
@@ -1448,8 +1428,7 @@ msgstr "Discuss problems that may be found while developing website with Python 
 
 #: .\apps\2011\templates\siteView\schedule.html:276
 msgid "现场征集快速演讲嘉宾，演讲人分享自己的Python开发技术心得，演示产品等。"
-msgstr "lightning talk - sharing development experience and skills, or demonstrating products.
-The speakers will come from attendee. We will collect the topics during the conference."
+msgstr "lightning talk - sharing development experience and skills, or demonstrating products"
 
 #: .\apps\2011\templates\index.html:228
 msgid "《PyCon China官网的开发及搭建》 - 孙大同"
@@ -1458,4 +1437,16 @@ msgstr "\"Develop of PyCon China offical website\" - Sun Datong"
 #: .\apps\2011\templates\siteView\schedule.html:270
 msgid "16:30-17:30"
 msgstr "16:30-17:30"
+
+#: .\apps\2011\templates\siteView\schedule.html:226
+msgid "15:05-15:20"
+msgstr "15:05-15:20"
+
+#: .\apps\2011\templates\index.html:196
+msgid "《Scale web application stack with coro-thread》 - Damien Hou"
+msgstr "《Scale web application stack with coro-thread》 - Damien Hou"
+
+#: .\apps\2011\templates\index.html:198
+msgid "《易度PaaS云开发平台技术内幕》 - 潘俊勇"
+msgstr ""
 
