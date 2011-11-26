@@ -47,7 +47,7 @@
 		<position></position>
 		<desc>Google是世界上Python水平最高工程师的云集之地。Python的发明者Guido就在Google。Damien来自Google收购的Slide公司</desc>
 		<avatar>damienhou.jpg</avatar>
-		<speech>《Scale web application stack with coro-thread》</speech>
+		<speech>《用coro-thread技术来扩展web应用程序栈》</speech>
 	</speaker>
 	
 	<speaker>
