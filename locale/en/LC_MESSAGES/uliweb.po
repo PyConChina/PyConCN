@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pycon China 2011\n"
 "POT-Creation-Date: 2011-11-16 10:54\n"
-"PO-Revision-Date: 2011-11-26 20:16+0800\n"
+"PO-Revision-Date: 2011-11-26 22:34+0800\n"
 "Last-Translator: dndx <dndx@idndx.com>\n"
 "Language-Team: Topgeek <LL@li.org>\n"
 "Language: \n"
@@ -622,7 +622,7 @@ msgstr "\" Exploration and discovery of Python game developing. \""
 
 #: .\apps\2011\templates\siteView\schedule.html:92
 msgid "当前的游戏开发，存在着游戏内容越来越繁杂，服务人数越来越多，市场变化越来越快等现状，导致一款游戏的开发的成本越来越高，风险越来越高，规模也越来越大。这一直是最棘手的问题。<br />如何才能利用 Python高效的开发速度来降低游戏开发的成本？如何用 Python架构上万人在线的游戏服务器？如何使用Python来快速开发图形和客户端逻辑？Py在现今的多核体系下是否力不从心？是否\"高性能\"永远不属于我们讨论的范围？Py在各个游戏项目中的使用情况如何？<br />所以本年度PyCon我们邀请到了这方面的专家--网易互动娱乐的资深技术主管，林伟，给大家分享他们把Py应用在游戏开发中的各种技术关键点。"
-msgstr "The current game developing have more difficulties, such as, the game content is more complicated; the players is more, the changing of game market is faster"
+msgstr "The current game developing have more difficulties, such as, the game content is more complicated; the players is more, the changing of game market is faster. So, the cost for developing games is more expensive and risk for a new game is higher than before.<br />How to develop effectively for keeping the low development cost in python? How to build game server which will support 10,000 concurrent online players in python? How to develop graphics and client logic in python? Do the python software exploit the power of multi-core system well? Is \"high performance\" never belong to the scope of our discussion? How many internet games use python? What area will use python?<br />LinWei, The senior technical director in NetEase Interactive Entertainment department, will share more technology and key points in game development."
 
 #: .\apps\2011\templates\siteView\schedule.html:94
 msgid "12:00-13:00"
