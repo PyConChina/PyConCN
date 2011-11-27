@@ -184,10 +184,30 @@
 	<speaker>
 	    <fullname>孙大同</fullname>
 		<nickname>Dndx</nickname>
-		<company>PyCon China志愿者</company>
+		<company>TopGeek</company>
 		<position></position>
 		<desc>PyCon China志愿者，负责官方网站的搭建，详细资料请见“志愿者”页面。</desc>
 		<avatar>sundatong.jpg</avatar>
 		<speech>快速演讲：《PyCon China官网的开发及搭建》</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Martin Baehr</fullname>
+		<nickname>Martin</nickname>
+		<company></company>
+		<position></position>
+		<desc>Martin is a Free Software Advocate, Programmer and UNIX Sysadmin. He came to China in 2008. He is using Python for packaging in the Foresight Linux distribution, when testing OLPC Activities and for some customer projects. His main work is on a Collaboration Platform in Pike. He is currently learning Lisp and creating tasks on Rosetta Code in the remaining spare time.</desc>
+		<avatar></avatar>
+		<speech>快速演讲：《rosettacode.org - Learn and Practice Python》</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>王浩飞</fullname>
+		<nickname>Haofei</nickname>
+		<company>VMware</company>
+		<position>软件工程师</position>
+		<desc>2007年毕业于华中科技大学软件学院。曾在SAP中国研究院负责BlueRuby编译器。2011年加入VMware进行云计算相关开发。</desc>
+		<avatar>wanghaofei.jpg</avatar>
+		<speech>快速演讲：《OpenStack: 基于Python编写的开源云计算平台》</speech>
 	</speaker>
 </speakers>

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pycon China 2011\n"
 "POT-Creation-Date: 2011-11-16 10:54\n"
-"PO-Revision-Date: 2011-11-26 22:52+0800\n"
+"PO-Revision-Date: 2011-11-27 23:51+0800\n"
 "Last-Translator: dndx <dndx@idndx.com>\n"
 "Language-Team: Topgeek <LL@li.org>\n"
 "Language: \n"
@@ -81,199 +81,199 @@ msgid "演讲嘉宾"
 msgstr "Speakers"
 
 #: .\apps\2011\templates\index.html:84
-#: .\apps\2011\templates\siteView\schedule.html:64
+#: .\apps\2011\templates\siteView\schedule.html:54
 msgid "陈世欣"
 msgstr "Chen Shixin"
 
 #: .\apps\2011\templates\index.html:88
-#: .\apps\2011\templates\siteView\schedule.html:78
+#: .\apps\2011\templates\siteView\schedule.html:64
 msgid "沈崴"
 msgstr "Shen Wei"
 
 #: .\apps\2011\templates\index.html:92
-#: .\apps\2011\templates\siteView\schedule.html:90
+#: .\apps\2011\templates\siteView\schedule.html:72
 msgid "林伟"
 msgstr "Lin Wei"
 
 #: .\apps\2011\templates\index.html:96
-#: .\apps\2011\templates\siteView\schedule.html:102
+#: .\apps\2011\templates\siteView\schedule.html:80
 msgid "洪强宁"
 msgstr "Hung Qiangning"
 
 #: .\apps\2011\templates\index.html:102
-#: .\apps\2011\templates\siteView\schedule.html:118
+#: .\apps\2011\templates\siteView\schedule.html:90
 msgid "潘俊勇"
 msgstr "Pan Junyong"
 
 #: .\apps\2011\templates\index.html:106
-#: .\apps\2011\templates\siteView\schedule.html:126
+#: .\apps\2011\templates\siteView\schedule.html:96
 msgid "黄冬"
 msgstr "Huang Dong"
 
 #: .\apps\2011\templates\index.html:110
-#: .\apps\2011\templates\siteView\schedule.html:134
+#: .\apps\2011\templates\siteView\schedule.html:102
 msgid "陈正"
 msgstr "Chen Zheng"
 
 #: .\apps\2011\templates\index.html:124
-#: .\apps\2011\templates\siteView\schedule.html:208
+#: .\apps\2011\templates\siteView\schedule.html:150
 msgid "赖勇浩"
 msgstr "Lai Yonghao"
 
 #: .\apps\2011\templates\index.html:128
-#: .\apps\2011\templates\siteView\schedule.html:220
+#: .\apps\2011\templates\siteView\schedule.html:158
 msgid "王健"
 msgstr "Wang Jian"
 
 #: .\apps\2011\templates\index.html:132
-#: .\apps\2011\templates\siteView\schedule.html:236
+#: .\apps\2011\templates\siteView\schedule.html:168
 msgid "王剑峰"
 msgstr "Wang Jianfeng"
 
 #: .\apps\2011\templates\index.html:140
-#: .\apps\2011\templates\siteView\schedule.html:256
+#: .\apps\2011\templates\siteView\schedule.html:184
 msgid "李俊东"
 msgstr "Li Jundong"
 
-#: .\apps\2011\templates\index.html:150
+#: .\apps\2011\templates\index.html:156
 #: .\apps\2011\templates\siteView\sponsors.html:72
 msgid "媒体支持"
 msgstr "Media Support"
 
-#: .\apps\2011\templates\index.html:162
+#: .\apps\2011\templates\index.html:168
 #: .\apps\2011\templates\siteView\sponsors.html:92
 msgid "Python 中文社区"
 msgstr "Python Chinese community."
 
-#: .\apps\2011\templates\index.html:168
+#: .\apps\2011\templates\index.html:174
 #: .\apps\2011\templates\siteView\sponsors.html:106
 msgid "啄木鸟社区"
 msgstr "Woodpecker community"
 
-#: .\apps\2011\templates\index.html:172
+#: .\apps\2011\templates\index.html:178
 #: .\apps\2011\templates\siteView\sponsors.html:112
 msgid "Google 网上论坛"
 msgstr "Google Groups"
 
-#: .\apps\2011\templates\index.html:176
+#: .\apps\2011\templates\index.html:182
 #: .\apps\2011\templates\siteView\sponsors.html:118
 msgid "Gensee 展视互动云会议"
 msgstr "Gensee"
 
-#: .\apps\2011\templates\index.html:178
+#: .\apps\2011\templates\index.html:184
 msgid "演讲日程"
 msgstr "Schedule"
 
-#: .\apps\2011\templates\index.html:180
-#: .\apps\2011\templates\siteView\schedule.html:40
+#: .\apps\2011\templates\index.html:186
+#: .\apps\2011\templates\siteView\schedule.html:36
 msgid "欢迎晚宴"
 msgstr "Welcome Dinner"
 
-#: .\apps\2011\templates\index.html:182
+#: .\apps\2011\templates\index.html:188
 msgid "主题演讲（第一天）"
 msgstr "keynote (1st day)"
 
-#: .\apps\2011\templates\index.html:184
-#: .\apps\2011\templates\siteView\schedule.html:54
+#: .\apps\2011\templates\index.html:190
+#: .\apps\2011\templates\siteView\schedule.html:46
 msgid "主办方和赞助者介绍"
 msgstr "Introduction of organizers and sponsors"
 
-#: .\apps\2011\templates\index.html:186
+#: .\apps\2011\templates\index.html:192
 msgid "大会致辞《Python让世界更精彩》- 陈世欣"
 msgstr "Introduce the conference - \" Python makes the world more exciting \"- Sting Chen"
 
-#: .\apps\2011\templates\index.html:188
+#: .\apps\2011\templates\index.html:194
 msgid "Video联播《世界各国Python高手的演讲》- 各国Pythoner"
 msgstr "Video Playing (speech of Pythoners around the world) "
 
-#: .\apps\2011\templates\index.html:190
+#: .\apps\2011\templates\index.html:196
 msgid "《Python ，通向未来之路》 - 沈崴"
 msgstr "\" Python, the road to the future \"- Wei Shen"
 
-#: .\apps\2011\templates\index.html:192
+#: .\apps\2011\templates\index.html:198
 msgid "《Python游戏开发探索与发现》 - 林伟"
 msgstr "\" Exploring and discovering the game development in python \"- Wei Lin"
 
-#: .\apps\2011\templates\index.html:200
+#: .\apps\2011\templates\index.html:206
 msgid "《大规模视频网站的计费与流量管理》 - 黄冬"
 msgstr "\" Billing and traffic management of large-scale video website  \"- Dong Huang"
 
-#: .\apps\2011\templates\index.html:202
+#: .\apps\2011\templates\index.html:208
 msgid "《SAE(Sina AppEngine) 的 python 版实现》 - 陈正"
 msgstr "\" Implementation of SAE (Sina AppEngine) in python \"- Zheng Chen"
 
-#: .\apps\2011\templates\index.html:204
-#: .\apps\2011\templates\siteView\schedule.html:146
+#: .\apps\2011\templates\index.html:210
+#: .\apps\2011\templates\siteView\schedule.html:110
 msgid "把酒话英雄 - Python爱好者与嘉宾们晚宴"
 msgstr "Dinner - Python enthusiasts and speakers ."
 
-#: .\apps\2011\templates\index.html:206
+#: .\apps\2011\templates\index.html:212
 msgid "主题演讲（第二天）"
 msgstr "Keynote  (2nd Day)"
 
-#: .\apps\2011\templates\index.html:212
+#: .\apps\2011\templates\index.html:218
 msgid "《Web 框架开发思考与实践 — Uliweb》 - Limodou（李迎辉）"
 msgstr "\" Thinking and practicing of Web framework developing - Uliweb \"- Limodou (Yinghui Li)"
 
-#: .\apps\2011\templates\index.html:214
+#: .\apps\2011\templates\index.html:220
 msgid "《Python 之于 Webgame 的应用》- 赖勇浩"
 msgstr "\" Applications of Webgame in Python \"- Yonghao Lai"
 
-#: .\apps\2011\templates\index.html:216
+#: .\apps\2011\templates\index.html:222
 msgid "《中型角色扮演网络游戏服务器的 python 应用》 - 王健"
 msgstr "\" Python applications of medium-sized role-playing online game server \"- Jian Wang"
 
-#: .\apps\2011\templates\index.html:218
+#: .\apps\2011\templates\index.html:224
 msgid "快速演讲（产品Demo或技术心得分享）"
-msgstr "fast speech (Product Demo or technical experience to share)."
+msgstr "Light Talk (Product Demo or technical experience to share)."
 
-#: .\apps\2011\templates\index.html:210
+#: .\apps\2011\templates\index.html:216
 msgid "《使用 MQ 解耦应用开发》 - Zoom.Quiet（周琦）"
 msgstr "\" K.I.S.S web developing by MQ \"- Zoom.Quiet (Qi Zhou) "
 
-#: .\apps\2011\templates\index.html:220
+#: .\apps\2011\templates\index.html:226
 msgid "《OpenERP方案介绍和二次开发》 - 王剑峰"
 msgstr "\" Introduction and second developing of OpenERP program \"- Jianfeng Wang"
 
-#: .\apps\2011\templates\index.html:222
+#: .\apps\2011\templates\index.html:228
 msgid "《用Python改进迅雷离线 — A Python Successful Story》 - Adieu（刁立知）"
 msgstr "\" Improve Thunder offline by Python - A Successful Story of Python \"- Adieu (Lizhi Diao)"
 
-#: .\apps\2011\templates\index.html:224
+#: .\apps\2011\templates\index.html:230
 msgid "《与Python一路走来》 - 李俊东"
 msgstr "\" Experience of using Python \"- Jundong Li"
 
-#: .\apps\2011\templates\index.html:230
+#: .\apps\2011\templates\index.html:238
 msgid "详细日程"
 msgstr "detail"
 
-#: .\apps\2011\templates\index.html:232
+#: .\apps\2011\templates\index.html:240
 msgid "关于"
 msgstr "About"
 
-#: .\apps\2011\templates\index.html:234
+#: .\apps\2011\templates\index.html:242
 #: .\apps\2011\templates\siteView\sponsors.html:84
 msgid "PyCon.Org是举办Python语言的国际性社区，在世界各地举办Python大会，是Python 爱好者的盛会，对推动Python在各地的发展有深远的影响。"
 msgstr "PyCon.Org is an international community for the Python programming language holds several conferences each year. "
 
-#: .\apps\2011\templates\index.html:236
+#: .\apps\2011\templates\index.html:244
 msgid "更多细节"
 msgstr "more details"
 
-#: .\apps\2011\templates\index.html:238
+#: .\apps\2011\templates\index.html:246
 msgid "近期新闻"
 msgstr "Recent News"
 
-#: .\apps\2011\templates\index.html:240
+#: .\apps\2011\templates\index.html:250
 msgid "官方网站上线"
 msgstr "official website on-line"
 
-#: .\apps\2011\templates\index.html:242
+#: .\apps\2011\templates\index.html:252
 #: .\apps\settings.ini:47
 msgid "官方微博"
 msgstr "Weibo"
 
-#: .\apps\2011\templates\index.html:244
+#: .\apps\2011\templates\index.html:254
 msgid "上线"
 msgstr "on line"
 
@@ -395,16 +395,15 @@ msgstr "Main Building, Conference Room, the 7th Floor, Blue Bridge Park, No. 838
 
 #: .\apps\2011\templates\siteView\registration.html:14
 msgid "与会人数"
-msgstr "attendance"
+msgstr "Attendance"
 
 #: .\apps\2011\templates\siteView\registration.html:16
 msgid "300人"
 msgstr "300 "
 
 #: .\apps\2011\templates\siteView\registration.html:18
-#: .\apps\2011\templates\siteView\schedule.html:276
 msgid "参会人员"
-msgstr "participants"
+msgstr "Participants"
 
 #: .\apps\2011\templates\siteView\registration.html:20
 msgid "对Python技术痴迷的蟒粉，Python开发人员，Python初学者和对Python感兴趣的人。"
@@ -419,15 +418,15 @@ msgstr "Registration Fee"
 #: .\apps\2011\templates\siteView\registration.html:44
 #: .\apps\2011\templates\siteView\registration.html:48
 msgid "元/人"
-msgstr "RMB / person."
+msgstr "RMB / person"
 
 #: .\apps\2011\templates\siteView\registration.html:26
 msgid "总费用原价为"
-msgstr "Total cost"
+msgstr "Total cost "
 
 #: .\apps\2011\templates\siteView\registration.html:30
 msgid "包括：两顿午餐费"
-msgstr "include: two meals for lunch."
+msgstr "Including: two meals for lunch "
 
 #: .\apps\2011\templates\siteView\registration.html:32
 #: .\apps\2011\templates\siteView\registration.html:36
@@ -443,11 +442,11 @@ msgstr "RMB"
 
 #: .\apps\2011\templates\siteView\registration.html:34
 msgid "礼品费"
-msgstr "gift fee"
+msgstr "gift fee "
 
 #: .\apps\2011\templates\siteView\registration.html:38
 msgid "会费"
-msgstr "attendence fee"
+msgstr "attendence fee "
 
 #: .\apps\2011\templates\siteView\registration.html:42
 msgid "其中赞助商为每位参会者提供的支持费用为"
@@ -455,7 +454,7 @@ msgstr "paid by sponsor"
 
 #: .\apps\2011\templates\siteView\registration.html:46
 msgid "参会者实际缴纳费用为"
-msgstr "Actual cost for each participant"
+msgstr "Actual cost for each participant "
 
 #: .\apps\2011\templates\siteView\registration.html:50
 msgid "前往报名交费页面"
@@ -519,331 +518,194 @@ msgid "2011年12月2日"
 msgstr "December 2, 2011"
 
 #: .\apps\2011\templates\siteView\schedule.html:30
-msgid "19:00-19:15"
-msgstr "19:00-19:15"
-
-#: .\apps\2011\templates\siteView\schedule.html:32
 msgid "晚宴致辞"
 msgstr "Welcome Speech"
 
-#: .\apps\2011\templates\siteView\schedule.html:34
-#: .\apps\2011\templates\siteView\schedule.html:42
-#: .\apps\2011\templates\siteView\schedule.html:56
+#: .\apps\2011\templates\siteView\schedule.html:32
+#: .\apps\2011\templates\siteView\schedule.html:38
+#: .\apps\2011\templates\siteView\schedule.html:48
 msgid "组织者以及赞助商代表"
 msgstr "Hosts & Sponsors"
 
-#: .\apps\2011\templates\siteView\schedule.html:36
+#: .\apps\2011\templates\siteView\schedule.html:34
 msgid "欢迎晚宴签到和致辞"
 msgstr "Registration of the dinner and welcome speech"
 
-#: .\apps\2011\templates\siteView\schedule.html:38
-msgid "19:15-21:15"
-msgstr "19:15-21:15"
-
-#: .\apps\2011\templates\siteView\schedule.html:44
+#: .\apps\2011\templates\siteView\schedule.html:40
 msgid "嘉宾和组织者，赞助商代表一起晚宴，彼此加深了解，同时为大会的顺利进行做好准备。"
 msgstr "Dinner with speakers, host and sponsor delegates for better understanding and getting ready for the conference."
 
-#: .\apps\2011\templates\siteView\schedule.html:46
+#: .\apps\2011\templates\siteView\schedule.html:42
 msgid "2011年12月3日"
 msgstr "December 3, 2011"
 
-#: .\apps\2011\templates\siteView\schedule.html:48
-msgid "08:30-09:20"
-msgstr "08:30-09:20"
-
-#: .\apps\2011\templates\siteView\schedule.html:50
-#: .\apps\2011\templates\siteView\schedule.html:156
+#: .\apps\2011\templates\siteView\schedule.html:44
+#: .\apps\2011\templates\siteView\schedule.html:118
 msgid "签到"
 msgstr "Sign"
 
-#: .\apps\2011\templates\siteView\schedule.html:52
-msgid "09:20-09:30"
-msgstr "09:20-09:30"
-
-#: .\apps\2011\templates\siteView\schedule.html:58
+#: .\apps\2011\templates\siteView\schedule.html:50
 msgid "包括来自赞助商Google，主办方GTUG， TopGeek， CPyUG的代表进行组织介绍。"
 msgstr "Introductions from sponsor(Google) and hosts(GTUG, TopGeek, CPyUG)."
 
-#: .\apps\2011\templates\siteView\schedule.html:60
-#: .\apps\2011\templates\siteView\schedule.html:158
-msgid "09:30-09:35"
-msgstr "09:30-09:35"
-
-#: .\apps\2011\templates\siteView\schedule.html:62
+#: .\apps\2011\templates\siteView\schedule.html:52
 msgid "大会致辞《Python让世界更精彩》"
 msgstr "Keynote \" Python makes the world more exciting. \""
 
-#: .\apps\2011\templates\siteView\schedule.html:66
-msgid "09:35-10:25"
-msgstr "09:35-10:25"
-
-#: .\apps\2011\templates\siteView\schedule.html:68
+#: .\apps\2011\templates\siteView\schedule.html:56
 msgid "Video联播《世界各国Python高手的演讲》"
 msgstr "Videos from Pythoners "
 
-#: .\apps\2011\templates\siteView\schedule.html:70
+#: .\apps\2011\templates\siteView\schedule.html:58
 msgid "各国Pythoner"
 msgstr "national Pythoner"
 
-#: .\apps\2011\templates\siteView\schedule.html:72
+#: .\apps\2011\templates\siteView\schedule.html:60
 msgid "播放来自PyCon.Org, 美国加州Google，荷兰，新西兰，北京，深圳等的Python高手的讲话录像，虽然他们不能前来参加，但是视频形式也一样可以参与。在同样用Python的世界，也许未来某一天有机会面对面。"
 msgstr "Videos from Pythoners in PyCon.org, Google(Mountain View), Holland, New Zealand, Beijing(China), Shenzhen(China)."
 
-#: .\apps\2011\templates\siteView\schedule.html:74
-msgid "10:25-11:10"
-msgstr "10:25-11:10"
-
-#: .\apps\2011\templates\siteView\schedule.html:76
+#: .\apps\2011\templates\siteView\schedule.html:62
 msgid "《Python ，通向未来之路》"
 msgstr "\" Python, the road to the future \""
 
-#: .\apps\2011\templates\siteView\schedule.html:80
+#: .\apps\2011\templates\siteView\schedule.html:66
 msgid "让我们走向新的辉煌吧！"
 msgstr "Python opens up a better future for all!"
 
-#: .\apps\2011\templates\siteView\schedule.html:82
-msgid "11:10-11:15"
-msgstr "11:10-11:15"
-
-#: .\apps\2011\templates\siteView\schedule.html:84
-#: .\apps\2011\templates\siteView\schedule.html:188
-#: .\apps\2011\templates\siteView\schedule.html:230
+#: .\apps\2011\templates\siteView\schedule.html:68
+#: .\apps\2011\templates\siteView\schedule.html:138
+#: .\apps\2011\templates\siteView\schedule.html:164
 msgid "休息"
 msgstr "Break"
 
-#: .\apps\2011\templates\siteView\schedule.html:86
-msgid "11:15-12:00"
-msgstr "11:15-12:00"
-
-#: .\apps\2011\templates\siteView\schedule.html:88
+#: .\apps\2011\templates\siteView\schedule.html:70
 msgid "《Python游戏开发探索与发现》"
 msgstr "\" Exploration and discovery of Python game developing. \""
 
-#: .\apps\2011\templates\siteView\schedule.html:92
+#: .\apps\2011\templates\siteView\schedule.html:74
 msgid "当前的游戏开发，存在着游戏内容越来越繁杂，服务人数越来越多，市场变化越来越快等现状，导致一款游戏的开发的成本越来越高，风险越来越高，规模也越来越大。这一直是最棘手的问题。<br />如何才能利用 Python高效的开发速度来降低游戏开发的成本？如何用 Python架构上万人在线的游戏服务器？如何使用Python来快速开发图形和客户端逻辑？Py在现今的多核体系下是否力不从心？是否\"高性能\"永远不属于我们讨论的范围？Py在各个游戏项目中的使用情况如何？<br />所以本年度PyCon我们邀请到了这方面的专家--网易互动娱乐的资深技术主管，林伟，给大家分享他们把Py应用在游戏开发中的各种技术关键点。"
 msgstr "The current game developing have more difficulties, such as, the game content is more complicated; the players is more, the changing of game market is faster. So, the cost for developing games is more expensive and risk for a new game is higher than before.<br />How to develop effectively for keeping the low development cost in python? How to build game server which will support 10,000 concurrent online players in python? How to develop graphics and client logic in python? Do the python software exploit the power of multi-core system well? Is \"high performance\" never belong to the scope of our discussion? How many internet games use python? What area will use python?<br />LinWei, The senior technical director in NetEase Interactive Entertainment department, will share more technology and key points in game development."
 
-#: .\apps\2011\templates\siteView\schedule.html:94
-msgid "12:00-13:00"
-msgstr "12:00-13:00"
-
-#: .\apps\2011\templates\siteView\schedule.html:96
-#: .\apps\2011\templates\siteView\schedule.html:202
+#: .\apps\2011\templates\siteView\schedule.html:76
+#: .\apps\2011\templates\siteView\schedule.html:146
 msgid "午餐"
 msgstr "lunch"
 
-#: .\apps\2011\templates\siteView\schedule.html:98
-msgid "13:00-13:45"
-msgstr "13:00-13:45"
-
-#: .\apps\2011\templates\siteView\schedule.html:104
+#: .\apps\2011\templates\siteView\schedule.html:82
 msgid "Python是豆瓣网开发的主力语言。从在线应用到离线运算到后台维护，Python都起着不可替代的作用。本演讲将详细介绍豆瓣网在各个方面是如何应用Python的，以及我们的一些经验和教训。"
 msgstr "Python is the main developing language of douban from online application to offline computation. This presentation introduces the details of python application on this site and some related experience."
 
-#: .\apps\2011\templates\siteView\schedule.html:106
-msgid "13:45-14:30"
-msgstr "13:45-14:30"
-
-#: .\apps\2011\templates\siteView\schedule.html:110
-msgid "14:30-15:00"
-msgstr "14:30-15:00"
-
-#: .\apps\2011\templates\siteView\schedule.html:112
+#: .\apps\2011\templates\siteView\schedule.html:86
 msgid "茶歇"
 msgstr "Coffee Break"
 
-#: .\apps\2011\templates\siteView\schedule.html:114
-msgid "15:00-15:45"
-msgstr "15:00-15:45"
-
-#: .\apps\2011\templates\siteView\schedule.html:116
+#: .\apps\2011\templates\siteView\schedule.html:88
 msgid "《易度PaaS云开发平台技术内幕》"
 msgstr "\" Internel technologies of Easydo PaaS cloud developing platform\""
 
-#: .\apps\2011\templates\siteView\schedule.html:120
+#: .\apps\2011\templates\siteView\schedule.html:92
 msgid "易度PaaS是国内第一个基于Python语言的企业应用云端开发平台。演讲将分析现有的企业PaaS平台，讲述易度是如何利用现有开源技术，依托python/zope/pyramid等主要技术来构建这一平台的。"
 msgstr "Easy-degree PaaS is the first enterprise application based on the Python language development cloud platform.Presentation will analyze existing enterprise PaaS platform, easy to talk about how to use the existing degree of open source technology, relying on the python / zope / pyramid and other major technology to build the platform. "
 
-#: .\apps\2011\templates\siteView\schedule.html:122
-msgid "15:45-16:30"
-msgstr "15:45-16:30"
-
-#: .\apps\2011\templates\siteView\schedule.html:124
+#: .\apps\2011\templates\siteView\schedule.html:94
 msgid "《大规模视频网站的计费与流量管理》"
 msgstr "\" Billing and traffic management of large-scale video website \""
 
-#: .\apps\2011\templates\siteView\schedule.html:128
+#: .\apps\2011\templates\siteView\schedule.html:98
 msgid "所有的互联网网站都开始面对大容量的CDN和大规模的分布式部署。流量已经从之前的不被关注的话题变为触动成本的最为敏感的神经。所以出现了一系列的问题，如何知道自己的网站使用了多少流量或带宽？如何与合作伙伴核对使用量？在一个更为规模化的视频网站上如何对流量进行分析？如何对用户的流量进行调度?<br />本次分享将会是一个非常垂直而细节性的话题，将会就以上问题从操作层面细细进行讲解和分析，为系统工程师们揭示平日里我们没有关心的另一些内容。同时也希望本次分享能揭示行业中的一些\"潜规则\"，让互联网行业的流量与带宽管理更为开放与简洁。"
 msgstr "All Internet sites are beginning to face the large capacity and large-scale distributed deployment of CDN.Flow has not been from the previous topic of concern to become the most cost-touch sensitive nerve.Therefore, a series of questions, how to know how much traffic the site or use the bandwidth?How to check usage and partners?In a more large-scale video website on how to analyze the traffic?How to schedule user traffic?<br /> This will be a very vertical sharing the details of topics, from the above problems will be careful to explain the operational level and analysis of system engineers normally we do not care to reveal some other content.Also hope that this sharing can reveal some of the industry\"hidden rules \" so that Internet traffic and bandwidth management industry more open and simple. "
 
-#: .\apps\2011\templates\siteView\schedule.html:130
-msgid "16:30-17:15"
-msgstr "16:30-17:15"
-
-#: .\apps\2011\templates\siteView\schedule.html:132
+#: .\apps\2011\templates\siteView\schedule.html:100
 msgid "《SAE(Sina AppEngine) 的 python 版实现》"
 msgstr "\" Implementation of SAE (Sina AppEngine) in python \""
 
-#: .\apps\2011\templates\siteView\schedule.html:136
+#: .\apps\2011\templates\siteView\schedule.html:104
 msgid "简要介绍Sina SAE云计算平台(新浪的AppEngine，类似Google的AppEngine，同样支持Python版本的实现)，SAE Python功能特性介绍，演示如何在SAE平台上使用Python语言开发简单应用，使用Django, Flask, Bottle框架等，还包括Python Web Hosting现状概览，运行第三方代码的Python sandbox实现等技术分享。"
 msgstr "brief Sina SAE cloud computing platform (Sina's AppEngine, similar to Google's AppEngine, Python version also supports the implementation), SAE Python features introduced in the SAE platform demonstrates how to use the Python language to develop simple applications using Django, Flask , Bottle frameworks, including Python Web Hosting Overview of the status, run the Python sandbox to achieve third-party code such as technology sharing. "
 
-#: .\apps\2011\templates\siteView\schedule.html:138
-msgid "17:15-18:00"
-msgstr "17:15-18:00"
-
-#: .\apps\2011\templates\siteView\schedule.html:140
+#: .\apps\2011\templates\siteView\schedule.html:106
 msgid "互动环节"
 msgstr "interactive sessions"
 
-#: .\apps\2011\templates\siteView\schedule.html:142
+#: .\apps\2011\templates\siteView\schedule.html:108
 msgid "所有当日演讲嘉宾参与的互动提问"
 msgstr "Q & A"
 
-#: .\apps\2011\templates\siteView\schedule.html:144
-msgid "19:00-21:00"
-msgstr "19:00-21:00"
-
-#: .\apps\2011\templates\siteView\schedule.html:148
+#: .\apps\2011\templates\siteView\schedule.html:112
 msgid "Python参会者们与嘉宾们在晚餐桌上继续深度沟通和交流。完全开发，全互动沟通。"
 msgstr "Python participants can communicate with the speakers at the dinner. "
 
-#: .\apps\2011\templates\siteView\schedule.html:150
+#: .\apps\2011\templates\siteView\schedule.html:114
 msgid "注意，这个晚宴人人都可报名参加，但是需要支付自己的餐费（即AA制）。"
 msgstr "Note: every participant can register for the dinner, need to share the payment of the cost."
 
-#: .\apps\2011\templates\siteView\schedule.html:152
+#: .\apps\2011\templates\siteView\schedule.html:116
 msgid "2011年12月4日"
 msgstr "December 4, 2011"
 
-#: .\apps\2011\templates\siteView\schedule.html:154
-msgid "09:00-09:30"
-msgstr "09:00-09:30"
-
-#: .\apps\2011\templates\siteView\schedule.html:160
+#: .\apps\2011\templates\siteView\schedule.html:120
 msgid "日程介绍"
 msgstr "Schedule Introduction"
 
-#: .\apps\2011\templates\siteView\schedule.html:162
+#: .\apps\2011\templates\siteView\schedule.html:122
 msgid "介绍今天的嘉宾和会议日程"
 msgstr "introductions of today's guests and meeting schedule."
 
-#: .\apps\2011\templates\siteView\schedule.html:164
-msgid "09:35-10:10"
-msgstr "09:35-10:10"
-
-#: .\apps\2011\templates\siteView\schedule.html:170
-msgid "10:10-10:20"
-msgstr "10:10-10:20"
-
-#: .\apps\2011\templates\siteView\schedule.html:172
-#: .\apps\2011\templates\siteView\schedule.html:184
-#: .\apps\2011\templates\siteView\schedule.html:198
-#: .\apps\2011\templates\siteView\schedule.html:214
-#: .\apps\2011\templates\siteView\schedule.html:226
+#: .\apps\2011\templates\siteView\schedule.html:128
+#: .\apps\2011\templates\siteView\schedule.html:136
+#: .\apps\2011\templates\siteView\schedule.html:144
+#: .\apps\2011\templates\siteView\schedule.html:154
+#: .\apps\2011\templates\siteView\schedule.html:162
 msgid "Q/A"
 msgstr "Q / A"
 
-#: .\apps\2011\templates\siteView\schedule.html:174
-msgid "10:20-11:05"
-msgstr "10:20-11:05"
-
-#: .\apps\2011\templates\siteView\schedule.html:182
-msgid "11:05-11:15"
-msgstr "11:05-11:15"
-
-#: .\apps\2011\templates\siteView\schedule.html:186
-msgid "11:15-11:20"
-msgstr "11:15-11:20"
-
-#: .\apps\2011\templates\siteView\schedule.html:190
-msgid "11:20-12:05"
-msgstr "11:20-12:05"
-
-#: .\apps\2011\templates\siteView\schedule.html:192
+#: .\apps\2011\templates\siteView\schedule.html:140
 msgid "《Web 框架开发思考与实践 — Uliweb》"
 msgstr "\"  Thinking and practicing of Web framework developing - Uliweb \""
 
-#: .\apps\2011\templates\siteView\schedule.html:196
-msgid "12:05-12:15"
-msgstr "12:05-12:15"
-
-#: .\apps\2011\templates\siteView\schedule.html:200
-msgid "12:15-13:15"
-msgstr "12:15-13:15"
-
-#: .\apps\2011\templates\siteView\schedule.html:204
-msgid "13:15-14:00"
-msgstr "13:15-14:00"
-
-#: .\apps\2011\templates\siteView\schedule.html:206
+#: .\apps\2011\templates\siteView\schedule.html:148
 msgid "《Python 之于 Webgame 的应用》"
 msgstr "\" applications of Webgame in Python \""
 
-#: .\apps\2011\templates\siteView\schedule.html:210
+#: .\apps\2011\templates\siteView\schedule.html:152
 msgid "Python 已经成为了 WebGame 行业的主流编程语言，本演讲将在使用 Python 开发 MMOGs 服务器端的领域上，比如大型 Python 应用的开发模式、高性能 I/O、协程、通信，以及 Python 的优势与缺陷等，与大家分享和交流经验。"
 msgstr "Python has become a mainstream programming language in WebGame industry. This presentation will introduce different useage of Python in the field of server-side development MMOGs, such as the large Python application development model, high-performance I / O, coroutines, communications, and Python's strengths and defects"
 
-#: .\apps\2011\templates\siteView\schedule.html:212
-msgid "14:00-14:10"
-msgstr "14:00-14:10"
-
-#: .\apps\2011\templates\siteView\schedule.html:216
-msgid "14:10-14:55"
-msgstr "14:10-14:55"
-
-#: .\apps\2011\templates\siteView\schedule.html:218
+#: .\apps\2011\templates\siteView\schedule.html:156
 msgid "《中型角色扮演网络游戏服务器的 python 应用》"
 msgstr "\" Python applications of medium-sized role-playing online game server \""
 
-#: .\apps\2011\templates\siteView\schedule.html:222
+#: .\apps\2011\templates\siteView\schedule.html:160
 msgid "通过一款 Python 主力开发的中型角色扮演游戏，对游戏服务端架构设计进行说明，并在游戏核心战斗模型等诸方面进行详解。"
 msgstr "developed through a medium-sized Python main role-playing game, the game server architecture described, and the core of the fighting in the game and other aspects of the model Detailed."
 
-#: .\apps\2011\templates\siteView\schedule.html:224
-msgid "14:55-15:05"
-msgstr "14:55-15:05"
-
-#: .\apps\2011\templates\siteView\schedule.html:232
-msgid "15:20-15:35"
-msgstr "15:20-15:35"
-
-#: .\apps\2011\templates\siteView\schedule.html:238
-msgid "15:35-15:45"
-msgstr "15:35-15:45"
-
-#: .\apps\2011\templates\siteView\schedule.html:234
+#: .\apps\2011\templates\siteView\schedule.html:166
 msgid "快速演讲：《OpenERP方案介绍和二次开发》"
-msgstr "Short speech:\" Introduction of OpenERP program and second developing \""
+msgstr "Light Talk:\" Introduction of OpenERP program and second developing \""
 
-#: .\apps\2011\templates\siteView\schedule.html:252
-msgid "15:45-15:55"
-msgstr "15:45-15:55"
-
-#: .\apps\2011\templates\siteView\schedule.html:240
+#: .\apps\2011\templates\siteView\schedule.html:170
 msgid "快速演讲：《用Python改进迅雷离线 — A Python Successful Story》"
-msgstr "Short speech:\" Improve Thunder offline by Python - A Python Successful Story \""
+msgstr "Light Talk:\" Improve Thunder offline by Python - A Python Successful Story \""
 
-#: .\apps\2011\templates\siteView\schedule.html:244
+#: .\apps\2011\templates\siteView\schedule.html:174
 msgid "主要讲三件用Python对迅雷离线做的改进:"
 msgstr "Three main points of improvement of Thunder off-line by Python:"
 
-#: .\apps\2011\templates\siteView\schedule.html:246
+#: .\apps\2011\templates\siteView\schedule.html:176
 msgid "用Python脚本计算文件ed2k链接，用迅雷离线发送大文件"
 msgstr "Python script to calculate file with ed2k link, send large files with offline Thunder"
 
-#: .\apps\2011\templates\siteView\schedule.html:248
+#: .\apps\2011\templates\siteView\schedule.html:178
 msgid "用Python写XBMC的插件，直接从迅雷点播视频文件"
 msgstr "XBMC plug-ins written in Python, on-demand video files directly from the Thunder."
 
-#: .\apps\2011\templates\siteView\schedule.html:250
+#: .\apps\2011\templates\siteView\schedule.html:180
 msgid "用Python脚本在Linux Server环境中下载迅雷离线上的文件"
 msgstr "with Python script to download the Linux Server environment on Thunder offline files"
 
-#: .\apps\2011\templates\siteView\schedule.html:254
+#: .\apps\2011\templates\siteView\schedule.html:182
 msgid "快速演讲：《与Python一路走来》"
-msgstr "Short speech:\" Experience of using Python \""
+msgstr "Light Talk:\" Experience of using Python \""
 
 #: .\apps\2011\templates\siteView\sponsors.html:8
 #: .\apps\settings.ini:46
@@ -954,7 +816,7 @@ msgstr "Venue"
 
 #: .\apps\2011\templates\siteView\venue.html:10
 msgid "场馆位置"
-msgstr "venue location"
+msgstr "Venue location"
 
 #: .\apps\2011\templates\siteView\venue.html:12
 #: .\apps\2011\templates\siteView\venue.html:14
@@ -966,7 +828,7 @@ msgstr "http://maps.google.com/"
 #: .\apps\2011\templates\siteView\venue.html:16
 #: .\apps\2011\templates\siteView\venue.html:44
 msgid "查看大图"
-msgstr "larger view"
+msgstr "Larger View"
 
 #: .\apps\2011\templates\siteView\venue.html:18
 msgid "从"
@@ -994,7 +856,7 @@ msgstr " Metro Line3, Dabaishu Station, just 5 minutes' walk from the station"
 
 #: .\apps\2011\templates\siteView\venue.html:34
 msgid "自驾"
-msgstr "car"
+msgstr "Car"
 
 #: .\apps\2011\templates\siteView\venue.html:36
 msgid "50个绿化带免费停车位，园区内停车10元/天"
@@ -1002,7 +864,7 @@ msgstr "50 free Parking spaces available in green area,  10RMB/day  in the Blue 
 
 #: .\apps\2011\templates\siteView\venue.html:40
 msgid "从地铁“大柏树站”前往会场的步行路线"
-msgstr "from the subway,\" Dabaishu Station \"walking routes to the venue."
+msgstr "From the subway,\" Dabaishu Station \"walking routes to the venue."
 
 #: .\apps\2011\templates\siteView\venue.html:46
 msgid "乘车路线"
@@ -1049,7 +911,7 @@ msgstr "Walk north to the venue."
 #: .\apps\2011\templates\siteView\venue.html:118
 #: .\apps\2011\templates\siteView\venue.html:134
 msgid "注：打车约"
-msgstr "Note:The cost of taking taxi is around 25 RMB."
+msgstr "Note:The cost of taking taxi is around "
 
 #: .\apps\2011\templates\siteView\venue.html:64
 msgid "从浦东国际机场前往场馆"
@@ -1314,17 +1176,17 @@ msgid "About"
 msgstr "About"
 
 #: .\apps\2011\templates\index.html:116
-#: .\apps\2011\templates\siteView\schedule.html:178
+#: .\apps\2011\templates\siteView\schedule.html:132
 msgid "周琦"
 msgstr "Zhou Qi"
 
 #: .\apps\2011\templates\index.html:120
-#: .\apps\2011\templates\siteView\schedule.html:194
+#: .\apps\2011\templates\siteView\schedule.html:142
 msgid "李迎辉"
 msgstr "Li Yinghui"
 
 #: .\apps\2011\templates\index.html:136
-#: .\apps\2011\templates\siteView\schedule.html:242
+#: .\apps\2011\templates\siteView\schedule.html:172
 msgid "刁立知"
 msgstr "Diao Lizhi"
 
@@ -1360,97 +1222,98 @@ msgstr "aegiryy's blog address"
 msgid "Yiling Cao（曹一凌）"
 msgstr "Yiling Cao（Cao Yiling）"
 
-#: .\apps\2011\templates\siteView\schedule.html:176
+#: .\apps\2011\templates\siteView\schedule.html:130
 msgid "《基于 MQ 解耦应用开发》"
 msgstr "\"K.I.S.S web developing by Message Queue\""
 
-#: .\apps\2011\templates\siteView\schedule.html:180
+#: .\apps\2011\templates\siteView\schedule.html:134
 msgid "分享一个基础命题的思考：\"在Web开发中,复杂功能系统一定也必须是复杂的吗？\"，分析基于MQ来令Web系统变成由各种小而美的脚本和谐串起来的类UNIX体系。"
 msgstr "Using Message Queue in web development for keeping system simple and stupid. (K.I.S.S) \"Does the complicated web site must usage complicated code? Definitely No!\" This topic will share some thoughts about how to use some tiny and simple scripts to build a big web system. And discuss the web architecture which is similar as UNIX system. "
 
 #: .\apps\2011\templates\index.html:144
-#: .\apps\2011\templates\siteView\schedule.html:262
+#: .\apps\2011\templates\siteView\schedule.html:188
 msgid "林君"
 msgstr "Lin Jun"
 
-#: .\apps\2011\templates\siteView\schedule.html:100
+#: .\apps\2011\templates\siteView\schedule.html:78
 msgid "《Python在豆瓣的应用》"
 msgstr "\"Python Application at Douban\""
 
-#: .\apps\2011\templates\index.html:226
+#: .\apps\2011\templates\index.html:232
 msgid "《用Tornado搭建实时应用》 - 林君"
 msgstr "\"Create realtime web app using Tornado\" - Lin Jun"
 
-#: .\apps\2011\templates\siteView\schedule.html:258
-msgid "15:55-16:05"
-msgstr "15:55-16:05"
-
-#: .\apps\2011\templates\siteView\schedule.html:260
+#: .\apps\2011\templates\siteView\schedule.html:186
 msgid "快速演讲：《用Tornado搭建实时应用》"
-msgstr "Short speech: \"Create realtime web app using Tornado\""
+msgstr "Light Talk: \"Create realtime web app using Tornado\""
 
-#: .\apps\2011\templates\index.html:194
+#: .\apps\2011\templates\index.html:200
 msgid "《Python在豆瓣的应用》 - 洪强宁"
 msgstr "\"Python Application at Douban\" - Hung Qiangning"
 
-#: .\apps\2011\templates\siteView\schedule.html:166
+#: .\apps\2011\templates\siteView\schedule.html:124
 msgid "《用Python实现基于MySQL为后台的Schemaless数据存储系统》"
 msgstr "\"A Python approach to implement Schemaless model on MySQL\""
 
-#: .\apps\2011\templates\siteView\schedule.html:168
+#: .\apps\2011\templates\siteView\schedule.html:126
 msgid "近年来NoSQL逐渐引起技术公司的关注，成为讨论的热点。不过许多公司仍在使用关系数据库。Slide公司(2010被Google收购)成立于2005年，当时使用MySQL数据库做数据的存储。但在开发过程中发现使用Schemaless的数据模型，更适合产品的快速开发迭代。所以我们用Python语言实现了一套基于MySQL为后台的Schemaless数据存储系统，本次演讲主要向大家介绍一下开发的经验以及如何结合分布式服务器群来处理海量数据。"
 msgstr "There have been lots of buzz of NoSQL in recent years. But most companys are still SQL-based relational database powered. Slide Inc. started with using MySQL in a traditional way. But then found schemaless DB is more suitable for rapid development. So we implemented an infrastructure in Python, which allows us to store schemaless data on MySQL database."
 
-#: .\apps\2011\templates\index.html:208
+#: .\apps\2011\templates\index.html:214
 msgid "《用Python实现基于MySQL为后台的Schemaless数据存储系统》 - Ryan Ye"
 msgstr "\"A Python approach to implement Schemaless model on MySQL\" - Ryan Ye"
 
-#: .\apps\2011\templates\siteView\schedule.html:264
-msgid "16:05-16:15"
-msgstr "16:05-16:15"
-
-#: .\apps\2011\templates\siteView\schedule.html:266
+#: .\apps\2011\templates\siteView\schedule.html:190
 msgid "快速演讲：《PyCon China官网的开发及搭建》"
-msgstr "Short speech: \"Develop of PyCon China offical website\""
+msgstr "Light Talk: \"Develop of PyCon China offical website\""
 
 #: .\apps\2011\templates\index.html:148
-#: .\apps\2011\templates\siteView\schedule.html:268
+#: .\apps\2011\templates\siteView\schedule.html:192
 msgid "孙大同"
 msgstr "Sun Datong"
 
-#: .\apps\2011\templates\siteView\schedule.html:274
-msgid "快速演讲：Python和开源产品秀"
-msgstr "Short speech: Python develop and open source product show"
-
-#: .\apps\2011\templates\siteView\schedule.html:270
+#: .\apps\2011\templates\siteView\schedule.html:194
 msgid "讨论Python在中小型网站开发的过程中可能遇到的问题及其解决方案。"
 msgstr "Discuss problems that may be found while developing website with Python and their solutions."
 
-#: .\apps\2011\templates\siteView\schedule.html:278
-msgid "现场征集快速演讲嘉宾，演讲人分享自己的Python开发技术心得，演示产品等。"
-msgstr "lightning talk - sharing development experience and skills, or demonstrating products"
-
-#: .\apps\2011\templates\index.html:228
+#: .\apps\2011\templates\index.html:234
 msgid "《PyCon China官网的开发及搭建》 - 孙大同"
 msgstr "\"Develop of PyCon China offical website\" - Sun Datong"
 
-#: .\apps\2011\templates\siteView\schedule.html:272
-msgid "16:30-17:30"
-msgstr "16:30-17:30"
-
-#: .\apps\2011\templates\siteView\schedule.html:228
-msgid "15:05-15:20"
-msgstr "15:05-15:20"
-
-#: .\apps\2011\templates\index.html:198
+#: .\apps\2011\templates\index.html:204
 msgid "《易度PaaS云开发平台技术内幕》 - 潘俊勇"
 msgstr "\" Introduction of Easydo PaaS cloud developing platform technology \"- Junyong Pan"
 
-#: .\apps\2011\templates\index.html:196
+#: .\apps\2011\templates\index.html:202
 msgid "《用coro-thread技术来扩展web应用程序栈》 - Damien Hou"
 msgstr "\"Scale web application stack with coro-thread\" - Damien Hou"
 
-#: .\apps\2011\templates\siteView\schedule.html:108
+#: .\apps\2011\templates\siteView\schedule.html:84
 msgid "《用coro-thread技术来扩展web应用程序栈》"
 msgstr "\"Scale web application stack with coro-thread\""
+
+#: .\apps\2011\templates\siteView\schedule.html:196
+msgid "快速演讲：《rosettacode.org - Learn and Practice Python》"
+msgstr "Light Talk: \"rosettacode.org - Learn and Practice Python\""
+
+#: .\apps\2011\templates\index.html:248
+msgid "大会网络直播地址："
+msgstr "Will also live on Internet:"
+
+#: .\apps\2011\templates\siteView\schedule.html:202
+msgid "OpenStack提供了一个部署云的平台。为虚拟计算或存储服务的公有/私有云，提供可扩展的、灵活的云计算。"
+msgstr "OpenStack produce the ubiquitous Open Source Cloud Computing platform that will meet the needs of public and private clouds regardless of size, by being simple to implement and massively scalable."
+
+#: .\apps\2011\templates\index.html:154
+#: .\apps\2011\templates\siteView\schedule.html:200
+msgid "王浩飞"
+msgstr "Wang Haofei"
+
+#: .\apps\2011\templates\index.html:236
+msgid "《OpenStack: 基于Python编写的开源云计算平台》 - 王浩飞"
+msgstr "\"OpenStack: Open Source Cloud Computing platform written in Python\" - Wang Haofei"
+
+#: .\apps\2011\templates\siteView\schedule.html:198
+msgid "快速演讲：《OpenStack: 基于Python编写的开源云计算平台》"
+msgstr "Light Talk: \"OpenStack: Open Source Cloud Computing platform written in Python\""
 

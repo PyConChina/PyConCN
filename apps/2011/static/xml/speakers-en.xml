@@ -179,16 +179,36 @@ Webibo: http://weibo.com/opennewbazaar ,  Interests: ERP, opensource and Witkey<
 		<position></position>
 		<desc>Lin Jun, python lover, python-cn maillist admin,interested in building cool apps with the help of python.</desc>
 		<avatar>linjun.jpg</avatar>
-		<speech>Fast Speech: "Create realtime web app using Tornado"</speech>
+		<speech>Light Talk: "Create realtime web app using Tornado"</speech>
 	</speaker>
 	
 	<speaker>
 	    <fullname>Sun Datong</fullname>
 		<nickname>Dndx</nickname>
-		<company>PyCon China volunteer</company>
+		<company>TopGeek</company>
 		<position></position>
 		<desc>PyCon China colunteer, built the offical website of PyCon China 2011, more information can be found on "Volunteer" page.</desc>
 		<avatar>sundatong.jpg</avatar>
-		<speech>Short speech: "Develop of PyCon China offical website"</speech>
+		<speech>Light Talk: "Develop of PyCon China offical website"</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Martin Baehr</fullname>
+		<nickname>Martin</nickname>
+		<company></company>
+		<position></position>
+		<desc>Martin is a Free Software Advocate, Programmer and UNIX Sysadmin. He came to China in 2008. He is using Python for packaging in the Foresight Linux distribution, when testing OLPC Activities and for some customer projects. His main work is on a Collaboration Platform in Pike. He is currently learning Lisp and creating tasks on Rosetta Code in the remaining spare time.</desc>
+		<avatar></avatar>
+		<speech>Light Talk: "rosettacode.org - Learn and Practice Python"</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Wang Haofei</fullname>
+		<nickname>Haofei</nickname>
+		<company>VMware</company>
+		<position>Software Engineer</position>
+		<desc>After graduated from HUST in 2007, I started my research on BlueRuby in SAP Labs. In 2011, I joined VMware to work on Cloud Computing.</desc>
+		<avatar>wanghaofei.jpg</avatar>
+		<speech>Light Talk: "OpenStack: Open Source Cloud Computing platform written in Python"</speech>
 	</speaker>
 </speakers>
