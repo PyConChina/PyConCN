@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pycon China 2011\n"
 "POT-Creation-Date: 2011-11-16 10:54\n"
-"PO-Revision-Date: 2011-11-28 18:46+0800\n"
+"PO-Revision-Date: 2011-11-28 18:53+0800\n"
 "Last-Translator: dndx <dndx@idndx.com>\n"
 "Language-Team: Topgeek <stingchen@TopGeek.org>\n"
 "Language: \n"
@@ -1178,12 +1178,12 @@ msgstr "About"
 #: .\apps\2011\templates\index.html:116
 #: .\apps\2011\templates\siteView\schedule.html:132
 msgid "周琦"
-msgstr "Zoom Quiet"
+msgstr "Zhou Qi"
 
 #: .\apps\2011\templates\index.html:120
 #: .\apps\2011\templates\siteView\schedule.html:142
 msgid "李迎辉"
-msgstr "Limodou"
+msgstr "Li Yinghui"
 
 #: .\apps\2011\templates\index.html:136
 #: .\apps\2011\templates\siteView\schedule.html:172
