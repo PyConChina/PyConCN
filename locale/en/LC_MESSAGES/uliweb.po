@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pycon China 2011\n"
 "POT-Creation-Date: 2011-11-16 10:54\n"
-"PO-Revision-Date: 2011-11-27 23:51+0800\n"
+"PO-Revision-Date: 2011-11-28 18:46+0800\n"
 "Last-Translator: dndx <dndx@idndx.com>\n"
-"Language-Team: Topgeek <LL@li.org>\n"
+"Language-Team: Topgeek <stingchen@TopGeek.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,11 +20,11 @@ msgstr ""
 #: .\apps\2011\templates\index.html:20
 #: .\apps\2011\templates\index.html:34
 msgid "立即报名！"
-msgstr "Registration"
+msgstr "Register Now!"
 
 #: .\apps\2011\templates\index.html:24
 msgid "在今年的大会中"
-msgstr "at this year's PyCon China"
+msgstr "In this PyCon China conference"
 
 #: .\apps\2011\templates\index.html:26
 msgid "我们会抽出2台Bambook"
@@ -49,7 +49,7 @@ msgstr "Sponsors"
 #: .\apps\2011\templates\index.html:52
 #: .\apps\2011\templates\siteView\sponsors.html:30
 msgid "盛大网络"
-msgstr "Shanda"
+msgstr "SNDA"
 
 #: .\apps\2011\templates\index.html:56
 #: .\apps\2011\templates\siteView\sponsors.html:36
@@ -171,12 +171,12 @@ msgstr "Welcome Dinner"
 
 #: .\apps\2011\templates\index.html:188
 msgid "主题演讲（第一天）"
-msgstr "keynote (1st day)"
+msgstr "Topics (1st Day)"
 
 #: .\apps\2011\templates\index.html:190
 #: .\apps\2011\templates\siteView\schedule.html:46
 msgid "主办方和赞助者介绍"
-msgstr "Introduction of organizers and sponsors"
+msgstr "Introduce organizers and sponsors"
 
 #: .\apps\2011\templates\index.html:192
 msgid "大会致辞《Python让世界更精彩》- 陈世欣"
@@ -184,7 +184,7 @@ msgstr "Introduce the conference - \" Python makes the world more exciting \"- S
 
 #: .\apps\2011\templates\index.html:194
 msgid "Video联播《世界各国Python高手的演讲》- 各国Pythoner"
-msgstr "Video Playing (speech of Pythoners around the world) "
+msgstr "Video speeches from the Pythoners in the world."
 
 #: .\apps\2011\templates\index.html:196
 msgid "《Python ，通向未来之路》 - 沈崴"
@@ -205,47 +205,47 @@ msgstr "\" Implementation of SAE (Sina AppEngine) in python \"- Zheng Chen"
 #: .\apps\2011\templates\index.html:210
 #: .\apps\2011\templates\siteView\schedule.html:110
 msgid "把酒话英雄 - Python爱好者与嘉宾们晚宴"
-msgstr "Dinner - Python enthusiasts and speakers ."
+msgstr "Dinner - Pythoners and speakers."
 
 #: .\apps\2011\templates\index.html:212
 msgid "主题演讲（第二天）"
-msgstr "Keynote  (2nd Day)"
+msgstr "Topics (2nd Day)"
 
 #: .\apps\2011\templates\index.html:218
 msgid "《Web 框架开发思考与实践 — Uliweb》 - Limodou（李迎辉）"
-msgstr "\" Thinking and practicing of Web framework developing - Uliweb \"- Limodou (Yinghui Li)"
+msgstr "\"Thinking and practicing of Web framework developing - Uliweb \"- Limodou (Yinghui Li)"
 
 #: .\apps\2011\templates\index.html:220
 msgid "《Python 之于 Webgame 的应用》- 赖勇浩"
-msgstr "\" Applications of Webgame in Python \"- Yonghao Lai"
+msgstr "\"Applications of Webgame in Python \"- Yonghao Lai"
 
 #: .\apps\2011\templates\index.html:222
 msgid "《中型角色扮演网络游戏服务器的 python 应用》 - 王健"
-msgstr "\" Python applications of medium-sized role-playing online game server \"- Jian Wang"
+msgstr "\"Using Python to build medium-size role-playing online game server-side applications.\"- Jian Wang"
 
 #: .\apps\2011\templates\index.html:224
 msgid "快速演讲（产品Demo或技术心得分享）"
-msgstr "Light Talk (Product Demo or technical experience to share)."
+msgstr "Lightning Talk (Product Demo or technical experience to share)."
 
 #: .\apps\2011\templates\index.html:216
 msgid "《使用 MQ 解耦应用开发》 - Zoom.Quiet（周琦）"
-msgstr "\" K.I.S.S web developing by MQ \"- Zoom.Quiet (Qi Zhou) "
+msgstr "\"Use Message Queue technology to develop web for KISS (Keep it simple, stupid). \"- Zoom.Quiet (Qi Zhou) "
 
 #: .\apps\2011\templates\index.html:226
 msgid "《OpenERP方案介绍和二次开发》 - 王剑峰"
-msgstr "\" Introduction and second developing of OpenERP program \"- Jianfeng Wang"
+msgstr "\"Introduce OpenERP product and discuss how to develop more functions on it.  \"- Jianfeng Wang"
 
 #: .\apps\2011\templates\index.html:228
 msgid "《用Python改进迅雷离线 — A Python Successful Story》 - Adieu（刁立知）"
-msgstr "\" Improve Thunder offline by Python - A Successful Story of Python \"- Adieu (Lizhi Diao)"
+msgstr "\"Improve Thunder offline by Python - A Successful Story of Python \"- Adieu (Lizhi Diao)"
 
 #: .\apps\2011\templates\index.html:230
 msgid "《与Python一路走来》 - 李俊东"
-msgstr "\" Experience of using Python \"- Jundong Li"
+msgstr "\"Experience of using Python \"- Jundong Li"
 
 #: .\apps\2011\templates\index.html:238
 msgid "详细日程"
-msgstr "detail"
+msgstr "Agenda"
 
 #: .\apps\2011\templates\index.html:240
 msgid "关于"
@@ -292,7 +292,7 @@ msgstr "PyCon.Org is an international community for the Python programming langu
 
 #: .\apps\2011\templates\siteView\about.html:12
 msgid "全球PyCon会议包括："
-msgstr "The PyCon includes:"
+msgstr "The PyCon world includes:"
 
 #: .\apps\2011\templates\siteView\about.html:14
 msgid "关于主办方"
@@ -308,7 +308,7 @@ msgstr "The group is a community for local pythoners to communicate offline and 
 
 #: .\apps\2011\templates\siteView\about.html:20
 msgid "顶尖极客沙龙(TopGeek)"
-msgstr "TopGeek Salon (TopGeek)"
+msgstr "TopGeek Salon"
 
 #: .\apps\2011\templates\siteView\about.html:22
 msgid "是面向技术极客的组织，定期举办线下活动，讨论软件和互联网的一些新的技术潮流，开发理念和经验。"
@@ -348,7 +348,7 @@ msgstr "Sina weibo."
 
 #: .\apps\2011\templates\siteView\about.html:40
 msgid "组织者"
-msgstr "organizer"
+msgstr "Organizer"
 
 #: .\apps\2011\templates\siteView\about.html:42
 msgid "陈世欣（2Style4You CTO），王宏（微软中国高级经理），李锟（上海鹏图信息技术有限公司CTO），吕国宁（Intridea资深工程师），罗小能（2Style4You工程师），支晓勇（91Office技术总监）"
@@ -364,7 +364,7 @@ msgstr "Previous activities of TopGeek"
 #: .\apps\2011\templates\siteView\about.html:52
 #: .\apps\2011\templates\siteView\about.html:54
 msgid "报道请看"
-msgstr "See report"
+msgstr "Reports"
 
 #: .\apps\2011\templates\siteView\about.html:56
 msgid "查看此主办方其它活动"
@@ -386,7 +386,7 @@ msgstr "December 3-4 ,2011 9:30-18:00"
 #: .\apps\2011\templates\siteView\registration.html:10
 #: .\apps\2011\templates\siteView\venue.html:26
 msgid "大会地点"
-msgstr "Conference Venue"
+msgstr "Conference hall Address"
 
 #: .\apps\2011\templates\siteView\registration.html:12
 #: .\apps\2011\templates\siteView\venue.html:28
@@ -661,11 +661,11 @@ msgstr "Q / A"
 
 #: .\apps\2011\templates\siteView\schedule.html:140
 msgid "《Web 框架开发思考与实践 — Uliweb》"
-msgstr "\"  Thinking and practicing of Web framework developing - Uliweb \""
+msgstr "\"Thinking and practicing of Web framework developing - Uliweb \""
 
 #: .\apps\2011\templates\siteView\schedule.html:148
 msgid "《Python 之于 Webgame 的应用》"
-msgstr "\" applications of Webgame in Python \""
+msgstr "\"The applications of Webgame in Python \""
 
 #: .\apps\2011\templates\siteView\schedule.html:152
 msgid "Python 已经成为了 WebGame 行业的主流编程语言，本演讲将在使用 Python 开发 MMOGs 服务器端的领域上，比如大型 Python 应用的开发模式、高性能 I/O、协程、通信，以及 Python 的优势与缺陷等，与大家分享和交流经验。"
@@ -673,27 +673,27 @@ msgstr "Python has become a mainstream programming language in WebGame industry.
 
 #: .\apps\2011\templates\siteView\schedule.html:156
 msgid "《中型角色扮演网络游戏服务器的 python 应用》"
-msgstr "\" Python applications of medium-sized role-playing online game server \""
+msgstr "\"Using Python to build medium role-playing online game server-side applications. \""
 
 #: .\apps\2011\templates\siteView\schedule.html:160
 msgid "通过一款 Python 主力开发的中型角色扮演游戏，对游戏服务端架构设计进行说明，并在游戏核心战斗模型等诸方面进行详解。"
-msgstr "developed through a medium-sized Python main role-playing game, the game server architecture described, and the core of the fighting in the game and other aspects of the model Detailed."
+msgstr "Talk about the designing game server architecture by a medium role-playing game, which is developed in python. And descript the fighting core model in the game and other aspects."
 
 #: .\apps\2011\templates\siteView\schedule.html:166
 msgid "快速演讲：《OpenERP方案介绍和二次开发》"
-msgstr "Light Talk:\" Introduction of OpenERP program and second developing \""
+msgstr "Lightning Talk:\" Introduction of OpenERP program and second developing \""
 
 #: .\apps\2011\templates\siteView\schedule.html:170
 msgid "快速演讲：《用Python改进迅雷离线 — A Python Successful Story》"
-msgstr "Light Talk:\" Improve Thunder offline by Python - A Python Successful Story \""
+msgstr "Lightning Talk:\" Improve Thunder offline by Python - A Python Successful Story \""
 
 #: .\apps\2011\templates\siteView\schedule.html:174
 msgid "主要讲三件用Python对迅雷离线做的改进:"
-msgstr "Three main points of improvement of Thunder off-line by Python:"
+msgstr "Lightning Talk: Three main points of improvement of Thunder off-line by Python:"
 
 #: .\apps\2011\templates\siteView\schedule.html:176
 msgid "用Python脚本计算文件ed2k链接，用迅雷离线发送大文件"
-msgstr "Python script to calculate file with ed2k link, send large files with offline Thunder"
+msgstr "Using Python script to calculate file with ed2k link, send large files with offline Thunder"
 
 #: .\apps\2011\templates\siteView\schedule.html:178
 msgid "用Python写XBMC的插件，直接从迅雷点播视频文件"
@@ -807,16 +807,16 @@ msgstr "CPUG the Google Group."
 
 #: .\apps\2011\templates\siteView\sponsors.html:122
 msgid "Gensee是本次大会网络直播服务的提供商。"
-msgstr "Gensee is the conference webcast service provider."
+msgstr "Gensee is the webcast service provider for PyCon."
 
 #: .\apps\2011\templates\siteView\venue.html:8
 #: .\apps\settings.ini:43
 msgid "会场交通"
-msgstr "Venue"
+msgstr "Route Guides"
 
 #: .\apps\2011\templates\siteView\venue.html:10
 msgid "场馆位置"
-msgstr "Venue location"
+msgstr "Conference hall location"
 
 #: .\apps\2011\templates\siteView\venue.html:12
 #: .\apps\2011\templates\siteView\venue.html:14
@@ -844,7 +844,7 @@ msgstr "drive"
 
 #: .\apps\2011\templates\siteView\venue.html:24
 msgid "前往会场"
-msgstr "to venue"
+msgstr "to conference hall"
 
 #: .\apps\2011\templates\siteView\venue.html:30
 msgid "地铁"
@@ -852,11 +852,11 @@ msgstr "Metro"
 
 #: .\apps\2011\templates\siteView\venue.html:32
 msgid "三号线大柏树站，步行五分钟即到"
-msgstr " Metro Line3, Dabaishu Station, just 5 minutes' walk from the station"
+msgstr "Metro Line3, Dabaishu Station, walking to conference room will take about 5 minutes."
 
 #: .\apps\2011\templates\siteView\venue.html:34
 msgid "自驾"
-msgstr "Car"
+msgstr "Drive Car"
 
 #: .\apps\2011\templates\siteView\venue.html:36
 msgid "50个绿化带免费停车位，园区内停车10元/天"
@@ -876,7 +876,7 @@ msgstr "Please note"
 
 #: .\apps\2011\templates\siteView\venue.html:50
 msgid "以下路线以及打车费用仅供参考，大会组织者仅向嘉宾提供交通服务！"
-msgstr "The following routes and  costs of taking taxi are just for reference only, the conference organizers will provide the transportation services for the speakers only!"
+msgstr "The following routes and costs of taking taxi are just for reference only, the conference organizers will provide the transportation services for the speakers only!"
 
 #: .\apps\2011\templates\siteView\venue.html:52
 msgid "从上海火车站前往场馆"
@@ -998,16 +998,16 @@ msgstr "Master of Computer Science, Shanghai Jiaotong University, now the start-
 
 #: .\apps\2011\templates\siteView\volunteer.html:20
 msgid "个人博客"
-msgstr "personal blog"
+msgstr "Personal blog"
 
 #: .\apps\2011\templates\siteView\volunteer.html:22
 #: .\apps\2011\templates\siteView\volunteer.html:26
 msgid "微博"
-msgstr "microblogging"
+msgstr "Microblogging"
 
 #: .\apps\2011\templates\siteView\volunteer.html:24
 msgid "从2006年起参加和组织社区，曾组织过python聚会，参与组织过google技术社区GTUG，ThinkinLAMP社区，参加过30多次各类社区。并成功组织了上海最大的产品经理社区PMCamp"
-msgstr "Since 2006, community participation and organization, has organized a gathering of python, google technology involved in organized community GTUG, ThinkinLAMP community, participated in various community 30 times.And successful organization, product manager of Shanghai's largest community PMCamp "
+msgstr "Since 2006, community participation and organization, has organized a gathering of python, google technology involved in organized community GTUG, ThinkinLAMP community, participated in various community 30 times. And the organization which is the largest product manager community in Shanghai - PMCamp "
 
 #: .\apps\2011\templates\siteView\volunteer.html:28
 msgid "博客"
@@ -1027,7 +1027,7 @@ msgid "36岁, 天蝎男, 91office.com, IT总监"
 msgstr "IT Director for 91office.com"
 
 #: .\apps\2011\templates\siteView\volunteer.html:40
-msgid "在anjia.com干了5年写VB和ASP，在91office.com干到现在也5年了，从ASP变成Python程序员。现在喜欢开源和自由软件，在上海的开源和Python社区算个活跃分子。"
+msgid "在Anjia.com干了5年写VB和ASP，在91office.com干到现在也5年了，从ASP变成Python程序员。现在喜欢开源和自由软件，在上海的开源和Python社区算个活跃分子。"
 msgstr "He has 5 years experience of writing VB and ASP for anjia.com. Now he likes to use open source and free software, and is active in the open source and Python Shanghai communities. "
 
 #: .\apps\2011\templates\siteView\volunteer.html:42
@@ -1039,8 +1039,8 @@ msgid "家乡 : 上海 青浦区"
 msgstr "Hometown: Shanghai Qingpu District."
 
 #: .\apps\2011\templates\siteView\volunteer.html:46
-msgid "HunterPig的博客地址"
-msgstr "HunterPig blog address."
+msgid "PyHunterPig的博客地址"
+msgstr "PyHunterPig blog address."
 
 #: .\apps\2011\templates\siteView\volunteer.html:50
 msgid "(Dndx)孙大同"
@@ -1081,20 +1081,20 @@ msgstr "Zoom.Quiet blog address "
 
 #: .\apps\2011\templates\siteView\volunteer.html:74
 #: .\apps\2011\templates\siteView\volunteer.html:76
-msgid "eishn（沈崴）"
-msgstr "eishn (Shen Wei)"
+msgid "Eishn（沈崴）"
+msgstr "Eishn (Shen Wei)"
 
 #: .\apps\2011\templates\siteView\volunteer.html:78
 msgid "资深 python 开发者，高效能服务器 eurasia 的作者。湖州迅普信息技术有限公司创始人，广州遛宝计算机技术有限公司联合创始人、技术总监。"
-msgstr "a senior python developer, author of high-performance server eurasia.S & P Information Technology Co., Ltd. Huzhou fast founder, Computer Technology Co., Ltd. Guangzhou stroll Po co-founder and chief technology officer. "
+msgstr "A senior python developer, author of high-performance server eurasia.S & P Information Technology Co., Ltd. Huzhou fast founder, Computer Technology Co., Ltd. Guangzhou stroll Po co-founder and chief technology officer. "
 
 #: .\apps\2011\templates\siteView\volunteer.html:80
 msgid "本次大会赞助者之一。"
-msgstr "one of the sponsors of this conference."
+msgstr "One of the sponsors of this conference."
 
 #: .\apps\2011\templates\siteView\volunteer.html:82
-msgid "eishn的博客地址"
-msgstr "eishn blog address."
+msgid "Eishn的博客地址"
+msgstr "Eishn blog address."
 
 #: .\apps\2011\templates\siteView\volunteer.html:86
 #: .\apps\2011\templates\siteView\volunteer.html:88
@@ -1114,29 +1114,29 @@ msgid "卢刚作为独立的互联网行业观察者在业界享有很好的口�
 msgstr "As an independent industry observer, technology and social media expert, Gang Lu has been invited to deliver keynote speeches and panel discussion at diverse international events/conference ranging from SXSW Technology Summit, Global Mobile Internet Conference (GMIC), the China Internet Annual Summit to Tencent MIND Summit to Google China Developer Day, Milan Digital Entertainment Jam, NetExplorateur Forum, Paris etc. The topics cover the Asian Web, the China Internet Industry, Open Web technology, SNS Marketing, Social Networks, Mobile Technology and so on. Gang Lu was awarded TOP10 Best Expert of 2008 by iResearch, the leading Internet consulting company in China."
 
 #: .\apps\2011\templates\siteView\volunteer.html:96
-msgid "Dr. Gang LU的博客地址"
-msgstr "Dr. Gang LU blog address."
+msgid "Dr. Gang Lu的博客地址"
+msgstr "Dr. Gang Lu blog address."
 
 #: .\apps\2011\templates\siteView\volunteer.html:98
 msgid "动点科技"
-msgstr "fixed point Science and Technology"
+msgstr "TechNode"
 
 #: .\apps\2011\templates\siteView\volunteer.html:102
 #: .\apps\2011\templates\siteView\volunteer.html:104
-msgid "riku（陆卫锋）"
-msgstr "riku (Lu Weifeng)"
+msgid "Riku（陆卫锋）"
+msgstr "Riku (Lu Weifeng)"
 
 #: .\apps\2011\templates\siteView\volunteer.html:106
-msgid "知名tech blogger陆卫锋，关注新网络，ubuntu/Linux 用户，爱好设计。"
-msgstr "well-known tech blogger Lu Weifeng, focus on new network, ubuntu / Linux users, like the design."
+msgid "知名技术博主陆卫锋，关注新网络，ubuntu/Linux 用户，爱好设计。"
+msgstr "Well-known technoloy blogger Lu Weifeng, focus on new network, ubuntu / Linux users, like the design."
 
 #: .\apps\2011\templates\siteView\volunteer.html:108
-msgid "riku为本次大会官网设计了一个极富动感并充满中国特色的Logo。"
-msgstr "riku-oriented design of the conference official website of a very dynamic and full of Chinese characteristics Logo."
+msgid "Riku为本次大会官网设计了一个极富动感并充满中国特色的Logo，包括海报和易拉宝。"
+msgstr "Riku-oriented design of the conference official website of a very dynamic and full of Chinese characteristics Logo."
 
 #: .\apps\2011\templates\siteView\volunteer.html:110
-msgid "riku的博客地址"
-msgstr "riku blog address."
+msgid "Riku的博客地址"
+msgstr "Riku blog address."
 
 #: .\apps\2011\templates\siteView\volunteer.html:114
 #: .\apps\2011\templates\siteView\volunteer.html:116
@@ -1145,7 +1145,7 @@ msgstr "Daniel Lv (Lv Guoning)"
 
 #: .\apps\2011\templates\siteView\volunteer.html:118
 msgid "28岁的Ruby程序员，专职Ruby on Rails以及Web应用领域开发，出生于新疆乌鲁木齐，目前在上海工作。是shanghaionrails的组织者之一。好读书，喜研究算法，函数式语言等有趣的东西。 "
-msgstr "28-year-old Ruby programmer, full-time Ruby on Rails and Web applications development, was born in Urumqi, Xinjiang, currently working in Shanghai.Is shanghaionrails one of the organizers.Good reading, like research algorithms, functional languages ​​and other interesting things. "
+msgstr "28-year-old Ruby programmer, full-time Ruby on Rails and Web applications development, was born in Urumqi, Xinjiang, currently working in Shanghai.Is shanghaionrails one of the organizers.Good reading, like research algorithms, functional languages ??and other interesting things. "
 
 #: .\apps\2011\templates\siteView\volunteer.html:120
 msgid "本次PyCon大会的主持人。"
@@ -1178,12 +1178,12 @@ msgstr "About"
 #: .\apps\2011\templates\index.html:116
 #: .\apps\2011\templates\siteView\schedule.html:132
 msgid "周琦"
-msgstr "Zhou Qi"
+msgstr "Zoom Quiet"
 
 #: .\apps\2011\templates\index.html:120
 #: .\apps\2011\templates\siteView\schedule.html:142
 msgid "李迎辉"
-msgstr "Li Yinghui"
+msgstr "Limodou"
 
 #: .\apps\2011\templates\index.html:136
 #: .\apps\2011\templates\siteView\schedule.html:172
@@ -1196,13 +1196,13 @@ msgid "cn"
 msgstr "en"
 
 #: .\apps\2011\templates\siteView\volunteer.html:142
-msgid "Ruby，Python，C开发者，澳大利亚墨尔本大学计算机系毕业，曾担任web 开发，硬件工程师，系统运维。感兴趣于：图像处理，计算机视觉，大规模信息处理，VOIP系统。"
+msgid "Ruby，Python，C 开发者，澳大利亚墨尔本大学计算机系毕业，曾担任web 开发，硬件工程师，系统运维。感兴趣于：图像处理，计算机视觉，大规模信息处理，VOIP系统。"
 msgstr "Ruby, Python and C Developer, Graduate from University of Melbourne. Worked as a Web developer, Hardware Developer and System Administrator, Current interests: Image processing, computer vision, large scale information retrieval and processing & VOIP Systems."
 
 #: .\apps\2011\templates\siteView\volunteer.html:126
 #: .\apps\2011\templates\siteView\volunteer.html:128
-msgid "aegiryy（葛馨阳）"
-msgstr "aegiryy（Ge Xinyang）"
+msgid "Aegiryy（葛馨阳）"
+msgstr "Aegiryy（Ge Xinyang）"
 
 #: .\apps\2011\templates\siteView\volunteer.html:132
 #: .\apps\2011\templates\siteView\volunteer.html:144
@@ -1214,8 +1214,8 @@ msgid "南京大学大四学生。爱好广泛，从 Python 编程到 Hack Pytho
 msgstr "Xinyang is now a senior student in Nanjing University. He has variety of interests covering Python programming, hacking python code and even porting real-time operating system. He is a passionate geek loving everything technical and non-technical."
 
 #: .\apps\2011\templates\siteView\volunteer.html:134
-msgid "aegiryy的博客地址"
-msgstr "aegiryy's blog address"
+msgid "Aegiryy的博客地址"
+msgstr "Aegiryy's blog address"
 
 #: .\apps\2011\templates\siteView\volunteer.html:138
 #: .\apps\2011\templates\siteView\volunteer.html:140
@@ -1224,7 +1224,7 @@ msgstr "Yiling Cao（Cao Yiling）"
 
 #: .\apps\2011\templates\siteView\schedule.html:130
 msgid "《基于 MQ 解耦应用开发》"
-msgstr "\"K.I.S.S web developing by Message Queue\""
+msgstr "\"Using Message Queue technology to develop web for KISS (Keep it simple, stupid)\""
 
 #: .\apps\2011\templates\siteView\schedule.html:134
 msgid "分享一个基础命题的思考：\"在Web开发中,复杂功能系统一定也必须是复杂的吗？\"，分析基于MQ来令Web系统变成由各种小而美的脚本和谐串起来的类UNIX体系。"
@@ -1237,7 +1237,7 @@ msgstr "Lin Jun"
 
 #: .\apps\2011\templates\siteView\schedule.html:78
 msgid "《Python在豆瓣的应用》"
-msgstr "\"Python Application at Douban\""
+msgstr "\"Using Python in Douban.Com\""
 
 #: .\apps\2011\templates\index.html:232
 msgid "《用Tornado搭建实时应用》 - 林君"
@@ -1245,11 +1245,11 @@ msgstr "\"Create realtime web app using Tornado\" - Lin Jun"
 
 #: .\apps\2011\templates\siteView\schedule.html:186
 msgid "快速演讲：《用Tornado搭建实时应用》"
-msgstr "Light Talk: \"Create realtime web app using Tornado\""
+msgstr "Lightning Talk: \"Create realtime web app using Tornado\""
 
 #: .\apps\2011\templates\index.html:200
 msgid "《Python在豆瓣的应用》 - 洪强宁"
-msgstr "\"Python Application at Douban\" - Hung Qiangning"
+msgstr "\"Using Python in Douban.Com\" - Hung Qiangning"
 
 #: .\apps\2011\templates\siteView\schedule.html:124
 msgid "《用Python实现基于MySQL为后台的Schemaless数据存储系统》"
@@ -1265,7 +1265,7 @@ msgstr "\"A Python approach to implement Schemaless model on MySQL\" - Ryan Ye"
 
 #: .\apps\2011\templates\siteView\schedule.html:190
 msgid "快速演讲：《PyCon China官网的开发及搭建》"
-msgstr "Light Talk: \"Develop of PyCon China offical website\""
+msgstr "Lightning Talk: \"Develop of PyCon China offical website\""
 
 #: .\apps\2011\templates\index.html:148
 #: .\apps\2011\templates\siteView\schedule.html:192
@@ -1278,7 +1278,7 @@ msgstr "Discuss problems that may be found while developing website with Python 
 
 #: .\apps\2011\templates\index.html:234
 msgid "《PyCon China官网的开发及搭建》 - 孙大同"
-msgstr "\"Develop of PyCon China offical website\" - Sun Datong"
+msgstr "\"Development of PyCon China offical website\" - Sun Datong"
 
 #: .\apps\2011\templates\index.html:204
 msgid "《易度PaaS云开发平台技术内幕》 - 潘俊勇"
@@ -1294,11 +1294,11 @@ msgstr "\"Scale web application stack with coro-thread\""
 
 #: .\apps\2011\templates\siteView\schedule.html:196
 msgid "快速演讲：《rosettacode.org - Learn and Practice Python》"
-msgstr "Light Talk: \"rosettacode.org - Learn and Practice Python\""
+msgstr "Lightning Talk: \"rosettacode.org - Learn and Practice Python\""
 
 #: .\apps\2011\templates\index.html:248
 msgid "大会网络直播地址："
-msgstr "Will also live on Internet:"
+msgstr "Will also webcast on Internet:"
 
 #: .\apps\2011\templates\siteView\schedule.html:202
 msgid "OpenStack提供了一个部署云的平台。为虚拟计算或存储服务的公有/私有云，提供可扩展的、灵活的云计算。"
@@ -1315,5 +1315,5 @@ msgstr "\"OpenStack: Open Source Cloud Computing platform written in Python\" - 
 
 #: .\apps\2011\templates\siteView\schedule.html:198
 msgid "快速演讲：《OpenStack: 基于Python编写的开源云计算平台》"
-msgstr "Light Talk: \"OpenStack: Open Source Cloud Computing platform written in Python\""
+msgstr "Lightning Talk: \"OpenStack: Open Source Cloud Computing platform written in Python\""
 
