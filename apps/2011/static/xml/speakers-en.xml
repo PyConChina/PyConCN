@@ -211,4 +211,14 @@ Webibo: http://weibo.com/opennewbazaar ,  Interests: ERP, opensource and Witkey<
 		<avatar>wanghaofei.jpg</avatar>
 		<speech>Light Talk: "OpenStack: Open Source Cloud Computing platform written in Python"</speech>
 	</speaker>
+	
+	<speaker>
+	    <fullname>Zhong Zifei</fullname>
+		<nickname>Zifei</nickname>
+		<company>Shanghai Huyi Inc</company>
+		<position>Co-founder &amp; Director of Engineering</position>
+		<desc>The  co-founder  and director  of  engineering  of Shanghai  Huyi Inc.   He graduated  with a  M.S. degree  in Computer Sciences from the University of  Texas at Austin.  He had internship with Google (mountain  view) in summer of 2007  and 2008, working on high performance networks and datacenter.  He worked for Bloomberg LP (new york)  during 2009-2010. He was the founder of SimplyCode, an  open source project  focusing on providing  the best and simplest solutions for complex algorithm problems.</desc>
+		<avatar>zhongzifei.jpg</avatar>
+		<speech>Light Talk: "Visualization of large-scale networking fabrics"</speech>
+	</speaker>
 </speakers>

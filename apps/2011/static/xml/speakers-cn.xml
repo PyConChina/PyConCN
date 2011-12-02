@@ -210,4 +210,14 @@
 		<avatar>wanghaofei.jpg</avatar>
 		<speech>快速演讲：《OpenStack: 基于Python编写的开源云计算平台》</speech>
 	</speaker>
+	
+	<speaker>
+	    <fullname>钟子飞</fullname>
+		<nickname>Zifei</nickname>
+		<company>上海互一网络科技有限公司</company>
+		<position>联合创始人，研发总监</position>
+		<desc>上海互一网络科技有限公司创始人兼研发总监。毕业于UT-Austin并取得硕士学位。曾于2007，2008年两次赴Google美国加州总部实习，研究高性能网络及数据中心的架构和容错。2009年后就职于美国彭博公司（Bloomberg）总部。他发起并领导过开源项目SimplyCode，致力于编写简洁最优的代码解决复杂的算法问题。</desc>
+		<avatar>zhongzifei.jpg</avatar>
+		<speech>快速演讲：《图形化大规模网络设备》</speech>
+	</speaker>
 </speakers>
