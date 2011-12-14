@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-12-05 17:31\n"
+"POT-Creation-Date: 2011-12-14 16:07\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,32 +144,32 @@ msgid "王剑峰"
 msgstr ""
 
 #: .\apps\2011\templates\index.html:136
-#: .\apps\2011\templates\siteView\schedule.html:222
+#: .\apps\2011\templates\siteView\schedule.html:226
 msgid "刁立知"
 msgstr ""
 
 #: .\apps\2011\templates\index.html:140
-#: .\apps\2011\templates\siteView\schedule.html:238
+#: .\apps\2011\templates\siteView\schedule.html:242
 msgid "李俊东"
 msgstr ""
 
 #: .\apps\2011\templates\index.html:144
-#: .\apps\2011\templates\siteView\schedule.html:246
+#: .\apps\2011\templates\siteView\schedule.html:250
 msgid "林君"
 msgstr ""
 
 #: .\apps\2011\templates\index.html:148
-#: .\apps\2011\templates\siteView\schedule.html:254
+#: .\apps\2011\templates\siteView\schedule.html:258
 msgid "孙大同"
 msgstr ""
 
 #: .\apps\2011\templates\index.html:154
-#: .\apps\2011\templates\siteView\schedule.html:266
+#: .\apps\2011\templates\siteView\schedule.html:270
 msgid "王浩飞"
 msgstr ""
 
 #: .\apps\2011\templates\index.html:158
-#: .\apps\2011\templates\siteView\schedule.html:276
+#: .\apps\2011\templates\siteView\schedule.html:280
 msgid "钟子飞"
 msgstr ""
 
@@ -371,83 +371,150 @@ msgid "PyCon.Org是举办Python语言的国际性社区，在世界各地举办P
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:12
-msgid "全球PyCon会议包括："
+msgid "媒体报道（排名不分先后）："
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:14
-msgid "关于主办方"
+msgid "全球PyCon会议包括："
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:16
-msgid "是Google的技术爱好者在全球成立的技术交流社区，在中国主要城市都是各种组织活动。不断地推动了技术的发展。"
+msgid "关于主办方"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:18
-msgid "是各个城市自发组织的本地Python爱好者的社区，也经常组织Python线下技术交流活动，主要在北京和上海，已经进行了5年多，从08年起珠三角／南昌／安徽等地都在组织。"
+msgid "是Google的技术爱好者在全球成立的技术交流社区，在中国主要城市都是各种组织活动。不断地推动了技术的发展。"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:20
-msgid "顶尖极客沙龙(TopGeek)"
+msgid "是各个城市自发组织的本地Python爱好者的社区，也经常组织Python线下技术交流活动，主要在北京和上海，已经进行了5年多，从08年起珠三角／南昌／安徽等地都在组织。"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:22
-msgid "是面向技术极客的组织，定期举办线下活动，讨论软件和互联网的一些新的技术潮流，开发理念和经验。"
+msgid "顶尖极客沙龙(TopGeek)"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:24
-msgid "这个组织不以语言或行业划分圈子，打破技术分割，开拓大家思路，促进互相学习，实现资源共享。解决一些成熟技术人员进一步发展的共同问题，促进交流和发展。口号：\"一日为极客，终身为极客！\""
+msgid "是面向技术极客的组织，定期举办线下活动，讨论软件和互联网的一些新的技术潮流，开发理念和经验。"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:26
-msgid "TopGeek组织的特点"
+msgid "这个组织不以语言或行业划分圈子，打破技术分割，开拓大家思路，促进互相学习，实现资源共享。解决一些成熟技术人员进一步发展的共同问题，促进交流和发展。口号：\"一日为极客，终身为极客！\""
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:28
-msgid "线下活动为主，与会人员和主题不分程序开发语言、不分开源还是商业软件，不分终端是PC还是手机。提倡跨界交流。"
+msgid "TopGeek组织的特点"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:30
-msgid "以高级技术人员为主，活动中鼓励频繁沟通，对问题的深入探究。"
+msgid "线下活动为主，与会人员和主题不分程序开发语言、不分开源还是商业软件，不分终端是PC还是手机。提倡跨界交流。"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:32
-msgid "在研究主流技术趋势、新机会的同时，也给予小众的技术流派足够关注。"
+msgid "以高级技术人员为主，活动中鼓励频繁沟通，对问题的深入探究。"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:34
-msgid "关于TopGeek"
+msgid "在研究主流技术趋势、新机会的同时，也给予小众的技术流派足够关注。"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:36
-msgid "组织博客"
+msgid "关于TopGeek"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:38
-msgid "新浪微博"
+msgid "组织博客"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:40
-msgid "组织者"
+msgid "新浪微博"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:42
-msgid "陈世欣（2Style4You CTO），王宏（微软中国高级经理），李锟（上海鹏图信息技术有限公司CTO），吕国宁（Intridea资深工程师），罗小能（2Style4You工程师），支晓勇（91Office技术总监）"
+msgid "组织者"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:44
-msgid "TopGeek社区组织的历次活动"
+msgid "陈世欣（2Style4You CTO），王宏（微软中国高级经理），李锟（上海鹏图信息技术有限公司CTO），吕国宁（Intridea资深工程师），罗小能（2Style4You工程师），支晓勇（91Office技术总监）"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\about.html:46
+msgid "TopGeek社区组织的历次活动"
+msgstr ""
+
 #: .\apps\2011\templates\siteView\about.html:48
 #: .\apps\2011\templates\siteView\about.html:50
 #: .\apps\2011\templates\siteView\about.html:52
 #: .\apps\2011\templates\siteView\about.html:54
+#: .\apps\2011\templates\siteView\about.html:56
 msgid "报道请看"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:56
+#: .\apps\2011\templates\siteView\about.html:58
 msgid "查看此主办方其它活动"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:6 .\apps\settings.ini:43
+msgid "大会集锦"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:8
+msgid "PyCon China 2011 于12月4日完美落幕。"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:10
+msgid "会议现场照片请移步"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:12
+msgid "又拍相册"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:14
+msgid "会议视频回放请移步"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:16
+msgid "演讲Keynote下载请移步"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:18
+msgid "官网“日程安排”页面"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:20
+msgid "媒体报道请移步"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:22
+msgid "官网“关于大会”页面"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:24
+msgid "会议中涉及的开源项目地址："
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:26
+msgid "PyCon China 2011 官网开源项目"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:28
+#: .\apps\2011\templates\siteView\schedule.html:256
+msgid "快速演讲：《PyCon China官网的开发及搭建》"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:30
+msgid "迅雷离线脚本Python版"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:32
+#: .\apps\2011\templates\siteView\collections.html:36
+#: .\apps\2011\templates\siteView\schedule.html:224
+msgid "快速演讲：《用Python改进迅雷离线 — A Python Successful Story》"
+msgstr ""
+
+#: .\apps\2011\templates\siteView\collections.html:34
+msgid "迅雷离线XBMC插件"
 msgstr ""
 
 #: .\apps\2011\templates\siteView\registration.html:4 .\apps\settings.ini:44
@@ -642,14 +709,15 @@ msgstr ""
 #: .\apps\2011\templates\siteView\schedule.html:184
 #: .\apps\2011\templates\siteView\schedule.html:198
 #: .\apps\2011\templates\siteView\schedule.html:210
-#: .\apps\2011\templates\siteView\schedule.html:234
-#: .\apps\2011\templates\siteView\schedule.html:242
-#: .\apps\2011\templates\siteView\schedule.html:250
-#: .\apps\2011\templates\siteView\schedule.html:260
-#: .\apps\2011\templates\siteView\schedule.html:272
-#: .\apps\2011\templates\siteView\schedule.html:282
-#: .\apps\2011\templates\siteView\schedule.html:290
-#: .\apps\2011\templates\siteView\schedule.html:296
+#: .\apps\2011\templates\siteView\schedule.html:222
+#: .\apps\2011\templates\siteView\schedule.html:238
+#: .\apps\2011\templates\siteView\schedule.html:246
+#: .\apps\2011\templates\siteView\schedule.html:254
+#: .\apps\2011\templates\siteView\schedule.html:264
+#: .\apps\2011\templates\siteView\schedule.html:276
+#: .\apps\2011\templates\siteView\schedule.html:286
+#: .\apps\2011\templates\siteView\schedule.html:294
+#: .\apps\2011\templates\siteView\schedule.html:300
 msgid "Keynote下载"
 msgstr ""
 
@@ -812,71 +880,63 @@ msgstr ""
 msgid "快速演讲：《OpenERP方案介绍和二次开发》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:220
-msgid "快速演讲：《用Python改进迅雷离线 — A Python Successful Story》"
-msgstr ""
-
-#: .\apps\2011\templates\siteView\schedule.html:224
+#: .\apps\2011\templates\siteView\schedule.html:228
 msgid "主要讲三件用Python对迅雷离线做的改进:"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:226
+#: .\apps\2011\templates\siteView\schedule.html:230
 msgid "用Python脚本计算文件ed2k链接，用迅雷离线发送大文件"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:228
+#: .\apps\2011\templates\siteView\schedule.html:232
 msgid "用Python写XBMC的插件，直接从迅雷点播视频文件"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:230
+#: .\apps\2011\templates\siteView\schedule.html:234
 msgid "用Python脚本在Linux Server环境中下载迅雷离线上的文件"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:236
+#: .\apps\2011\templates\siteView\schedule.html:240
 msgid "快速演讲：《与Python一路走来》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:244
+#: .\apps\2011\templates\siteView\schedule.html:248
 msgid "快速演讲：《用Tornado搭建实时应用》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:252
-msgid "快速演讲：《PyCon China官网的开发及搭建》"
-msgstr ""
-
-#: .\apps\2011\templates\siteView\schedule.html:256
+#: .\apps\2011\templates\siteView\schedule.html:260
 msgid "讨论Python在中小型网站开发的过程中可能遇到的问题及其解决方案。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:262
+#: .\apps\2011\templates\siteView\schedule.html:266
 msgid "快速演讲：《rosettacode.org - Learn and Practice Python》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:264
+#: .\apps\2011\templates\siteView\schedule.html:268
 msgid "快速演讲：《OpenStack: 基于Python编写的开源云计算平台》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:268
+#: .\apps\2011\templates\siteView\schedule.html:272
 msgid "OpenStack提供了一个部署云的平台。为虚拟计算或存储服务的公有/私有云，提供可扩展的、灵活的云计算。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:274
+#: .\apps\2011\templates\siteView\schedule.html:278
 msgid "快速演讲：《图形化大规模网络设备》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:278
+#: .\apps\2011\templates\siteView\schedule.html:282
 msgid "我们简单介绍以下内容<br />1. Python在交换机层面的简单应用<br />2. 一个图形化大规模网络设备的系统，帮助发现排除故障"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:284
+#: .\apps\2011\templates\siteView\schedule.html:288
 msgid "快速演讲：《工程师职业规划探讨》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:286
+#: .\apps\2011\templates\siteView\schedule.html:290
 msgid "宋进亮"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:292
+#: .\apps\2011\templates\siteView\schedule.html:296
 msgid "快速演讲：《Workend, where developer meets designer》"
 msgstr ""
 
@@ -981,7 +1041,7 @@ msgstr ""
 msgid "Gensee是本次大会网络直播服务的提供商。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:8 .\apps\settings.ini:43
+#: .\apps\2011\templates\siteView\venue.html:8
 msgid "会场交通"
 msgstr ""
 

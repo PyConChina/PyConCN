@@ -20,8 +20,8 @@ class siteView(object):
     def schedule(self):
         return dict(page=dict(pagename='schedule',cndata=''))
     
-    def venue(self):
-        return dict(page=dict(pagename='venue',cndata=''))    
+    def collections(self):
+        return dict(page=dict(pagename='collections',cndata=''))    
 
     def registration(self):
         return dict(page=dict(pagename='registration',cndata=''))
