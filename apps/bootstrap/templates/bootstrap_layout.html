@@ -9,7 +9,13 @@
 <!--[if lt IE 9]>
 <script type="text/javascript" src="{{=url_for_static('js/ie9-js.js', ver='2.1b4')}}"></script>
 <![endif]-->
+<<<<<<< HEAD
 <script type="text/javascript" src="{{=url_for_static('js/jquery.min.js', ver='1.7')}}"></script>
+=======
+<script type="text/javascript" src="{{=url_for_static('js/jquery.min.js', ver='1.7.1')}}"></script>
+<script type="text/javascript" src="{{=url_for_static('js/jquery.cookie.js', ver='2011.7.8')}}"></script>
+<script type="text/javascript" src="{{=url_for_static('js/bootstrap-dropdown.js')}}"></script>
+>>>>>>> enversion
 <script type="text/javascript" src="{{=url_for_static('js/bootstrap-alerts.js')}}"></script>
 <script type="text/javascript" src="{{=url_for_static('js/layout.js')}}"></script>
 {{block meta}}
@@ -30,17 +36,16 @@
             {{end}}            
           </ul>
           {{end}}
-          {{''' 暂时先注释}}
-          {{block userinfo}}
-              <p class="pull-right loginbar">
-                  {{if hasattr(request, 'user') and request.user:}}
-                      <span>{{=_('Welcome')}} {{=request.user.username}}</span> | <a href="/logout">{{=_('Logout')}}</a>
-                  {{else:}}
-                      <span>{{=_("You've not loginned yet!")}}</span> <a href="/login">{{=_('Login')}}</a> | <a href="/register">{{=_('Register')}}</a>
-                  {{pass}}
-              </p>
-          {{end}}   
-          {{'''}}       
+          <ul class="nav secondary-nav">
+              <li class="dropdown">
+                  <a class="dropdown-toggle">Site Language</a>
+                  <ul class="dropdown-menu">
+                      <li><a class="cn">简体中文</a></li>
+                      <li class="divider"></li>
+                      <li><a class="en">English</a></li>
+                  </ul>
+              </li>
+          </ul>
         </div><!--END container-->
       </div><!--END fill-->
     </div><!--END topbar-->

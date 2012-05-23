@@ -37,7 +37,7 @@
 		<position>首席架构师</position>
 		<desc>豆瓣首席架构师，豆瓣第一位全职员工。清华毕业后，洪强宁一直做嵌入式系统。在2002年开始接触Python语言，从硬件工程师变为软件工程师，对一种语言在计算机底层如何工作有深入的理解。</desc>
 		<avatar>hongqiangning.jpg</avatar>
-		<speech>《豆瓣的Python应用和创新》</speech>
+		<speech>《Python在豆瓣的应用》</speech>
 	</speaker>
 	
 	<speaker>
@@ -47,7 +47,7 @@
 		<position></position>
 		<desc>Google是世界上Python水平最高工程师的云集之地。Python的发明者Guido就在Google。Damien来自Google收购的Slide公司</desc>
 		<avatar>damienhou.jpg</avatar>
-		<speech>《Scale web application stack with coro-thread》</speech>
+		<speech>《用coro-thread技术来扩展web应用程序栈》</speech>
 	</speaker>
 	
 	<speaker>
@@ -97,17 +97,17 @@
         ]]>
         </desc>
 		<avatar>ryanye.jpg</avatar>
-		<speech>《A Python approach to implement Schemaless model on MySQL》</speech>
+		<speech>《用Python实现基于MySQL为后台的Schemaless数据存储系统》</speech>
 	</speaker>
 	
 	<speaker>
-	    <fullname>CCP Games</fullname>
-		<nickname></nickname>
-		<company>CCP Games</company>
-		<position></position>
-		<desc>CCPGames是全球第二大的桌面游戏公司，网游实力也很强大，公司里有很多Python的开发高手</desc>
-		<avatar></avatar>
-		<speech>《CCP Games的Python开发》</speech>
+	    <fullname>周琦</fullname>
+		<nickname>Zoom.Quiet</nickname>
+		<company>金山网络</company>
+		<position>过程改进经理</position>
+		<desc>Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区"大妈"；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。</desc>
+		<avatar>zhouqi.jpg</avatar>
+		<speech>快速演讲：《基于 MQ 解耦应用开发》</speech>
 	</speaker>
 	
 	<speaker>
@@ -141,16 +141,6 @@
 	</speaker>
 	
 	<speaker>
-	    <fullname>周琦</fullname>
-		<nickname>Zoom.Quiet</nickname>
-		<company>金山网络</company>
-		<position>过程改进经理</position>
-		<desc>Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区“大妈”；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。</desc>
-		<avatar>zhouqi.jpg</avatar>
-		<speech>快速演讲：《基于 MQ 解耦应用开发》</speech>
-	</speaker>
-	
-	<speaker>
 	    <fullname>王剑峰</fullname>
 		<nickname></nickname>
 		<company>OpenERP</company>
@@ -180,4 +170,57 @@
 		<avatar>lijundong.jpg</avatar>
 		<speech>快速演讲：《与Python一路走来》</speech>
 	</speaker>
+<<<<<<< HEAD:apps/2011/static/xml/speakers.xml
+=======
+	
+	<speaker>
+	    <fullname>林君</fullname>
+		<nickname></nickname>
+		<company>Python-CN管理员</company>
+		<position></position>
+		<desc>机械维物主义，真名林君，python爱好者，python-cn管理员，关注用python搭积木，做好玩的应用。</desc>
+		<avatar>linjun.jpg</avatar>
+		<speech>快速演讲：《用Tornado搭建实时应用》</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>孙大同</fullname>
+		<nickname>Dndx</nickname>
+		<company>TopGeek</company>
+		<position></position>
+		<desc>PyCon China志愿者，负责官方网站的搭建，详细资料请见“志愿者”页面。</desc>
+		<avatar>sundatong.jpg</avatar>
+		<speech>快速演讲：《PyCon China官网的开发及搭建》</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Martin Baehr</fullname>
+		<nickname>Martin</nickname>
+		<company></company>
+		<position></position>
+		<desc>Martin is a Free Software Advocate, Programmer and UNIX Sysadmin. He came to China in 2008. He is using Python for packaging in the Foresight Linux distribution, when testing OLPC Activities and for some customer projects. His main work is on a Collaboration Platform in Pike. He is currently learning Lisp and creating tasks on Rosetta Code in the remaining spare time.</desc>
+		<avatar>martinbaehr.jpg</avatar>
+		<speech>快速演讲：《rosettacode.org - Learn and Practice Python》</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>王浩飞</fullname>
+		<nickname>Haofei</nickname>
+		<company>VMware</company>
+		<position>软件工程师</position>
+		<desc>2007年毕业于华中科技大学软件学院。曾在SAP中国研究院负责BlueRuby编译器。2011年加入VMware进行云计算相关开发。</desc>
+		<avatar>wanghaofei.jpg</avatar>
+		<speech>快速演讲：《OpenStack: 基于Python编写的开源云计算平台》</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>钟子飞</fullname>
+		<nickname>Zifei</nickname>
+		<company>上海互一网络科技有限公司</company>
+		<position>联合创始人，研发总监</position>
+		<desc>上海互一网络科技有限公司创始人兼研发总监。毕业于UT-Austin并取得硕士学位。曾于2007，2008年两次赴Google美国加州总部实习，研究高性能网络及数据中心的架构和容错。2009年后就职于美国彭博公司（Bloomberg）总部。他发起并领导过开源项目SimplyCode，致力于编写简洁最优的代码解决复杂的算法问题。</desc>
+		<avatar>zhongzifei.jpg</avatar>
+		<speech>快速演讲：《图形化大规模网络设备》</speech>
+	</speaker>
+>>>>>>> enversion:apps/2011/static/xml/speakers-cn.xml
 </speakers>

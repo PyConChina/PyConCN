@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<speakers>
+    <speaker>
+	    <fullname>Chen Shixin</fullname>
+		<nickname>Sting Chen</nickname>
+		<company>2Style4You</company>
+		<position>CTO</position>
+		<desc>TopGeek Fuounder, Now employed at 2Style4You.com - a global leading modern technology company. Master degree in Computer Department from Shanghai Jiao Tong University in 1999. 13 years of experience of Internet technology and products，founded PMCamp community, also active in ThinkinLAMP，ShanghaiOnRails，CPyUG，GTUG and etc.</desc>
+		<avatar>chenshixin.jpg</avatar>
+		<speech>Keynote - Python Enriches the World</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Shen Wei</fullname>
+		<nickname></nickname>
+		<company></company>
+		<position></position>
+		<desc>A senioir python developer, author of eurasia - a high efficency server. Founder of  Huzhou XunPu Information Technology Co., Ltd.; co-founder and CTO of Guangzhou Liu Bao Computer Technology Co., Ltd. .</desc>
+		<avatar>shenwai.jpg</avatar>
+		<speech>Python, the Road to The Future</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Lin Wei</fullname>
+		<nickname></nickname>
+		<company>Netease</company>
+		<position>Senioir technology manager</position>
+		<desc>Netease senioir tech. manager，17 years of experience of programming.</desc>
+		<avatar>linwei.jpg</avatar>
+		<speech>Python Exploration and Discovery of Game Development </speech>
+	</speaker>
+	
+    <speaker>
+	    <fullname>Hung Qiangning</fullname>
+		<nickname></nickname>
+		<company>Douban</company>
+		<position>Chief Architect</position>
+		<desc> Chief Architect of Douban, first full time employer of Douban.  Working on embedded systems, after graduating from Tsinghua University.  Start to use python from 2002, becoming a software engineer from hardware engineer. Has solid understanding  of how a computer programming language works at lower system level. </desc>
+		<avatar>hongqiangning.jpg</avatar>
+		<speech>Python Application at Douban</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Damien Hou</fullname>
+		<nickname></nickname>
+		<company>Google</company>
+		<position></position>
+		<desc>Google has the highest level of python developers. Founder of Python – Guido is at Google. Damien is from Slide, a Google Company.</desc>
+		<avatar>damienhou.jpg</avatar>
+		<speech>Scale web application stack with coro-thread</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Pan Junyong</fullname>
+		<nickname></nickname>
+		<company>ZOpen</company>
+		<position>Founder, CTO</position>
+		<desc>One of pioneers in python community, held Zope Chinese community in2002 , founder of 
+		ZOpen. Starting Internet software in 2007, released everydo.com, specialized in enterprise cloud office application.</desc>
+		<avatar>panjunyong.jpg</avatar>
+		<speech>Technical inside of Everydo PaaS Cloud Development Platform </speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Huang Dong</fullname>
+		<nickname></nickname>
+		<company>Tudou</company>
+		<position> Technology  VP </position>
+		<desc> Dong Huang  is currently employed as Technology VP at Tudou. In Charge of design and running many large scale high volume product and system. Is also co-founder and active with FreeBSD、Python communities, One of the founders of Woodpecker.org.cn, is also actively helping many start-up projects.  He created chzip.com and xBaynet product series.</desc>
+		<avatar>huangdong.jpg</avatar>
+		<speech>Metering and Bandwidth Management in Large Scale Website</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Chen Zheng</fullname>
+		<nickname></nickname>
+		<company>Sina</company>
+		<position></position>
+		<desc>Engineer at Sina.com development center, in charge of Research and development of system platform, Multiple years of research and work experience of paradigm of cloud computing. From 2009, focused at new generation of could computing, Sina SAE(SinaApp Engine)  and could storage service, focused at scalability and reliability of programs, automated testing and designing of computer language.</desc>
+		<avatar>chenzheng.jpg</avatar>
+		<speech>SAE (Sina AppEngine) to achieve the python version</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Ryan Ye</fullname>
+		<nickname></nickname>
+		<company>Google</company>
+		<position>Tech Lead and Senior Software Engineer</position>
+		<desc>
+		<![CDATA[Specializing in developing web applications, social network games and iPhone apps. Interested in server architecture and game engines. 
+		<br /><strong>Specialties:</strong>
+		<br />- Web application architecture design and performance optimization
+        <br />- iPhone application development
+        <br />- Game and graphic programming
+        <br />- Engineering management
+        <br />- Major programming language: Python, Javascript, Objc, ActionScript
+        <br />- Familiar with Perl, C/C++, Java
+        ]]>
+        </desc>
+		<avatar>ryanye.jpg</avatar>
+		<speech>A Python approach to implement Schemaless model on MySQL</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Zhou Qi</fullname>
+		<nickname>Zoom.Quiet</nickname>
+		<company>KingSoft</company>
+		<position>Process Improvement Manager </position>
+		<desc>Founder/Admin of Python Chinese Community , devoted in acitivies non-for-profit python community ,  AKA. Big Mummy, OBP and designer and host of PythoniCamp;participated and host many online/offline activities; producer of  "Lovely Python"; Use Pythonic influence people into world of FLOSS where Learning / sharing / creation！Now employed at KingSoft</desc>
+		<avatar>zhouqi.jpg</avatar>
+		<speech>Light Talk: make K.I.S.S web develop by MQ</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Li Yinghui</fullname>
+		<nickname>Limodou</nickname>
+		<company></company>
+		<position></position>
+		<desc>Founder of Python Chinese community and one of the key activists in Python, Author of popular editor - Ulipad , author of web framework – Uliweb.</desc>
+		<avatar>liyinghui.jpg</avatar>
+		<speech>Thoughts and Practise in Web Framework Development - Uliweb </speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Lai Yonghao</fullname>
+		<nickname></nickname>
+		<company>JiangSu ShenDian</company>
+		<position>CTO</position>
+		<desc>Senior developer in Internet Games, Rich experience with python game development. Icon producnts: New generation MMOCAT “GrandTrip” and etc. Founder and one of the organizing group of Tech Slalom Pearl Delta.</desc>
+		<avatar>laiyonghao.jpg</avatar>
+		<speech>Python Usage in Web Games </speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Wang Jian</fullname>
+		<nickname></nickname>
+		<company>Guangzhou HeiYa Network Technology Co., Ltd. </company>
+		<position>GM and CTO</position>
+		<desc>CTO of Guangzhou HeiYa Network Technology Co., Ltd. </desc>
+		<avatar>wangjian.jpg</avatar>
+		<speech>Python Usage in Medium Role Play Game Servers</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Wang Jianfeng</fullname>
+		<nickname></nickname>
+		<company>OpenERP</company>
+		<position></position>
+		<desc> Starting opensource ERP(Enterprise Resource Planning) in 2005, touched many opensource ERP product. Held and joined  Chinese translation for weberp, openbravo and openerp. Started to localize and introduce OpenERP (Original known as TinyERP).Focus on open source + Witkey commercial services model what is to achieve short and long term gains for open source programmers. Now concentrate on doing a remote secondary development team for OpenERP，Python is cool at ERP Secondary development，Enjoy it……  The owner of http://openerp-china.org/ and project manager  of http://code.google.com/p/cloudteam/ 
+Webibo: http://weibo.com/opennewbazaar ,  Interests: ERP, opensource and Witkey</desc>
+		<avatar>wangjianfeng.jpg</avatar>
+		<speech>Light Talk:  Intro to OpenERP Solution and Extenstion</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Diao Lizhi</fullname>
+		<nickname>Adieu</nickname>
+		<company></company>
+		<position></position>
+		<desc>Independent programmer, Python Lover, Interested in Django and web development,  Solving problems with small python programs in leisure .</desc>
+		<avatar>diaolizhi.jpg</avatar>
+		<speech>Light Talk: Improvement of Xunlei Offline with Python - A Python Successful Story</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Li Jundong</fullname>
+		<nickname></nickname>
+		<company>Aliyun</company>
+		<position></position>
+		<desc>11 years of experience,  8 years of side jobs with Python. Starting from DOS age, growing with Windows desktops, catching the fashion of the web, moving forward to cloud age. </desc>
+		<avatar>lijundong.jpg</avatar>
+		<speech>Light talk:  on the Journey with Python</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Lin Jun</fullname>
+		<nickname></nickname>
+		<company>Python-CN maillist administrator</company>
+		<position></position>
+		<desc>Lin Jun, python lover, python-cn maillist admin,interested in building cool apps with the help of python.</desc>
+		<avatar>linjun.jpg</avatar>
+		<speech>Light Talk: "Create realtime web app using Tornado"</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Sun Datong</fullname>
+		<nickname>Dndx</nickname>
+		<company>TopGeek</company>
+		<position></position>
+		<desc>PyCon China colunteer, built the offical website of PyCon China 2011, more information can be found on "Volunteer" page.</desc>
+		<avatar>sundatong.jpg</avatar>
+		<speech>Light Talk: "Develop of PyCon China offical website"</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Martin Baehr</fullname>
+		<nickname>Martin</nickname>
+		<company></company>
+		<position></position>
+		<desc>Martin is a Free Software Advocate, Programmer and UNIX Sysadmin. He came to China in 2008. He is using Python for packaging in the Foresight Linux distribution, when testing OLPC Activities and for some customer projects. His main work is on a Collaboration Platform in Pike. He is currently learning Lisp and creating tasks on Rosetta Code in the remaining spare time.</desc>
+		<avatar>martinbaehr.jpg</avatar>
+		<speech>Light Talk: "rosettacode.org - Learn and Practice Python"</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Wang Haofei</fullname>
+		<nickname>Haofei</nickname>
+		<company>VMware</company>
+		<position>Software Engineer</position>
+		<desc>After graduated from HUST in 2007, I started my research on BlueRuby in SAP Labs. In 2011, I joined VMware to work on Cloud Computing.</desc>
+		<avatar>wanghaofei.jpg</avatar>
+		<speech>Light Talk: "OpenStack: Open Source Cloud Computing platform written in Python"</speech>
+	</speaker>
+	
+	<speaker>
+	    <fullname>Zhong Zifei</fullname>
+		<nickname>Zifei</nickname>
+		<company>Shanghai Huyi Inc</company>
+		<position>Co-founder &amp; Director of Engineering</position>
+		<desc>The  co-founder  and director  of  engineering  of Shanghai  Huyi Inc.   He graduated  with a  M.S. degree  in Computer Sciences from the University of  Texas at Austin.  He had internship with Google (mountain  view) in summer of 2007  and 2008, working on high performance networks and datacenter.  He worked for Bloomberg LP (new york)  during 2009-2010. He was the founder of SimplyCode, an  open source project  focusing on providing  the best and simplest solutions for complex algorithm problems.</desc>
+		<avatar>zhongzifei.jpg</avatar>
+		<speech>Light Talk: "Visualization of large-scale networking fabrics"</speech>
+	</speaker>
+</speakers>

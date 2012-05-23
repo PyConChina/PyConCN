@@ -5,6 +5,9 @@
 <script type="text/javascript" src="{{=url_for_static('js/QTransform.js')}}"></script>
 <script type="text/javascript" src="{{=url_for_static('js/bootstrap-twipsy.js')}}"></script>
 <script type="text/javascript" src="{{=url_for_static('js/bootstrap-popover.js')}}"></script>
+<script type="text/javascript">
+    LANG = "{{=_('cn')}}"
+</script>
 <script type="text/javascript" src="{{=url_for_static('js/index.js')}}"></script>
 {{end}}
 
@@ -20,11 +23,11 @@
                         <h1 style="border:none; padding-bottom:0;">PyCon China 2011</h1><h1>Is Here!</h1>
                         <p>Dec 3, 2011 - Dec 4, 2011 9:30 AM - 6:00 PM</p>
                         <p>Shanghai, China</p>
-                        <p>Total number of seats: 300</p>
-                        <p>Seats still available.</p>
+                        <p>Webcast: <a href="http://live.topgeek.org">http://live.topgeek.org</a></p>
+                        <p>Time: 2011/12/3 9:30-2011/12/4 17:30</p>
                     </div>
                     <br />
-                    <p style="text-align:right;"><a class="btn primary large" href="/2011/registration ">立即报名！ &raquo;</a></p>
+                    <p style="text-align:right;"><a class="btn primary large" href="/2011/registration ">{{=_('立即报名！')}} &raquo;</a></p>
                 </div><!--END grid-->
             </div><!--END hero-content-->
             
@@ -34,14 +37,14 @@
                         <img src="{{=url_for_static('images/heroes/bambook.png')}}" alt="SNDA Bambook" />
                     </div>
                     <div class="span-two-thirds" style="width:600px; text-align:right;">
-                        <h2>在今年的大会中</h2>
-                        <h2>我们会抽出2台Bambook</h2>
-                        <h2>作为参会者的奖品</h2>
-                        <p>人人都有机会，只要您已经注册</p>
-                        <p>还没有注册？点击下面的按钮立即前往注册页面。</p>
+                        <h2>{{=_('在今年的大会中')}}</h2>
+                        <h2>{{=_('我们会抽出2台Bambook')}}</h2>
+                        <h2>{{=_('作为参会者的奖品')}}</h2>
+                        <p>{{=_('人人都有机会，只要您已经注册')}}</p>
+                        <p>{{=_('还没有注册？点击下面的按钮立即前往注册页面。')}}</p>
                     </div>
                     <br />
-                    <p style="text-align:right;"><a class="btn primary large" href="/2011/registration ">立即报名！ &raquo;</a></p>
+                    <p style="text-align:right;"><a class="btn primary large" href="/2011/registration ">{{=_('立即报名！')}} &raquo;</a></p>
                 </div><!--END grid-->
             </div><!--END hero-content-->
             
@@ -87,44 +90,48 @@
     </div><!-- END hero-unit-->
     
     <div class="row show-grid underhero">
-        <div class="span3"><h2 style="margin-top:10px;">大会赞助商</h2></div>
+        <div class="span3"><h2 style="margin-top:10px;">{{=_('大会赞助商')}}</h2></div>
         <div class="span3"><a target="_blank" href="http://www.google.com/"><img src="{{=url_for_static('images/sponsors/google.png')}}" alt="Google" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://www.tudou.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/tudou.png')}}" alt="Tudou" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://www.ccpgames.com/zh/home"><img src="{{=url_for_static('images/sponsors/ccp.gif')}}" alt="CCPGames" width="120" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.snda.com/"><img src="{{=url_for_static('images/sponsors/snda.png')}}" alt="盛大网络" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="http://www.snda.com/"><img src="{{=url_for_static('images/sponsors/snda.png')}}" alt="{{=_('盛大网络')}}" width="150" /></a></div>
     </div><!--END grid-->
     <div class="row show-grid underhero">
         <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" href="http://www.ijinshan.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/jinshan.gif')}}" alt="金山网络" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="http://www.ijinshan.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/jinshan.gif')}}" alt="{{=_('金山网络')}}" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://www.douban.com/"><img style="margin-top:20px;" src="{{=url_for_static('images/sponsors/douban.gif')}}" alt="Douban" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://www.sina.com.cn/"><img src="{{=url_for_static('images/sponsors/sina.gif')}}" alt="Sina" width="150" /></a></div>
-        <div class="span3"><img src="{{=url_for_static('images/sponsors/xunpu.png')}}" alt="湖州迅普" width="150" /></div>
+        <div class="span3"><img src="{{=url_for_static('images/sponsors/xunpu.png')}}" alt="{{=_('湖州迅普')}}" width="150" /></div>
     </div><!--END grid-->
     <div class="row show-grid underhero">
         <div class="span3">&nbsp;</div>
-        <div class="span3"><img src="{{=url_for_static('images/sponsors/liubao.png')}}" alt="遛宝" width="150" /></div>
-        <div class="span3"><a target="_blank" href="http://www.ituring.com.cn"><img style="margin-top:40px;" src="{{=url_for_static('images/sponsors/turingbook.gif')}}" alt="图灵" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.gensee.com/"><img style="margin-top:20px;" src="{{=url_for_static('images/sponsors/gensee.png')}}" alt="Gensee 展视互动" width="150" /></a></div>
+        <div class="span3"><img src="{{=url_for_static('images/sponsors/liubao.png')}}" alt="{{=_('遛宝')}}" width="150" /></div>
+        <div class="span3"><a target="_blank" href="http://www.ituring.com.cn"><img style="margin-top:40px;" src="{{=url_for_static('images/sponsors/turingbook.gif')}}" alt="{{=_('图灵')}}" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="http://www.gensee.com/"><img style="margin-top:20px;" src="{{=url_for_static('images/sponsors/gensee.png')}}" alt="{{=_('Gensee 展视互动')}}" width="150" /></a></div>
         <div class="span3"></div>
         <div class="span3"></div>
     </div><!--END grid-->
     
-    <h2 style="margin-top:10px; display:inline-block; border:none;">演讲嘉宾</h2><small>&nbsp;&nbsp;<a href="/2011/schedule">查看详细演讲内容及日程安排 &raquo;</a></small>
+    <h2 style="margin-top:10px; display:inline-block; border:none;">{{=_('演讲嘉宾')}}</h2><small>&nbsp;&nbsp;<a href="/2011/schedule">{{('查看详细演讲内容及日程安排')}} &raquo;</a></small>
     <div class="row show-grid underhero speakers">
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/chenshixin.jpg')}}" alt="陈世欣" />
+            <img src="{{=url_for_static('images/speakers/chenshixin.jpg')}}" alt="{{=_('陈世欣')}}" />
         </div>
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/shenwai.jpg')}}" alt="沈崴" />
+            <img src="{{=url_for_static('images/speakers/shenwai.jpg')}}" alt="{{=_('沈崴')}}" />
         </div>
     </div><!--END row-->
     
     <div class="row show-grid underhero speakers">
         <div class="span8">
+<<<<<<< HEAD
             <img src="{{=url_for_static('images/speakers/linwei.jpg')}}" alt="林伟" />
+=======
+            <img src="{{=url_for_static('images/speakers/linwei.jpg')}}" alt="{{=_('林伟')}}" />
+>>>>>>> enversion
         </div>
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/hongqiangning.jpg')}}" alt="洪强宁" />
+            <img src="{{=url_for_static('images/speakers/hongqiangning.jpg')}}" alt="{{=_('洪强宁')}}" />
         </div>
     </div><!--END row-->
     
@@ -133,16 +140,16 @@
             <img src="{{=url_for_static('images/speakers/damienhou.jpg')}}" alt="Damien Hou" />
         </div>
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/panjunyong.jpg')}}" alt="潘俊勇" />
+            <img src="{{=url_for_static('images/speakers/panjunyong.jpg')}}" alt="{{=_('潘俊勇')}}" />
         </div>
     </div><!--END row-->
     
     <div class="row show-grid underhero speakers">
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/huangdong.jpg')}}" alt="黄冬" />
+            <img src="{{=url_for_static('images/speakers/huangdong.jpg')}}" alt="{{=_('黄冬')}}" />
         </div>
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/chenzheng.jpg')}}" alt="陈正" />
+            <img src="{{=url_for_static('images/speakers/chenzheng.jpg')}}" alt="{{=_('陈正')}}" />
         </div>
     </div><!--END row-->
     
@@ -151,34 +158,64 @@
             <img src="{{=url_for_static('images/speakers/ryanye.jpg')}}" alt="Ryan Ye" />
         </div>
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/nopic.gif')}}" alt="CCP Games" />
+            <img src="{{=url_for_static('images/speakers/zhouqi.jpg')}}" alt="{{=_('周琦')}}" />
         </div>
     </div><!--END row-->
     
     <div class="row show-grid underhero speakers">
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/liyinghui.jpg')}}" alt="Limodou（李迎辉）" />
+            <img src="{{=url_for_static('images/speakers/liyinghui.jpg')}}" alt="{{=_('李迎辉')}}" />
         </div>
         <div class="span8">
+<<<<<<< HEAD
             <img src="{{=url_for_static('images/speakers/laiyonghao.jpg')}}" alt="赖勇浩" />
+=======
+            <img src="{{=url_for_static('images/speakers/laiyonghao.jpg')}}" alt="{{=_('赖勇浩')}}" />
+>>>>>>> enversion
         </div>
     </div><!--END row-->
     
     <div class="row show-grid underhero speakers">
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/wangjian.jpg')}}" alt="王健" />
+            <img src="{{=url_for_static('images/speakers/wangjian.jpg')}}" alt="{{=_('王健')}}" />
         </div>
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/zhouqi.jpg')}}" alt="Zoom.Quiet（周琦）" />
+            <img src="{{=url_for_static('images/speakers/wangjianfeng.jpg')}}" alt="{{=_('王剑峰')}}" />
         </div>
     </div><!--END row-->
     
     <div class="row show-grid underhero speakers">
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/wangjianfeng.jpg')}}" alt="王剑峰" />
+            <img src="{{=url_for_static('images/speakers/diaolizhi.jpg')}}" alt="{{=_('刁立知')}}" />
         </div>
         <div class="span8">
-            <img src="{{=url_for_static('images/speakers/diaolizhi.jpg')}}" alt="Adieu（刁立知）" />
+            <img src="{{=url_for_static('images/speakers/lijundong.jpg')}}" alt="{{=_('李俊东')}}" />
+        </div>
+    </div><!--END row-->
+    
+    <div class="row show-grid underhero speakers">
+        <div class="span8">
+            <img src="{{=url_for_static('images/speakers/linjun.jpg')}}" alt="{{=_('林君')}}" />
+        </div>
+        <div class="span8">
+            <img src="{{=url_for_static('images/speakers/sundatong.jpg')}}" alt="{{=_('孙大同')}}" />
+        </div>
+    </div><!--END row-->
+    
+    <div class="row show-grid underhero speakers">
+        <div class="span8">
+            <img src="{{=url_for_static('images/speakers/martinbaehr.jpg')}}" alt="Martin Baehr" />
+        </div>
+        <div class="span8">
+            <img src="{{=url_for_static('images/speakers/wanghaofei.jpg')}}" alt="{{=_('王浩飞')}}" />
+        </div>
+    </div><!--END row-->
+    
+    <div class="row show-grid underhero speakers">
+        <div class="span8">
+            <img src="{{=url_for_static('images/speakers/zhongzifei.jpg')}}" alt="{{=_('钟子飞')}}" />
+        </div>
+        <div class="span8">
         </div>
     </div><!--END row-->
     
@@ -191,7 +228,7 @@
     </div><!--END row-->
     
     <div class="row show-grid underhero">
-        <div class="span3"><h2 style="margin-top:10px;">媒体支持</h2></div>
+        <div class="span3"><h2 style="margin-top:10px;">{{=_('媒体支持')}}</h2></div>
         <div class="span3"><a target="_blank" href="http://www.infoq.com/"><img src="{{=url_for_static('images/sponsors/infoq.gif')}}" alt="InfoQ" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://www.csdn.net/"><img src="{{=url_for_static('images/sponsors/csdn.gif')}}" alt="CSDN" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://www.pycon.org/"><img src="{{=url_for_static('images/sponsors/pycon.gif')}}" alt="PyCon" width="150" /></a></div>
@@ -199,14 +236,14 @@
     </div><!--END grid-->
     <div class="row show-grid underhero">
         <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/cpyug.gif')}}" alt="Python 中文社区" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/cpyug.gif')}}" alt="{{=_('Python 中文社区')}}" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://topgeek.org/"><img src="{{=url_for_static('images/sponsors/topgeek.gif')}}" alt="TopGeek" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://woodpecker.org.cn/"><img src="{{=url_for_static('images/sponsors/woodpecker.gif')}}" alt="Woodpecker.org.cn 啄木鸟社区" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="mailto:CPUG@googlegroups.com"><img src="{{=url_for_static('images/sponsors/google_groups.gif')}}" alt="Google 网上论坛" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="http://woodpecker.org.cn/"><img src="{{=url_for_static('images/sponsors/woodpecker.gif')}}" alt="Woodpecker.org.cn {{=_('啄木鸟社区')}}" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="mailto:CPUG@googlegroups.com"><img src="{{=url_for_static('images/sponsors/google_groups.gif')}}" alt="{{=_('Google 网上论坛')}}" width="150" /></a></div>
     </div><!--END grid-->
     <div class="row show-grid underhero">
         <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" href="http://www.gensee.com/"><img src="{{=url_for_static('images/sponsors/gensee-cloud.gif')}}" alt="Gensee 展视互动云会议" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="http://www.gensee.com/"><img src="{{=url_for_static('images/sponsors/gensee-cloud.gif')}}" alt="{{=_('Gensee 展视互动云会议')}}" width="150" /></a></div>
         <div class="span3"></div>
         <div class="span3"></div>
         <div class="span3"></div>
@@ -214,11 +251,12 @@
     
     <div class="row">
         <div class="span6">
-          <h2>演讲日程</h2>
+          <h2>{{=_('演讲日程')}}</h2>
           <ol>
-              <li>欢迎晚宴</li>
-              <li class="has_sub_schedule">主题演讲（第一天）&darr;
+              <li>{{=_('欢迎晚宴')}}</li>
+              <li class="has_sub_schedule">{{=_('主题演讲（第一天）')}}&darr;
                   <ul class="sub_schedule">
+<<<<<<< HEAD
                       <li>主办方和赞助者介绍</li>
                       <li>大会致辞《Python让世界更精彩》- 陈世欣</li>
                       <li>Video联播《世界各国Python高手的演讲》- 各国Pythoner</li>
@@ -229,41 +267,75 @@
                       <li>《易度PaaS云开发平台技术内幕》 - 潘俊勇</li>
                       <li>《大规模视频网站的计费与流量管理》 - 黄冬</li>
                       <li>《新浪的AppEngine的Python实现》 - 童剑</li>
+=======
+                      <li>{{=_('主办方和赞助者介绍')}}</li>
+                      <li>{{=_('大会致辞《Python让世界更精彩》- 陈世欣')}}</li>
+                      <li>{{=_('Video联播《世界各国Python高手的演讲》- 各国Pythoner')}}</li>
+                      <li>{{=_('《Python ，通向未来之路》 - 沈崴')}}</li>
+                      <li>{{=_('《Python游戏开发探索与发现》 - 林伟')}}</li>
+                      <li>{{=_('《Python在豆瓣的应用》 - 洪强宁')}}</li>
+                      <li>{{=_('《用coro-thread技术来扩展web应用程序栈》 - Damien Hou')}}</li>
+                      <li>{{=_('《易度PaaS云开发平台技术内幕》 - 潘俊勇')}}</li>
+                      <li>{{=_('《大规模视频网站的计费与流量管理》 - 黄冬')}}</li>
+                      <li>{{=_('《SAE(Sina AppEngine) 的 python 版实现》 - 陈正')}}</li>
+>>>>>>> enversion
                   </ul>
               </li>
-              <li>把酒话英雄 - Python爱好者与嘉宾们晚宴</li>
-              <li class="has_sub_schedule">主题演讲（第二天）&darr;
+              <li>{{=_('把酒话英雄 - Python爱好者与嘉宾们晚宴')}}</li>
+              <li class="has_sub_schedule">{{=_('主题演讲（第二天）')}}&darr;
                   <ul class="sub_schedule">
+<<<<<<< HEAD
                       <li>《A Python approach to implement Schemaless model on MySQL》 - Ryan Ye</li>
                       <li>《CCP Games的Python开发：主题和演讲人待定》 - 待定</li>
                       <li>《Web 框架开发思考与实践 — Uliweb》 - Limodou（李迎辉）</li>
                       <li>《Python 之于 Webgame 的应用》- 赖勇浩</li>
                       <li>《中型角色扮演网络游戏服务器的 python 应用》 - 王健</li>
+=======
+                      <li>{{=_('《用Python实现基于MySQL为后台的Schemaless数据存储系统》 - Ryan Ye')}}</li>
+                      <li>{{=_('《使用 MQ 解耦应用开发》 - Zoom.Quiet（周琦）')}}</li>
+                      <li>{{=_('《Web 框架开发思考与实践 — Uliweb》 - Limodou（李迎辉）')}}</li>
+                      <li>{{=_('《Python 之于 Webgame 的应用》- 赖勇浩')}}</li>
+                      <li>{{=_('《中型角色扮演网络游戏服务器的 python 应用》 - 王健')}}</li>
+>>>>>>> enversion
                   </ul>
               </li>
-              <li class="has_sub_schedule">快速演讲（产品Demo或技术心得分享）
+              <li class="has_sub_schedule">{{=_('快速演讲（产品Demo或技术心得分享）')}}&darr;
                   <ul class="sub_schedule">
+<<<<<<< HEAD
                   <li>《使用 MQ 解耦应用开发》 - Zoom.Quiet（周琦）</li>
                   <li>《OpenERP方案介绍和二次开发》 - 王剑峰</li>
                   <li>《用Python改进迅雷离线 — A Python Successful Story》 - Adieu（刁立知）</li>
                   <li>《与Python一路走来》 - 李俊东</li>
+=======
+                  <li>{{=_('《OpenERP方案介绍和二次开发》 - 王剑峰')}}</li>
+                  <li>{{=_('《用Python改进迅雷离线 — A Python Successful Story》 - Adieu（刁立知）')}}</li>
+                  <li>{{=_('《与Python一路走来》 - 李俊东')}}</li>
+                  <li>{{=_('《用Tornado搭建实时应用》 - 林君')}}</li>
+                  <li>{{=_('《PyCon China官网的开发及搭建》 - 孙大同')}}</li>
+                  <li>rosettacode.org - Learn and Practice Python - Martin Baehr</li>
+                  <li>{{=_('《OpenStack: 基于Python编写的开源云计算平台》 - 王浩飞')}}</li>
+                  <li>{{=_('《图形化大规模网络设备》 - 钟子飞')}}</li>
+                  <li>{{=_('《工程师职业规划探讨》 - 宋进亮')}}</li>
+                  <li>{{=_('《Workend, where developer meets designer》 - Steven.Yang')}}</li>
+>>>>>>> enversion
                   </ul>
               </li>
           </ol>
-          <p><a class="btn" href="/2011/schedule">详细日程 &raquo;</a></p>
+          <p><a class="btn" href="/2011/schedule">{{=_('详细日程')}} &raquo;</a></p>
 
         </div>
         <div class="span5">
-          <h2>关于 PyCon</h2>
-           <p>PyCon.Org是举办Python语言的国际性社区，在世界各地举办Python大会，是Python 爱好者的盛会，对推动Python在各地的发展有深远的影响。</p>
-          <p><a class="btn" href="/2011/about">更多细节 &raquo;</a></p>
+          <h2>{{=_('关于')}} PyCon</h2>
+           <p>{{=_('PyCon.Org是举办Python语言的国际性社区，在世界各地举办Python大会，是Python 爱好者的盛会，对推动Python在各地的发展有深远的影响。')}}</p>
+          <p><a class="btn" href="/2011/about">{{=_('更多细节')}} &raquo;</a></p>
        </div>
         <div class="span5">
 
-          <h2>近期新闻</h2>
+          <h2>{{=_('近期新闻')}}</h2>
           <ol>
-              <li>PyCon China 2011 官方网站上线</li>
-              <li>PyCon China 官方微博 <a href="http://weibo.com/pyconcn" target="_blank">@PyConCN</a> 上线</li>
+              <li>PyCon China 2011 {{=_('大会网络直播地址：')}}<a href="http://live.topgeek.org" target="_blank">http://live.topgeek.org</a></li>
+              <li>PyCon China 2011 {{=_('官方网站上线')}}</li>
+              <li>PyCon China {{=_('官方微博')}} <a href="http://weibo.com/pyconcn" target="_blank">@PyConCN</a> {{=_('上线')}}</li>
           </ol>
         </div>
       </div>

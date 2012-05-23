@@ -4,6 +4,8 @@ from uliweb import expose
 from uliweb.orm import get_model
 from uliweb import request
 
+
+
 @expose('/2011/')
 def index():
     return {} #'<h1>Hello, Uliweb</h1>'
@@ -12,13 +14,14 @@ def index():
 class siteView(object):
         
     def about(self):
+        
         return dict(page=dict(pagename='about',cndata='')) 
     
     def schedule(self):
         return dict(page=dict(pagename='schedule',cndata=''))
     
-    def venue(self):
-        return dict(page=dict(pagename='venue',cndata=''))    
+    def collections(self):
+        return dict(page=dict(pagename='collections',cndata=''))    
 
     def registration(self):
         return dict(page=dict(pagename='registration',cndata=''))
