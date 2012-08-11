@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<speakers>
+    <speaker>
+	    <fullname>陈世欣</fullname>
+		<nickname>Sting Chen</nickname>
+		<company>2Style4You</company>
+		<position>CTO</position>
+		<desc>TopGeek社区创办人，现在全球领先的时尚科技公司2Style4You.com任CTO,1999年硕士毕业于上海交通大学计算机系，具有13年的互联网技术和互联网产品技术经验，还发起PMCamp社区等。也是ThinkinLAMP，ShanghaiOnRails，CPyUG，GTUG等社区的参与者或组织者。</desc>
+		<avatar>chenshixin.jpg</avatar>
+		<speech>大会致辞《Python让世界更精彩》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>沈崴</fullname>
+		<nickname></nickname>
+		<company></company>
+		<position></position>
+		<desc>资深 python 开发者，高效能服务器 eurasia 的作者。湖州迅普信息技术有限公司创始人，广州遛宝计算机技术有限公司联合创始人、技术总监。</desc>
+		<avatar>shenwai.jpg</avatar>
+		<speech>《Python ，通向未来之路》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>林伟</fullname>
+		<nickname></nickname>
+		<company>网易</company>
+		<position>资深技术主管</position>
+		<desc>网易资深技术主管，17年程序设计经验。</desc>
+		<avatar>linwei.jpg</avatar>
+		<speech>《Python游戏开发探索与发现》</speech>
+	</speaker>
+
+    <speaker>
+	    <fullname>洪强宁</fullname>
+		<nickname></nickname>
+		<company>豆瓣</company>
+		<position>首席架构师</position>
+		<desc>豆瓣首席架构师，豆瓣第一位全职员工。清华毕业后，洪强宁一直做嵌入式系统。在2002年开始接触Python语言，从硬件工程师变为软件工程师，对一种语言在计算机底层如何工作有深入的理解。</desc>
+		<avatar>hongqiangning.jpg</avatar>
+		<speech>《Python在豆瓣的应用》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>Damien Hou</fullname>
+		<nickname></nickname>
+		<company>Google</company>
+		<position></position>
+		<desc>Google是世界上Python水平最高工程师的云集之地。Python的发明者Guido就在Google。Damien来自Google收购的Slide公司</desc>
+		<avatar>damienhou.jpg</avatar>
+		<speech>《用coro-thread技术来扩展web应用程序栈》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>潘俊勇</fullname>
+		<nickname></nickname>
+		<company>润普科技</company>
+		<position>创始人，CTO</position>
+		<desc>国内python社区最早的布道者之一，2002年开始创办Zope中文社区，同时也是润普公司创始人。2007年转向互联网软件，推出易度云办公(everydo.com)，专注企业云端办公方案。</desc>
+		<avatar>panjunyong.jpg</avatar>
+		<speech>《易度PaaS云开发平台技术内幕》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>黄冬</fullname>
+		<nickname></nickname>
+		<company>土豆网</company>
+		<position>技术副总裁</position>
+		<desc>黄冬现任土豆网技术副总裁，主持设计和运营过多个大型高容量产品和系统。也是中国FreeBSD、Python社区的发起者和积极参与者，啄木鸟社区的创始人之一。此外，他还积极帮助各种创业项目，创立了彩虹流量和xBaynet系列产品。</desc>
+		<avatar>huangdong.jpg</avatar>
+		<speech>《大规模视频网站的计费与流量管理》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>陈正</fullname>
+		<nickname></nickname>
+		<company>新浪网</company>
+		<position></position>
+		<desc>新浪网研发中心平台架构部工程师，负责系统平台方面的研发，在云计算技术领域有多年的研发和实践经验。2009年以来，专注于新一代云平台的建设工作，新浪SAE(SinaApp Engine)、云存储等服务，在云计算领域拥有丰富的经验。关注程序的可扩展性和可靠性，自动化测试，程序语言设计等。 </desc>
+		<avatar>chenzheng.jpg</avatar>
+		<speech>《SAE(Sina AppEngine) 的 python 版实现》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>Ryan Ye</fullname>
+		<nickname></nickname>
+		<company>Google</company>
+		<position>Tech Lead and Senior Software Engineer</position>
+		<desc>
+		<![CDATA[Specializing in developing web applications, social network games and iPhone apps. Interested in server architecture and game engines.
+		<br /><strong>Specialties:</strong>
+		<br />- Web application architecture design and performance optimization
+        <br />- iPhone application development
+        <br />- Game and graphic programming
+        <br />- Engineering management
+        <br />- Major programming language: Python, Javascript, Objc, ActionScript
+        <br />- Familiar with Perl, C/C++, Java
+        ]]>
+        </desc>
+		<avatar>ryanye.jpg</avatar>
+		<speech>《用Python实现基于MySQL为后台的Schemaless数据存储系统》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>周琦</fullname>
+		<nickname>Zoom.Quiet</nickname>
+		<company>金山网络</company>
+		<position>过程改进经理</position>
+		<desc>Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区"大妈"；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。</desc>
+		<avatar>zhouqi.jpg</avatar>
+		<speech>快速演讲：《基于 MQ 解耦应用开发》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>李迎辉</fullname>
+		<nickname>Limodou</nickname>
+		<company></company>
+		<position></position>
+		<desc>Python 中文社区创始人及 Python 技术的关键推广者之一。广受欢迎的 Ulipad 编辑器，以及 web框架 Uliweb 的作者。</desc>
+		<avatar>liyinghui.jpg</avatar>
+		<speech>《Web 框架开发思考与实践 — Uliweb》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>赖勇浩</fullname>
+		<nickname></nickname>
+		<company>江苏盛典</company>
+		<position>技术总监</position>
+		<desc>网游行业资深从业者，有丰富的 python 游戏开发经验。由其担纲的代表游戏有，新一代 MMOCAT大作《天下盛境》等。是珠三角技术沙龙的创办人和组委之一。</desc>
+		<avatar>laiyonghao.jpg</avatar>
+		<speech>《Python 之于 Webgame 的应用》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>王健</fullname>
+		<nickname></nickname>
+		<company>广州黑崖网络科技有限公司</company>
+		<position>总经理兼技术总监</position>
+		<desc>广州黑崖网络科技有限公司总经理兼技术总监。</desc>
+		<avatar>wangjian.jpg</avatar>
+		<speech>《中型角色扮演网络游戏服务器的 python 应用》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>王剑峰</fullname>
+		<nickname></nickname>
+		<company>OpenERP</company>
+		<position></position>
+		<desc>2005年接触开源ERP，对各个开源ERP产品均有涉猎。主持参与了weberp、openbravo、openerp的汉化工作。2007年开始做OpenERP（原TinyERP）的本地化和推广。注重基于开源+威客的商业服务模式即实现程序员参与开源的长短期收益。现集中精力做OpenERP的远程二次开发团队，Python做ERP二次开发很爽，乐在其中......是http://openerp-china.org/ 站长和http://code.google.com/p/cloudteam/ 项目经理
+微博：http://weibo.com/opennewbazaar 爱好：ERP，开源，威客</desc>
+		<avatar>wangjianfeng.jpg</avatar>
+		<speech>快速演讲：《OpenERP方案介绍和二次开发》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>刁立知</fullname>
+		<nickname>Adieu</nickname>
+		<company></company>
+		<position></position>
+		<desc>独立程序员，Python爱好者，平时关注Django以及网站建设，闲时用Python写一些小工具解决遇到的问题。</desc>
+		<avatar>diaolizhi.jpg</avatar>
+		<speech>快速演讲：《用Python改进迅雷离线 — A Python Successful Story》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>李俊东</fullname>
+		<nickname></nickname>
+		<company>阿里云</company>
+		<position></position>
+		<desc>从业11年，给Python跑了8年的龙套。DOS年代起步，Windows桌面成长，赶上WEB的潮流，迈向未来的"云"时代。</desc>
+		<avatar>lijundong.jpg</avatar>
+		<speech>快速演讲：《与Python一路走来》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>林君</fullname>
+		<nickname></nickname>
+		<company>Python-CN管理员</company>
+		<position></position>
+		<desc>机械维物主义，真名林君，python爱好者，python-cn管理员，关注用python搭积木，做好玩的应用。</desc>
+		<avatar>linjun.jpg</avatar>
+		<speech>快速演讲：《用Tornado搭建实时应用》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>孙大同</fullname>
+		<nickname>Dndx</nickname>
+		<company>TopGeek</company>
+		<position></position>
+		<desc>PyCon China志愿者，负责官方网站的搭建，详细资料请见“志愿者”页面。</desc>
+		<avatar>sundatong.jpg</avatar>
+		<speech>快速演讲：《PyCon China官网的开发及搭建》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>Martin Baehr</fullname>
+		<nickname>Martin</nickname>
+		<company></company>
+		<position></position>
+		<desc>Martin is a Free Software Advocate, Programmer and UNIX Sysadmin. He came to China in 2008. He is using Python for packaging in the Foresight Linux distribution, when testing OLPC Activities and for some customer projects. His main work is on a Collaboration Platform in Pike. He is currently learning Lisp and creating tasks on Rosetta Code in the remaining spare time.</desc>
+		<avatar>martinbaehr.jpg</avatar>
+		<speech>快速演讲：《rosettacode.org - Learn and Practice Python》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>王浩飞</fullname>
+		<nickname>Haofei</nickname>
+		<company>VMware</company>
+		<position>软件工程师</position>
+		<desc>2007年毕业于华中科技大学软件学院。曾在SAP中国研究院负责BlueRuby编译器。2011年加入VMware进行云计算相关开发。</desc>
+		<avatar>wanghaofei.jpg</avatar>
+		<speech>快速演讲：《OpenStack: 基于Python编写的开源云计算平台》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>钟子飞</fullname>
+		<nickname>Zifei</nickname>
+		<company>上海互一网络科技有限公司</company>
+		<position>联合创始人，研发总监</position>
+		<desc>上海互一网络科技有限公司创始人兼研发总监。毕业于UT-Austin并取得硕士学位。曾于2007，2008年两次赴Google美国加州总部实习，研究高性能网络及数据中心的架构和容错。2009年后就职于美国彭博公司（Bloomberg）总部。他发起并领导过开源项目SimplyCode，致力于编写简洁最优的代码解决复杂的算法问题。</desc>
+		<avatar>zhongzifei.jpg</avatar>
+		<speech>快速演讲：《图形化大规模网络设备》</speech>
+	</speaker>
+</speakers>
