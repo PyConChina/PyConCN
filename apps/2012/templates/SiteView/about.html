@@ -1,0 +1,91 @@
+{{extend "bootstrap_layout.html"}}
+{{block content}}
+<h1>{{=_('关于大会')}}</h1>
+
+<div class="row show-grid">
+    <div class="span5">
+        <img class="pull-right" style="margin-right:20px;" src="{{=url_for_static('images/PyConChina.png')}}" alt="PyCon China 2011 Logo" /></div><!--END span-->
+    <div class="span11">
+        <p>{{=_('世界Python爱好者的盛会PyCon首次在中国举办，由Python软件基金会下的PyCon.Org授权中国办第一次PyCon China Conference。本次大会由GTUG， TopGeek，CPyUG联合举办。')}}</p>
+        <p>{{=_('PyCon.Org是举办Python语言的国际性社区，在世界各地举办Python大会，是Python 爱好者的盛会，对推动Python在各地的发展有深远的影响')}}</p>
+        <div class="row show-grid">
+            <div class="span-one-third">
+                <h4>{{=_('媒体报道（排名不分先后）：')}}</h4>
+                <ul>
+                    <li><a target="_blank" href="http://pyfound.blogspot.com/2011/12/first-annual-pycon-china-hit-in.html">First annual PyCon China a hit in Shanghai</a> - The Python Software Foundation</li>
+                    <li><a target="_blank" href="http://www.infoq.com/cn/articles/pycon-2011-first-in-china">PyCon大会首次登陆中国</a> - 丁雪丰(InfoQ)</li>
+                    <li><a target="_blank" href="http://cnbeta.com/articles/164340.htm">世界Python爱好者的盛会PyCon今明两天在上海举行</a> - CnBeta</li>
+                    <li><a target="_blank" href="http://www.pycon.org/">PyCon China 2011 Website Link</a> - The PyCon Offical Website</li>
+                    <li><a target="_blank" href="http://python.org/news/">First China PyCon</a> - The Python Offical Website</li>
+                </ul>
+            </div>
+            
+            <div class="span-one-third">
+                <h4>{{=_('全球PyCon会议包括：')}}</h4>
+                <ul>
+                    <li><a target="_blank" href="http://us.pycon.org/">"PyCon" in the United States</a></li>
+                    <li><a target="_blank" href="http://www.europython.eu/">"EuroPython" in Europe</a></li>
+                    <li><a target="_blank" href="http://www.euroscipy.org/">"EuroSciPy" in Europe</a></li>
+                    <li><a target="_blank" href="http://nz.pycon.org/">"Kiwi PyCon" in New Zealand</a></li>
+                    <li><a target="_blank" href="http://apac.pycon.org/">"PyCon Asia Pacific" in Singapore</a></li>
+                    <li><a target="_blank" href="http://ar.pycon.org/">"PyCon AR" in Argentina</a></li>
+                    <li><a target="_blank" href="http://au.pycon.org/">"PyCon AU" in Australia</a></li>
+                    <li><a target="_blank" href="http://www.pythonbrasil.com.br/">"Python Brasil" in Brazil</a></li>
+                    <li><a target="_blank" href="http://de.pycon.org/">"PyCon DE" in Germany</a></li>
+                    <li><a target="_blank" href="http://fi.pycon.org/">"PyCon Finland" in Finland</a></li>
+                    <li><a target="_blank" href="http://fr.pycon.org/">"PyCon FR" in France</a></li>
+                    <li><a target="_blank" href="http://in.pycon.org/">"PyCon India"</a></li>
+                    <li><a target="_blank" href="http://python.ie/pyconireland">"PyCon Ireland"</a></li>
+                    <li><a target="_blank" href="http://www.pycon.it/">"PyCon Italia" in Italy</a></li>
+                    <li><a target="_blank" href="http://pl.pycon.org/">"PyCon PL" in Poland</a></li>
+                    <li><a target="_blank" href="http://www.pyconuk.org/">"PyCon UK" in the United Kingdom</a></li>
+                    <li><a target="_blank" href="http://ua.pycon.org/">"PyCon Ukraine" in Ukraine</a></li>
+                    <li><a target="_blank" href="http://conference.scipy.org/">"SciPy" in the United States</a></li>
+                    <li><a target="_blank" href="http://scipy.in/">"SciPy.in" in India</a></li>
+                </ul>
+            </div>
+          </div><!--END row-->
+    </div><!--END span-->
+</div><!--END row-->
+
+<h2>{{=_('关于主办方')}}</h2>
+    <h4>GTUG (Google Technology User Group)</h4>
+    <p>{{=_('是Google的技术爱好者在全球成立的技术交流社区，在中国主要城市都是各种组织活动。不断地推动了技术的发展。')}}</p>
+    <h4>CPyUG (China Python User Group)</h4>
+    <p style="border-bottom:1px solid #EEEEEE;">{{=_('是各个城市自发组织的本地Python爱好者的社区，也经常组织Python线下技术交流活动，主要在北京和上海，已经进行了5年多，从08年起珠三角／南昌／安徽等地都在组织。')}}</p>
+
+<div class="row show-grid">
+        <div class="span8">
+        <h4>{{=_('顶尖极客沙龙(TopGeek)')}}</h4>
+        <p>{{=_('是面向技术极客的组织，定期举办线下活动，讨论软件和互联网的一些新的技术潮流，开发理念和经验。')}}
+{{=_('这个组织不以语言或行业划分圈子，打破技术分割，开拓大家思路，促进互相学习，实现资源共享。解决一些成熟技术人员进一步发展的共同问题，促进交流和发展。口号："一日为极客，终身为极客！"')}}</p>
+    </div><!--END span8-->
+    <div class="span8">
+        <h4>{{=_('TopGeek组织的特点')}}</h4>
+        <ol>
+            <li>{{=_('线下活动为主，与会人员和主题不分程序开发语言、不分开源还是商业软件，不分终端是PC还是手机。提倡跨界交流。')}}</li>
+            <li>{{=_('以高级技术人员为主，活动中鼓励频繁沟通，对问题的深入探究。')}}</li>
+            <li>{{=_('在研究主流技术趋势、新机会的同时，也给予小众的技术流派足够关注。')}}</li>
+        </ol>
+    </div><!--END span8-->
+</div><!--END row-->
+<div class="row show-grid">
+    <div class="span8">
+        <h4>{{=_('关于TopGeek')}}</h4>
+        <p><strong>{{=_('组织博客')}}：</strong><a target="_blank" href="http://topgeek.org">http://topgeek.org/</a></p>
+        <p><strong>{{=_('新浪微博')}}：</strong><a target="_blank" href="http://weibo/topgeek">http://weibo/topgeek</a></p>
+        <p><strong>{{=_('组织者')}}：</strong>{{=_('陈世欣（2Style4You CTO），王宏（微软中国高级经理），李锟（上海鹏图信息技术有限公司CTO），吕国宁（Intridea资深工程师），罗小能（2Style4You工程师），支晓勇（91Office技术总监）')}}</p>
+    </div><!--END span8-->
+    <div class="span8">
+        <h4>{{=_('TopGeek社区组织的历次活动')}}</h4>
+        <ul>
+            <li>TopGeek1，{{=_('报道请看')}}<a target="_blank" href="http://topgeek.org/?p=129">http://topgeek.org/?p=129</a></li>
+            <li>TopGeek2，{{=_('报道请看')}}<a target="_blank" href="http://topgeek.org/?p=129">http://topgeek.org/?p=167</a></li>
+            <li>TopGeek3，{{=_('报道请看')}}<a target="_blank" href="http://topgeek.org/?p=129">http://topgeek.org/?p=209</a></li>
+            <li>TopGeek4，{{=_('报道请看')}}<a target="_blank" href="http://topgeek.org/?p=129">http://topgeek.org/?p=243</a></li>
+            <li>TopGeek5，{{=_('报道请看')}}<a target="_blank" href="http://topgeek.org/?p=129">http://topgeek.org/?p=264</a></li>
+        </ul>
+        <p><a target="_blank" href="http://www.51qiangzuo.com/host/1105">{{=_('查看此主办方其它活动')}}</a></p>
+    </div><!--END span8-->
+</div><!--END row-->
+{{end}}
