@@ -8,7 +8,7 @@ def index():
 
 
 @expose('/2012')
-class siteView(object):
+class SiteView(object):
 
     def about(self):
         return dict(page=dict(pagename='about', cndata=''))
