@@ -1,0 +1,12 @@
+/*
+    Styles for PyCon China Offical Website
+    Author: Datong Sun (Dndx)
+    Blog: idndx.com
+    Version: 2011.10.13
+*/
+@charset "utf-8";
+img{border:1px solid #FFF; margin-right:15px;}
+img:hover{border:1px solid #EEEEEE;}
+.span-one-third{text-align:right;}
+h4{border-bottom: 1px solid #EEEEEE;}
+.row.show-grid{border-top: 1px solid #EEEEEE; padding-top:15px;}

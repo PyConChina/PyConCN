@@ -1,0 +1,92 @@
+{{extend "bootstrap_layout.html"}}
+
+{{block meta}}
+<script type="text/javascript" src="{{=url_for_static('js/venue.js')}}"></script>
+{{end}}
+
+{{block content}}
+<h1>{{=_('会场交通')}}</h1>
+<h2>{{=_('场馆位置')}}：</h2>
+    <div class="row show-grid">
+        <div class="span8">
+            <iframe width="425" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{=_('http://ditu.google.cn/')}}maps?f=q&amp;source=s_q&amp;hl=&amp;geocode=&amp;q=%E4%B8%8A%E6%B5%B7%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%B9%BF%E7%BA%AA%E8%B7%AF838%E5%8F%B7&amp;aq=&amp;sll=39.904214,116.407413&amp;sspn=1.255751,2.469177&amp;vpsrc=0&amp;brcurrent=3,0x35b2723166aeb47d:0x813f8ab32b92a19d,0,0x35b2719d215c886d:0x1ebde30d20a5bcc%3B5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=%E4%B8%8A%E6%B5%B7%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%B9%BF%E7%BA%AA%E8%B7%AF838%E5%8F%B7&amp;t=m&amp;ll=31.294468,121.483898&amp;spn=0.014669,0.036392&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="{{=_('http://ditu.google.cn/')}}maps?f=q&amp;source=embed&amp;hl=&amp;geocode=&amp;q=%E4%B8%8A%E6%B5%B7%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%B9%BF%E7%BA%AA%E8%B7%AF838%E5%8F%B7&amp;aq=&amp;sll=39.904214,116.407413&amp;sspn=1.255751,2.469177&amp;vpsrc=0&amp;brcurrent=3,0x35b2723166aeb47d:0x813f8ab32b92a19d,0,0x35b2719d215c886d:0x1ebde30d20a5bcc%3B5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=%E4%B8%8A%E6%B5%B7%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%B9%BF%E7%BA%AA%E8%B7%AF838%E5%8F%B7&amp;t=m&amp;ll=31.294468,121.483898&amp;spn=0.014669,0.036392&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">{{=_('查看大图')}}</a></small><br /><br />
+        <div>{{=_('从')}}&nbsp;<input type="text" />&nbsp;<input class="btn" type="button" value="{{=_('公交')}}" />&nbsp;<input class="btn" type="button" value="{{=_('驾车')}}" />&nbsp;{{=_('前往会场')}}</div>
+            <p><strong>{{=_('大会地点')}}：</strong>{{=_('上海虹口区广纪路838号中国出版蓝桥创意园主楼7楼会议室')}}</p>
+            <p><strong>{{=_('地铁')}}：</strong>{{=_('三号线大柏树站，步行五分钟即到')}}</p>
+            <p><strong>{{=_('自驾')}}：</strong>{{=_('50个绿化带免费停车位，园区内停车10元/天')}}</p>
+        </div><!--END span8-->
+        <div class="span8">
+            <iframe width="425" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{=_('http://ditu.google.cn/')}}maps?f=d&amp;source=s_d&amp;saddr=%E5%A4%A7%E6%9F%8F%E6%A0%91%E7%AB%99&amp;daddr=%E4%B8%8A%E6%B5%B7%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%B9%BF%E7%BA%AA%E8%B7%AF838%E5%8F%B7&amp;hl=&amp;geocode=Fexw3QEd9a89ByljBSFyh3GyNTFHPtTcRTMHNA%3BFfiD3QEdgrI9BykDFTgSKXKyNTHFTxiq3Socfw&amp;sll=31.291561,121.485851&amp;sspn=0.005464,0.009645&amp;vpsrc=0&amp;brcurrent=3,0x35b272205812b141:0x1cfbe3d2ee211c3f,0,0x35b2719d215c886d:0x1ebde30d20a5bcc%3B5,0,0&amp;dirflg=w&amp;mra=ltm&amp;ie=UTF8&amp;t=m&amp;ll=31.291552,121.485851&amp;spn=0.005501,0.00912&amp;z=16&amp;output=embed"></iframe><br />
+            <p>{{=_('从地铁“大柏树站”前往会场的步行路线')}}</p>
+            <small><a href="{{=_('http://ditu.google.cn/')}}maps?f=d&amp;source=embed&amp;saddr=%E5%A4%A7%E6%9F%8F%E6%A0%91%E7%AB%99&amp;daddr=%E4%B8%8A%E6%B5%B7%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%B9%BF%E7%BA%AA%E8%B7%AF838%E5%8F%B7&amp;hl=&amp;geocode=Fexw3QEd9a89ByljBSFyh3GyNTFHPtTcRTMHNA%3BFfiD3QEdgrI9BykDFTgSKXKyNTHFTxiq3Socfw&amp;sll=31.291561,121.485851&amp;sspn=0.005464,0.009645&amp;vpsrc=0&amp;brcurrent=3,0x35b272205812b141:0x1cfbe3d2ee211c3f,0,0x35b2719d215c886d:0x1ebde30d20a5bcc%3B5,0,0&amp;dirflg=w&amp;mra=ltm&amp;ie=UTF8&amp;t=m&amp;ll=31.291552,121.485851&amp;spn=0.005501,0.00912&amp;z=16" style="color:#0000FF;text-align:left">{{=_('查看大图')}}</a></small>
+        </div><!--END span8-->
+    </div>
+<br /><br />
+<h2>{{=_('乘车路线')}}：</h2>
+<div class="alert-message info"><strong>{{=_('请注意')}}：</strong>{{=_('以下路线以及打车费用仅供参考，大会组织者仅向嘉宾提供交通服务！')}}</div><!--END message info-->
+<div class="row show-grid">
+    <div class="span8">
+        <ul>
+            <li>{{=_('从上海火车站前往场馆')}}
+                <ol>
+                    <li>{{=_('出站后步行至 地铁"上海火车站"')}}</li>
+                    <li>{{=_('乘坐 地铁3号线(江杨北路方向), 在 地铁"大柏树站" 下车(1号口出)')}}</li>
+                    <li>{{=_('向北步行至场馆即可')}}</li>
+                    <li>{{=_('注：打车约')}}<span class="bold">25{{=_('元')}}</span></li>
+                </ol>
+            </li>
+            <li>{{=_('从浦东国际机场前往场馆')}}
+                <ol>
+                    <li>{{=_('离开机场后步行至 地铁"浦东国际机场站"')}}</li>
+                    <li>{{=_('乘坐 地铁2号线(徐泾东方向), 在 地铁"世纪大道站" 下车')}}</li>
+                    <li>{{=_('乘坐 地铁4号线(宜山路)方向, 在 地铁"宝山路站" 下车')}}</li>
+                    <li>{{=_('乘坐 地铁3号线(江杨北路方向), 在 地铁"大柏树站" 下车(1号口出)')}}</li>
+                    <li>{{=_('向北步行至场馆即可')}}</li>
+                    <li>{{=_('注：打车约')}}<span class="bold">150{{=_('元')}}</span></li>
+                </ol>
+            </li>
+            <li>{{=_('从上海虹桥机场前往场馆')}}
+                <ol>
+                    <li>{{=_('下机后步行至 地铁"虹桥1号航站楼站"')}}</li>
+                    <li>{{=_('乘坐 地铁10号线(新江湾城方向), 在 地铁"虹桥路站" 下车')}}</li>
+                    <li>{{=_('站内换乘 地铁3号线(江杨北路方向)')}}</li>
+                    <li>{{=_('乘坐 地铁3号线(江杨北路方向), 在 地铁"大柏树站" 下车(1号口出)')}}</li>
+                    <li>{{=_('向北步行至场馆即可')}}</li>
+                    <li>{{=_('注：打车约')}}<span class="bold">74{{=_('元')}}</span></li>
+                </ol>
+            </li> 
+        </ul>
+    </div><!--END span8-->
+    <div class="span8">
+        <ul>
+            <li>{{=_('从上海虹桥火车站前往场馆')}}
+                <ol>
+                    <li>{{=_('出站后步行至 地铁"虹桥火车站"')}}</li>
+                    <li>{{=_('乘坐 地铁2号线(浦东国际机场方向), 在 地铁"中山公园站" 下车')}}</li>
+                    <li>{{=_('乘坐 地铁3号线(江杨北路方向), 在 地铁"大柏树站" 下车(1号口出)')}}</li>
+                    <li>{{=_('向北步行至场馆即可')}}</li>
+                    <li>{{=_('注：打车约')}}<span class="bold">88{{=_('元')}}</span></li>
+                </ol>
+            </li>
+            <li>{{=_('从上海火车南站前往场馆')}}
+                <ol>
+                    <li>{{=_('出站后步行至 地铁"上海南站"')}}</li>
+                    <li>{{=_('乘坐 地铁3号线(江杨北路方向), 在 地铁"大柏树站" 下车(1号口出)')}}</li>
+                    <li>{{=_('向北步行至场馆即可')}}</li>
+                    <li>{{=_('注：打车约')}}<span class="bold">71{{=_('元')}}</span></li>
+                </ol>
+            </li>
+            <li>{{=_('从上海火车西站前往场馆')}}
+                <ol>
+                    <li>{{=_('出站后步行至 地铁"上海西站"')}}</li>
+                    <li>{{=_('乘坐 地铁11号线(江苏路方向), 在 地铁"曹杨路站" 下车')}}</li>
+                    <li>{{=_('站内换乘 地铁3号线(江杨北路方向)')}}</li>
+                    <li>{{=_('乘坐 地铁3号线(江杨北路方向), 在 地铁"大柏树站" 下车(1号口出)')}}</li>
+                    <li>{{=_('向北步行至场馆即可')}}</li>
+                    <li>{{=_('注：打车约')}}<span class="bold">40{{=_('元')}}</span></li>
+                </ol>
+            </li>
+        </ul>
+    </div><!--END span8-->
+</div><!--END grid-->
+{{end}}
