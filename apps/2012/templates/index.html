@@ -17,102 +17,42 @@
             <div class="hero-content" id="first-hero">
                 <div class="row show-grid">
                     <div class="span-one-third" style="width:200px;">
-                        <img src="{{=url_for_static('images/PyConChina.png')}}" alt="PyCon China 2011 Logo" />
+                        <img src="{{=url_for_static('images/PyConChina2012.png')}}" alt="PyCon China 2011 Logo" />
                     </div>
                     <div class="span-two-thirds" style="width:600px; text-align:right;">
-                        <h1 style="border:none; padding-bottom:0;">PyCon China 2011</h1><h1>Is Here!</h1>
-                        <p>Dec 3, 2011 - Dec 4, 2011 9:30 AM - 6:00 PM</p>
-                        <p>Shanghai, China</p>
-                        <p>Webcast: <a href="http://live.topgeek.org">http://live.topgeek.org</a></p>
-                        <p>Time: 2011/12/3 9:30-2011/12/4 17:30</p>
+                        <h1 style="border:none; padding-bottom:0;">PyCon China 2012</h1><h1>Is Here!</h1>
+                        <p>Dec 20, 2012 9:00 AM - 6:00 PM</p>
+                        <p>Shanghai, China & Beijing, China</p>
+                        <p>Dec 20, 2012 1:00 PM - 6:00 PM</p>
+                        <p>Hangzhou, China</p>
                     </div>
                     <br />
-                    <p style="text-align:right;"><a class="btn primary large" href="/2011/registration ">{{=_('立即报名！')}} &raquo;</a></p>
+                    <p style="text-align:right;"><a class="btn primary large" href="/2012/registration ">{{=_('立即报名！')}} &raquo;</a></p>
                 </div><!--END grid-->
             </div><!--END hero-content-->
-
-            <div class="hero-content" id="second-hero">
-                <div class="row show-grid">
-                    <div class="span-one-third" style="width:200px;">
-                        <img src="{{=url_for_static('images/heroes/bambook.png')}}" alt="SNDA Bambook" />
-                    </div>
-                    <div class="span-two-thirds" style="width:600px; text-align:right;">
-                        <h2>{{=_('在今年的大会中')}}</h2>
-                        <h2>{{=_('我们会抽出2台Bambook')}}</h2>
-                        <h2>{{=_('作为参会者的奖品')}}</h2>
-                        <p>{{=_('人人都有机会，只要您已经注册')}}</p>
-                        <p>{{=_('还没有注册？点击下面的按钮立即前往注册页面。')}}</p>
-                    </div>
-                    <br />
-                    <p style="text-align:right;"><a class="btn primary large" href="/2011/registration ">{{=_('立即报名！')}} &raquo;</a></p>
-                </div><!--END grid-->
-            </div><!--END hero-content-->
-
-            <div class="hero-content" id="third-hero">
-                <div class="row show-grid">
-                    <div class="span4" style="text-align:center;">
-                        <img src="{{=url_for_static('images/heroes/guido.jpg')}}" width="250" alt="Guido van Rossum" />
-                        <strong>Guido van Rossum</strong>
-                    </div>
-                    <div class="span11" style="text-align:right; width:550px;">
-                        <p><strong>Christmas, 1989: </strong>Python was invented by<br/> Guido van Rossum.</p>
-                        <img src="{{=url_for_static('images/heroes/Python-old.png')}}" width="150" alt="Python old Logo" />
-                        <p><strong>January, 1994: </strong>Python 1.0 Released.</p>
-                        <p><strong>September 5, 2000: </strong>Python 1.6 Released.</p>
-                        <p><strong>October 16, 2000: </strong>Python 2.0 Released.</p>
-                        <img src="{{=url_for_static('images/heroes/Python-new.gif')}}" width="150" alt="Python new Logo" />
-                        <p><strong>December 3, 2008: </strong>Python 3.0 Released.</p>
-                        <p>......</p>
-                    </div>
-                </div><!--END grid-->
-            </div><!--END hero-content-->
-
-            <div class="hero-content" id="forth-hero">
-                <div class="row show-grid">
-                    <div class="span-one-third" style="text-align:center;">
-                        <h1 style="border:none; margin-left:10px;">Follow US on</h1>
-                        <img style="margin-top:50px;" src="http://img.t.sinajs.cn/t4/style/images/staticlogo/download/Brand_Group/PNG/Cn_En_Group/Sina_Weibo_Logo_RGB_C_E.png" width="250" alt="Sina Weibo Logo" />
-                    </div>
-                    <div class="span8" style="text-align:right;">
-                        <iframe width="350" height="310" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=350&amp;height=310&amp;fansRow=2&amp;ptype=1&amp;speed=0&amp;skin=1&amp;isTitle=1&amp;noborder=1&amp;isWeibo=1&amp;isFans=0&amp;uid=2464646734&amp;verifier=aad42972"></iframe>
-                    </div>
-                </div><!--END grid-->
-            </div><!--END hero-content-->
-
             <!--NEW hero insert here-->
         </div><!--END content-->
-        <div class="row show-grid" id="hero-selector">
+<!--        <div class="row show-grid" id="hero-selector">
             <div class="span1" id="first">1</div>
-            <div class="span1" id="second">2</div>
-            <div class="span1" id="third">3</div>
-            <div class="span1" id="forth">4</div>
         </div><!-- END row-->
     </div><!-- END hero-unit-->
 
     <div class="row show-grid underhero">
         <div class="span3"><h2 style="margin-top:10px;">{{=_('大会赞助商')}}</h2></div>
+        <div class="span3"><a target="_blank" href="http://www.kic.net.cn/"><img src="{{=url_for_static('images/sponsors/kic.jpg')}}" alt="{{_('创智天地')}}" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://www.google.com/"><img src="{{=url_for_static('images/sponsors/google.png')}}" alt="Google" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://www.tudou.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/tudou.png')}}" alt="Tudou" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.ccpgames.com/zh/home"><img src="{{=url_for_static('images/sponsors/ccp.gif')}}" alt="CCPGames" width="120" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.snda.com/"><img src="{{=url_for_static('images/sponsors/snda.png')}}" alt="{{=_('盛大网络')}}" width="150" /></a></div>
-    </div><!--END grid-->
-    <div class="row show-grid underhero">
-        <div class="span3">&nbsp;</div>
         <div class="span3"><a target="_blank" href="http://www.ijinshan.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/jinshan.gif')}}" alt="{{=_('金山网络')}}" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.douban.com/"><img style="margin-top:20px;" src="{{=url_for_static('images/sponsors/douban.gif')}}" alt="Douban" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.sina.com.cn/"><img src="{{=url_for_static('images/sponsors/sina.gif')}}" alt="Sina" width="150" /></a></div>
-        <div class="span3"><img src="{{=url_for_static('images/sponsors/xunpu.png')}}" alt="{{=_('湖州迅普')}}" width="150" /></div>
     </div><!--END grid-->
     <div class="row show-grid underhero">
         <div class="span3">&nbsp;</div>
-        <div class="span3"><img src="{{=url_for_static('images/sponsors/liubao.png')}}" alt="{{=_('遛宝')}}" width="150" /></div>
+        <div class="span3"><a target="_blank" href="http://www.douban.com/"><img style="margin-top:20px;" src="{{=url_for_static('images/sponsors/douban.gif')}}" alt="Douban" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="http://www.everydo.com/"><img src="{{=url_for_static('images/sponsors/everydo.gif')}}" alt="{{_('易度云办公')}}" width="120" /></a></div>
+        <div class="span3"><a target="_blank" href="http://www.snda.com/"><img src="{{=url_for_static('images/sponsors/snda.png')}}" alt="{{=_('盛大网络')}}" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://www.ituring.com.cn"><img style="margin-top:40px;" src="{{=url_for_static('images/sponsors/turingbook.gif')}}" alt="{{=_('图灵')}}" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.gensee.com/"><img style="margin-top:20px;" src="{{=url_for_static('images/sponsors/gensee.png')}}" alt="{{=_('Gensee 展视互动')}}" width="150" /></a></div>
-        <div class="span3"></div>
-        <div class="span3"></div>
     </div><!--END grid-->
 
-    <h2 style="margin-top:10px; display:inline-block; border:none;">{{=_('演讲嘉宾')}}</h2><small>&nbsp;&nbsp;<a href="/2011/schedule">{{('查看详细演讲内容及日程安排')}} &raquo;</a></small>
+    <h2 style="margin-top:10px; display:inline-block; border:none;">{{=_('演讲嘉宾')}}</h2><small>&nbsp;&nbsp;<a href="/2012/schedule">{{('查看详细演讲内容及日程安排')}} &raquo;</a></small>
     <div class="row show-grid underhero speakers">
         <div class="span8">
             <img src="{{=url_for_static('images/speakers/chenshixin.jpg')}}" alt="{{=_('陈世欣')}}" />
@@ -223,19 +163,19 @@
         <div class="span3"><h2 style="margin-top:10px;">{{=_('媒体支持')}}</h2></div>
         <div class="span3"><a target="_blank" href="http://www.infoq.com/"><img src="{{=url_for_static('images/sponsors/infoq.gif')}}" alt="InfoQ" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://www.csdn.net/"><img src="{{=url_for_static('images/sponsors/csdn.gif')}}" alt="CSDN" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.pycon.org/"><img src="{{=url_for_static('images/sponsors/pycon.gif')}}" alt="PyCon" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://gtugs.org/"><img src="{{=url_for_static('images/sponsors/gtug.gif')}}" alt="Google Technology User Groups" width="150" /></a></div>
-    </div><!--END grid-->
-    <div class="row show-grid underhero">
-        <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/cpyug.gif')}}" alt="{{=_('Python 中文社区')}}" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="http://topgeek.org/"><img src="{{=url_for_static('images/sponsors/topgeek.gif')}}" alt="TopGeek" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://woodpecker.org.cn/"><img src="{{=url_for_static('images/sponsors/woodpecker.gif')}}" alt="Woodpecker.org.cn {{=_('啄木鸟社区')}}" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="mailto:CPUG@googlegroups.com"><img src="{{=url_for_static('images/sponsors/google_groups.gif')}}" alt="{{=_('Google 网上论坛')}}" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="http://www.42qu.com/"><img src="{{=url_for_static('images/sponsors/42qu.jpg')}}" alt="{{=_('42区')}}" width="150" /></a></div>
     </div><!--END grid-->
     <div class="row show-grid underhero">
         <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" href="http://www.gensee.com/"><img src="{{=url_for_static('images/sponsors/gensee-cloud.gif')}}" alt="{{=_('Gensee 展视互动云会议')}}" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="javascript:;"><img src="{{=url_for_static('images/sponsors/GDGShanghai.jpg')}}" alt="GDG Shanghai" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="javascript:;"><img src="{{=url_for_static('images/sponsors/CPyUG.png')}}" alt="China Python User Group" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="javascript:;"><img src="{{=url_for_static('images/sponsors/beijing_pug.png')}}" alt="Beijing Python User Group" width="150" /></a></div>
+        <div class="span3"><a target="_blank" href="javascript:;"><img src="{{=url_for_static('images/sponsors/changsanjiao_pug.png')}}" alt="Changsan Jiao Python User Group" width="150" /></a></div>
+    </div><!--END grid-->
+    <div class="row show-grid underhero">
+        <div class="span3">&nbsp;</div>
+        <div class="span3"><a target="_blank" href="http://www.hz-gdg.org/"><img src="{{=url_for_static('images/sponsors/HZGDG.jpg')}}" alt="Hangzhou GDG" width="150" /></a></div>
         <div class="span3"></div>
         <div class="span3"></div>
         <div class="span3"></div>
