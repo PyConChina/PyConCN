@@ -9,7 +9,7 @@
 		<avatar>chenshixin.jpg</avatar>
 		<speech>大会致辞《Python让世界更精彩》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>沈崴</fullname>
 		<nickname></nickname>
@@ -19,7 +19,7 @@
 		<avatar>shenwai.jpg</avatar>
 		<speech>《Python ，通向未来之路》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>林伟</fullname>
 		<nickname></nickname>
@@ -29,7 +29,7 @@
 		<avatar>linwei.jpg</avatar>
 		<speech>《Python游戏开发探索与发现》</speech>
 	</speaker>
-	
+
     <speaker>
 	    <fullname>洪强宁</fullname>
 		<nickname></nickname>
@@ -39,7 +39,7 @@
 		<avatar>hongqiangning.jpg</avatar>
 		<speech>《Python在豆瓣的应用》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>Damien Hou</fullname>
 		<nickname></nickname>
@@ -49,7 +49,7 @@
 		<avatar>damienhou.jpg</avatar>
 		<speech>《用coro-thread技术来扩展web应用程序栈》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>潘俊勇</fullname>
 		<nickname></nickname>
@@ -59,7 +59,7 @@
 		<avatar>panjunyong.jpg</avatar>
 		<speech>《易度PaaS云开发平台技术内幕》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>黄冬</fullname>
 		<nickname></nickname>
@@ -69,7 +69,7 @@
 		<avatar>huangdong.jpg</avatar>
 		<speech>《大规模视频网站的计费与流量管理》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>陈正</fullname>
 		<nickname></nickname>
@@ -79,14 +79,14 @@
 		<avatar>chenzheng.jpg</avatar>
 		<speech>《SAE(Sina AppEngine) 的 python 版实现》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>Ryan Ye</fullname>
 		<nickname></nickname>
 		<company>Google</company>
 		<position>Tech Lead and Senior Software Engineer</position>
 		<desc>
-		<![CDATA[Specializing in developing web applications, social network games and iPhone apps. Interested in server architecture and game engines. 
+		<![CDATA[Specializing in developing web applications, social network games and iPhone apps. Interested in server architecture and game engines.
 		<br /><strong>Specialties:</strong>
 		<br />- Web application architecture design and performance optimization
         <br />- iPhone application development
@@ -99,7 +99,7 @@
 		<avatar>ryanye.jpg</avatar>
 		<speech>《用Python实现基于MySQL为后台的Schemaless数据存储系统》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>周琦</fullname>
 		<nickname>Zoom.Quiet</nickname>
@@ -109,7 +109,7 @@
 		<avatar>zhouqi.jpg</avatar>
 		<speech>快速演讲：《基于 MQ 解耦应用开发》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>李迎辉</fullname>
 		<nickname>Limodou</nickname>
@@ -119,7 +119,7 @@
 		<avatar>liyinghui.jpg</avatar>
 		<speech>《Web 框架开发思考与实践 — Uliweb》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>赖勇浩</fullname>
 		<nickname></nickname>
@@ -129,7 +129,7 @@
 		<avatar>laiyonghao.jpg</avatar>
 		<speech>《Python 之于 Webgame 的应用》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>王健</fullname>
 		<nickname></nickname>
@@ -139,7 +139,7 @@
 		<avatar>wangjian.jpg</avatar>
 		<speech>《中型角色扮演网络游戏服务器的 python 应用》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>王剑峰</fullname>
 		<nickname></nickname>
@@ -150,7 +150,7 @@
 		<avatar>wangjianfeng.jpg</avatar>
 		<speech>快速演讲：《OpenERP方案介绍和二次开发》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>刁立知</fullname>
 		<nickname>Adieu</nickname>
@@ -160,7 +160,7 @@
 		<avatar>diaolizhi.jpg</avatar>
 		<speech>快速演讲：《用Python改进迅雷离线 — A Python Successful Story》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>李俊东</fullname>
 		<nickname></nickname>
@@ -170,9 +170,7 @@
 		<avatar>lijundong.jpg</avatar>
 		<speech>快速演讲：《与Python一路走来》</speech>
 	</speaker>
-<<<<<<< HEAD:apps/2011/static/xml/speakers.xml
-=======
-	
+
 	<speaker>
 	    <fullname>林君</fullname>
 		<nickname></nickname>
@@ -182,7 +180,7 @@
 		<avatar>linjun.jpg</avatar>
 		<speech>快速演讲：《用Tornado搭建实时应用》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>孙大同</fullname>
 		<nickname>Dndx</nickname>
@@ -192,7 +190,7 @@
 		<avatar>sundatong.jpg</avatar>
 		<speech>快速演讲：《PyCon China官网的开发及搭建》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>Martin Baehr</fullname>
 		<nickname>Martin</nickname>
@@ -202,7 +200,7 @@
 		<avatar>martinbaehr.jpg</avatar>
 		<speech>快速演讲：《rosettacode.org - Learn and Practice Python》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>王浩飞</fullname>
 		<nickname>Haofei</nickname>
@@ -212,7 +210,7 @@
 		<avatar>wanghaofei.jpg</avatar>
 		<speech>快速演讲：《OpenStack: 基于Python编写的开源云计算平台》</speech>
 	</speaker>
-	
+
 	<speaker>
 	    <fullname>钟子飞</fullname>
 		<nickname>Zifei</nickname>
@@ -222,5 +220,4 @@
 		<avatar>zhongzifei.jpg</avatar>
 		<speech>快速演讲：《图形化大规模网络设备》</speech>
 	</speaker>
->>>>>>> enversion:apps/2011/static/xml/speakers-cn.xml
 </speakers>
