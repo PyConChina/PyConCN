@@ -2,14 +2,12 @@
 from uliweb import expose
 
 
-@expose('/2012/')
-def index():
-    return {}
-
-
 @expose('/2012')
 class SiteView(object):
-
+    @expose('')
+    def index(self):
+        return {}
+    
     def about(self):
         return dict(page=dict(pagename='about', cndata=''))
 
