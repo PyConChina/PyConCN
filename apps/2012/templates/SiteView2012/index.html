@@ -9,6 +9,11 @@
     LANG = "{{=_('cn')}}"
 </script>
 <script type="text/javascript" src="{{=url_for_static('js/index.js')}}"></script>
+<script>
+$(function(){
+    load_person({{=year}});
+});
+</script>
 {{end}}
 
 {{block content}}
