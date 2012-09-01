@@ -11,8 +11,11 @@ class SiteView(object):
     def about(self):
         return dict(page=dict(pagename='about', cndata=''))
 
-    def schedule(self):
-        return dict(page=dict(pagename='schedule', cndata=''))
+    def schedulebj(self):
+        return dict(page=dict(pagename='schedulebj', cndata=''))
+
+    def schedulesh(self):
+        return dict(page=dict(pagename='schedulesh', cndata=''))
 
     def collections(self):
         return dict(page=dict(pagename='collections', cndata=''))
