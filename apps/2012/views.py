@@ -3,7 +3,7 @@ from uliweb import expose
 
 
 @expose('/2012')
-class SiteView(object):
+class SiteView2012(object):
     @expose('')
     def index(self):
         return {}
