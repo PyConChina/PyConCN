@@ -3,10 +3,10 @@ from uliweb import expose
 
 
 @expose('/2012')
-class SiteView(object):
+class SiteView2012(object):
     @expose('')
     def index(self):
-        return {}
+        return {"year":2012, "title":"PyCon China 2012"}
     
     def about(self):
         return dict(page=dict(pagename='about', cndata=''))

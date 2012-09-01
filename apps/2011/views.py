@@ -4,15 +4,12 @@ from uliweb import expose
 from uliweb.orm import get_model
 from uliweb import request
 
-
-
-@expose('/2011/')
-def index():
-    return {} #'<h1>Hello, Uliweb</h1>'
-
 @expose('/2011')
 class siteView(object):
-        
+    @expose('')
+    def index(self):
+        return {"year":2011, "title":"PyCon China 2011"}
+    
     def about(self):
         
         return dict(page=dict(pagename='about',cndata='')) 
