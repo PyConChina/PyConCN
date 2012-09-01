@@ -8,7 +8,7 @@ from uliweb import request
 class siteView(object):
     @expose('')
     def index(self):
-        return {}
+        return {"year":2011, "title":"PyCon China 2011"}
     
     def about(self):
         
