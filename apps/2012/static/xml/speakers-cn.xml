@@ -145,9 +145,170 @@
 		<speech>《Python小团队不妨知道的技术》</speech>
 	</speaker>
 
+
+
+	<!--shanghai speaker-->
+	<speaker>
+	    <fullname>陈世欣</fullname>
+		<nickname>Sting Chen</nickname>
+		<company>2Style4You</company>
+		<position>CTO</position>
+		<desc>TopGeek社区创办人，现在全球领先的时尚科技公司2Style4You.com任CTO,1999年硕士毕业于上海交通大学计算机系，具有13年的互联网技术和互联网产品技术经验，还发起PMCamp社区等。也是ThinkinLAMP，ShanghaiOnRails，CPyUG，GTUG等社区的参与者或组织者。</desc>
+		<avatar>chenshixin.jpg</avatar>
+		<speech>大会致辞《Python世界》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>沈崴</fullname>
+		<nickname></nickname>
+		<company></company>
+		<position></position>
+		<desc>资深 python 开发者，高效能服务器 eurasia 的作者。湖州迅普信息技术有限公司创始人，广州遛宝计算机技术有限公司联合创始人、技术总监。</desc>
+		<avatar>shenwai.jpg</avatar>
+		<speech>《游戏逻辑编写技巧》《Python 产品构建与发布指南》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>林伟</fullname>
+		<nickname></nickname>
+		<company>网易</company>
+		<position>资深技术主管</position>
+		<desc>网易资深技术主管，18年程序设计经验。</desc>
+		<avatar>linwei.jpg</avatar>
+		<speech>《实战游戏客户端》</speech>
+	</speaker>
+
+    
+
+	<speaker>
+	    <fullname>潘俊勇</fullname>
+		<nickname></nickname>
+		<company>润普科技</company>
+		<position>创始人，CTO</position>
+		<desc>国内python社区最早的布道者之一，2002年开始创办Zope中文社区，同时也是润普公司创始人。2007年转向互联网软件，推出易度云办公(everydo.com)，专注企业云端办公方案。</desc>
+		<avatar>panjunyong.jpg</avatar>
+		<speech>《演进或革命 - 选型和架构的实践经验谈》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>黄冬</fullname>
+		<nickname></nickname>
+		<company>土豆网</company>
+		<position>技术副总裁</position>
+		<desc>黄冬现任土豆网技术副总裁，主持设计和运营过多个大型高容量产品和系统。也是中国FreeBSD、Python社区的发起者和积极参与者，啄木鸟社区的创始人之一。此外，他还积极帮助各种创业项目，创立了彩虹流量和xBaynet系列产品。</desc>
+		<avatar>huangdong.jpg</avatar>
+		<speech>《Python@土豆 （主题待定）》</speech>
+	</speaker>
+
+	
 	
 
+	<speaker>
+	    <fullname>赖勇浩</fullname>
+		<nickname></nickname>
+		<company>江苏盛典</company>
+		<position>技术总监</position>
+		<desc>网游行业资深从业者，有丰富的 python 游戏开发经验。由其担纲的代表游戏有，新一代 MMOCAT大作《天下盛境》等。是珠三角技术沙龙的创办人和组委之一。</desc>
+		<avatar>laiyonghao.jpg</avatar>
+		<speech>《网游开发中的 Python 组件》</speech>
+	</speaker>
 
+	<speaker>
+	    <fullname>王健</fullname>
+		<nickname></nickname>
+		<company>广州黑崖网络科技有限公司</company>
+		<position>总经理兼技术总监</position>
+		<desc>广州黑崖网络科技有限公司总经理兼技术总监。网游行业资深从业者，代表作品有《富甲西游》，《喂哇游3D社区》，《月光之城online》等。</desc>
+		<avatar>wangjian.jpg</avatar>
+		<speech>《自动化即时战斗游戏解决方案》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>王剑峰</fullname>
+		<nickname></nickname>
+		<company>OpenERP</company>
+		<position></position>
+		<desc>2005年接触开源ERP，对各个开源ERP产品均有涉猎。主持参与了weberp、openbravo、openerp的汉化工作。2007年开始做OpenERP（原TinyERP）的本地化和推广。注重基于开源+威客的商业服务模式即实现程序员参与开源的长短期收益。现集中精力做OpenERP的远程二次开发团队，Python做ERP二次开发很爽，乐在其中......是http://openerp-china.org/ 站长和http://code.google.com/p/cloudteam/ 项目经理
+微博：http://weibo.com/opennewbazaar 爱好：ERP，开源，威客</desc>
+		<avatar>wangjianfeng.jpg</avatar>
+		<speech>《人人可以化半小时开发一个全功能OpenERP模块》</speech>
+	</speaker>
+
+	
+	
+	
+	<speaker>
+	    <fullname>许智翔</fullname>
+		<nickname></nickname>
+		<company></company>
+		<position></position>
+		<desc>许智翔(Shell909090)，现任杭州齐治上海分公司程序员，python/c程序员，有7年工作经验，擅长系统/安全，主要活跃在shlug和cpug社区。他曾主持过多个大型系统的设计和开发，是python-segment和uniproxy的作者，也是python-formalchemy和python-snappy的debian包维护者。他喜欢太极，篮球和潜水，有兴趣的可以通过邮件或email联系他。</desc>
+		<avatar></avatar>
+		<speech>元编程在redis orm中的应用</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>黄峥峼</fullname>
+		<nickname>Mark Huang</nickname>
+		<company></company>
+		<position></position>
+		<desc>黄峥峼（Mark Huang）来自新加坡，现在在杭州一间小德国企业工作。 他已经code python四年了。 前一份工作在Lucasfilm Entertainment Company （卢卡斯电影有限公司）用Python写内部的Web Application。从Pylons Web 框架学起。他说：“我特别喜欢Python； 恨死Java。”</desc>
+		<avatar></avatar>
+		<speech>《Pyramid Web Framework for Advanced Web Applications》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>飞龙非龙</fullname>
+		<nickname></nickname>
+		<company></company>
+		<position></position>
+		<desc>飞龙非龙（李飞林），Python技术博客 http://feilong.me 博主，Tornado 开源站点 http://poweredsites.org 作者，国内Tornado传教士。</desc>
+		<avatar></avatar>
+		<speech>《用Tornado开发RESTful API应用》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>董诣</fullname>
+		<nickname></nickname>
+		<company></company>
+		<position></position>
+		<desc> 董诣，曾就职于五分钟和盛大，正在开发3D flash页游&lt;深渊&gt;，负责开发游戏服务器端功能以及建立研发体系等工作。微博：http://weibo.com/dongyi1110 </desc>
+		<avatar></avatar>
+		<speech>《网页游戏的跨界开发》</speech>
+	</speaker>
+
+	
+	<speaker>
+	    <fullname>于夏桥</fullname>
+		<nickname></nickname>
+		<company></company>
+		<position></position>
+		<desc>于夏桥，来自浙江农林大学网络中心</desc>
+		<avatar></avatar>
+		<speech>《使用 Python 和 Django 建设维护学校门户》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname>吴晗</fullname>
+		<nickname></nickname>
+		<company></company>
+		<position></position>
+		<desc>吴晗，系统工程师，目前在淘宝做应用运维方面的工作，在linux系统运维方面有比较丰富的经验</desc>
+		<avatar></avatar>
+		<speech>《python在linux运维中的应用》</speech>
+	</speaker>
+
+	<speaker>
+	    <fullname></fullname>
+		<nickname></nickname>
+		<company></company>
+		<position></position>
+		<desc></desc>
+		<avatar></avatar>
+		<speech></speech>
+	</speaker>
+
+	
 
 
 </speakers>
