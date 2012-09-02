@@ -1,7 +1,7 @@
 #coding=utf-8
 from __future__ import with_statement
 from uliweb import expose
-from uliweb.orm import get_model
+#from uliweb.orm import get_model
 from uliweb import request
 
 @expose('/2011')
