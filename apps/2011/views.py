@@ -4,7 +4,7 @@ from uliweb import expose
 #from uliweb.orm import get_model
 from uliweb import request
 
-pagetitle = "PyCon China 2012"
+pagetitle = "PyCon China 2011"
 @expose('/2011')
 class siteView(object):
     @expose('')

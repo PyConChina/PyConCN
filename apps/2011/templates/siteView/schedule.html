@@ -1,4 +1,9 @@
 {{extend "bootstrap_layout.html"}}
+
+{{block menu}}
+  {{menu('home','MENUS2011')}}
+{{end}}
+
 {{block meta}}
 <script type="text/javascript" src="{{=url_for_static('js/bootstrap-twipsy.js')}}"></script>
 <script type="text/javascript" src="{{=url_for_static('js/bootstrap-popover.js')}}"></script>
