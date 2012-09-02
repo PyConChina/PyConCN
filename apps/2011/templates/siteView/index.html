@@ -1,5 +1,9 @@
 {{extend "bootstrap_layout.html"}}
 
+{{block menu}}
+  {{menu('home','MENUS2011')}}
+{{end}}
+
 {{block meta}}
 <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/index.css')}}" />
 <script type="text/javascript" src="{{=url_for_static('js/QTransform.js')}}"></script>

@@ -1,5 +1,9 @@
 {{extend "bootstrap_layout.html"}}
 {{block title}}PyCon China 2012{{end}}
+
+{{block menu}}
+  {{menu('home','MENUS2012')}}
+{{end}}
 {{block meta}}
 <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/index.css')}}" />
 <script type="text/javascript" src="{{=url_for_static('js/QTransform.js')}}"></script>
@@ -34,7 +38,7 @@ $(function(){
                     <p style="text-align:right;"><a class="btn primary large" href="/2012/registration ">{{=_('立即报名！')}} &raquo;</a></p>
                 </div><!--END grid-->
             </div><!--END hero-content-->
-            
+
             <div class="hero-content" id="second-hero">
                 <div class="row show-grid">
                     <div class="span4" style="text-align:center;">
