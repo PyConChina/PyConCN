@@ -1,5 +1,9 @@
 {{extend "bootstrap_layout.html"}}
 
+{{block menu}}
+  {{menu('home','MENUS2012')}}
+{{end}}
+
 {{block meta}}
 <script type="text/javascript" src="{{=url_for_static('js/venue.js')}}"></script>
 {{end}}
