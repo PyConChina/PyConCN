@@ -1,5 +1,9 @@
 {{extend "bootstrap_layout.html"}}
 {{block title}}PyCon China 2012{{end}}
+
+{{block menu}}
+  {{menu('home','MENUS2012')}}
+{{end}}
 {{block meta}}
 <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/index.css')}}" />
 <script type="text/javascript" src="{{=url_for_static('js/QTransform.js')}}"></script>
@@ -27,19 +31,53 @@ $(function(){
                     <div class="span-two-thirds" style="width:600px; text-align:right;">
                         <h1 style="border:none; padding-bottom:0;">PyCon China 2012</h1><h1>Is Here!</h1>
                         <p>Dec 20, 2012 9:00 AM - 6:00 PM</p>
-                        <p>Shanghai, China & Beijing, China</p>
-                        <p>Dec 20, 2012 1:00 PM - 6:00 PM</p>
-                        <p>Hangzhou, China</p>
+                        <p>Shanghai, China + Beijing, China</p>
+                        <p>Dec 20, 2012 9:00 PM - 6:00 PM</p>
                     </div>
                     <br />
                     <p style="text-align:right;"><a class="btn primary large" href="/2012/registration ">{{=_('立即报名！')}} &raquo;</a></p>
                 </div><!--END grid-->
             </div><!--END hero-content-->
+
+            <div class="hero-content" id="second-hero">
+                <div class="row show-grid">
+                    <div class="span4" style="text-align:center;">
+                        <img src="{{=url_for_static('images/heroes/guido.jpg')}}" width="250" alt="Guido van Rossum" />
+                        <strong>Guido van Rossum</strong>
+                    </div>
+                    <div class="span11" style="text-align:right; width:550px;">
+                        <p><strong>Christmas, 1989: </strong>Python was invented by<br/> Guido van Rossum.</p>
+                        <img src="{{=url_for_static('images/heroes/Python-old.png')}}" width="150" alt="Python old Logo" />
+                        <p><strong>January, 1994: </strong>Python 1.0 Released.</p>
+                        <p><strong>September 5, 2000: </strong>Python 1.6 Released.</p>
+                        <p><strong>October 16, 2000: </strong>Python 2.0 Released.</p>
+                        <img src="{{=url_for_static('images/heroes/Python-new.gif')}}" width="150" alt="Python new Logo" />
+                        <p><strong>December 3, 2008: </strong>Python 3.0 Released.</p>
+                        <p>......</p>
+                    </div>
+                </div><!--END grid-->
+            </div><!--END hero-content-->
+
+            <div class="hero-content" id="third-hero">
+                <div class="row show-grid">
+                    <div class="span-one-third" style="text-align:center;">
+                        <h1 style="border:none; margin-left:10px;">Follow US on</h1>
+                        <img style="margin-top:50px;" src="http://img.t.sinajs.cn/t4/style/images/staticlogo/download/Brand_Group/PNG/Cn_En_Group/Sina_Weibo_Logo_RGB_C_E.png" width="250" alt="Sina Weibo Logo" />
+                    </div>
+                    <div class="span8" style="text-align:right;">
+                        <iframe width="350" height="310" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=350&amp;height=310&amp;fansRow=2&amp;ptype=1&amp;speed=0&amp;skin=1&amp;isTitle=1&amp;noborder=1&amp;isWeibo=1&amp;isFans=0&amp;uid=2464646734&amp;verifier=aad42972"></iframe>
+                    </div>
+                </div><!--END grid-->
+            </div><!--END hero-content-->
+
+
             <!--NEW hero insert here-->
-        </div><!--END content-->
-<!--        <div class="row show-grid" id="hero-selector">
+        </div><!--END content--><div class="row show-grid" id="hero-selector">
             <div class="span1" id="first">1</div>
-        </div><!-- END row-->
+            <div class="span1" id="second">2</div>
+            <div class="span1" id="third">3</div>
+        </div>
+     <!-- END row-->
     </div><!-- END hero-unit-->
 
     <div class="row show-grid underhero">

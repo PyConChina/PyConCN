@@ -1,6 +1,6 @@
 {{
-def menu(current='home'):
-    for id, caption, link in settings.LAYOUT.MENUS:
+def menu(current='home', menu=''):
+    for id, caption, link in settings.LAYOUT.get(menu or 'MENUS'):
         if id == current:
             out.write('<li class="active"><a href="%s"><span>%s</span></a></li>' % (link, caption), escape=False)
         else:
