@@ -16,7 +16,6 @@
 <script>
 function load_person(year){
     $.get('/'+year+'/speakers', function(data){
-    console.log(data);
         var $imgs = $(".speakers img");
         $imgs.each(function(i, e){
             var speaker;
