@@ -27,3 +27,7 @@ class SiteView2012(object):
 
     def volunteer(self):
         return dict(page=dict(pagename='volunteer', cndata=''),title=pagetitle)
+
+    def speakers(self):
+        from person import data
+        return json(data)

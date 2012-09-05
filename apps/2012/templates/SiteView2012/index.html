@@ -14,6 +14,39 @@
 </script>
 <script type="text/javascript" src="{{=url_for_static('js/index.js')}}"></script>
 <script>
+function load_person(year){
+    $.get('/'+year+'/speakers', function(data){
+    console.log(data);
+        var $imgs = $(".speakers img");
+        $imgs.each(function(i, e){
+            var speaker;
+            var fullname = $(e).attr('alt');
+            for (var i=0; i<data.length; i++){
+                if (data[i].fullname == fullname){
+                    speaker = data[i];
+                    break;
+                }
+            }
+            var html = "";
+            if (speaker.nickname){
+                html += '<h4>' + speaker.nickname + '(' + fullname + ')</h4>';
+            }else{
+                html += '<h4>' + fullname + '</h4>';
+            }
+            html += "<strong>"+"{{=_('主题：')}}"+"</strong>" + speaker.speech + '<br />';
+            if (speaker.company){
+                html += "<strong>"+"{{=_('组织：')}}"+"</strong>" + speaker.company + '<br />';
+            }
+            if (speaker.position){
+                html += "<strong>"+"{{=_('头衔：')}}"+"</strong>" + speaker.position + '<br />';
+            }
+            html += "<strong>"+"{{=_('简介：')}}"+"</strong>" + speaker.desc;
+            html += '<div style="clear:both; "></div>'
+            $(html).insertAfter(e)
+        })
+    })
+}
+
 $(function(){
     load_person({{=year}});
 });
