@@ -26,7 +26,7 @@
 		<company>暴风影音</company>
 		<position>搜索研发组主管</position>
 		<desc>暴风影音在线研发部-搜索研发组主管</desc>
-		<avatar></avatar>
+		<avatar>tongxiaojun.jpg</avatar>
 		<speech>《Python配合Hadoop 快速搭建开放型大数据仓库分析平台》</speech>
 	</speaker>
 
@@ -110,7 +110,7 @@
 		<position></position>
 		<desc>对角巷创始人, 好看簿创始人之一. 微软2004年评出的全球56个架构师MVP中唯一的中国人. 他对历史和艺术有浓厚的兴趣, 相信结构的力量. 
 在不工作的时候, 他喜欢品南方绿茶,听各式音乐,看历史/经济/科幻/技术书籍. 曾经是半职业游泳运动员的他更喜欢绕着玉渊潭跑上15公里,出一身汗. 他还喜欢打篮球,中投自认还不赖.</desc>
-		<avatar></avatar>
+		<avatar>alexdong.jpg</avatar>
 		<speech>《国外 Py 社区的组织以及技术发展特点》</speech>
 	</speaker>
 
@@ -253,7 +253,7 @@
 		<company></company>
 		<position></position>
 		<desc>黄峥峼（Mark Huang）来自新加坡，现在在杭州一间小德国企业工作。 他已经code python四年了。 前一份工作在Lucasfilm Entertainment Company （卢卡斯电影有限公司）用Python写内部的Web Application。从Pylons Web 框架学起。他说：“我特别喜欢Python； 恨死Java。”</desc>
-		<avatar></avatar>
+		<avatar>markhuang.jpg</avatar>
 		<speech>《Pyramid Web Framework for Advanced Web Applications》</speech>
 	</speaker>
 
