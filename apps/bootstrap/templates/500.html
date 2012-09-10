@@ -1,10 +1,12 @@
 {{extend "bootstrap_layout.html"}}
 
+{{block title}}{{=_('出错了')}}{{end}}
+
 {{block content}}
-        <h1>服务器出错了</h1>
+        <h1>{{=_('服务器出错了'}}</h1>
         <div class="alert-message block-message error">
-        <p><strong>服务器出错了</strong> 我们十分抱歉，程序员将会尽快修复，您可以：</p>
+        <p><strong>{{=_('服务器出错了'}}</strong> {{=_('我们十分抱歉，程序员将会尽快修复，您可以：'}}</p>
         <br />
-        <a href="{{=request.referrer or '/'}}" class="btn large">回到上一页</a><span style="font-size:20px;">&nbsp;&nbsp;或者&nbsp;&nbsp;</span><a href="/" class="btn large">回到首页</a>
+        <a href="{{=request.referrer or '/'}}" class="btn large">{{=_('回到上一页'}}</a><span style="font-size:20px;">&nbsp;&nbsp;{{=_('或者'}}&nbsp;&nbsp;</span><a href="/" class="btn large">{{=_('回到首页'}}</a>
       </div>
 {{end}}
