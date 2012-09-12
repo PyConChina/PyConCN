@@ -5,7 +5,7 @@
     Version: 2011.11.21
 */
 $(function(){
-	$.get('/static/xml/speakers-' + LANG + '.xml', function(data){
+	$.get('/static/xml/speakers-2011-' + LANG + '.xml', function(data){
 		speakers = data
 		var $tds = $("tr td:nth-child(3)")
 		$(data).find("speaker").each(function(i, e){

@@ -12,10 +12,10 @@ class SiteView2012(object):
         return dict(page=dict(pagename='about', cndata=''),title=pagetitle)
 
     def schedulebj(self):
-        return dict(page=dict(pagename='schedulebj', cndata=''),title=pagetitle)
+        return dict(page=dict(pagename='schedulebj', cndata=''),title=pagetitle, year=2012)
 
     def schedulesh(self):
-        return dict(page=dict(pagename='schedulesh', cndata=''),title=pagetitle)
+        return dict(page=dict(pagename='schedulesh', cndata=''),title=pagetitle, year=2012)
 
     def collections(self):
         return dict(page=dict(pagename='collections', cndata=''),title=pagetitle)

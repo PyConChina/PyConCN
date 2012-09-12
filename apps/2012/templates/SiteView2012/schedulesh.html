@@ -10,8 +10,8 @@
 <script type="text/javascript">
     LANG = "{{=_('cn')}}"
 </script>
-<script type="text/javascript" src="{{=url_for_static('js/schedule.js')}}"></script>
 <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/schedule.css')}}" />
+{{include "inc_schedule.html"}}
 {{end}}
 {{block content}}
 <h1>{{=_('上海日程安排')}}</h1>
