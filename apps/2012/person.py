@@ -5,12 +5,22 @@ data = [
 
     {
 	    'fullname':_('Lu Linqing'),
-		'nickname':_('Lu Linqing'),
+		'nickname':_(''),
 		'company':_('Red Hat'),
 		'position':_('Quality Engineer'),
 		'desc':_('Lu Linqing , Lu is a Cloud Product Evangelist for OpenShift (PaaS by Red Hat) and has also been a Quality Engineer of Cloud/Virtualization Products in Red Hat for numerous years. Lu is also a Red Hat Certified Engineers (RHCE).'),
 		'avatar':_(''),
 		'speech':_('《OpenShift - Develop and scale apps in the cloud 》'),
+	},
+
+	{
+	    'fullname':_('刘海锋'),
+		'nickname':_(''),
+		'company':_('盛大'),
+		'position':_('云引擎开发经理'),
+		'desc':_('刘海锋，2011年底加入盛大云计算公司，目前担任PaaS产品云引擎的开发经理。毕业于中国科技大学，之前曾任职于百度和雅虎北京研发中心。技术兴趣集中在分布式系统与云计算产品研发。'),
+		'avatar':_(''),
+		'speech':_('《盛大云引擎 – 发展中的PaaS平台》'),
 	},
 
 	{
@@ -114,7 +124,7 @@ data = [
 	},
 
 	{
-	    'fullname':_('王娇'),
+	    'fullname':_('曾庆生'),
 		'nickname':_(''),
 		'company':_('3Gland '),
 		'position':_(''),
