@@ -1,0 +1,38 @@
+<script>
+$(function(){
+    $.get('/'+ {{=year}} +'/speakers', function(data){
+        var $tds = $("tr td:nth-child(3)");
+        $tds.each(function(i, e){
+            var speaker;
+            var fullname = $(e).text();
+            for (var i=0; i<data.length; i++){
+                if (data[i].fullname.indexOf(fullname) != -1){
+                    speaker = data[i];
+                    $(e).popover({
+                        title: fullname, 
+                        content: function(){
+                            var tip = ""
+                            var hovername = fullname;
+                            if (speaker.avatar){
+                                tip += '<img src="/static/images/speakers/' + speaker.avatar + '" alt="' + speaker.fullname + '" />';
+                            }else{
+                                tip += '<img src="/static/images/speakers/nopic.gif" alt="' + speaker.fullname + '" />';
+                            }
+                            if (speaker.company){
+                                tip += "<strong>{{=_('组织：')}}</strong>" + speaker.company + '<br />';
+                            }
+                            if (speaker.position){
+                                tip += "<strong>{{=_('头衔：')}}</strong>" + speaker.position + '<br />';
+                            }
+                            tip += "<strong>{{=_('简介：')}}</strong>" + speaker.desc;
+                            tip += '<div style="clear:both; "></div>';
+                            return tip;
+                        }, 
+                        html:true, live:true}
+                    );
+                }
+            }
+        });
+    });
+});
+</script>
