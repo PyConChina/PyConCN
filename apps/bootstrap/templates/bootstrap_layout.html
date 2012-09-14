@@ -1,21 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="author" content="Dndx (Datong Sun)" />
 <title>{{block title}}{{=title}}{{end}}</title>
-<link rel="stylesheet" type="text/css" href="{{=url_for_static('css/bootstrap.min.css', ver='1.3.0')}}" />
+<link rel="stylesheet" type="text/css" href="{{=url_for_static('css/bootstrap.min.css', ver='2.0.4')}}" />
 <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/layout.css')}}" />
 <!--[if lt IE 9]>
 <script type="text/javascript" src="{{=url_for_static('js/ie9-js.js', ver='2.1b4')}}"></script>
 <![endif]-->
-<script type="text/javascript" src="{{=url_for_static('js/jquery.min.js', ver='1.7.1')}}"></script>
+<script type="text/javascript" src="{{=url_for_static('js/jquery.min.js', ver='1.7.2')}}"></script>
 <script type="text/javascript" src="{{=url_for_static('js/jquery.cookie.js', ver='2011.7.8')}}"></script>
-<script type="text/javascript" src="{{=url_for_static('js/bootstrap-dropdown.js')}}"></script>
-<script type="text/javascript" src="{{=url_for_static('js/bootstrap-alerts.js')}}"></script>
+<script type="text/javascript" src="{{=url_for_static('js/bootstrap.min.js', ver='2.0.4')}}"></script>
 <script type="text/javascript" src="{{=url_for_static('js/layout.js')}}"></script>
-<!--<link rel="stylesheet/less" href="{{=url_for_static('less/bootstrap.less')}}">
-<script src="{{=url_for_static('js/less-1.3.0.min.js')}}"></script>-->
 
 {{block meta}}
 {{end}}
@@ -24,32 +21,39 @@
 <body>
 {{include "menu.html"}}
 {{block topbar}}
-    <div class="topbar">
-      <div class="fill">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
         <div class="container">
-          <a style="background:url({{=settings.LAYOUT.LOGO}}) no-repeat; padding-left:45px;" class="brand" href="/">{{block title}}{{=title}}{{end}}</a>
-          {{block nav}}
-          <ul class="nav">
-            {{block menu}}
-            {{menu('home')}}
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" style="background:url({{=settings.LAYOUT.LOGO}}) no-repeat; padding-left:45px;" class="brand" href="/">{{block title}}{{=title}}{{end}}</a>
+          <div class="nav-collapse">
+            {{block nav}}
+            <ul class="nav">
+              {{block menu}}
+              {{menu('home')}}
+              {{end}}
+            </ul>
             {{end}}
-          </ul>
-          {{end}}
-          <ul class="nav secondary-nav">
-              <li class="dropdown">
-                  <a class="dropdown-toggle">Site Language</a>
-                  <ul class="dropdown-menu">
-                      <li><a class="cn">简体中文</a></li>
-                      <li class="divider"></li>
-                      <li><a class="en">English</a></li>
-                  </ul>
-              </li>
-          </ul>
-        </div><!--END container-->
-      </div><!--END fill-->
-    </div><!--END topbar-->
-    {{end}}
-<div class="container" id="main_container">
+            <ul class="nav pull-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Site Language <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="cn">简体中文</a></li>
+                        <li class="divider"></li>
+                        <li><a class="en">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+{{end}}
+<div class="container-fluid" id="main_container">
     <!--[if lt IE 7]><div style=" clear: both; height: 59px; padding:0 0 0 15px; position: relative;"> <a target="_blank" href="http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.cn/img/banner/upgrade.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
     {{if not True:}} <!--In what condition to show messages-->
         {{include "inc_show_messages.html"}}
@@ -57,11 +61,17 @@
         {{message('<b>Test:</b> testest.', 'success')}}
     {{pass}}
 
+    {{block container}}
+    <div class="container">
     {{block content}}
     {{end}}
+    </div>
+    {{end}}
+    <div class="container">
         <div id="footer">
             {{<< settings.get_var('LAYOUT/COPYRIGHT')}}
         </div><!--END footer-->
+    </div>
     </div><!--END container-->
 <script type="text/javascript">
 

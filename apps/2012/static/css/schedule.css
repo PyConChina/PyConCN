@@ -7,6 +7,6 @@
 @charset "utf-8";
 td.date{white-space:nowrap; vertical-align:middle; font-weight:bold;}
 td.desc{white-space:nowrap; cursor:pointer; text-decoration:underline;}
-.popover .inner{width:400px;}
-.popover .inner img{width:100px; float:left; margin-right:1em;}
+.popover .popover-inner{width:400px;}
+.popover .popover-inner img{width:100px; float:left; margin-right:1em;}
 .break td{background-color:#FFAE5E !important;}

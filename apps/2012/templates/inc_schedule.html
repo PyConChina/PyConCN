@@ -12,7 +12,6 @@ $(function(){
                         title: fullname, 
                         content: function(){
                             var tip = ""
-                            var hovername = fullname;
                             if (speaker.avatar){
                                 tip += '<img src="/static/images/speakers/' + speaker.avatar + '" alt="' + speaker.fullname + '" />';
                             }else{
@@ -27,9 +26,9 @@ $(function(){
                             tip += "<strong>{{=_('简介：')}}</strong>" + speaker.desc;
                             tip += '<div style="clear:both; "></div>';
                             return tip;
-                        }, 
-                        html:true, live:true}
-                    );
+                        },
+                        html: true
+                    });
                 }
             }
         });

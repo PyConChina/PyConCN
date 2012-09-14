@@ -7,8 +7,67 @@
 @charset "utf-8";
 #main_container {margin-top:45px;}
 #footer {margin-top: 17px; padding-top: 17px; border-top: 1px solid #eee;}
-h1, h2{border-bottom: 1px solid #EEEEEE; padding:18px 0;}
+h1, h2{padding:18px 0;}
+h4{margin-bottom:12px; font-size:18px;}
 .loginbar{color:#BFBFBF;}
 .loginbar span{color:#FFF; margin-right:1em;}
 .bold{font-weight:bold;}
 li.dropdown a{cursor:pointer;}
+
+
+h2.ribbon
+{
+	position: relative;
+	width: 50%;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 6px 20px 6px 71px;
+	margin: 30px 10px 18px -71px;
+	color: #fff;
+	background-color: #56aaff;
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+}
+
+h2.ribbon:before, h2.ribbon:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+h2.ribbon:before
+{
+	width: 30px;
+	left: -30px;
+	top: 12px;
+	border-width: 20px 10px;
+	border-style: solid;
+	border-color: #999 #999 #999 transparent;
+}
+
+h2.ribbon.simple:before
+{
+	display: none;
+}
+
+h2.ribbon.flat:before
+{
+	width: 0px;
+	left: auto;
+	right: -2px;
+	top: 4px;
+	border-color: transparent #fff transparent transparent;
+}
+
+h2.ribbon:after
+{
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #666 #666 transparent transparent;
+}

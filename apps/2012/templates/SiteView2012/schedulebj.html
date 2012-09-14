@@ -1,12 +1,10 @@
 {{extend "bootstrap_layout.html"}}
 
 {{block menu}}
-  {{menu('home','MENUS2012')}}
+  {{menu('schedulebj','MENUS2012')}}
 {{end}}
 
 {{block meta}}
-<script type="text/javascript" src="{{=url_for_static('js/bootstrap-twipsy.js')}}"></script>
-<script type="text/javascript" src="{{=url_for_static('js/bootstrap-popover.js')}}"></script>
 <script type="text/javascript">
     LANG = "{{=_('cn')}}"
 </script>
@@ -14,8 +12,8 @@
 {{include "inc_schedule.html"}}
 {{end}}
 {{block content}}
-<h1>{{=_('北京日程安排')}}</h1>
-<table class="zebra-striped">
+<h2 class="ribbon flat">{{=_('北京日程安排')}}</h2>
+<table class="table table-striped table-bordered">
         <tr>
             <th>{{=_('日期')}}</th>
             <th>{{=_('时间')}}</th>
@@ -109,7 +107,7 @@
         <tr>
             <td>09:30-09:35</td>
             <td>{{=_('大会致辞  更加欢乐的一年')}}</td>
-            <td>{{=_('Zoom.Quiet')}}</td>
+            <td id="zm">{{=_('周琦')}}</td>
             <td><a href="#"></a></td>
         </tr>
         <tr>
@@ -205,7 +203,7 @@
         <tr>
             <td>15:30-16:00</td>
             <td>{{=_('快速演讲：《国外 Py 社区的组织以及技术发展特点》')}}</td>
-            <td>{{=_('Alex Dong')}}</td>
+            <td>{{=_('董洵')}}</td>
             <td><!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></a></td>
         </tr>
 
@@ -219,7 +217,7 @@
         <tr>
             <td>16:15-16:30</td>
             <td>{{=_('快速演讲：《又一年, UliPad+UliWeb 发展紀事儿》')}}</td>
-            <td>{{=_('Limodou')}}</td>
+            <td>{{=_('李迎辉')}}</td>
             <td><!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></a></td>
         </tr>
 
