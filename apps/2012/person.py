@@ -15,6 +15,16 @@ data = [
 
 
     {
+	    'fullname':_('程辉'),
+		'nickname':_(''),
+		'company':_('SINA'),
+		'position':_(''),
+		'desc':_(''),
+		'avatar':'',
+		'speech':_('《OpenStack 在SAE》'),
+	},
+
+    {
 	    'fullname':_('杜玉杰'),
 		'nickname':_('Ben'),
 		'company':_('九州云'),
