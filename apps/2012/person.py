@@ -13,13 +13,45 @@ data = [
 		'speech':_('《OpenShift - Develop and scale apps in the cloud 》'),
 	},
 
+
+    {
+	    'fullname':_('杜玉杰'),
+		'nickname':_('Ben'),
+		'company':_('九州云'),
+		'position':_(''),
+		'desc':_(''),
+		'avatar':'ben-duyujie.jpg',
+		'speech':_('《在中国如何开展OpenStack 社区》'),
+	},
+
+    {
+	    'fullname':_('陈峰'),
+		'nickname':_(''),
+		'company':_('SINA'),
+		'position':_(''),
+		'desc':_(''),
+		'avatar':'',
+		'speech':_('《...待定》'),
+	},
+
+    {
+	    'fullname':_('张沈鹏'),
+		'nickname':_('张教主'),
+		'company':_('42区'),
+		'position':_(''),
+		'desc':_('前豆瓣工程师,前美空工程师,42区创始人!'),
+		'avatar':'zsp.jpg',
+		'speech':_('《42qu.com 代码 & 架构 导读》'),
+	},
+
+
 	{
 	    'fullname':_('刘海锋'),
 		'nickname':_(''),
 		'company':_('盛大'),
 		'position':_('云引擎开发经理'),
 		'desc':_('刘海锋，2011年底加入盛大云计算公司，目前担任PaaS产品云引擎的开发经理。毕业于中国科技大学，之前曾任职于百度和雅虎北京研发中心。技术兴趣集中在分布式系统与云计算产品研发。'),
-		'avatar':'',
+		'avatar':'snda-liuhaifeng-200x200.jpg',
 		'speech':_('《盛大云引擎 – 发展中的PaaS平台》'),
 	},
 
@@ -128,8 +160,8 @@ data = [
 		'nickname':_(''),
 		'company':_('3Gland '),
 		'position':_(''),
-		'desc':_(''),
-		'avatar':'',
+		'desc':_('2006年加入三技科技, 从事网络相关工作, 个人长期研究大陆互联网结构, 及解决大陆复杂网络环境中的快速网络访问、多线路相关方案, 为创业型公司提供个性化高性价比的解决方案.'),
+		'avatar':'zenqinsheng-200px.jpg',
 		'speech':_('《灵活的IDC业务中如何进行Python应用部属》'),
 	},
 
@@ -285,7 +317,7 @@ data = [
 		'company':_(''),
 		'position':_(''),
 		'desc':_('于夏桥，来自浙江农林大学网络中心'),
-		'avatar':'',
+		'avatar':'yuxiaqiao.jpg',
 		'speech':_('《使用 Python 和 Django 建设维护学校门户》'),
 	},
 
