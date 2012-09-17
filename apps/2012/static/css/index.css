@@ -8,7 +8,7 @@
 .hero-unit{overflow:hidden;}
 #hero-selector{float:right; position:relative; top:25px;}
 #content{width:99999px; position:relative;}
-.hero-content{float:left; width:820px; margin-right:60px;}
+.hero-content{float:left; width:1280px; margin-right:60px;}
 #hero-selector.show-grid [class*="span"] {
     background: none repeat scroll 0 0 #EEEEEE;
     border-radius: 3px 3px 3px 3px;
@@ -49,7 +49,9 @@
 #third-hero{margin-left:20px;}
 #third-hero img{margin-bottom:10px;}
 
-h1{font-family:Stencil,"Helvetica Neue",Helvetica,Arial,sans-serif;}
+.hero-content h1{font-family:Stencil,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:48px;}
+.hero-content h2{margin-top:10px;margin-bottom:10px;padding:0;}
+.hero-content p{font-size: 18px;font-weight:200;}
 
 .underhero h2 {border:none; text-align:right; padding:0;}
 .underhero {margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #EEEEEE;}

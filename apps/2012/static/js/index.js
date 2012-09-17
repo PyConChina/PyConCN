@@ -39,7 +39,7 @@ $(function(){
 								  $(":animated").stop(true, true)
                                   var current = $("div.active").text()
                                   var clicked = $(this).text()
-                                  var offset = (clicked - current) * 880
+                                  var offset = (clicked - current) * 1340;
                                   $(this).addClass("active").siblings().removeClass("active")
                                   $("#content").animate({"left": "-=" + offset + "px"}, "slow")
 								  if (Hero_anim[$(this).attr("id")]){
@@ -87,14 +87,14 @@ Hero_anim = {
 			aniCB()
 	     },
 		third: function(){
-			$("#third-hero .span4").css({position: "relative", left: -50, opacity: 0})
-			$("#third-hero .span11 > *").css({position: "relative", top: 50, opacity: 0})
+			$("#third-hero .left").css({position: "relative", left: -50, opacity: 0})
+			$("#third-hero .right > *").css({position: "relative", top: 50, opacity: 0})
 			
 			var FUNC=[
-			function() {$("#third-hero .span4").animate({left: 0, opacity: 1}, 1000, aniCB);}
+			function() {$("#third-hero .left").animate({left: 0, opacity: 1}, 1000, aniCB);}
 			];
 			
-			$("#third-hero .span11 > *").each(function(e){
+			$("#third-hero .right > *").each(function(e){
 													var $this = $(this)
 													FUNC.push( function(){$this.animate({top: 0, opacity: 1}, 500, aniCB);} )
 				                             })
@@ -106,21 +106,21 @@ Hero_anim = {
 			aniCB()
 		 },
 		 forth: function(){
-			$("#forth-hero .span-one-third").css({position: "relative", top: -300, opacity: 0})
-			$("#forth-hero .span8").css({position: "relative", top: 300, opacity: 0})
+			$("#forth-hero .left").css({position: "relative", top: -300, opacity: 0})
+			$("#forth-hero .right").css({position: "relative", top: 300, opacity: 0})
 			
-			$("#forth-hero .span-one-third").animate({top: 0, opacity: 1}, 1000)
-			$("#forth-hero .span8").animate({top: 0, opacity: 1}, 1000)
+			$("#forth-hero .left").animate({top: 0, opacity: 1}, 1000)
+			$("#forth-hero .right").animate({top: 0, opacity: 1}, 1000)
 		 },
 		 second: function() {
 			$("#second-hero img").css({opacity: 0})
 			$("#second-hero h2").css({marginRight: -570, opacity: 0})
 			$("#second-hero p").css({position: "relative", top: 50, opacity: 0})
 
-			$("#second-hero img").animate({opacity: 1}, 3000)
+			$("#second-hero img").animate({opacity: 1}, 2000)
 			var FUNC=[
-			function() {$("#second-hero h2").animate({marginRight: 0, opacity: 1}, 1500, aniCB);},
-			function() {$("#second-hero p").animate({top: 0, opacity: 1}, 1500, aniCB);}
+			function() {$("#second-hero h2").animate({marginRight: 0, opacity: 1}, 500, aniCB);},
+			function() {$("#second-hero p").animate({top: 0, opacity: 1}, 500, aniCB);}
 			];
 			var aniCB=function() {
 				$(document).dequeue("Animation");

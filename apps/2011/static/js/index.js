@@ -5,7 +5,7 @@
     Version: 2011.11.21
 */
 function load_person(year){
-    $.get('/static/xml/speakers-'+year+'-' + LANG + '.xml', function(data){
+    $.get('/static/xml/speakers-2011-' + LANG + '.xml', function(data){
         var $imgs = $(".speakers img")
         $(data).find("speaker").each(function(i, speaker){
             var fullname = $(speaker).children("fullname").text()

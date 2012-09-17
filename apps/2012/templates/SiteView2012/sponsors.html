@@ -1,47 +1,47 @@
 {{extend "bootstrap_layout.html"}}
 {{block menu}}
-  {{menu('home','MENUS2012')}}
+  {{menu('sponsors','MENUS2012')}}
 {{end}}
 {{block meta}}
 <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/sponsors.css')}}" />
 {{end}}
 
 {{block content}}
-<h1>{{=_('赞助商')}}</h1>
+<h2 class="ribbon flat">{{=_('赞助商')}}</h2>
 
 <h3>{{=_('赞助商为PyCon大会的成功举办提供了必不可少的支持。同时，如果您和您的公司愿意支持中国Python社区的交流事业，请与PyCon组委会(邮件:stingchen@topgeek.org)联系，赞助商在大会官网的首页及“赞助商”页面展示您的公司Logo及简介。')}}</h3><br />
     
     <div class="row show-grid" style="border-top: 1px solid #EEEEEE;">
-        <div class="span-one-third"><a target="_blank" href="http://www.kic.net.cn/"><img src="{{=url_for_static('images/sponsors/chuangzhitiandi.jpg')}}" alt="创智天地" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://www.kic.net.cn/"><img src="{{=url_for_static('images/sponsors/chuangzhitiandi.jpg')}}" alt="创智天地" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('创智天地位于上海市杨浦区的江湾五角场城市副中心的中部地块，占地84万平方米，总建筑面积超过100万平方米。由杨浦区政府和瑞安房地产联手规划开发，并聘请国际一流设计团队参与打造，共同实现城区再造的历史使命。创智天地由创智天地广场、创智坊、江湾体育中心、创智天地科技园四个部分组成，它们各具功能，相辅相成。')}}
         </div>
     </div><!--END row-->
 
     <div class="row show-grid" style="border-top: 1px solid #EEEEEE;">
-        <div class="span-one-third"><a target="_blank" href="http://www.google.com/"><img src="{{=url_for_static('images/sponsors/google.png')}}" alt="Google" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://www.google.com/"><img src="{{=url_for_static('images/sponsors/google.png')}}" alt="Google" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('Google是一家以提供搜索服务、并向企业客户提供广告服务为重点的盈利公司。Google以其搜索迅速、准确、容易使用等特点，被公认为是世界最佳搜索引擎。')}}
         </div>
     </div><!--END row-->
     
     <div class="row show-grid">
-        <div class="span-one-third"><a target="_blank" href="http://www.tudou.com/"><img src="{{=url_for_static('images/sponsors/tudou.png')}}" alt="Tudou" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://www.tudou.com/"><img src="{{=url_for_static('images/sponsors/tudou.png')}}" alt="Tudou" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('土豆网(Tudou.com)是中国最早和最具影响力的视频分享网站，是中国网络视频行业的领军品牌，也是全球最早上线的视频分享网站之一。王微是土豆网创始人兼CEO。')}}
-<br />
-{{=_('土豆网于2005年4月15日正式上线，每天独立用户数超过2500万，每月2亿用户，拥有超过8000万的注册用户。2011年8月17日，土豆网在美国纳斯达克上市，股票代码：TUDO。')}}
-<br />
+        <br />
+        {{=_('土豆网于2005年4月15日正式上线，每天独立用户数超过2500万，每月2亿用户，拥有超过8000万的注册用户。2011年8月17日，土豆网在美国纳斯达克上市，股票代码：TUDO。')}}
+        <br />
         </div>
     </div><!--END row-->
 
     <div class="row show-grid" style="border-top: 1px solid #EEEEEE;">
-        <div class="span-one-third"><a target="_blank" href="http://www.rekoo.com/"><img src="{{=url_for_static('images/sponsors/reku.gif')}}" alt="热酷" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://www.rekoo.com/"><img src="{{=url_for_static('images/sponsors/reku.gif')}}" alt="热酷" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('热酷是中国和日本领先的社会化游戏研发运营商，我们的愿景是变革全球网络游戏行业，为全球用户提供精品社会化游戏。经过近两年的高速发展，热酷的精品社会化游戏遍布全球，目前已拥有近两千万的日活跃用户，正在成为全球最大的社会化游戏公司之一。热酷总部位于中国北京，并在全球多个国家开设办事处。')}}
         </div>
     </div><!--END row-->
@@ -49,108 +49,128 @@
     
     
     <div class="row show-grid">
-        <div class="span-one-third"><a target="_blank" href="http://www.ijinshan.com/"><img src="{{=url_for_static('images/sponsors/jinshan.gif')}}" alt="{{=_('金山网络')}}" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://www.ijinshan.com/"><img src="{{=url_for_static('images/sponsors/jinshan.gif')}}" alt="{{=_('金山网络')}}" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('金山网络科技有限公司成立于2010年11月，总部位于北京，其前身是金山安全软件有限公司和可牛科技有限公司。两家公司于2010年10月完成合并整合，成立了全新的金山网络科技有限公司。金山网络科技有限公司继承了金山安全强大的研发实力和可牛科技对互联网产品的敏锐反应能力，为上亿互联网用户提供以安全为核心的多种互联网应用服务。金山安全实验室及金山网络研发中心设立在珠海。')}}
         </div>
     </div><!--END row-->
     
     <div class="row show-grid">
-        <div class="span-one-third"><a target="_blank" href="http://www.douban.com/"><img src="{{=url_for_static('images/sponsors/douban.gif')}}" alt="Douban" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://www.grandcloud.cn/"><img src="{{=url_for_static('images/sponsors/grandcloud.png')}}" alt="{{=_('盛大云')}}" width="250" /></a><br />
+        </div>
+        <div class="span8">
+        {{=_('是在整合盛大集团资源的基础上，百分百自主技术研发而成的公有云平台。2011年7月22日，“盛大云”宣布开放公测。同年9月底，“盛大云”成为盛大集团旗下的子公司开始独立运营。“盛大云”以国际领先的AWS模式，已推出国内第一家按需计费的云主机、第一家面向公有云专门开发的Key-Value云存储、第一家云硬盘、第一家自助化的CDN加速产品、第一家在线MongoDB、永久免费的云监控、及网站云、数据库云等产品。“盛大云”以用户为中心，以快速的步伐不断满足客户在主机租赁、存储扩展、网络加速、快捷建站、数据库服务等方面的基础设施需求。产品以按需使用、弹性扩展、高可靠、高安全、高可控为核心特点。')}}
+        </div>
+    </div><!--END row-->
+
+
+    <div class="row show-grid">
+        <div class="span4"><a target="_blank" href="http://www.douban.com/"><img src="{{=url_for_static('images/sponsors/douban.gif')}}" alt="Douban" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('豆瓣成立于2005年3月，目前已拥有5,300多万注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过书影音、小组、小站、同城、豆瓣说等多产品及相关移动应用来服务都市生活的不同领域。')}}
         </div>
     </div><!--END row-->
     
     <div class="row show-grid">
-        <div class="span-one-third"><a target="_blank" href="http://everydo.com/"><img src="{{=url_for_static('images/sponsors/yidu.gif')}}" alt="易度云办公" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://openshift.redhat.com"><img src="{{=url_for_static('images/sponsors/OpenShift-Logo.jpg')}}" alt="OpenShift" width="150" /></a><br />
+        </div>
+        <div class="span8">
+        {{=_('OpenShift是RedHat提供的免费、可自动扩展的Web应用平台即服务（PaaS）。作为云上的应用平台，OpenShift为您管理一些繁琐细节，使您可以专注于应用开发。红帽OpenShift通过为开发人员提供在语言、框架和云上的更多的选择，使开发人员可以构建、测试、运行和管理他们的应用。红帽OpenShift提供比任何PaaS更多的灵活性，它支持用于Java、Python、PHP、Perl、Ruby和Node.js的更多的开发框架，包括 Spring、Seam、Weld、CDI、Rails、Rack、Symfony、Zend Framework、Twisted、Django和Java EE。它包含SQL和NoSQL数据存储和一个分布式文件系统。OpenShift独一无二的优势是它为PaaS带来行业领先的红帽和JBoss的生态环境，使开发人员可以利用业界最广泛的中间件服务。例如，OpenShift支持MongoDB和其它获得红帽企业 Linux认证的服务。由于支持广泛的框架和语言，包括Java、PHP、Python和Ruby，红帽OpenShift为云计算的开发人员提供更全面 的功能集合。 ')}}
+        </div>
+    </div><!--END row-->
+
+    <div class="row show-grid">
+        <div class="span4"><a target="_blank" href="http://everydo.com/"><img src="{{=url_for_static('images/sponsors/yidu.gif')}}" alt="易度云办公" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('广州润普网络科技有限公司( http://zopen.cn )自2002年成立以来，立足于开放源代码软件的专业技术开发与服务。为客户提供基于Zopen/Plone等开放源代码软件的企业内容管理、项目管理、文档管理、知识管理和产品解决方案，提供信息系统咨询、开发、支持等服务，以及Zopen/Plone的培训服务。')}}
+        </div>
+    </div><!--END row-->
+
+    <div class="row show-grid">
+        <div class="span4"><a target="_blank" href="http://3gland.com/"><img src="{{=url_for_static('images/sponsors/3gland-logo.png')}}" alt="三技科技" width="250" /></a><br />
+        </div>
+        <div class="span8">
+        {{=_('3Gland提供专业的国内外网络访问服务网络解决方案以及数据中心业务，根据用户需求，提供对应解决方案和网络带宽，满足个性化定制。3Gland总公司辽宁三技科技有限公司成立于1997年，是全国IDC业务服务平台，具有互联网信息服务（ICP）和互联网数据中心（IDC）以及移动网增值业务经营许可证（SP）资质；也是国家通讯管理局指定的备案接入商之一。')}}
         </div>
     </div><!--END row-->
 
     
     <div class="row show-grid">
-        <div class="span-one-third"><a target="_blank" href="http://www.shterm.com/"><img src="{{=url_for_static('images/sponsors/qizhi-logo.png')}}" alt="齐治科技" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://www.shterm.com/"><img src="{{=url_for_static('images/sponsors/qizhi-logo.png')}}" alt="齐治科技" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('齐治科技——运维堡垒机的缔造者和领导者')}}<br />{{=_('“浙江齐治科技有限公司”原名“杭州奇智信息科技有限公司”，是一家由运维管理专家创立、国内唯一专注于运维操作管理领域的创新型科技企业，并致力于成为领先的运维操作管理整体解决方案供应商和服务商。 公司成立于2005年10月，总部位于杭州，在北京、上海、广州设有技术支持中心。目前，齐治运维操作管理系统（俗称“运维堡垒机”）已广泛被应用于运营商、金融、互联网、电力、烟草、政府等多个高端行业、超百家高端客户的核心网络中。')}}
         </div>
     </div><!--END row-->
 
 
     <div class="row show-grid">
-        <div class="span-one-third"><a target="_blank" href="http://www.ituring.com.cn"><img src="{{=url_for_static('images/sponsors/turingbook.gif')}}" alt="{{=_('图灵')}}" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
-        {{=_('人民邮电出版社图灵公司—— 站在巨人的肩上，努力打造最专业的IT图书出版（写作/翻译）服务平台，期待与您合作！')}}
+        <div class="span4"><a target="_blank" href="http://www.ituring.com.cn"><img src="{{=url_for_static('images/sponsors/turingbook.gif')}}" alt="{{=_('图灵')}}" width="250" /></a><br />
+        </div>
+        <div class="span8">
+        {{=_('北京图灵文化发展有限公司成立于2005年6月，由人民邮电出版社投资控股，以策划出版高质量的科技书籍为核心业务，主要出版领域包括计算机、电子电气、数学统计、科普等，公司以促进科技发展为己任，通过引进国际高水平的教材、专著，以及发掘国内优秀原创作品等方式，为目标读者提供一流的内容。经过短短几年的发展，图灵公司已经成为计算机出版行业里较有影响的出版单位。公司推出了一系列高质量的畅销技术图书，如《C++ Primer中文版》、《UNIX环境高级编程》、《Linux程序设计》等，都已经成为深受广大程序员欢迎的经典著作，公司对于计算机技术发展趋势有较强的把握能力和独到的眼光，出版的图书紧跟各种技术的发展，及时满足了行业需要。在电子电气领域，公司出版了一系列国际知名专家的著作，不少作者是IEEE资深会士和业界精英。在数学方面，公司翻译和影印了一大批获菲尔兹奖和沃尔夫奖的数学家的作品，有力地开拓了读者的视野。')}}
         </div>
     </div><!--END row-->
     
     <div class="row show-grid">
-        <div class="span-one-third"><a target="_blank" href="http://scriptfan.com/"><img src="{{=url_for_static('images/sponsors/scriptfan.jpg')}}" alt="{{=_('ScriptFan')}}" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://scriptfan.com/"><img src="{{=url_for_static('images/sponsors/scriptfan.jpg')}}" alt="{{=_('ScriptFan')}}" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('ScriptFan技术沙龙社区始于2010年9月,由davidx和roamin92个人发起,目前已经举办了10余期。ScriptFan是一个以技术作为导向, 以脚本语言作为基石, 以应用作为方向的一个技术型的开放社区,任何人都可以加入其中,分享自己的心得,同时收获别人的经.沙龙每个月组织一期线下活动,时间订在每个月的第二周的周六下午1点半,地点为西安软件园秦风阁D201活跃网络办公室.')}}
         </div>
     </div><!--END row-->
 
-<h1>{{=_('媒体支持')}}</h1>
+<h2 class="ribbon flat">{{=_('媒体支持')}}</h2>
     <div class="row show-grid">
-        <div class="span-one-third"><a target="_blank" href="http://www.infoq.com/"><img src="{{=url_for_static('images/sponsors/infoq.gif')}}" alt="InfoQ" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://www.infoq.com/"><img src="{{=url_for_static('images/sponsors/infoq.gif')}}" alt="InfoQ" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('InfoQ.com（Information Queue）是一个时刻关注企业软件开发领域变化与创新的在线独立社区，读者受众群主要为技术架构师、技术团队带头人（高级开发人员）和项目经理等。通过由各个技术领域专家提供的最新的新闻、技术文章、视频访谈、视频演讲和迷你书等，InfoQ 为Java、.NET、Ruby、SOA、敏捷、架构和运维七大社区提供一流的资讯。InfoQ全球站正式启动于2006年6月8日，InfoQ中文站正式启动于2007年3月28日，以推动我们所服务的社区的进步为首要使命。')}}
         </div>
     </div><!--END row-->
 
     <div class="row show-grid">
-        <div class="span-one-third"><a target="_blank" href="http://www.csdn.net/"><img src="{{=url_for_static('images/sponsors/csdn.gif')}}" alt="CSDN" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://www.csdn.net/"><img src="{{=url_for_static('images/sponsors/csdn.gif')}}" alt="CSDN" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('CSDN创立于1999年，是中国最大的中文IT知识服务集团，专注IT信息传播、技术交流、教育培训和专业技术人才服务。拥有超过1800万注册会员、10000名CTO、50万注册企业及合作伙伴，全球中文网站排名第27位。长期以来，CSDN以技术视角关注IT产业发展，以深度分享推进产业技术成长，致力于弘扬技术创新，倡导分享、开放和协作，努力打造高质量的中文IT技术交流平台。')}}
         </div>
     </div><!--END row-->
 
     <div class="row show-grid">
-        <div class="span-one-third"><a target="_blank" href="http://topgeek.org/"><img src="{{=url_for_static('images/sponsors/topgeek.gif')}}" alt="TopGeek" width="250" /></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://topgeek.org/"><img src="{{=url_for_static('images/sponsors/topgeek.gif')}}" alt="TopGeek" width="250" /></a><br />
+        </div>
+        <div class="span8">
         {{=_('TopGeek组织是一个面向高级软件和互联网技术人员的组织，主要讨论软件和互联网的一些新的技术潮流，开发理念和经验。')}}<br />
-{{=_('在现在技术山头林立，以语言或行业划分圈子的社区组织状态下，我们坚持认为，按技术流派形成圈子的做法不能满足高级技术人员需要。')}}<br />
-{{=_('我们希望打破技术分割，帮助社区人员开拓思路，互相学习，资源共享。解决一些成熟技术人员进一步发展的共同问题，形成一些好的朋友圈子。')}}
+        {{=_('在现在技术山头林立，以语言或行业划分圈子的社区组织状态下，我们坚持认为，按技术流派形成圈子的做法不能满足高级技术人员需要。')}}<br />
+        {{=_('我们希望打破技术分割，帮助社区人员开拓思路，互相学习，资源共享。解决一些成熟技术人员进一步发展的共同问题，形成一些好的朋友圈子。')}}
         </div>
     </div><!--END row-->
 
     <div class="row show-grid">
-        <div class="span-one-third"><a target="_blank" href="http://topgeek.org/"><img src="{{=url_for_static('images/sponsors/42qu.jpg')}}" alt="42区" width="250" height="100"/></a><br />
-</div>
-        <div class="span-two-thirds">
+        <div class="span4"><a target="_blank" href="http://topgeek.org/"><img src="{{=url_for_static('images/sponsors/42qu.jpg')}}" alt="42区" width="250" height="100"/></a><br />
+        </div>
+        <div class="span8">
         {{=_('42区，找到给你答案的人')}}<br />{{=_('“42区”是一个基于个人技能的C2C交易平台，用户可以向该网站上有专业技能或擅长领域的人咨询各类问题、按照时间付费，可以是网上在线咨询也可以是线下面对面咨询。')}}<br />{{=_('42qu.com云计算 计算生命、宇宙以及一切的终极的答案')}}
         </div>
     </div><!--END row-->
-<div class="row show-grid underhero">
-        <div class="span3">&nbsp;</div>
-        
-        <div class="span3"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/CPyUG.png')}}" alt="China Python User Group" width="100" height="60" /></a></div>
+    
+<h2 class="ribbon flat">{{=_('社区团体')}}</h2>
 
-        <div class="span3"><a target="_blank" href="https://groups.google.com/group/bpug/"><img src="{{=url_for_static('images/sponsors/beijing_pug.png')}}" alt="Beijing Python User Group" width="100" height="60" /></a></div>
-        
-        <div class="span3"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/changsanjiao_pug.png')}}" alt="Changsan Jiao Python User Group" width="150"  /></a></div>
+    <div class="row show-grid" style="text-align:center;">
+        <div class="span4"><a target="_blank" href="http://python.cn/" title="China Python User Group"><img src="{{=url_for_static('images/sponsors/CPyUG.png')}}" alt="China Python User Group" width="100" height="60" /></a></div>
+        <div class="span4"><a target="_blank" href="https://groups.google.com/group/bpug/" title="Beijing Python User Group"><img src="{{=url_for_static('images/sponsors/beijing_pug.png')}}" alt="Beijing Python User Group" width="100" height="60" /></a></div>
+        <div class="span4"><a target="_blank" href="http://python.cn/" title="Changsan Jiao Python User Group"><img src="{{=url_for_static('images/sponsors/changsanjiao_pug.png')}}" alt="Changsan Jiao Python User Group" width="150"  /></a></div>
     </div><!--END grid-->
     
-    <div class="row show-grid underhero">
-        <div class="span3">&nbsp;</div>
+    <div class="row" style="text-align:center;margin-top:18px;">
         <div class="span3"><a target="_blank" href="#"><img src="{{=url_for_static('images/sponsors/GDGShanghai.jpg')}}" alt="GDG Shanghai" width="150" /></a></div>
-
         <div class="span3"><a target="_blank" href="http://www.hz-gdg.org/"><img src="{{=url_for_static('images/sponsors/HZGDG.jpg')}}" alt="Hangzhou GDG" width="150" /></a></div>
-
         <div class="span3"><a target="_blank" href="http://weibo.com/xagdg"><img src="{{=url_for_static('images/sponsors/xian_gdg_logo.jpg')}}" alt="Xian GDG" width="150" /></a></div>
         <div class="span3"><a target="_blank" href="#"><img src="{{=url_for_static('images/sponsors/hefei_gdg_logo.jpg')}}" alt="Hefei GDG" width="150" /></a></div>
-        <div class="span3"></div>
     </div><!--END grid-->
     
     

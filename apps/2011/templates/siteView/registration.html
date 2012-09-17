@@ -1,11 +1,11 @@
 {{extend "bootstrap_layout.html"}}
 
 {{block menu}}
-  {{menu('home','MENUS2011')}}
+  {{menu('registration','MENUS2011')}}
 {{end}}
 
 {{block content}}
-<h1>{{=_('报名注册')}}</h1>
+<h2 class="ribbon flat">{{=_('报名注册')}}</h2>
 
 <p><span class="bold">{{=_('大会时间')}}：</span>{{=_('2011年12月3日-12/4 9:30-18:00')}}</p>
  
@@ -19,7 +19,7 @@
 
 <p>（{{=_('总费用原价为')}}<span class="bold">210{{=_('元/人')}}</span>，{{=_('包括：两顿午餐费')}}<span class="bold">60{{=_('元')}}</span>，{{=_('礼品费')}}<span class="bold">20{{=_('元')}}</span>，{{=_('会费')}}<span class="bold">130{{=_('元')}}</span>，{{=_('其中赞助商为每位参会者提供的支持费用为')}}：<span class="bold">150{{=_('元/人')}}</span>，{{=_('参会者实际缴纳费用为')}}<span class="bold">60{{=_('元/人')}}</span>。）</p>
 
-<a class="btn large primary" href="http://pycon.51qiangzuo.com/" target="_blank">{{=_('前往报名交费页面')}} &raquo;</a>
+<a class="btn btn-large btn-primary" href="http://pycon.51qiangzuo.com/" target="_blank">{{=_('前往报名交费页面')}} &raquo;</a>
 <br /><br />
 
 <p>{{=_('由于赞助费有限，仅能解决会场、嘉宾交通住宿和餐饮、组织宣传、参会者礼品等费用，需要参会者支付部分午餐费用。')}}</p>

@@ -6,7 +6,7 @@
 */
 $(function(){
     $(".alert-message").alert()
-	$(".dropdown").dropdown()
+	$(".dropdown-toggle").dropdown()
 	
 	$('ul.dropdown-menu a').click(function(){
 		$.cookie('uliweb_language', $(this).attr('class'), { expires: 7, path: '/' })
