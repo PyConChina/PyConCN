@@ -87,21 +87,21 @@ msgstr "Speakers"
 
 #: ./apps/2011/templates/siteView/index.html:86
 #: ./apps/2011/templates/siteView/schedule.html:54 ./apps/2012/person.py:199
-#: ./apps/2012/templates/SiteView2012/index.html:94
+#: ./apps/2012/templates/SiteView2012/index.html:102
 #: ./apps/2012/templates/SiteView2012/schedulesh.html:92
 msgid "陈世欣"
 msgstr "Chen Shixin"
 
 #: ./apps/2011/templates/siteView/index.html:90
 #: ./apps/2011/templates/siteView/schedule.html:66 ./apps/2012/person.py:209
-#: ./apps/2012/templates/SiteView2012/index.html:102
+#: ./apps/2012/templates/SiteView2012/index.html:110
 #: ./apps/2012/templates/SiteView2012/schedulesh.html:102
 msgid "沈崴"
 msgstr "Shen Wei"
 
 #: ./apps/2011/templates/siteView/index.html:94
 #: ./apps/2011/templates/siteView/schedule.html:76 ./apps/2012/person.py:219
-#: ./apps/2012/templates/SiteView2012/index.html:118
+#: ./apps/2012/templates/SiteView2012/index.html:126
 #: ./apps/2012/templates/SiteView2012/schedulesh.html:110
 msgid "林伟"
 msgstr "Lin Wei"
@@ -113,14 +113,14 @@ msgstr "Hung Qiangning"
 
 #: ./apps/2011/templates/siteView/index.html:104
 #: ./apps/2011/templates/siteView/schedule.html:100 ./apps/2012/person.py:231
-#: ./apps/2012/templates/SiteView2012/index.html:110
+#: ./apps/2012/templates/SiteView2012/index.html:118
 #: ./apps/2012/templates/SiteView2012/schedulesh.html:120
 msgid "潘俊勇"
 msgstr "Pan Junyong"
 
 #: ./apps/2011/templates/siteView/index.html:108
 #: ./apps/2011/templates/siteView/schedule.html:108 ./apps/2012/person.py:241
-#: ./apps/2012/templates/SiteView2012/index.html:124
+#: ./apps/2012/templates/SiteView2012/index.html:132
 msgid "黄冬"
 msgstr "Huang Dong"
 
@@ -131,21 +131,21 @@ msgstr "Chen Zheng"
 
 #: ./apps/2011/templates/siteView/index.html:126
 #: ./apps/2011/templates/siteView/schedule.html:172 ./apps/2012/person.py:254
-#: ./apps/2012/templates/SiteView2012/index.html:132
+#: ./apps/2012/templates/SiteView2012/index.html:140
 #: ./apps/2012/templates/SiteView2012/schedulesh.html:134
 msgid "赖勇浩"
 msgstr "Lai Yonghao"
 
 #: ./apps/2011/templates/siteView/index.html:130
 #: ./apps/2011/templates/siteView/schedule.html:182 ./apps/2012/person.py:264
-#: ./apps/2012/templates/SiteView2012/index.html:140
+#: ./apps/2012/templates/SiteView2012/index.html:148
 #: ./apps/2012/templates/SiteView2012/schedulesh.html:144
 msgid "王健"
 msgstr "Wang Jian"
 
 #: ./apps/2011/templates/siteView/index.html:134
 #: ./apps/2011/templates/siteView/schedule.html:194 ./apps/2012/person.py:274
-#: ./apps/2012/templates/SiteView2012/index.html:148
+#: ./apps/2012/templates/SiteView2012/index.html:156
 #: ./apps/2012/templates/SiteView2012/schedulesh.html:152
 msgid "王剑峰"
 msgstr "Wang Jianfeng"
@@ -157,7 +157,7 @@ msgstr "Li Jundong"
 
 #: ./apps/2011/templates/siteView/index.html:164
 #: ./apps/2011/templates/siteView/sponsors.html:76
-#: ./apps/2012/templates/SiteView2012/index.html:196
+#: ./apps/2012/templates/SiteView2012/index.html:204
 #: ./apps/2012/templates/SiteView2012/sponsors.html:80
 msgid "媒体支持"
 msgstr "Media Support"
@@ -183,7 +183,7 @@ msgid "Gensee 展视互动云会议"
 msgstr "Gensee"
 
 #: ./apps/2011/templates/siteView/index.html:192
-#: ./apps/2012/templates/SiteView2012/index.html:224
+#: ./apps/2012/templates/SiteView2012/index.html:232
 msgid "演讲日程"
 msgstr "Schedule"
 
@@ -198,8 +198,8 @@ msgstr "Topics (1st Day)"
 
 #: ./apps/2011/templates/siteView/index.html:198
 #: ./apps/2011/templates/siteView/schedule.html:46
-#: ./apps/2012/templates/SiteView2012/index.html:230
-#: ./apps/2012/templates/SiteView2012/index.html:264
+#: ./apps/2012/templates/SiteView2012/index.html:238
+#: ./apps/2012/templates/SiteView2012/index.html:272
 msgid "主办方和赞助者介绍"
 msgstr "Introduce organizers and sponsors"
 
@@ -208,8 +208,8 @@ msgid "大会致辞《Python让世界更精彩》- 陈世欣"
 msgstr "Introduce the conference - \" Python makes the world more exciting \"- Sting Chen"
 
 #: ./apps/2011/templates/siteView/index.html:202
-#: ./apps/2012/templates/SiteView2012/index.html:234
-#: ./apps/2012/templates/SiteView2012/index.html:268
+#: ./apps/2012/templates/SiteView2012/index.html:242
+#: ./apps/2012/templates/SiteView2012/index.html:276
 msgid "Video联播《世界各国Python高手的演讲》- 各国Pythoner"
 msgstr "Video speeches from the Pythoners in the world."
 
@@ -231,7 +231,7 @@ msgstr "\" Implementation of SAE (Sina AppEngine) in python \"- Zheng Chen"
 
 #: ./apps/2011/templates/siteView/index.html:218
 #: ./apps/2011/templates/siteView/schedule.html:126
-#: ./apps/2012/templates/SiteView2012/index.html:294
+#: ./apps/2012/templates/SiteView2012/index.html:302
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:208
 #: ./apps/2012/templates/SiteView2012/schedulesh.html:198
 msgid "把酒话英雄 - Python爱好者与嘉宾们晚宴"
@@ -278,39 +278,39 @@ msgid "详细日程"
 msgstr "Agenda"
 
 #: ./apps/2011/templates/siteView/index.html:254
-#: ./apps/2012/templates/SiteView2012/index.html:300
+#: ./apps/2012/templates/SiteView2012/index.html:308
 msgid "关于"
 msgstr "About"
 
 #: ./apps/2011/templates/siteView/index.html:256
 #: ./apps/2011/templates/siteView/sponsors.html:88
-#: ./apps/2012/templates/SiteView2012/index.html:302
+#: ./apps/2012/templates/SiteView2012/index.html:310
 msgid "PyCon.Org是举办Python语言的国际性社区，在世界各地举办Python大会，是Python 爱好者的盛会，对推动Python在各地的发展有深远的影响。"
 msgstr "PyCon.Org is an international community for the Python programming language holds several conferences each year. "
 
 #: ./apps/2011/templates/siteView/index.html:258
-#: ./apps/2012/templates/SiteView2012/index.html:304
+#: ./apps/2012/templates/SiteView2012/index.html:312
 msgid "更多细节"
 msgstr "more details"
 
 #: ./apps/2011/templates/siteView/index.html:260
-#: ./apps/2012/templates/SiteView2012/index.html:306
+#: ./apps/2012/templates/SiteView2012/index.html:314
 msgid "近期新闻"
 msgstr "Recent News"
 
 #: ./apps/2011/templates/siteView/index.html:264
-#: ./apps/2012/templates/SiteView2012/index.html:310
+#: ./apps/2012/templates/SiteView2012/index.html:318
 msgid "官方网站上线"
 msgstr "official website on-line"
 
 #: ./apps/2011/templates/siteView/index.html:266
-#: ./apps/2012/templates/SiteView2012/index.html:312 ./apps/settings.ini:49
+#: ./apps/2012/templates/SiteView2012/index.html:320 ./apps/settings.ini:49
 #: ./apps/settings.ini:59
 msgid "官方微博"
 msgstr "Weibo"
 
 #: ./apps/2011/templates/siteView/index.html:268
-#: ./apps/2012/templates/SiteView2012/index.html:314
+#: ./apps/2012/templates/SiteView2012/index.html:322
 msgid "上线"
 msgstr "on line"
 
@@ -1330,14 +1330,14 @@ msgstr "About"
 
 #: ./apps/2011/templates/siteView/index.html:118
 #: ./apps/2011/templates/siteView/schedule.html:150 ./apps/2012/person.py:99
-#: ./apps/2012/templates/SiteView2012/index.html:90
+#: ./apps/2012/templates/SiteView2012/index.html:98
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:90
 msgid "周琦"
 msgstr "Zhou Qi"
 
 #: ./apps/2011/templates/siteView/index.html:122
 #: ./apps/2011/templates/siteView/schedule.html:162 ./apps/2012/person.py:109
-#: ./apps/2012/templates/SiteView2012/index.html:152
+#: ./apps/2012/templates/SiteView2012/index.html:160
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:184
 msgid "李迎辉"
 msgstr "Li Yinghui"
@@ -1446,7 +1446,7 @@ msgid "快速演讲：《rosettacode.org - Learn and Practice Python》"
 msgstr "Lightning Talk: \"rosettacode.org - Learn and Practice Python\""
 
 #: ./apps/2011/templates/siteView/index.html:262
-#: ./apps/2012/templates/SiteView2012/index.html:308
+#: ./apps/2012/templates/SiteView2012/index.html:316
 msgid "大会网络直播地址："
 msgstr "Will also webcast on Internet:"
 
@@ -1682,7 +1682,7 @@ msgstr "'s Album"
 msgid "“42区”是一个基于个人技能的C2C交易平台，用户可以向该网站上有专业技能或擅长领域的人咨询各类问题、按照时间付费，可以是网上在线咨询也可以是线下面对面咨询。"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:270
+#: ./apps/2012/templates/SiteView2012/index.html:278
 msgid "《Python 产品构建与发布指南》  沈崴"
 msgstr ""
 
@@ -1694,7 +1694,7 @@ msgstr ""
 msgid "上海创智天地（淞沪路388号创智天地广场7号楼会议中心，近政立路）地铁10号线江湾体育场站下步行8分钟"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:284
+#: ./apps/2012/templates/SiteView2012/index.html:292
 msgid "元编程在redis orm中的应用   许智翔"
 msgstr ""
 
@@ -1710,7 +1710,7 @@ msgstr ""
 msgid "liyinghui.jpg"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:296 ./apps/settings.ini:44
+#: ./apps/2012/templates/SiteView2012/index.html:304 ./apps/settings.ini:44
 msgid "北京日程"
 msgstr ""
 
@@ -1739,7 +1739,7 @@ msgstr ""
 msgid "上海"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:84
+#: ./apps/2012/templates/SiteView2012/index.html:92
 msgid "上海嘉宾"
 msgstr ""
 
@@ -1761,7 +1761,7 @@ msgstr ""
 msgid "workshop"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:246
+#: ./apps/2012/templates/SiteView2012/index.html:254
 msgid "《视觉效果制作行业的工业语言——Python》 周辉"
 msgstr ""
 
@@ -1786,11 +1786,11 @@ msgstr ""
 msgid "过程改进经理"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:272
+#: ./apps/2012/templates/SiteView2012/index.html:280
 msgid "《实战游戏客户端》   林伟"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:258
+#: ./apps/2012/templates/SiteView2012/index.html:266
 msgid "快速演讲：《Python小团队不妨知道的技术》 王捷"
 msgstr ""
 
@@ -1811,7 +1811,7 @@ msgstr ""
 msgid "头衔："
 msgstr "Position:"
 
-#: ./apps/2012/person.py:149 ./apps/2012/templates/SiteView2012/index.html:144
+#: ./apps/2012/person.py:149 ./apps/2012/templates/SiteView2012/index.html:152
 msgid "陆丹峰"
 msgstr ""
 
@@ -1824,11 +1824,11 @@ msgstr ""
 msgid "演示 Hackathon 前5名作品 现场演示"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:60
+#: ./apps/2012/templates/SiteView2012/registration.html:66
 msgid "公司票与个人票一样，公司票可以开发票，但不享受任何折扣。 (社区办大会不容易，建议有条件的公司尽量买公司票)。"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:74
+#: ./apps/2012/templates/SiteView2012/registration.html:80
 msgid "大会当日将安排前七排座位；"
 msgstr ""
 
@@ -1836,7 +1836,7 @@ msgstr ""
 msgid "Pyramid Web Framework for Advanced Web Applications》"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:86
+#: ./apps/2012/templates/SiteView2012/registration.html:92
 msgid "每人必须填写一个报名表，用于最后的电子票发放和到场确认。"
 msgstr ""
 
@@ -1844,7 +1844,7 @@ msgstr ""
 msgid "北京日程安排"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:88
+#: ./apps/2012/templates/SiteView2012/registration.html:94
 msgid "3）确认收款，在报名页下显示报名者名字即表示确认完成。"
 msgstr ""
 
@@ -1869,19 +1869,19 @@ msgstr ""
 msgid "地点"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:50
+#: ./apps/2012/templates/SiteView2012/registration.html:56
 msgid "150元/人（包括：午餐费30元，茶歇+饮料费10元，礼品费40元，会费70元）。参会者可以通过抽奖获得各种礼品。"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:108
+#: ./apps/2012/templates/SiteView2012/registration.html:140
 msgid "本次大会是公益性社区大会，将提供可用于报销的收据，不提供发票。如果是大额的VIP门票需要发票，请邮件告知，组委会将用其他方法提供。"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:280
+#: ./apps/2012/templates/SiteView2012/index.html:288
 msgid "《自动化即时战斗游戏解决方案》 王健"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:244
+#: ./apps/2012/templates/SiteView2012/index.html:252
 msgid "《Python配合Hadoop 快速搭建开放型大数据仓库分析平台》   童小军"
 msgstr ""
 
@@ -1889,7 +1889,7 @@ msgstr ""
 msgid "42区，找到给你答案的人"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:46
+#: ./apps/2012/templates/SiteView2012/registration.html:52
 msgid "1. 门票和说明"
 msgstr ""
 
@@ -1907,7 +1907,7 @@ msgstr ""
 msgid "参观豆瓣,并宣告规则"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:298 ./apps/settings.ini:45
+#: ./apps/2012/templates/SiteView2012/index.html:306 ./apps/settings.ini:45
 msgid "上海日程"
 msgstr ""
 
@@ -1921,13 +1921,13 @@ msgstr ""
 msgid "《社会化问答网站中的Python应用》"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:54
+#: ./apps/2012/templates/SiteView2012/registration.html:60
 msgid "前200人享受99元优惠票价（已经售完），第201-400人享受118元优惠票价。个人票不提供发票，可提供收据。"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:56
 #: ./apps/2012/templates/SiteView2012/registration.html:62
 #: ./apps/2012/templates/SiteView2012/registration.html:68
+#: ./apps/2012/templates/SiteView2012/registration.html:74
 msgid "立刻购买"
 msgstr ""
 
@@ -1944,7 +1944,7 @@ msgstr ""
 msgid "会场"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:252
+#: ./apps/2012/templates/SiteView2012/index.html:260
 msgid "快速演讲：《国外 Py 社区的组织以及技术发展特点》  Alex Dong"
 msgstr ""
 
@@ -1956,12 +1956,12 @@ msgstr ""
 msgid "黄峥峼（Mark Huang）来自新加坡，现在在杭州一间小德国企业工作。 他已经code python四年了。 前一份工作在Lucasfilm Entertainment Company （卢卡斯电影有限公司）用Python写内部的Web Application。从Pylons Web 框架学起。他说：“我特别喜欢Python； 恨死Java。”"
 msgstr ""
 
-#: ./apps/2012/person.py:7 ./apps/2012/templates/SiteView2012/index.html:98
+#: ./apps/2012/person.py:7 ./apps/2012/templates/SiteView2012/index.html:106
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:100
 msgid "Lu Linqing"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:106
+#: ./apps/2012/templates/SiteView2012/registration.html:138
 msgid "若付款后，未审核通过，请发邮件到:stingchen@topgeek.org, 说明购买的数量，淘宝账号，抢座网报名者姓名。"
 msgstr ""
 
@@ -1987,7 +1987,7 @@ msgstr ""
 msgid "《网页游戏的跨界开发》"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:94
+#: ./apps/2012/templates/SiteView2012/registration.html:100
 msgid "报名并成功支付后将在淘宝收到“已发货”的信息，同时在抢座网报名页底部出现报名者名字。"
 msgstr ""
 
@@ -2011,11 +2011,11 @@ msgstr ""
 msgid "Quality Engineer"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:92
+#: ./apps/2012/templates/SiteView2012/registration.html:98
 msgid "4）抢座网和淘宝立即确认，参会前3天发送电子邮件和二维码门票"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:96
+#: ./apps/2012/templates/SiteView2012/registration.html:102
 msgid "将在大会前3天收到邮件通知和短信二维码，各个会场有签到确认报名情况。"
 msgstr ""
 
@@ -2028,7 +2028,7 @@ msgstr ""
 msgid "快速演讲：《网页游戏的跨界开发》"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:250
+#: ./apps/2012/templates/SiteView2012/index.html:258
 msgid "快速演讲：《知识引擎的设计》  刘远亮"
 msgstr ""
 
@@ -2053,11 +2053,11 @@ msgstr ""
 msgid "组织者&赞助商"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:276
+#: ./apps/2012/templates/SiteView2012/index.html:284
 msgid "《Python@土豆 （主题待定）》  黄冬"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:80
+#: ./apps/2012/templates/SiteView2012/index.html:88
 msgid "北京嘉宾"
 msgstr ""
 
@@ -2108,7 +2108,7 @@ msgstr ""
 msgid "网游行业资深从业者，有丰富的 python 游戏开发经验。由其担纲的代表游戏有，新一代 MMOCAT大作《天下盛境》等。是珠三角技术沙龙的创办人和组委之一。"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:228
+#: ./apps/2012/templates/SiteView2012/index.html:236
 msgid "主题演讲（北京）"
 msgstr ""
 
@@ -2116,7 +2116,7 @@ msgstr ""
 msgid "齐治科技"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:72
+#: ./apps/2012/templates/SiteView2012/registration.html:78
 msgid "企业的Logo可出现在PyCon的官网支持企业栏目中；"
 msgstr ""
 
@@ -2129,11 +2129,11 @@ msgstr ""
 msgid "所有参加人员"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:58
+#: ./apps/2012/templates/SiteView2012/registration.html:64
 msgid "公司票: "
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:64
+#: ./apps/2012/templates/SiteView2012/registration.html:70
 msgid "  B) VIP贵宾票（北京上海的门票一样价钱，报名哪一个就确认哪一个）"
 msgstr ""
 
@@ -2153,12 +2153,12 @@ msgstr ""
 msgid "2Style4You"
 msgstr ""
 
-#: ./apps/2012/person.py:119 ./apps/2012/templates/SiteView2012/index.html:128
+#: ./apps/2012/person.py:119 ./apps/2012/templates/SiteView2012/index.html:136
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:132
 msgid "杨昆"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:90
+#: ./apps/2012/templates/SiteView2012/registration.html:96
 msgid "只要付款即获得门票。本次大会不会进行参会者资格审核，先到先得。组织者确认收到款项，确认收款后登记并确认，并在报名页下显示报名的名字。"
 msgstr ""
 
@@ -2176,7 +2176,7 @@ msgstr ""
 msgid "发布"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:48
+#: ./apps/2012/templates/SiteView2012/registration.html:54
 msgid "  A）普通门票（北京上海的门票一样价钱，报名哪一个就确认哪一个）"
 msgstr ""
 
@@ -2202,7 +2202,7 @@ msgstr ""
 msgid "参加人员"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:240
+#: ./apps/2012/templates/SiteView2012/index.html:248
 msgid "《Python 在互联网广告监测分析中的应用》 陆丹峰"
 msgstr ""
 
@@ -2235,11 +2235,11 @@ msgstr ""
 msgid "刘远亮"
 msgstr ""
 
-#: ./apps/2012/person.py:284 ./apps/2012/templates/SiteView2012/index.html:156
+#: ./apps/2012/person.py:284 ./apps/2012/templates/SiteView2012/index.html:164
 msgid "许智翔"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:290
+#: ./apps/2012/templates/SiteView2012/index.html:298
 msgid "快速演讲：《网页游戏的跨界开发》    董诣"
 msgstr ""
 
@@ -2248,11 +2248,11 @@ msgstr ""
 msgid "《豆瓣从开发到发布过程中的持续集成/发布工程实践》"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:282
+#: ./apps/2012/templates/SiteView2012/index.html:290
 msgid "《人人可以化半小时开发一个全功能OpenERP模块》  王剑峰"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:236
+#: ./apps/2012/templates/SiteView2012/index.html:244
 msgid "《OpenShift - Develop and scale apps in the cloud 》- Lu Linqing"
 msgstr ""
 
@@ -2268,7 +2268,7 @@ msgstr ""
 msgid "《 OpenShift - Develop and scale apps in the cloud 》"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:292
+#: ./apps/2012/templates/SiteView2012/index.html:300
 msgid "快速演讲：《python在linux运维中的应用》   吴晗"
 msgstr ""
 
@@ -2286,7 +2286,7 @@ msgstr ""
 msgid "完成作品的发布运行"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:288
+#: ./apps/2012/templates/SiteView2012/index.html:296
 msgid "《用Tornado开发RESTful API应用》   飞龙非龙"
 msgstr ""
 
@@ -2327,11 +2327,11 @@ msgstr ""
 msgid "《灵活的IDC业务中如何进行Python应用部属》"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:52
+#: ./apps/2012/templates/SiteView2012/registration.html:58
 msgid "个人票: "
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:76
+#: ./apps/2012/templates/SiteView2012/registration.html:82
 msgid "全日会议听课、互动环节，提供午餐和休息茶歇；"
 msgstr ""
 
@@ -2365,7 +2365,7 @@ msgstr ""
 msgid "《Python小团队不妨知道的技术》"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:226
+#: ./apps/2012/templates/SiteView2012/index.html:234
 msgid "编程马拉松"
 msgstr ""
 
@@ -2373,7 +2373,7 @@ msgstr ""
 msgid "新浪云计算首席架构师"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:66
+#: ./apps/2012/templates/SiteView2012/registration.html:72
 msgid "贵宾票价为666元，前42位享受500元优惠价"
 msgstr ""
 
@@ -2390,7 +2390,7 @@ msgstr "Organization:"
 msgid "方家胡同46号,恒温车间"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:274
+#: ./apps/2012/templates/SiteView2012/index.html:282
 msgid "《演进或革命 - 选型和架构的实践经验谈》   潘俊勇"
 msgstr ""
 
@@ -2402,7 +2402,7 @@ msgstr ""
 msgid "huangdong.jpg"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:262
+#: ./apps/2012/templates/SiteView2012/index.html:270
 msgid "主题演讲（上海）"
 msgstr ""
 
@@ -2445,11 +2445,11 @@ msgstr ""
 msgid "《Python 产品构建与发布指南》"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:266
+#: ./apps/2012/templates/SiteView2012/index.html:274
 msgid "大会致辞 《Python继续令世界精彩》    陈世欣"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:242
+#: ./apps/2012/templates/SiteView2012/index.html:250
 msgid "《社会化问答网站中的Python应用》 杨昆"
 msgstr ""
 
@@ -2457,7 +2457,7 @@ msgstr ""
 msgid "于夏桥"
 msgstr ""
 
-#: ./apps/2012/person.py:335 ./apps/2012/templates/SiteView2012/index.html:194
+#: ./apps/2012/person.py:335 ./apps/2012/templates/SiteView2012/index.html:202
 #: ./apps/2012/templates/SiteView2012/schedulesh.html:186
 msgid "吴晗"
 msgstr ""
@@ -2483,7 +2483,7 @@ msgstr ""
 msgid "江苏盛典"
 msgstr ""
 
-#: ./apps/2012/person.py:69 ./apps/2012/templates/SiteView2012/index.html:106
+#: ./apps/2012/person.py:69 ./apps/2012/templates/SiteView2012/index.html:114
 msgid "孙毅"
 msgstr ""
 
@@ -2491,16 +2491,16 @@ msgstr ""
 msgid "许智翔(Shell909090)，现任杭州齐治上海分公司程序员，python/c程序员，有7年工作经验，擅长系统/安全，主要活跃在shlug和cpug社区。他曾主持过多个大型系统的设计和开发，是python-segment和uniproxy的作者，也是python-formalchemy和python-snappy的debian包维护者。他喜欢太极，篮球和潜水，有兴趣的可以通过邮件或email联系他。"
 msgstr ""
 
-#: ./apps/2012/person.py:314 ./apps/2012/templates/SiteView2012/index.html:180
+#: ./apps/2012/person.py:314 ./apps/2012/templates/SiteView2012/index.html:188
 #: ./apps/2012/templates/SiteView2012/schedulesh.html:180
 msgid "董诣"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:256
+#: ./apps/2012/templates/SiteView2012/index.html:264
 msgid "快速演讲：《又一年, UliPad+UliWeb 发展紀事儿》 Limodou"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:78
+#: ./apps/2012/templates/SiteView2012/registration.html:84
 msgid "会议礼品及参考资料。"
 msgstr ""
 
@@ -2527,11 +2527,11 @@ msgstr ""
 msgid "《自动化即时战斗游戏解决方案》"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:104
+#: ./apps/2012/templates/SiteView2012/registration.html:136
 msgid "淘宝付款备注请注明抢座网报名人姓名！"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:80
+#: ./apps/2012/templates/SiteView2012/registration.html:86
 msgid "2) 填写以上报名表，用于未来电子票方式通知和确认参加者"
 msgstr ""
 
@@ -2540,7 +2540,7 @@ msgstr ""
 msgid "《SAE 对Python 的深入支持及应用》"
 msgstr ""
 
-#: ./apps/2012/person.py:50 ./apps/2012/templates/SiteView2012/index.html:206
+#: ./apps/2012/person.py:50 ./apps/2012/templates/SiteView2012/index.html:214
 msgid "42区"
 msgstr ""
 
@@ -2552,6 +2552,7 @@ msgstr ""
 msgid "技术总监"
 msgstr ""
 
+#: ./apps/2012/templates/SiteView2012/index.html:86
 #: ./apps/2012/templates/SiteView2012/sponsors.html:76
 msgid "ScriptFan"
 msgstr ""
@@ -2561,7 +2562,7 @@ msgstr ""
 msgid "《Python 在互联网广告监测分析中的应用》"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:278
+#: ./apps/2012/templates/SiteView2012/index.html:286
 msgid "《网游开发中的 Python 组件》  赖勇浩"
 msgstr ""
 
@@ -2569,11 +2570,11 @@ msgstr ""
 msgid "扇贝网"
 msgstr ""
 
-#: ./apps/2012/person.py:294 ./apps/2012/templates/SiteView2012/index.html:164
+#: ./apps/2012/person.py:294 ./apps/2012/templates/SiteView2012/index.html:172
 msgid "黄峥峼"
 msgstr ""
 
-#: ./apps/2012/person.py:304 ./apps/2012/templates/SiteView2012/index.html:172
+#: ./apps/2012/person.py:304 ./apps/2012/templates/SiteView2012/index.html:180
 msgid "飞龙非龙"
 msgstr ""
 
@@ -2581,7 +2582,7 @@ msgstr ""
 msgid "暴风影音在线研发部-搜索研发组主管"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:82
+#: ./apps/2012/templates/SiteView2012/registration.html:88
 msgid "有淘宝名称与参会者名称不一致的，需要在报名表上注明淘宝付款人。"
 msgstr ""
 
@@ -2621,7 +2622,7 @@ msgstr ""
 msgid "扇贝网的开发者在网站成长过程中遇到的技术问题和解决方法，包括数据安全和备份，MySQL和uwsgi服务性能优化，基于Git的开发流程管理等。希望能帮助以Python/Django为主要开发语言和框架的小技术团队少走一些弯路。"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:238
+#: ./apps/2012/templates/SiteView2012/index.html:246
 msgid "《SAE 对Python 的深入支持及应用》  丛磊"
 msgstr ""
 
@@ -2629,7 +2630,7 @@ msgstr ""
 msgid " 《又一年, UliPad+UliWeb 发展紀事儿》"
 msgstr "《One Year Again, Things about Ulipad & Uliweb》"
 
-#: ./apps/2012/templates/SiteView2012/index.html:286
+#: ./apps/2012/templates/SiteView2012/index.html:294
 msgid "Pyramid Web Framework for Advanced Web Applications》    黄峥峼"
 msgstr ""
 
@@ -2637,7 +2638,7 @@ msgstr ""
 msgid "总经理兼技术总监"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:98
+#: ./apps/2012/templates/SiteView2012/registration.html:104
 msgid "如果没有收到二维码，也可以报名字和邮件地址现场查询确认签到。"
 msgstr ""
 
@@ -2645,7 +2646,7 @@ msgstr ""
 msgid "刘远亮，自述：“我每天只做三件事：玩／享乐，学习／生长，创造。 我一生追求三样东西：自由，美，爱。 我吸取三方面的知识技能：人文，技术，组织。 相信人类社会中的和平的力量，即每一个人对乐趣，美，和爱的追求。 相信是来自所有人的这些力量的合力推动着我们的社会变得更美好， 即更丰富， 更美，更有生命力。”"
 msgstr ""
 
-#: ./apps/2012/person.py:79 ./apps/2012/templates/SiteView2012/index.html:176
+#: ./apps/2012/person.py:79 ./apps/2012/templates/SiteView2012/index.html:184
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:140
 msgid "童小军"
 msgstr ""
@@ -2687,7 +2688,7 @@ msgstr ""
 msgid "于夏桥，来自浙江农林大学网络中心"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:254
+#: ./apps/2012/templates/SiteView2012/index.html:262
 msgid "快速演讲：《廉价硬件和Python构建远程交流机器人开发计划》 骆逸"
 msgstr ""
 
@@ -2709,7 +2710,7 @@ msgstr ""
 msgid "2012年10月20日 9:00-18:00"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:248
+#: ./apps/2012/templates/SiteView2012/index.html:256
 msgid "《豆瓣从开发到发布过程中的持续集成/发布工程实践》   孙毅"
 msgstr ""
 
@@ -2717,12 +2718,12 @@ msgstr ""
 msgid "快速演讲：《国外 Py 社区的组织以及技术发展特点》"
 msgstr ""
 
-#: ./apps/2012/person.py:189 ./apps/2012/templates/SiteView2012/index.html:168
+#: ./apps/2012/person.py:189 ./apps/2012/templates/SiteView2012/index.html:176
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:190
 msgid "王捷"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:232
+#: ./apps/2012/templates/SiteView2012/index.html:240
 msgid "大会致辞 Zoom.Quiet 更加欢乐的一年"
 msgstr ""
 
@@ -2731,7 +2732,7 @@ msgstr ""
 msgid "逐一进行5分钟宣讲,并现场评分,决出前5"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:102
+#: ./apps/2012/templates/SiteView2012/registration.html:128
 msgid "Tips"
 msgstr ""
 
@@ -2759,11 +2760,11 @@ msgstr ""
 msgid "国内python社区最早的布道者之一，2002年开始创办Zope中文社区，同时也是润普公司创始人。2007年转向互联网软件，推出易度云办公(everydo.com)，专注企业云端办公方案。"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:70
+#: ./apps/2012/templates/SiteView2012/registration.html:76
 msgid "可享受会前VIP晚宴，结识更多业内精英；"
 msgstr ""
 
-#: ./apps/2012/person.py:129 ./apps/2012/templates/SiteView2012/index.html:160
+#: ./apps/2012/person.py:129 ./apps/2012/templates/SiteView2012/index.html:168
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:148
 msgid "周辉"
 msgstr ""
@@ -2776,7 +2777,7 @@ msgstr ""
 msgid "童小军在加入暴风搜索的数据分析团队后，经过几年努力使用 python等语言搭建了一整套一个可用的Hadoop数据平台,每天处理和分析达到几十亿行。并带领团队推出EasyHadoop(shell), ComETL(python), PhpHiveAdmin(php), CronHub(java) 等开源软件系统,丰富整个Hadoop生态系统。"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:84
+#: ./apps/2012/templates/SiteView2012/registration.html:90
 msgid "或者在淘宝上注明报名者真实姓名。多人合并购买更必须注明。"
 msgstr ""
 
@@ -2796,11 +2797,11 @@ msgstr ""
 msgid "热酷是中国和日本领先的社会化游戏研发运营商，我们的愿景是变革全球网络游戏行业，为全球用户提供精品社会化游戏。经过近两年的高速发展，热酷的精品社会化游戏遍布全球，目前已拥有近两千万的日活跃用户，正在成为全球最大的社会化游戏公司之一。热酷总部位于中国北京，并在全球多个国家开设办事处。"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:260
+#: ./apps/2012/templates/SiteView2012/index.html:268
 msgid "快速演讲：《灵活的IDC业务中如何进行Python应用部属》  王娇"
 msgstr ""
 
-#: ./apps/2012/person.py:179 ./apps/2012/templates/SiteView2012/index.html:184
+#: ./apps/2012/person.py:179 ./apps/2012/templates/SiteView2012/index.html:192
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:176
 msgid "骆逸"
 msgstr ""
@@ -2809,7 +2810,7 @@ msgstr ""
 msgid "知乎"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/registration.html:100
+#: ./apps/2012/templates/SiteView2012/registration.html:106
 msgid "联系邮件："
 msgstr ""
 
@@ -2899,7 +2900,7 @@ msgstr ""
 msgid "杜玉杰"
 msgstr ""
 
-#: ./apps/2012/person.py:48 ./apps/2012/templates/SiteView2012/index.html:190
+#: ./apps/2012/person.py:48 ./apps/2012/templates/SiteView2012/index.html:198
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:170
 msgid "张沈鹏"
 msgstr ""
@@ -2909,7 +2910,7 @@ msgstr ""
 msgid "或者"
 msgstr ""
 
-#: ./apps/2012/templates/SiteView2012/index.html:208
+#: ./apps/2012/templates/SiteView2012/index.html:216
 #: ./apps/2012/templates/SiteView2012/sponsors.html:106
 msgid "社区团体"
 msgstr ""
@@ -2952,12 +2953,12 @@ msgstr ""
 msgid "陈峰"
 msgstr ""
 
-#: ./apps/2012/person.py:18 ./apps/2012/templates/SiteView2012/index.html:114
+#: ./apps/2012/person.py:18 ./apps/2012/templates/SiteView2012/index.html:122
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:164
 msgid "程辉"
 msgstr ""
 
-#: ./apps/2012/person.py:169 ./apps/2012/templates/SiteView2012/index.html:136
+#: ./apps/2012/person.py:169 ./apps/2012/templates/SiteView2012/index.html:144
 #: ./apps/2012/templates/SiteView2012/schedulebj.html:198
 msgid "曾庆生"
 msgstr ""
@@ -3010,5 +3011,63 @@ msgstr ""
 
 #: ./apps/2012/templates/SiteView2012/sponsors.html:60
 msgid "3Gland提供专业的国内外网络访问服务网络解决方案以及数据中心业务，根据用户需求，提供对应解决方案和网络带宽，满足个性化定制。3Gland总公司辽宁三技科技有限公司成立于1997年，是全国IDC业务服务平台，具有互联网信息服务（ICP）和互联网数据中心（IDC）以及移动网增值业务经营许可证（SP）资质；也是国家通讯管理局指定的备案接入商之一。"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:124
+msgid "点击购买"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/index.html:82
+msgid "图灵文化"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:114
+msgid "捐赠通过淘宝店实现："
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:108
+msgid "小额捐赠和赞助说明"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:122
+msgid "购买666元的VIP票（前42张售500元）"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:130
+msgid "一定要先到"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:126
+msgid "赞助，请邮件联系大会赞助负责人"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:116
+msgid "点击立即捐42元"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:46
+msgid "先到"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:120
+msgid "而企业捐赠则是两种途径："
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:48
+#: ./apps/2012/templates/SiteView2012/registration.html:132
+msgid "抢座网"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:50
+#: ./apps/2012/templates/SiteView2012/registration.html:134
+msgid "完成报名,再去 淘宝 支付,大会才能明确你的意愿 ;-)"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:112
+msgid "嘉宾和志愿者也通过自己的独特贡献进入到热心蟒人榜。"
+msgstr ""
+
+#: ./apps/2012/templates/SiteView2012/registration.html:110
+msgid "个人小额捐赠42元起，可以进入到cn.pycon.org官网 - 热心蟒人榜"
 msgstr ""
 
