@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-09-17 12:19\n"
+"POT-Creation-Date: 2012-09-18 12:04\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,2969 +16,2969 @@ msgstr ""
 "Generated-By: pygettext.py 1.6\n"
 
 
-#: .\apps\2011\templates\siteView\about.html:8
-#: .\apps\2012\templates\SiteView2012\about.html:8 .\apps\settings.ini:42
-#: .\apps\settings.ini:52
+#: ./apps/2011/templates/siteView/about.html:8
+#: ./apps/2012/templates/SiteView2012/about.html:8 ./apps/settings.ini:43
+#: ./apps/settings.ini:53
 msgid "关于大会"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:12
+#: ./apps/2011/templates/siteView/about.html:12
 msgid "世界Python爱好者的盛会PyCon首次在中国举办，由Python软件基金会下的PyCon.Org授权中国办第一次PyCon China Conference。本次大会由GTUG， TopGeek，CPyUG联合举办。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:14
-#: .\apps\2012\templates\SiteView2012\about.html:14
+#: ./apps/2011/templates/siteView/about.html:14
+#: ./apps/2012/templates/SiteView2012/about.html:14
 msgid "PyCon.Org是举办Python语言的国际性社区，在世界各地举办Python大会，是Python 爱好者的盛会，对推动Python在各地的发展有深远的影响"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:16
-#: .\apps\2012\templates\SiteView2012\about.html:16
+#: ./apps/2011/templates/siteView/about.html:16
+#: ./apps/2012/templates/SiteView2012/about.html:16
 msgid "媒体报道（排名不分先后）："
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:18
-#: .\apps\2012\templates\SiteView2012\about.html:18
+#: ./apps/2011/templates/siteView/about.html:18
+#: ./apps/2012/templates/SiteView2012/about.html:18
 msgid "全球PyCon会议包括："
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:20
-#: .\apps\2012\templates\SiteView2012\about.html:20
+#: ./apps/2011/templates/siteView/about.html:20
+#: ./apps/2012/templates/SiteView2012/about.html:20
 msgid "关于主办方"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:22
-#: .\apps\2012\templates\SiteView2012\about.html:22
+#: ./apps/2011/templates/siteView/about.html:22
+#: ./apps/2012/templates/SiteView2012/about.html:22
 msgid "是Google的技术爱好者在全球成立的技术交流社区，在中国主要城市都是各种组织活动。不断地推动了技术的发展。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:24
-#: .\apps\2012\templates\SiteView2012\about.html:24
+#: ./apps/2011/templates/siteView/about.html:24
+#: ./apps/2012/templates/SiteView2012/about.html:24
 msgid "是各个城市自发组织的本地Python爱好者的社区，也经常组织Python线下技术交流活动，主要在北京和上海，已经进行了5年多，从08年起珠三角／南昌／安徽等地都在组织。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:26
-#: .\apps\2012\templates\SiteView2012\about.html:26
+#: ./apps/2011/templates/siteView/about.html:26
+#: ./apps/2012/templates/SiteView2012/about.html:26
 msgid "顶尖极客沙龙(TopGeek)"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:28
-#: .\apps\2012\templates\SiteView2012\about.html:28
+#: ./apps/2011/templates/siteView/about.html:28
+#: ./apps/2012/templates/SiteView2012/about.html:28
 msgid "是面向技术极客的组织，定期举办线下活动，讨论软件和互联网的一些新的技术潮流，开发理念和经验。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:30
-#: .\apps\2012\templates\SiteView2012\about.html:30
+#: ./apps/2011/templates/siteView/about.html:30
+#: ./apps/2012/templates/SiteView2012/about.html:30
 msgid "这个组织不以语言或行业划分圈子，打破技术分割，开拓大家思路，促进互相学习，实现资源共享。解决一些成熟技术人员进一步发展的共同问题，促进交流和发展。口号：\"一日为极客，终身为极客！\""
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:32
-#: .\apps\2012\templates\SiteView2012\about.html:32
+#: ./apps/2011/templates/siteView/about.html:32
+#: ./apps/2012/templates/SiteView2012/about.html:32
 msgid "TopGeek组织的特点"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:34
-#: .\apps\2012\templates\SiteView2012\about.html:34
+#: ./apps/2011/templates/siteView/about.html:34
+#: ./apps/2012/templates/SiteView2012/about.html:34
 msgid "线下活动为主，与会人员和主题不分程序开发语言、不分开源还是商业软件，不分终端是PC还是手机。提倡跨界交流。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:36
-#: .\apps\2012\templates\SiteView2012\about.html:36
+#: ./apps/2011/templates/siteView/about.html:36
+#: ./apps/2012/templates/SiteView2012/about.html:36
 msgid "以高级技术人员为主，活动中鼓励频繁沟通，对问题的深入探究。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:38
-#: .\apps\2012\templates\SiteView2012\about.html:38
+#: ./apps/2011/templates/siteView/about.html:38
+#: ./apps/2012/templates/SiteView2012/about.html:38
 msgid "在研究主流技术趋势、新机会的同时，也给予小众的技术流派足够关注。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:40
-#: .\apps\2012\templates\SiteView2012\about.html:40
+#: ./apps/2011/templates/siteView/about.html:40
+#: ./apps/2012/templates/SiteView2012/about.html:40
 msgid "关于TopGeek"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:42
-#: .\apps\2012\templates\SiteView2012\about.html:42
+#: ./apps/2011/templates/siteView/about.html:42
+#: ./apps/2012/templates/SiteView2012/about.html:42
 msgid "组织博客"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:44
-#: .\apps\2012\templates\SiteView2012\about.html:44
+#: ./apps/2011/templates/siteView/about.html:44
+#: ./apps/2012/templates/SiteView2012/about.html:44
 msgid "新浪微博"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:46
-#: .\apps\2012\templates\SiteView2012\about.html:46
+#: ./apps/2011/templates/siteView/about.html:46
+#: ./apps/2012/templates/SiteView2012/about.html:46
 msgid "组织者"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:48
-#: .\apps\2012\templates\SiteView2012\about.html:48
+#: ./apps/2011/templates/siteView/about.html:48
+#: ./apps/2012/templates/SiteView2012/about.html:48
 msgid "陈世欣（2Style4You CTO），王宏（微软中国高级经理），李锟（上海鹏图信息技术有限公司CTO），吕国宁（Intridea资深工程师），罗小能（2Style4You工程师），支晓勇（91Office技术总监）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:50
-#: .\apps\2012\templates\SiteView2012\about.html:50
+#: ./apps/2011/templates/siteView/about.html:50
+#: ./apps/2012/templates/SiteView2012/about.html:50
 msgid "TopGeek社区组织的历次活动"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:52
-#: .\apps\2011\templates\siteView\about.html:54
-#: .\apps\2011\templates\siteView\about.html:56
-#: .\apps\2011\templates\siteView\about.html:58
-#: .\apps\2011\templates\siteView\about.html:60
-#: .\apps\2012\templates\SiteView2012\about.html:52
-#: .\apps\2012\templates\SiteView2012\about.html:54
-#: .\apps\2012\templates\SiteView2012\about.html:56
-#: .\apps\2012\templates\SiteView2012\about.html:58
-#: .\apps\2012\templates\SiteView2012\about.html:60
+#: ./apps/2011/templates/siteView/about.html:52
+#: ./apps/2011/templates/siteView/about.html:54
+#: ./apps/2011/templates/siteView/about.html:56
+#: ./apps/2011/templates/siteView/about.html:58
+#: ./apps/2011/templates/siteView/about.html:60
+#: ./apps/2012/templates/SiteView2012/about.html:52
+#: ./apps/2012/templates/SiteView2012/about.html:54
+#: ./apps/2012/templates/SiteView2012/about.html:56
+#: ./apps/2012/templates/SiteView2012/about.html:58
+#: ./apps/2012/templates/SiteView2012/about.html:60
 msgid "报道请看"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\about.html:62
-#: .\apps\2012\templates\SiteView2012\about.html:62
+#: ./apps/2011/templates/siteView/about.html:62
+#: ./apps/2012/templates/SiteView2012/about.html:62
 msgid "查看此主办方其它活动"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:10
-#: .\apps\2012\templates\SiteView2012\collections.html:10
-#: .\apps\settings.ini:55
+#: ./apps/2011/templates/siteView/collections.html:10
+#: ./apps/2012/templates/SiteView2012/collections.html:10
+#: ./apps/settings.ini:56
 msgid "大会集锦"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:12
-#: .\apps\2012\templates\SiteView2012\collections.html:12
+#: ./apps/2011/templates/siteView/collections.html:12
+#: ./apps/2012/templates/SiteView2012/collections.html:12
 msgid "PyCon China 2011 于12月4日完美落幕。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:14
-#: .\apps\2012\templates\SiteView2012\collections.html:14
+#: ./apps/2011/templates/siteView/collections.html:14
+#: ./apps/2012/templates/SiteView2012/collections.html:14
 msgid "会议现场照片请移步"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:16
-#: .\apps\2012\templates\SiteView2012\collections.html:16
+#: ./apps/2011/templates/siteView/collections.html:16
+#: ./apps/2012/templates/SiteView2012/collections.html:16
 msgid "又拍相册"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:18
-#: .\apps\2012\templates\SiteView2012\collections.html:18
+#: ./apps/2011/templates/siteView/collections.html:18
+#: ./apps/2012/templates/SiteView2012/collections.html:18
 msgid "会议视频回放请移步"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:20
-#: .\apps\2012\templates\SiteView2012\collections.html:20
+#: ./apps/2011/templates/siteView/collections.html:20
+#: ./apps/2012/templates/SiteView2012/collections.html:20
 msgid "演讲Keynote下载请移步"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:22
-#: .\apps\2012\templates\SiteView2012\collections.html:22
+#: ./apps/2011/templates/siteView/collections.html:22
+#: ./apps/2012/templates/SiteView2012/collections.html:22
 msgid "官网“日程安排”页面"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:24
-#: .\apps\2012\templates\SiteView2012\collections.html:24
+#: ./apps/2011/templates/siteView/collections.html:24
+#: ./apps/2012/templates/SiteView2012/collections.html:24
 msgid "媒体报道请移步"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:26
-#: .\apps\2012\templates\SiteView2012\collections.html:26
+#: ./apps/2011/templates/siteView/collections.html:26
+#: ./apps/2012/templates/SiteView2012/collections.html:26
 msgid "官网“关于大会”页面"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:28
-#: .\apps\2012\templates\SiteView2012\collections.html:28
+#: ./apps/2011/templates/siteView/collections.html:28
+#: ./apps/2012/templates/SiteView2012/collections.html:28
 msgid "会议中涉及的开源项目地址："
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:30
-#: .\apps\2012\templates\SiteView2012\collections.html:30
+#: ./apps/2011/templates/siteView/collections.html:30
+#: ./apps/2012/templates/SiteView2012/collections.html:30
 msgid "PyCon China 2011 官网开源项目"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:32
-#: .\apps\2011\templates\siteView\schedule.html:224
-#: .\apps\2012\templates\SiteView2012\collections.html:32
+#: ./apps/2011/templates/siteView/collections.html:32
+#: ./apps/2011/templates/siteView/schedule.html:224
+#: ./apps/2012/templates/SiteView2012/collections.html:32
 msgid "快速演讲：《PyCon China官网的开发及搭建》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:34
-#: .\apps\2012\templates\SiteView2012\collections.html:34
+#: ./apps/2011/templates/siteView/collections.html:34
+#: ./apps/2012/templates/SiteView2012/collections.html:34
 msgid "迅雷离线脚本Python版"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:36
-#: .\apps\2011\templates\siteView\collections.html:40
-#: .\apps\2011\templates\siteView\schedule.html:198
-#: .\apps\2012\templates\SiteView2012\collections.html:36
-#: .\apps\2012\templates\SiteView2012\collections.html:40
+#: ./apps/2011/templates/siteView/collections.html:36
+#: ./apps/2011/templates/siteView/collections.html:40
+#: ./apps/2011/templates/siteView/schedule.html:198
+#: ./apps/2012/templates/SiteView2012/collections.html:36
+#: ./apps/2012/templates/SiteView2012/collections.html:40
 msgid "快速演讲：《用Python改进迅雷离线 — A Python Successful Story》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\collections.html:38
-#: .\apps\2012\templates\SiteView2012\collections.html:38
+#: ./apps/2011/templates/siteView/collections.html:38
+#: ./apps/2012/templates/SiteView2012/collections.html:38
 msgid "迅雷离线XBMC插件"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:12
-#: .\apps\2011\templates\siteView\schedule.html:8
-#: .\apps\2012\templates\SiteView2012\index.html:14
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:8
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:10
+#: ./apps/2011/templates/siteView/index.html:12
+#: ./apps/2011/templates/siteView/schedule.html:8
+#: ./apps/2012/templates/SiteView2012/index.html:14
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:8
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:10
 msgid "cn"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:22
-#: .\apps\2011\templates\siteView\index.html:36
-#: .\apps\2012\templates\SiteView2012\index.html:32
+#: ./apps/2011/templates/siteView/index.html:22
+#: ./apps/2011/templates/siteView/index.html:36
+#: ./apps/2012/templates/SiteView2012/index.html:32
 msgid "立即报名！"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:26
+#: ./apps/2011/templates/siteView/index.html:26
 msgid "在今年的大会中"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:28
+#: ./apps/2011/templates/siteView/index.html:28
 msgid "我们会抽出2台Bambook"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:30
+#: ./apps/2011/templates/siteView/index.html:30
 msgid "作为参会者的奖品"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:32
+#: ./apps/2011/templates/siteView/index.html:32
 msgid "人人都有机会，只要您已经注册"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:34
+#: ./apps/2011/templates/siteView/index.html:34
 msgid "还没有注册？点击下面的按钮立即前往注册页面。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:44
-#: .\apps\2012\templates\SiteView2012\index.html:40
+#: ./apps/2011/templates/siteView/index.html:44
+#: ./apps/2012/templates/SiteView2012/index.html:40
 msgid "大会赞助商"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:54
-#: .\apps\2011\templates\siteView\sponsors.html:34
+#: ./apps/2011/templates/siteView/index.html:54
+#: ./apps/2011/templates/siteView/sponsors.html:34
 msgid "盛大网络"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:58
-#: .\apps\2011\templates\siteView\sponsors.html:40 .\apps\2012\person.py:101
-#: .\apps\2012\templates\SiteView2012\index.html:54
-#: .\apps\2012\templates\SiteView2012\sponsors.html:36
+#: ./apps/2011/templates/siteView/index.html:58
+#: ./apps/2011/templates/siteView/sponsors.html:40 ./apps/2012/person.py:101
+#: ./apps/2012/templates/SiteView2012/index.html:54
+#: ./apps/2012/templates/SiteView2012/sponsors.html:36
 msgid "金山网络"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:66
-#: .\apps\2011\templates\siteView\sponsors.html:60
+#: ./apps/2011/templates/siteView/index.html:66
+#: ./apps/2011/templates/siteView/sponsors.html:60
 msgid "湖州迅普"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:70
-#: .\apps\2011\templates\siteView\sponsors.html:54
+#: ./apps/2011/templates/siteView/index.html:70
+#: ./apps/2011/templates/siteView/sponsors.html:54
 msgid "遛宝"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:74
-#: .\apps\2011\templates\siteView\sponsors.html:66
-#: .\apps\2012\templates\SiteView2012\sponsors.html:70
+#: ./apps/2011/templates/siteView/index.html:74
+#: ./apps/2011/templates/siteView/sponsors.html:66
+#: ./apps/2012/templates/SiteView2012/sponsors.html:70
 msgid "图灵"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:78
-#: .\apps\2011\templates\siteView\sponsors.html:72
+#: ./apps/2011/templates/siteView/index.html:78
+#: ./apps/2011/templates/siteView/sponsors.html:72
 msgid "Gensee 展视互动"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:80
+#: ./apps/2011/templates/siteView/index.html:80
 msgid "演讲嘉宾"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:82
+#: ./apps/2011/templates/siteView/index.html:82
 msgid "查看详细演讲内容及日程安排"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:86
-#: .\apps\2011\templates\siteView\schedule.html:54 .\apps\2012\person.py:199
-#: .\apps\2012\templates\SiteView2012\index.html:94
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:92
+#: ./apps/2011/templates/siteView/index.html:86
+#: ./apps/2011/templates/siteView/schedule.html:54 ./apps/2012/person.py:199
+#: ./apps/2012/templates/SiteView2012/index.html:94
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:92
 msgid "陈世欣"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:90
-#: .\apps\2011\templates\siteView\schedule.html:66 .\apps\2012\person.py:209
-#: .\apps\2012\templates\SiteView2012\index.html:102
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:102
+#: ./apps/2011/templates/siteView/index.html:90
+#: ./apps/2011/templates/siteView/schedule.html:66 ./apps/2012/person.py:209
+#: ./apps/2012/templates/SiteView2012/index.html:102
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:102
 msgid "沈崴"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:94
-#: .\apps\2011\templates\siteView\schedule.html:76 .\apps\2012\person.py:219
-#: .\apps\2012\templates\SiteView2012\index.html:118
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:110
+#: ./apps/2011/templates/siteView/index.html:94
+#: ./apps/2011/templates/siteView/schedule.html:76 ./apps/2012/person.py:219
+#: ./apps/2012/templates/SiteView2012/index.html:118
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:110
 msgid "林伟"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:98
-#: .\apps\2011\templates\siteView\schedule.html:86
+#: ./apps/2011/templates/siteView/index.html:98
+#: ./apps/2011/templates/siteView/schedule.html:86
 msgid "洪强宁"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:104
-#: .\apps\2011\templates\siteView\schedule.html:100 .\apps\2012\person.py:231
-#: .\apps\2012\templates\SiteView2012\index.html:110
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:120
+#: ./apps/2011/templates/siteView/index.html:104
+#: ./apps/2011/templates/siteView/schedule.html:100 ./apps/2012/person.py:231
+#: ./apps/2012/templates/SiteView2012/index.html:110
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:120
 msgid "潘俊勇"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:108
-#: .\apps\2011\templates\siteView\schedule.html:108 .\apps\2012\person.py:241
-#: .\apps\2012\templates\SiteView2012\index.html:124
+#: ./apps/2011/templates/siteView/index.html:108
+#: ./apps/2011/templates/siteView/schedule.html:108 ./apps/2012/person.py:241
+#: ./apps/2012/templates/SiteView2012/index.html:124
 msgid "黄冬"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:112
-#: .\apps\2011\templates\siteView\schedule.html:116
+#: ./apps/2011/templates/siteView/index.html:112
+#: ./apps/2011/templates/siteView/schedule.html:116
 msgid "陈正"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:118
-#: .\apps\2011\templates\siteView\schedule.html:150 .\apps\2012\person.py:99
-#: .\apps\2012\templates\SiteView2012\index.html:90
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:90
+#: ./apps/2011/templates/siteView/index.html:118
+#: ./apps/2011/templates/siteView/schedule.html:150 ./apps/2012/person.py:99
+#: ./apps/2012/templates/SiteView2012/index.html:90
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:90
 msgid "周琦"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:122
-#: .\apps\2011\templates\siteView\schedule.html:162 .\apps\2012\person.py:109
-#: .\apps\2012\templates\SiteView2012\index.html:152
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:184
+#: ./apps/2011/templates/siteView/index.html:122
+#: ./apps/2011/templates/siteView/schedule.html:162 ./apps/2012/person.py:109
+#: ./apps/2012/templates/SiteView2012/index.html:152
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:184
 msgid "李迎辉"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:126
-#: .\apps\2011\templates\siteView\schedule.html:172 .\apps\2012\person.py:254
-#: .\apps\2012\templates\SiteView2012\index.html:132
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:134
+#: ./apps/2011/templates/siteView/index.html:126
+#: ./apps/2011/templates/siteView/schedule.html:172 ./apps/2012/person.py:254
+#: ./apps/2012/templates/SiteView2012/index.html:132
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:134
 msgid "赖勇浩"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:130
-#: .\apps\2011\templates\siteView\schedule.html:182 .\apps\2012\person.py:264
-#: .\apps\2012\templates\SiteView2012\index.html:140
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:144
+#: ./apps/2011/templates/siteView/index.html:130
+#: ./apps/2011/templates/siteView/schedule.html:182 ./apps/2012/person.py:264
+#: ./apps/2012/templates/SiteView2012/index.html:140
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:144
 msgid "王健"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:134
-#: .\apps\2011\templates\siteView\schedule.html:194 .\apps\2012\person.py:274
-#: .\apps\2012\templates\SiteView2012\index.html:148
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:152
+#: ./apps/2011/templates/siteView/index.html:134
+#: ./apps/2011/templates/siteView/schedule.html:194 ./apps/2012/person.py:274
+#: ./apps/2012/templates/SiteView2012/index.html:148
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:152
 msgid "王剑峰"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:138
-#: .\apps\2011\templates\siteView\schedule.html:200
+#: ./apps/2011/templates/siteView/index.html:138
+#: ./apps/2011/templates/siteView/schedule.html:200
 msgid "刁立知"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:142
-#: .\apps\2011\templates\siteView\schedule.html:214
+#: ./apps/2011/templates/siteView/index.html:142
+#: ./apps/2011/templates/siteView/schedule.html:214
 msgid "李俊东"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:146
-#: .\apps\2011\templates\siteView\schedule.html:220
+#: ./apps/2011/templates/siteView/index.html:146
+#: ./apps/2011/templates/siteView/schedule.html:220
 msgid "林君"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:150
-#: .\apps\2011\templates\siteView\schedule.html:226
+#: ./apps/2011/templates/siteView/index.html:150
+#: ./apps/2011/templates/siteView/schedule.html:226
 msgid "孙大同"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:156
-#: .\apps\2011\templates\siteView\schedule.html:236
+#: ./apps/2011/templates/siteView/index.html:156
+#: ./apps/2011/templates/siteView/schedule.html:236
 msgid "王浩飞"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:160
-#: .\apps\2011\templates\siteView\schedule.html:244
+#: ./apps/2011/templates/siteView/index.html:160
+#: ./apps/2011/templates/siteView/schedule.html:244
 msgid "钟子飞"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:164
-#: .\apps\2011\templates\siteView\sponsors.html:76
-#: .\apps\2012\templates\SiteView2012\index.html:196
-#: .\apps\2012\templates\SiteView2012\sponsors.html:80
+#: ./apps/2011/templates/siteView/index.html:164
+#: ./apps/2011/templates/siteView/sponsors.html:76
+#: ./apps/2012/templates/SiteView2012/index.html:196
+#: ./apps/2012/templates/SiteView2012/sponsors.html:80
 msgid "媒体支持"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:176
-#: .\apps\2011\templates\siteView\sponsors.html:96
+#: ./apps/2011/templates/siteView/index.html:176
+#: ./apps/2011/templates/siteView/sponsors.html:96
 msgid "Python 中文社区"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:182
-#: .\apps\2011\templates\siteView\sponsors.html:110
+#: ./apps/2011/templates/siteView/index.html:182
+#: ./apps/2011/templates/siteView/sponsors.html:110
 msgid "啄木鸟社区"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:186
-#: .\apps\2011\templates\siteView\sponsors.html:116
+#: ./apps/2011/templates/siteView/index.html:186
+#: ./apps/2011/templates/siteView/sponsors.html:116
 msgid "Google 网上论坛"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:190
-#: .\apps\2011\templates\siteView\sponsors.html:122
+#: ./apps/2011/templates/siteView/index.html:190
+#: ./apps/2011/templates/siteView/sponsors.html:122
 msgid "Gensee 展视互动云会议"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:192
-#: .\apps\2012\templates\SiteView2012\index.html:224
+#: ./apps/2011/templates/siteView/index.html:192
+#: ./apps/2012/templates/SiteView2012/index.html:224
 msgid "演讲日程"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:194
-#: .\apps\2011\templates\siteView\schedule.html:36
+#: ./apps/2011/templates/siteView/index.html:194
+#: ./apps/2011/templates/siteView/schedule.html:36
 msgid "欢迎晚宴"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:196
+#: ./apps/2011/templates/siteView/index.html:196
 msgid "主题演讲（第一天）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:198
-#: .\apps\2011\templates\siteView\schedule.html:46
-#: .\apps\2012\templates\SiteView2012\index.html:230
-#: .\apps\2012\templates\SiteView2012\index.html:264
+#: ./apps/2011/templates/siteView/index.html:198
+#: ./apps/2011/templates/siteView/schedule.html:46
+#: ./apps/2012/templates/SiteView2012/index.html:230
+#: ./apps/2012/templates/SiteView2012/index.html:264
 msgid "主办方和赞助者介绍"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:200
+#: ./apps/2011/templates/siteView/index.html:200
 msgid "大会致辞《Python让世界更精彩》- 陈世欣"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:202
-#: .\apps\2012\templates\SiteView2012\index.html:234
-#: .\apps\2012\templates\SiteView2012\index.html:268
+#: ./apps/2011/templates/siteView/index.html:202
+#: ./apps/2012/templates/SiteView2012/index.html:234
+#: ./apps/2012/templates/SiteView2012/index.html:268
 msgid "Video联播《世界各国Python高手的演讲》- 各国Pythoner"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:204
+#: ./apps/2011/templates/siteView/index.html:204
 msgid "《Python ，通向未来之路》 - 沈崴"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:206
+#: ./apps/2011/templates/siteView/index.html:206
 msgid "《Python游戏开发探索与发现》 - 林伟"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:208
+#: ./apps/2011/templates/siteView/index.html:208
 msgid "《Python在豆瓣的应用》 - 洪强宁"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:210
+#: ./apps/2011/templates/siteView/index.html:210
 msgid "《用coro-thread技术来扩展web应用程序栈》 - Damien Hou"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:212
+#: ./apps/2011/templates/siteView/index.html:212
 msgid "《易度PaaS云开发平台技术内幕》 - 潘俊勇"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:214
+#: ./apps/2011/templates/siteView/index.html:214
 msgid "《大规模视频网站的计费与流量管理》 - 黄冬"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:216
+#: ./apps/2011/templates/siteView/index.html:216
 msgid "《SAE(Sina AppEngine) 的 python 版实现》 - 陈正"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:218
-#: .\apps\2011\templates\siteView\schedule.html:126
-#: .\apps\2012\templates\SiteView2012\index.html:294
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:208
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:198
+#: ./apps/2011/templates/siteView/index.html:218
+#: ./apps/2011/templates/siteView/schedule.html:126
+#: ./apps/2012/templates/SiteView2012/index.html:294
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:208
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:198
 msgid "把酒话英雄 - Python爱好者与嘉宾们晚宴"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:220
+#: ./apps/2011/templates/siteView/index.html:220
 msgid "主题演讲（第二天）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:222
+#: ./apps/2011/templates/siteView/index.html:222
 msgid "《用Python实现基于MySQL为后台的Schemaless数据存储系统》 - Ryan Ye"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:224
+#: ./apps/2011/templates/siteView/index.html:224
 msgid "《使用 MQ 解耦应用开发》 - Zoom.Quiet（周琦）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:226
+#: ./apps/2011/templates/siteView/index.html:226
 msgid "《Web 框架开发思考与实践 — Uliweb》 - Limodou（李迎辉）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:228
+#: ./apps/2011/templates/siteView/index.html:228
 msgid "《Python 之于 Webgame 的应用》- 赖勇浩"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:230
+#: ./apps/2011/templates/siteView/index.html:230
 msgid "《中型角色扮演网络游戏服务器的 python 应用》 - 王健"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:232
+#: ./apps/2011/templates/siteView/index.html:232
 msgid "快速演讲（产品Demo或技术心得分享）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:234
+#: ./apps/2011/templates/siteView/index.html:234
 msgid "《OpenERP方案介绍和二次开发》 - 王剑峰"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:236
+#: ./apps/2011/templates/siteView/index.html:236
 msgid "《用Python改进迅雷离线 — A Python Successful Story》 - Adieu（刁立知）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:238
+#: ./apps/2011/templates/siteView/index.html:238
 msgid "《与Python一路走来》 - 李俊东"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:240
+#: ./apps/2011/templates/siteView/index.html:240
 msgid "《用Tornado搭建实时应用》 - 林君"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:242
+#: ./apps/2011/templates/siteView/index.html:242
 msgid "《PyCon China官网的开发及搭建》 - 孙大同"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:244
+#: ./apps/2011/templates/siteView/index.html:244
 msgid "《OpenStack: 基于Python编写的开源云计算平台》 - 王浩飞"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:246
+#: ./apps/2011/templates/siteView/index.html:246
 msgid "《图形化大规模网络设备》 - 钟子飞"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:248
+#: ./apps/2011/templates/siteView/index.html:248
 msgid "《工程师职业规划探讨》 - 宋进亮"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:250
+#: ./apps/2011/templates/siteView/index.html:250
 msgid "《Workend, where developer meets designer》 - Steven.Yang"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:252
+#: ./apps/2011/templates/siteView/index.html:252
 msgid "详细日程"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:254
-#: .\apps\2012\templates\SiteView2012\index.html:300
+#: ./apps/2011/templates/siteView/index.html:254
+#: ./apps/2012/templates/SiteView2012/index.html:300
 msgid "关于"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:256
-#: .\apps\2011\templates\siteView\sponsors.html:88
-#: .\apps\2012\templates\SiteView2012\index.html:302
+#: ./apps/2011/templates/siteView/index.html:256
+#: ./apps/2011/templates/siteView/sponsors.html:88
+#: ./apps/2012/templates/SiteView2012/index.html:302
 msgid "PyCon.Org是举办Python语言的国际性社区，在世界各地举办Python大会，是Python 爱好者的盛会，对推动Python在各地的发展有深远的影响。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:258
-#: .\apps\2012\templates\SiteView2012\index.html:304
+#: ./apps/2011/templates/siteView/index.html:258
+#: ./apps/2012/templates/SiteView2012/index.html:304
 msgid "更多细节"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:260
-#: .\apps\2012\templates\SiteView2012\index.html:306
+#: ./apps/2011/templates/siteView/index.html:260
+#: ./apps/2012/templates/SiteView2012/index.html:306
 msgid "近期新闻"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:262
-#: .\apps\2012\templates\SiteView2012\index.html:308
+#: ./apps/2011/templates/siteView/index.html:262
+#: ./apps/2012/templates/SiteView2012/index.html:308
 msgid "大会网络直播地址："
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:264
-#: .\apps\2012\templates\SiteView2012\index.html:310
+#: ./apps/2011/templates/siteView/index.html:264
+#: ./apps/2012/templates/SiteView2012/index.html:310
 msgid "官方网站上线"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:266
-#: .\apps\2012\templates\SiteView2012\index.html:312 .\apps\settings.ini:48
-#: .\apps\settings.ini:58
+#: ./apps/2011/templates/siteView/index.html:266
+#: ./apps/2012/templates/SiteView2012/index.html:312 ./apps/settings.ini:49
+#: ./apps/settings.ini:59
 msgid "官方微博"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\index.html:268
-#: .\apps\2012\templates\SiteView2012\index.html:314
+#: ./apps/2011/templates/siteView/index.html:268
+#: ./apps/2012/templates/SiteView2012/index.html:314
 msgid "上线"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:8
-#: .\apps\2012\templates\SiteView2012\registration.html:8
-#: .\apps\settings.ini:45 .\apps\settings.ini:54
+#: ./apps/2011/templates/siteView/registration.html:8
+#: ./apps/2012/templates/SiteView2012/registration.html:8
+#: ./apps/settings.ini:46 ./apps/settings.ini:55
 msgid "报名注册"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:10
-#: .\apps\2012\templates\SiteView2012\registration.html:10
+#: ./apps/2011/templates/siteView/registration.html:10
+#: ./apps/2012/templates/SiteView2012/registration.html:10
 msgid "大会时间"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:12
+#: ./apps/2011/templates/siteView/registration.html:12
 msgid "2011年12月3日-12/4 9:30-18:00"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:14
-#: .\apps\2011\templates\siteView\venue.html:30
-#: .\apps\2012\templates\SiteView2012\venue.html:30
+#: ./apps/2011/templates/siteView/registration.html:14
+#: ./apps/2011/templates/siteView/venue.html:30
+#: ./apps/2012/templates/SiteView2012/venue.html:30
 msgid "大会地点"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:16
-#: .\apps\2011\templates\siteView\venue.html:32
-#: .\apps\2012\templates\SiteView2012\venue.html:32
+#: ./apps/2011/templates/siteView/registration.html:16
+#: ./apps/2011/templates/siteView/venue.html:32
+#: ./apps/2012/templates/SiteView2012/venue.html:32
 msgid "上海虹口区广纪路838号中国出版蓝桥创意园主楼7楼会议室"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:18
-#: .\apps\2012\templates\SiteView2012\registration.html:36
+#: ./apps/2011/templates/siteView/registration.html:18
+#: ./apps/2012/templates/SiteView2012/registration.html:36
 msgid "与会人数"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:20
+#: ./apps/2011/templates/siteView/registration.html:20
 msgid "300人"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:22
-#: .\apps\2012\templates\SiteView2012\registration.html:40
+#: ./apps/2011/templates/siteView/registration.html:22
+#: ./apps/2012/templates/SiteView2012/registration.html:40
 msgid "参会人员"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:24
-#: .\apps\2012\templates\SiteView2012\registration.html:42
+#: ./apps/2011/templates/siteView/registration.html:24
+#: ./apps/2012/templates/SiteView2012/registration.html:42
 msgid "对Python技术痴迷的蟒粉，Python开发人员，Python初学者和对Python感兴趣的人。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:26
+#: ./apps/2011/templates/siteView/registration.html:26
 msgid "参会费用"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:28
-#: .\apps\2011\templates\siteView\registration.html:32
-#: .\apps\2011\templates\siteView\registration.html:48
-#: .\apps\2011\templates\siteView\registration.html:52
+#: ./apps/2011/templates/siteView/registration.html:28
+#: ./apps/2011/templates/siteView/registration.html:32
+#: ./apps/2011/templates/siteView/registration.html:48
+#: ./apps/2011/templates/siteView/registration.html:52
 msgid "元/人"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:30
+#: ./apps/2011/templates/siteView/registration.html:30
 msgid "总费用原价为"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:34
+#: ./apps/2011/templates/siteView/registration.html:34
 msgid "包括：两顿午餐费"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:36
-#: .\apps\2011\templates\siteView\registration.html:40
-#: .\apps\2011\templates\siteView\registration.html:44
-#: .\apps\2011\templates\siteView\venue.html:66
-#: .\apps\2011\templates\siteView\venue.html:82
-#: .\apps\2011\templates\siteView\venue.html:98
-#: .\apps\2011\templates\siteView\venue.html:112
-#: .\apps\2011\templates\siteView\venue.html:124
-#: .\apps\2011\templates\siteView\venue.html:140
-#: .\apps\2012\templates\SiteView2012\venue.html:66
-#: .\apps\2012\templates\SiteView2012\venue.html:82
-#: .\apps\2012\templates\SiteView2012\venue.html:98
-#: .\apps\2012\templates\SiteView2012\venue.html:112
-#: .\apps\2012\templates\SiteView2012\venue.html:124
-#: .\apps\2012\templates\SiteView2012\venue.html:140
+#: ./apps/2011/templates/siteView/registration.html:36
+#: ./apps/2011/templates/siteView/registration.html:40
+#: ./apps/2011/templates/siteView/registration.html:44
+#: ./apps/2011/templates/siteView/venue.html:66
+#: ./apps/2011/templates/siteView/venue.html:82
+#: ./apps/2011/templates/siteView/venue.html:98
+#: ./apps/2011/templates/siteView/venue.html:112
+#: ./apps/2011/templates/siteView/venue.html:124
+#: ./apps/2011/templates/siteView/venue.html:140
+#: ./apps/2012/templates/SiteView2012/venue.html:66
+#: ./apps/2012/templates/SiteView2012/venue.html:82
+#: ./apps/2012/templates/SiteView2012/venue.html:98
+#: ./apps/2012/templates/SiteView2012/venue.html:112
+#: ./apps/2012/templates/SiteView2012/venue.html:124
+#: ./apps/2012/templates/SiteView2012/venue.html:140
 msgid "元"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:38
+#: ./apps/2011/templates/siteView/registration.html:38
 msgid "礼品费"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:42
+#: ./apps/2011/templates/siteView/registration.html:42
 msgid "会费"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:46
+#: ./apps/2011/templates/siteView/registration.html:46
 msgid "其中赞助商为每位参会者提供的支持费用为"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:50
+#: ./apps/2011/templates/siteView/registration.html:50
 msgid "参会者实际缴纳费用为"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:54
+#: ./apps/2011/templates/siteView/registration.html:54
 msgid "前往报名交费页面"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:56
+#: ./apps/2011/templates/siteView/registration.html:56
 msgid "由于赞助费有限，仅能解决会场、嘉宾交通住宿和餐饮、组织宣传、参会者礼品等费用，需要参会者支付部分午餐费用。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:58
+#: ./apps/2011/templates/siteView/registration.html:58
 msgid "报名并成功支付后将在大会前收到邮件通知，会场有电子签到确认报名情况。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:60
+#: ./apps/2011/templates/siteView/registration.html:60
 msgid "如果有确实对缴纳参会费用有困难或者有异议的朋友，可以联系PyCon组委会(邮件:stingchen@topgeek.org)申请减免。组委会可以考虑通过安排作为志愿者参与组织工作来予以减免，但名额有限。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:62
+#: ./apps/2011/templates/siteView/registration.html:62
 msgid "报名后的门票和晚宴说明："
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:64
+#: ./apps/2011/templates/siteView/registration.html:64
 msgid "报名并成功支付后将收到邮件通知。在大会前还有会议通知。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:66
+#: ./apps/2011/templates/siteView/registration.html:66
 msgid "会场有电子签到确认报名情况。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\registration.html:68
+#: ./apps/2011/templates/siteView/registration.html:68
 msgid "报名与嘉宾吃饭，则会在会议过程中由工作人员确认。在晚餐后按实际消费情况付费。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:16 .\apps\settings.ini:53
+#: ./apps/2011/templates/siteView/schedule.html:16 ./apps/settings.ini:54
 msgid "日程安排"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:18
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:16
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:18
+#: ./apps/2011/templates/siteView/schedule.html:18
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:16
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:18
 msgid "日期"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:20
-#: .\apps\2012\templates\SiteView2012\registration.html:14
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:18
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:20
+#: ./apps/2011/templates/siteView/schedule.html:20
+#: ./apps/2012/templates/SiteView2012/registration.html:14
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:18
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:20
 msgid "时间"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:22
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:20
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:22
+#: ./apps/2011/templates/siteView/schedule.html:22
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:20
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:22
 msgid "项目"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:24
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:22
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:24
+#: ./apps/2011/templates/siteView/schedule.html:24
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:22
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:24
 msgid "演讲者"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:26
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:24
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:26
+#: ./apps/2011/templates/siteView/schedule.html:26
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:24
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:26
 msgid "主题"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:28
+#: ./apps/2011/templates/siteView/schedule.html:28
 msgid "2011年12月2日"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:30
+#: ./apps/2011/templates/siteView/schedule.html:30
 msgid "晚宴致辞"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:32
-#: .\apps\2011\templates\siteView\schedule.html:38
-#: .\apps\2011\templates\siteView\schedule.html:48
+#: ./apps/2011/templates/siteView/schedule.html:32
+#: ./apps/2011/templates/siteView/schedule.html:38
+#: ./apps/2011/templates/siteView/schedule.html:48
 msgid "组织者以及赞助商代表"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:34
+#: ./apps/2011/templates/siteView/schedule.html:34
 msgid "欢迎晚宴签到和致辞"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:40
+#: ./apps/2011/templates/siteView/schedule.html:40
 msgid "嘉宾和组织者，赞助商代表一起晚宴，彼此加深了解，同时为大会的顺利进行做好准备。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:42
+#: ./apps/2011/templates/siteView/schedule.html:42
 msgid "2011年12月3日"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:44
-#: .\apps\2011\templates\siteView\schedule.html:134
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:28
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:80
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:30
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:82
+#: ./apps/2011/templates/siteView/schedule.html:44
+#: ./apps/2011/templates/siteView/schedule.html:134
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:28
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:80
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:30
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:82
 msgid "签到"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:50
+#: ./apps/2011/templates/siteView/schedule.html:50
 msgid "包括来自赞助商Google，主办方GTUG， TopGeek， CPyUG的代表进行组织介绍。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:52
+#: ./apps/2011/templates/siteView/schedule.html:52
 msgid "大会致辞《Python让世界更精彩》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:56
-#: .\apps\2011\templates\siteView\schedule.html:70
-#: .\apps\2011\templates\siteView\schedule.html:90
-#: .\apps\2011\templates\siteView\schedule.html:94
-#: .\apps\2011\templates\siteView\schedule.html:104
-#: .\apps\2011\templates\siteView\schedule.html:112
-#: .\apps\2011\templates\siteView\schedule.html:120
-#: .\apps\2011\templates\siteView\schedule.html:144
-#: .\apps\2011\templates\siteView\schedule.html:154
-#: .\apps\2011\templates\siteView\schedule.html:164
-#: .\apps\2011\templates\siteView\schedule.html:176
-#: .\apps\2011\templates\siteView\schedule.html:186
-#: .\apps\2011\templates\siteView\schedule.html:196
-#: .\apps\2011\templates\siteView\schedule.html:210
-#: .\apps\2011\templates\siteView\schedule.html:216
-#: .\apps\2011\templates\siteView\schedule.html:222
-#: .\apps\2011\templates\siteView\schedule.html:230
-#: .\apps\2011\templates\siteView\schedule.html:240
-#: .\apps\2011\templates\siteView\schedule.html:248
-#: .\apps\2011\templates\siteView\schedule.html:254
-#: .\apps\2011\templates\siteView\schedule.html:258
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:112
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:122
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:128
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:136
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:144
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:152
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:158
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:166
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:172
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:180
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:186
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:194
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:200
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:114
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:124
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:130
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:138
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:148
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:156
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:162
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:168
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:174
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:182
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:190
+#: ./apps/2011/templates/siteView/schedule.html:56
+#: ./apps/2011/templates/siteView/schedule.html:70
+#: ./apps/2011/templates/siteView/schedule.html:90
+#: ./apps/2011/templates/siteView/schedule.html:94
+#: ./apps/2011/templates/siteView/schedule.html:104
+#: ./apps/2011/templates/siteView/schedule.html:112
+#: ./apps/2011/templates/siteView/schedule.html:120
+#: ./apps/2011/templates/siteView/schedule.html:144
+#: ./apps/2011/templates/siteView/schedule.html:154
+#: ./apps/2011/templates/siteView/schedule.html:164
+#: ./apps/2011/templates/siteView/schedule.html:176
+#: ./apps/2011/templates/siteView/schedule.html:186
+#: ./apps/2011/templates/siteView/schedule.html:196
+#: ./apps/2011/templates/siteView/schedule.html:210
+#: ./apps/2011/templates/siteView/schedule.html:216
+#: ./apps/2011/templates/siteView/schedule.html:222
+#: ./apps/2011/templates/siteView/schedule.html:230
+#: ./apps/2011/templates/siteView/schedule.html:240
+#: ./apps/2011/templates/siteView/schedule.html:248
+#: ./apps/2011/templates/siteView/schedule.html:254
+#: ./apps/2011/templates/siteView/schedule.html:258
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:112
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:122
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:128
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:136
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:144
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:152
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:158
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:166
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:172
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:180
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:186
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:194
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:200
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:114
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:124
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:130
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:138
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:148
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:156
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:162
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:168
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:174
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:182
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:190
 msgid "Keynote下载"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:58
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:92
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:94
+#: ./apps/2011/templates/siteView/schedule.html:58
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:92
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:94
 msgid "Video联播《世界各国Python高手的演讲》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:60
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:94
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:96
+#: ./apps/2011/templates/siteView/schedule.html:60
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:94
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:96
 msgid "各国Pythoner"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:62
+#: ./apps/2011/templates/siteView/schedule.html:62
 msgid "播放来自PyCon.Org, 美国加州Google，荷兰，新西兰，北京，深圳等的Python高手的讲话录像，虽然他们不能前来参加，但是视频形式也一样可以参与。在同样用Python的世界，也许未来某一天有机会面对面。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:64
+#: ./apps/2011/templates/siteView/schedule.html:64
 msgid "《Python ，通向未来之路》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:68
+#: ./apps/2011/templates/siteView/schedule.html:68
 msgid "让我们走向新的辉煌吧！"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:72
-#: .\apps\2011\templates\siteView\schedule.html:158
-#: .\apps\2011\templates\siteView\schedule.html:190
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:104
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:160
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:106
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:140
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:176
+#: ./apps/2011/templates/siteView/schedule.html:72
+#: ./apps/2011/templates/siteView/schedule.html:158
+#: ./apps/2011/templates/siteView/schedule.html:190
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:104
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:160
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:106
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:140
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:176
 msgid "休息"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:74
+#: ./apps/2011/templates/siteView/schedule.html:74
 msgid "《Python游戏开发探索与发现》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:78
+#: ./apps/2011/templates/siteView/schedule.html:78
 msgid "当前的游戏开发，存在着游戏内容越来越繁杂，服务人数越来越多，市场变化越来越快等现状，导致一款游戏的开发的成本越来越高，风险越来越高，规模也越来越大。这一直是最棘手的问题。<br />如何才能利用 Python高效的开发速度来降低游戏开发的成本？如何用 Python架构上万人在线的游戏服务器？如何使用Python来快速开发图形和客户端逻辑？Py在现今的多核体系下是否力不从心？是否\"高性能\"永远不属于我们讨论的范围？Py在各个游戏项目中的使用情况如何？<br />所以本年度PyCon我们邀请到了这方面的专家--网易互动娱乐的资深技术主管，林伟，给大家分享他们把Py应用在游戏开发中的各种技术关键点。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:80
+#: ./apps/2011/templates/siteView/schedule.html:80
 msgid "应演讲者要求，不提供Keynote下载。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:82
-#: .\apps\2011\templates\siteView\schedule.html:168
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:114
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:116
+#: ./apps/2011/templates/siteView/schedule.html:82
+#: ./apps/2011/templates/siteView/schedule.html:168
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:114
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:116
 msgid "午餐"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:84
+#: ./apps/2011/templates/siteView/schedule.html:84
 msgid "《Python在豆瓣的应用》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:88
+#: ./apps/2011/templates/siteView/schedule.html:88
 msgid "Python是豆瓣网开发的主力语言。从在线应用到离线运算到后台维护，Python都起着不可替代的作用。本演讲将详细介绍豆瓣网在各个方面是如何应用Python的，以及我们的一些经验和教训。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:92
+#: ./apps/2011/templates/siteView/schedule.html:92
 msgid "《用coro-thread技术来扩展web应用程序栈》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:96
+#: ./apps/2011/templates/siteView/schedule.html:96
 msgid "茶歇"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:98
+#: ./apps/2011/templates/siteView/schedule.html:98
 msgid "《易度PaaS云开发平台技术内幕》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:102
+#: ./apps/2011/templates/siteView/schedule.html:102
 msgid "易度PaaS是国内第一个基于Python语言的企业应用云端开发平台。演讲将分析现有的企业PaaS平台，讲述易度是如何利用现有开源技术，依托python/zope/pyramid等主要技术来构建这一平台的。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:106
+#: ./apps/2011/templates/siteView/schedule.html:106
 msgid "《大规模视频网站的计费与流量管理》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:110
+#: ./apps/2011/templates/siteView/schedule.html:110
 msgid "所有的互联网网站都开始面对大容量的CDN和大规模的分布式部署。流量已经从之前的不被关注的话题变为触动成本的最为敏感的神经。所以出现了一系列的问题，如何知道自己的网站使用了多少流量或带宽？如何与合作伙伴核对使用量？在一个更为规模化的视频网站上如何对流量进行分析？如何对用户的流量进行调度?<br />本次分享将会是一个非常垂直而细节性的话题，将会就以上问题从操作层面细细进行讲解和分析，为系统工程师们揭示平日里我们没有关心的另一些内容。同时也希望本次分享能揭示行业中的一些\"潜规则\"，让互联网行业的流量与带宽管理更为开放与简洁。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:114
+#: ./apps/2011/templates/siteView/schedule.html:114
 msgid "《SAE(Sina AppEngine) 的 python 版实现》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:118
+#: ./apps/2011/templates/siteView/schedule.html:118
 msgid "简要介绍Sina SAE云计算平台(新浪的AppEngine，类似Google的AppEngine，同样支持Python版本的实现)，SAE Python功能特性介绍，演示如何在SAE平台上使用Python语言开发简单应用，使用Django, Flask, Bottle框架等，还包括Python Web Hosting现状概览，运行第三方代码的Python sandbox实现等技术分享。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:122
+#: ./apps/2011/templates/siteView/schedule.html:122
 msgid "互动环节"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:124
+#: ./apps/2011/templates/siteView/schedule.html:124
 msgid "所有当日演讲嘉宾参与的互动提问"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:128
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:210
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:200
+#: ./apps/2011/templates/siteView/schedule.html:128
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:210
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:200
 msgid "Python参会者们与嘉宾们在晚餐桌上继续深度沟通和交流。完全开发，全互动沟通。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:130
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:212
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:202
+#: ./apps/2011/templates/siteView/schedule.html:130
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:212
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:202
 msgid "注意，这个晚宴人人都可报名参加，但是需要支付自己的餐费（即AA制）。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:132
+#: ./apps/2011/templates/siteView/schedule.html:132
 msgid "2011年12月4日"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:136
+#: ./apps/2011/templates/siteView/schedule.html:136
 msgid "日程介绍"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:138
+#: ./apps/2011/templates/siteView/schedule.html:138
 msgid "介绍今天的嘉宾和会议日程"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:140
+#: ./apps/2011/templates/siteView/schedule.html:140
 msgid "《用Python实现基于MySQL为后台的Schemaless数据存储系统》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:142
+#: ./apps/2011/templates/siteView/schedule.html:142
 msgid "近年来NoSQL逐渐引起技术公司的关注，成为讨论的热点。不过许多公司仍在使用关系数据库。Slide公司(2010被Google收购)成立于2005年，当时使用MySQL数据库做数据的存储。但在开发过程中发现使用Schemaless的数据模型，更适合产品的快速开发迭代。所以我们用Python语言实现了一套基于MySQL为后台的Schemaless数据存储系统，本次演讲主要向大家介绍一下开发的经验以及如何结合分布式服务器群来处理海量数据。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:146
-#: .\apps\2011\templates\siteView\schedule.html:156
-#: .\apps\2011\templates\siteView\schedule.html:166
-#: .\apps\2011\templates\siteView\schedule.html:178
-#: .\apps\2011\templates\siteView\schedule.html:188
+#: ./apps/2011/templates/siteView/schedule.html:146
+#: ./apps/2011/templates/siteView/schedule.html:156
+#: ./apps/2011/templates/siteView/schedule.html:166
+#: ./apps/2011/templates/siteView/schedule.html:178
+#: ./apps/2011/templates/siteView/schedule.html:188
 msgid "Q/A"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:148
+#: ./apps/2011/templates/siteView/schedule.html:148
 msgid "《基于 MQ 解耦应用开发》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:152
+#: ./apps/2011/templates/siteView/schedule.html:152
 msgid "分享一个基础命题的思考：\"在Web开发中,复杂功能系统一定也必须是复杂的吗？\"，分析基于MQ来令Web系统变成由各种小而美的脚本和谐串起来的类UNIX体系。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:160
+#: ./apps/2011/templates/siteView/schedule.html:160
 msgid "《Web 框架开发思考与实践 — Uliweb》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:170
+#: ./apps/2011/templates/siteView/schedule.html:170
 msgid "《Python 之于 Webgame 的应用》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:174
+#: ./apps/2011/templates/siteView/schedule.html:174
 msgid "Python 已经成为了 WebGame 行业的主流编程语言，本演讲将在使用 Python 开发 MMOGs 服务器端的领域上，比如大型 Python 应用的开发模式、高性能 I/O、协程、通信，以及 Python 的优势与缺陷等，与大家分享和交流经验。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:180
+#: ./apps/2011/templates/siteView/schedule.html:180
 msgid "《中型角色扮演网络游戏服务器的 python 应用》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:184
+#: ./apps/2011/templates/siteView/schedule.html:184
 msgid "通过一款 Python 主力开发的中型角色扮演游戏，对游戏服务端架构设计进行说明，并在游戏核心战斗模型等诸方面进行详解。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:192
+#: ./apps/2011/templates/siteView/schedule.html:192
 msgid "快速演讲：《OpenERP方案介绍和二次开发》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:202
+#: ./apps/2011/templates/siteView/schedule.html:202
 msgid "主要讲三件用Python对迅雷离线做的改进:"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:204
+#: ./apps/2011/templates/siteView/schedule.html:204
 msgid "用Python脚本计算文件ed2k链接，用迅雷离线发送大文件"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:206
+#: ./apps/2011/templates/siteView/schedule.html:206
 msgid "用Python写XBMC的插件，直接从迅雷点播视频文件"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:208
+#: ./apps/2011/templates/siteView/schedule.html:208
 msgid "用Python脚本在Linux Server环境中下载迅雷离线上的文件"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:212
+#: ./apps/2011/templates/siteView/schedule.html:212
 msgid "快速演讲：《与Python一路走来》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:218
+#: ./apps/2011/templates/siteView/schedule.html:218
 msgid "快速演讲：《用Tornado搭建实时应用》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:228
+#: ./apps/2011/templates/siteView/schedule.html:228
 msgid "讨论Python在中小型网站开发的过程中可能遇到的问题及其解决方案。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:232
+#: ./apps/2011/templates/siteView/schedule.html:232
 msgid "快速演讲：《rosettacode.org - Learn and Practice Python》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:234
+#: ./apps/2011/templates/siteView/schedule.html:234
 msgid "快速演讲：《OpenStack: 基于Python编写的开源云计算平台》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:238
+#: ./apps/2011/templates/siteView/schedule.html:238
 msgid "OpenStack提供了一个部署云的平台。为虚拟计算或存储服务的公有/私有云，提供可扩展的、灵活的云计算。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:242
+#: ./apps/2011/templates/siteView/schedule.html:242
 msgid "快速演讲：《图形化大规模网络设备》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:246
+#: ./apps/2011/templates/siteView/schedule.html:246
 msgid "我们简单介绍以下内容<br />1. Python在交换机层面的简单应用<br />2. 一个图形化大规模网络设备的系统，帮助发现排除故障"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:250
+#: ./apps/2011/templates/siteView/schedule.html:250
 msgid "快速演讲：《工程师职业规划探讨》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:252
+#: ./apps/2011/templates/siteView/schedule.html:252
 msgid "宋进亮"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\schedule.html:256
+#: ./apps/2011/templates/siteView/schedule.html:256
 msgid "快速演讲：《Workend, where developer meets designer》"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:12
-#: .\apps\2012\templates\SiteView2012\sponsors.html:12 .\apps\settings.ini:47
-#: .\apps\settings.ini:57
+#: ./apps/2011/templates/siteView/sponsors.html:12
+#: ./apps/2012/templates/SiteView2012/sponsors.html:12 ./apps/settings.ini:48
+#: ./apps/settings.ini:58
 msgid "赞助商"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:14
-#: .\apps\2012\templates\SiteView2012\sponsors.html:14
+#: ./apps/2011/templates/siteView/sponsors.html:14
+#: ./apps/2012/templates/SiteView2012/sponsors.html:14
 msgid "赞助商为PyCon大会的成功举办提供了必不可少的支持。同时，如果您和您的公司愿意支持中国Python社区的交流事业，请与PyCon组委会(邮件:stingchen@topgeek.org)联系，赞助商在大会官网的首页及“赞助商”页面展示您的公司Logo及简介。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:18
-#: .\apps\2012\templates\SiteView2012\sponsors.html:22
+#: ./apps/2011/templates/siteView/sponsors.html:18
+#: ./apps/2012/templates/SiteView2012/sponsors.html:22
 msgid "Google是一家以提供搜索服务、并向企业客户提供广告服务为重点的盈利公司。Google以其搜索迅速、准确、容易使用等特点，被公认为是世界最佳搜索引擎。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:22
-#: .\apps\2012\templates\SiteView2012\sponsors.html:26
+#: ./apps/2011/templates/siteView/sponsors.html:22
+#: ./apps/2012/templates/SiteView2012/sponsors.html:26
 msgid "土豆网(Tudou.com)是中国最早和最具影响力的视频分享网站，是中国网络视频行业的领军品牌，也是全球最早上线的视频分享网站之一。王微是土豆网创始人兼CEO。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:24
-#: .\apps\2012\templates\SiteView2012\sponsors.html:28
+#: ./apps/2011/templates/siteView/sponsors.html:24
+#: ./apps/2012/templates/SiteView2012/sponsors.html:28
 msgid "土豆网于2005年4月15日正式上线，每天独立用户数超过2500万，每月2亿用户，拥有超过8000万的注册用户。2011年8月17日，土豆网在美国纳斯达克上市，股票代码：TUDO。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:26
+#: ./apps/2011/templates/siteView/sponsors.html:26
 msgid "从土豆成立的第一天，我们相信的就是，\"每个人都是生活的导演\"。我们的目标，让富有创造力的节目的创造者和分享者们能够自由地让自己的节目在用户面前出现，同时，也让每一个用户随时随地都能看到自己想看到的任何节目。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:30
+#: ./apps/2011/templates/siteView/sponsors.html:30
 msgid "CCP游戏公司被誉为全球单服务器架构多人在线网络游戏的行业领袖。其旗舰产品为广受赞誉的科幻主题太空游戏EVE Online。利用跨职能的无缝协作方式，借助其业界顶尖的技术实力和卓尔不凡的艺术表现力，CCP只专注于设计开发令人惊叹的、魅力无穷的游戏产品。这些产品力求通过建立逼真而精细的虚拟世界，借助各种工具促进人与人在游戏内的社会互动，进而突破其他传统大型网络游戏的设计模式。CCP于1997年成立于冰岛首都雷克雅维克，由私人投资者创立。CCP在雷克雅维克、亚特兰大、伦敦以及上海设有多个办公室。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:36
+#: ./apps/2011/templates/siteView/sponsors.html:36
 msgid "作为领先的互动娱乐媒体企业，盛大网络通过盛大游戏、盛大文学、盛大在线等主体和其它业务，向广大用户提供多元化的互动娱乐内容和服务。盛大其他投资公司还提供网络视频、家庭棋牌平台、电子竞技平台、手机互动娱乐、网络动漫、网络音乐等在内的适合不同年龄层次用户群的互动娱乐产品，深受广大用户的欢迎。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:42
-#: .\apps\2012\templates\SiteView2012\sponsors.html:38
+#: ./apps/2011/templates/siteView/sponsors.html:42
+#: ./apps/2012/templates/SiteView2012/sponsors.html:38
 msgid "金山网络科技有限公司成立于2010年11月，总部位于北京，其前身是金山安全软件有限公司和可牛科技有限公司。两家公司于2010年10月完成合并整合，成立了全新的金山网络科技有限公司。金山网络科技有限公司继承了金山安全强大的研发实力和可牛科技对互联网产品的敏锐反应能力，为上亿互联网用户提供以安全为核心的多种互联网应用服务。金山安全实验室及金山网络研发中心设立在珠海。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:46
-#: .\apps\2012\templates\SiteView2012\sponsors.html:48
+#: ./apps/2011/templates/siteView/sponsors.html:46
+#: ./apps/2012/templates/SiteView2012/sponsors.html:48
 msgid "豆瓣成立于2005年3月，目前已拥有5,300多万注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过书影音、小组、小站、同城、豆瓣说等多产品及相关移动应用来服务都市生活的不同领域。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:50
+#: ./apps/2011/templates/siteView/sponsors.html:50
 msgid "新浪是一家服务于中国及全球华人社群的在线媒体及移动增值服务提供商。新浪拥有多家地区性网站，以服务大中华地区与海外华人为己任，通过旗下业务主线：提供网络新闻及内容服务的新浪网(SINA.com)、提供微博客服务的微博(Weibo.com)、提供移动增值服务的新浪无线(SINA Mobile)，以及其他业务，向广大用户提供包括地区性门户网站、移动增值服务、微博、博客、影音流媒体、相册分享、网络游戏、电子邮件、搜索、分类信息、收费服务、电子商务和企业电子解决方案等在内的一系列服务。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:56
+#: ./apps/2011/templates/siteView/sponsors.html:56
 msgid "遛宝开源平台，不只是免费的虚拟主机，我们致力于通过领先科技，来释放我们所有关于 python 的梦想，次世代技术让曾经难以置信的应用类型在今天即可完美呈现。开放平台更可以让您无拘无束地进行创造，通过平台的各项接口以及源码，您可以轻易在平台上创作网站及应用，甚至改变平台本身。除此之外，遛宝开放的运营政策允许您在平台上经营您的产品，通过平台的运营功能，在为您的用户创造幸福的同时，实现自己的幸福。忠于实用之美，亦或乐于尝鲜新、奇、酷，开创一片新天地，就是遛宝开源平台。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:62
+#: ./apps/2011/templates/siteView/sponsors.html:62
 msgid "湖州迅普信息技术有限公司，是一家致力于技术研发的软件公司，和解决方案提供商。拥有领先的超高性能服务器技术，以及高性能智能数据库、游戏引擎等产品。并涉及人工智能、电子商务等领域。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:68
+#: ./apps/2011/templates/siteView/sponsors.html:68
 msgid "人民邮电出版社图灵公司—— 站在巨人的肩上，努力打造最专业的IT图书出版（写作/翻译）服务平台，期待与您合作！"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:74
-#: .\apps\2011\templates\siteView\sponsors.html:124
+#: ./apps/2011/templates/siteView/sponsors.html:74
+#: ./apps/2011/templates/siteView/sponsors.html:124
 msgid "Gensee展视互动是一家由国际著名风险投资机构所投资的高新技术企业；致力于运营世界领先的网络活动和虚拟会议平台；打破了传统虚拟行业的格局，首创混合传输模式，将音视频、PPT及互动内容同步呈现给观 众，更好的还原了现场的真实气氛，带来全新的体验。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:80
-#: .\apps\2012\templates\SiteView2012\sponsors.html:84
+#: ./apps/2011/templates/siteView/sponsors.html:80
+#: ./apps/2012/templates/SiteView2012/sponsors.html:84
 msgid "InfoQ.com（Information Queue）是一个时刻关注企业软件开发领域变化与创新的在线独立社区，读者受众群主要为技术架构师、技术团队带头人（高级开发人员）和项目经理等。通过由各个技术领域专家提供的最新的新闻、技术文章、视频访谈、视频演讲和迷你书等，InfoQ 为Java、.NET、Ruby、SOA、敏捷、架构和运维七大社区提供一流的资讯。InfoQ全球站正式启动于2006年6月8日，InfoQ中文站正式启动于2007年3月28日，以推动我们所服务的社区的进步为首要使命。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:84
-#: .\apps\2012\templates\SiteView2012\sponsors.html:88
+#: ./apps/2011/templates/siteView/sponsors.html:84
+#: ./apps/2012/templates/SiteView2012/sponsors.html:88
 msgid "CSDN创立于1999年，是中国最大的中文IT知识服务集团，专注IT信息传播、技术交流、教育培训和专业技术人才服务。拥有超过1800万注册会员、10000名CTO、50万注册企业及合作伙伴，全球中文网站排名第27位。长期以来，CSDN以技术视角关注IT产业发展，以深度分享推进产业技术成长，致力于弘扬技术创新，倡导分享、开放和协作，努力打造高质量的中文IT技术交流平台。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:92
+#: ./apps/2011/templates/siteView/sponsors.html:92
 msgid "在每个主要城市，包括北京、上海、广州、杭州、西安、深圳、南阳等地，都有由自愿者组成的谷歌开发者社区 GTUG （Google Technology User Group）。 GTUG 是所有对 Google 开发技术和产品、互联网技术、移动技术、开源代码等开发技术和应用开发感兴趣的人组成的社区。他们常常组织线下交流活动。我们鼓励你参加当地的 GTUG 社区，认识更多的志同道合的开发者，互相学习和交流。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:98
+#: ./apps/2011/templates/siteView/sponsors.html:98
 msgid "CPUG是中国第一个正式成立的Python用户的民间组织，在广大Python爱好者的推动下为宣传和发展Python而成立的。 现在CPUG提供 Python相关的资源和服务，有兴趣可以加入我们并使用我们的服务。我们接受各种支持和赞助，同时也愿意与您合作，一同致力于Python的发展。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:102
-#: .\apps\2012\templates\SiteView2012\sponsors.html:92
+#: ./apps/2011/templates/siteView/sponsors.html:102
+#: ./apps/2012/templates/SiteView2012/sponsors.html:92
 msgid "TopGeek组织是一个面向高级软件和互联网技术人员的组织，主要讨论软件和互联网的一些新的技术潮流，开发理念和经验。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:104
-#: .\apps\2012\templates\SiteView2012\sponsors.html:94
+#: ./apps/2011/templates/siteView/sponsors.html:104
+#: ./apps/2012/templates/SiteView2012/sponsors.html:94
 msgid "在现在技术山头林立，以语言或行业划分圈子的社区组织状态下，我们坚持认为，按技术流派形成圈子的做法不能满足高级技术人员需要。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:106
-#: .\apps\2012\templates\SiteView2012\sponsors.html:96
+#: ./apps/2011/templates/siteView/sponsors.html:106
+#: ./apps/2012/templates/SiteView2012/sponsors.html:96
 msgid "我们希望打破技术分割，帮助社区人员开拓思路，互相学习，资源共享。解决一些成熟技术人员进一步发展的共同问题，形成一些好的朋友圈子。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:112
+#: ./apps/2011/templates/siteView/sponsors.html:112
 msgid "Woodpecker.org.cn 是一个开放协作组织，关注Python语言的各种应用和发展。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:118
+#: ./apps/2011/templates/siteView/sponsors.html:118
 msgid "CPUG的Google Group。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\sponsors.html:126
+#: ./apps/2011/templates/siteView/sponsors.html:126
 msgid "Gensee是本次大会网络直播服务的提供商。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:12
-#: .\apps\2012\templates\SiteView2012\venue.html:12
+#: ./apps/2011/templates/siteView/venue.html:12
+#: ./apps/2012/templates/SiteView2012/venue.html:12
 msgid "会场交通"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:14
-#: .\apps\2012\templates\SiteView2012\venue.html:14
+#: ./apps/2011/templates/siteView/venue.html:14
+#: ./apps/2012/templates/SiteView2012/venue.html:14
 msgid "场馆位置"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:16
-#: .\apps\2011\templates\siteView\venue.html:18
-#: .\apps\2011\templates\siteView\venue.html:42
-#: .\apps\2011\templates\siteView\venue.html:46
-#: .\apps\2012\templates\SiteView2012\venue.html:16
-#: .\apps\2012\templates\SiteView2012\venue.html:18
-#: .\apps\2012\templates\SiteView2012\venue.html:42
-#: .\apps\2012\templates\SiteView2012\venue.html:46
+#: ./apps/2011/templates/siteView/venue.html:16
+#: ./apps/2011/templates/siteView/venue.html:18
+#: ./apps/2011/templates/siteView/venue.html:42
+#: ./apps/2011/templates/siteView/venue.html:46
+#: ./apps/2012/templates/SiteView2012/venue.html:16
+#: ./apps/2012/templates/SiteView2012/venue.html:18
+#: ./apps/2012/templates/SiteView2012/venue.html:42
+#: ./apps/2012/templates/SiteView2012/venue.html:46
 msgid "http://ditu.google.cn/"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:20
-#: .\apps\2011\templates\siteView\venue.html:48
-#: .\apps\2012\templates\SiteView2012\venue.html:20
-#: .\apps\2012\templates\SiteView2012\venue.html:48
+#: ./apps/2011/templates/siteView/venue.html:20
+#: ./apps/2011/templates/siteView/venue.html:48
+#: ./apps/2012/templates/SiteView2012/venue.html:20
+#: ./apps/2012/templates/SiteView2012/venue.html:48
 msgid "查看大图"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:22
-#: .\apps\2012\templates\SiteView2012\venue.html:22
+#: ./apps/2011/templates/siteView/venue.html:22
+#: ./apps/2012/templates/SiteView2012/venue.html:22
 msgid "从"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:24
-#: .\apps\2012\templates\SiteView2012\venue.html:24
+#: ./apps/2011/templates/siteView/venue.html:24
+#: ./apps/2012/templates/SiteView2012/venue.html:24
 msgid "公交"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:26
-#: .\apps\2012\templates\SiteView2012\venue.html:26
+#: ./apps/2011/templates/siteView/venue.html:26
+#: ./apps/2012/templates/SiteView2012/venue.html:26
 msgid "驾车"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:28
-#: .\apps\2012\templates\SiteView2012\venue.html:28
+#: ./apps/2011/templates/siteView/venue.html:28
+#: ./apps/2012/templates/SiteView2012/venue.html:28
 msgid "前往会场"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:34
-#: .\apps\2012\templates\SiteView2012\venue.html:34
+#: ./apps/2011/templates/siteView/venue.html:34
+#: ./apps/2012/templates/SiteView2012/venue.html:34
 msgid "地铁"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:36
-#: .\apps\2012\templates\SiteView2012\venue.html:36
+#: ./apps/2011/templates/siteView/venue.html:36
+#: ./apps/2012/templates/SiteView2012/venue.html:36
 msgid "三号线大柏树站，步行五分钟即到"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:38
-#: .\apps\2012\templates\SiteView2012\venue.html:38
+#: ./apps/2011/templates/siteView/venue.html:38
+#: ./apps/2012/templates/SiteView2012/venue.html:38
 msgid "自驾"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:40
-#: .\apps\2012\templates\SiteView2012\venue.html:40
+#: ./apps/2011/templates/siteView/venue.html:40
+#: ./apps/2012/templates/SiteView2012/venue.html:40
 msgid "50个绿化带免费停车位，园区内停车10元/天"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:44
-#: .\apps\2012\templates\SiteView2012\venue.html:44
+#: ./apps/2011/templates/siteView/venue.html:44
+#: ./apps/2012/templates/SiteView2012/venue.html:44
 msgid "从地铁“大柏树站”前往会场的步行路线"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:50
-#: .\apps\2012\templates\SiteView2012\venue.html:50
+#: ./apps/2011/templates/siteView/venue.html:50
+#: ./apps/2012/templates/SiteView2012/venue.html:50
 msgid "乘车路线"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:52
-#: .\apps\2012\templates\SiteView2012\venue.html:52
+#: ./apps/2011/templates/siteView/venue.html:52
+#: ./apps/2012/templates/SiteView2012/venue.html:52
 msgid "请注意"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:54
-#: .\apps\2012\templates\SiteView2012\venue.html:54
+#: ./apps/2011/templates/siteView/venue.html:54
+#: ./apps/2012/templates/SiteView2012/venue.html:54
 msgid "以下路线以及打车费用仅供参考，大会组织者仅向嘉宾提供交通服务！"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:56
-#: .\apps\2012\templates\SiteView2012\venue.html:56
+#: ./apps/2011/templates/siteView/venue.html:56
+#: ./apps/2012/templates/SiteView2012/venue.html:56
 msgid "从上海火车站前往场馆"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:58
-#: .\apps\2012\templates\SiteView2012\venue.html:58
+#: ./apps/2011/templates/siteView/venue.html:58
+#: ./apps/2012/templates/SiteView2012/venue.html:58
 msgid "出站后步行至 地铁\"上海火车站\""
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:60
-#: .\apps\2011\templates\siteView\venue.html:76
-#: .\apps\2011\templates\siteView\venue.html:92
-#: .\apps\2011\templates\siteView\venue.html:106
-#: .\apps\2011\templates\siteView\venue.html:118
-#: .\apps\2011\templates\siteView\venue.html:134
-#: .\apps\2012\templates\SiteView2012\venue.html:60
-#: .\apps\2012\templates\SiteView2012\venue.html:76
-#: .\apps\2012\templates\SiteView2012\venue.html:92
-#: .\apps\2012\templates\SiteView2012\venue.html:106
-#: .\apps\2012\templates\SiteView2012\venue.html:118
-#: .\apps\2012\templates\SiteView2012\venue.html:134
+#: ./apps/2011/templates/siteView/venue.html:60
+#: ./apps/2011/templates/siteView/venue.html:76
+#: ./apps/2011/templates/siteView/venue.html:92
+#: ./apps/2011/templates/siteView/venue.html:106
+#: ./apps/2011/templates/siteView/venue.html:118
+#: ./apps/2011/templates/siteView/venue.html:134
+#: ./apps/2012/templates/SiteView2012/venue.html:60
+#: ./apps/2012/templates/SiteView2012/venue.html:76
+#: ./apps/2012/templates/SiteView2012/venue.html:92
+#: ./apps/2012/templates/SiteView2012/venue.html:106
+#: ./apps/2012/templates/SiteView2012/venue.html:118
+#: ./apps/2012/templates/SiteView2012/venue.html:134
 msgid "乘坐 地铁3号线(江杨北路方向), 在 地铁\"大柏树站\" 下车(1号口出)"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:62
-#: .\apps\2011\templates\siteView\venue.html:78
-#: .\apps\2011\templates\siteView\venue.html:94
-#: .\apps\2011\templates\siteView\venue.html:108
-#: .\apps\2011\templates\siteView\venue.html:120
-#: .\apps\2011\templates\siteView\venue.html:136
-#: .\apps\2012\templates\SiteView2012\venue.html:62
-#: .\apps\2012\templates\SiteView2012\venue.html:78
-#: .\apps\2012\templates\SiteView2012\venue.html:94
-#: .\apps\2012\templates\SiteView2012\venue.html:108
-#: .\apps\2012\templates\SiteView2012\venue.html:120
-#: .\apps\2012\templates\SiteView2012\venue.html:136
+#: ./apps/2011/templates/siteView/venue.html:62
+#: ./apps/2011/templates/siteView/venue.html:78
+#: ./apps/2011/templates/siteView/venue.html:94
+#: ./apps/2011/templates/siteView/venue.html:108
+#: ./apps/2011/templates/siteView/venue.html:120
+#: ./apps/2011/templates/siteView/venue.html:136
+#: ./apps/2012/templates/SiteView2012/venue.html:62
+#: ./apps/2012/templates/SiteView2012/venue.html:78
+#: ./apps/2012/templates/SiteView2012/venue.html:94
+#: ./apps/2012/templates/SiteView2012/venue.html:108
+#: ./apps/2012/templates/SiteView2012/venue.html:120
+#: ./apps/2012/templates/SiteView2012/venue.html:136
 msgid "向北步行至场馆即可"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:64
-#: .\apps\2011\templates\siteView\venue.html:80
-#: .\apps\2011\templates\siteView\venue.html:96
-#: .\apps\2011\templates\siteView\venue.html:110
-#: .\apps\2011\templates\siteView\venue.html:122
-#: .\apps\2011\templates\siteView\venue.html:138
-#: .\apps\2012\templates\SiteView2012\venue.html:64
-#: .\apps\2012\templates\SiteView2012\venue.html:80
-#: .\apps\2012\templates\SiteView2012\venue.html:96
-#: .\apps\2012\templates\SiteView2012\venue.html:110
-#: .\apps\2012\templates\SiteView2012\venue.html:122
-#: .\apps\2012\templates\SiteView2012\venue.html:138
+#: ./apps/2011/templates/siteView/venue.html:64
+#: ./apps/2011/templates/siteView/venue.html:80
+#: ./apps/2011/templates/siteView/venue.html:96
+#: ./apps/2011/templates/siteView/venue.html:110
+#: ./apps/2011/templates/siteView/venue.html:122
+#: ./apps/2011/templates/siteView/venue.html:138
+#: ./apps/2012/templates/SiteView2012/venue.html:64
+#: ./apps/2012/templates/SiteView2012/venue.html:80
+#: ./apps/2012/templates/SiteView2012/venue.html:96
+#: ./apps/2012/templates/SiteView2012/venue.html:110
+#: ./apps/2012/templates/SiteView2012/venue.html:122
+#: ./apps/2012/templates/SiteView2012/venue.html:138
 msgid "注：打车约"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:68
-#: .\apps\2012\templates\SiteView2012\venue.html:68
+#: ./apps/2011/templates/siteView/venue.html:68
+#: ./apps/2012/templates/SiteView2012/venue.html:68
 msgid "从浦东国际机场前往场馆"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:70
-#: .\apps\2012\templates\SiteView2012\venue.html:70
+#: ./apps/2011/templates/siteView/venue.html:70
+#: ./apps/2012/templates/SiteView2012/venue.html:70
 msgid "离开机场后步行至 地铁\"浦东国际机场站\""
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:72
-#: .\apps\2012\templates\SiteView2012\venue.html:72
+#: ./apps/2011/templates/siteView/venue.html:72
+#: ./apps/2012/templates/SiteView2012/venue.html:72
 msgid "乘坐 地铁2号线(徐泾东方向), 在 地铁\"世纪大道站\" 下车"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:74
-#: .\apps\2012\templates\SiteView2012\venue.html:74
+#: ./apps/2011/templates/siteView/venue.html:74
+#: ./apps/2012/templates/SiteView2012/venue.html:74
 msgid "乘坐 地铁4号线(宜山路)方向, 在 地铁\"宝山路站\" 下车"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:84
-#: .\apps\2012\templates\SiteView2012\venue.html:84
+#: ./apps/2011/templates/siteView/venue.html:84
+#: ./apps/2012/templates/SiteView2012/venue.html:84
 msgid "从上海虹桥机场前往场馆"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:86
-#: .\apps\2012\templates\SiteView2012\venue.html:86
+#: ./apps/2011/templates/siteView/venue.html:86
+#: ./apps/2012/templates/SiteView2012/venue.html:86
 msgid "下机后步行至 地铁\"虹桥1号航站楼站\""
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:88
-#: .\apps\2012\templates\SiteView2012\venue.html:88
+#: ./apps/2011/templates/siteView/venue.html:88
+#: ./apps/2012/templates/SiteView2012/venue.html:88
 msgid "乘坐 地铁10号线(新江湾城方向), 在 地铁\"虹桥路站\" 下车"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:90
-#: .\apps\2011\templates\siteView\venue.html:132
-#: .\apps\2012\templates\SiteView2012\venue.html:90
-#: .\apps\2012\templates\SiteView2012\venue.html:132
+#: ./apps/2011/templates/siteView/venue.html:90
+#: ./apps/2011/templates/siteView/venue.html:132
+#: ./apps/2012/templates/SiteView2012/venue.html:90
+#: ./apps/2012/templates/SiteView2012/venue.html:132
 msgid "站内换乘 地铁3号线(江杨北路方向)"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:100
-#: .\apps\2012\templates\SiteView2012\venue.html:100
+#: ./apps/2011/templates/siteView/venue.html:100
+#: ./apps/2012/templates/SiteView2012/venue.html:100
 msgid "从上海虹桥火车站前往场馆"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:102
-#: .\apps\2012\templates\SiteView2012\venue.html:102
+#: ./apps/2011/templates/siteView/venue.html:102
+#: ./apps/2012/templates/SiteView2012/venue.html:102
 msgid "出站后步行至 地铁\"虹桥火车站\""
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:104
-#: .\apps\2012\templates\SiteView2012\venue.html:104
+#: ./apps/2011/templates/siteView/venue.html:104
+#: ./apps/2012/templates/SiteView2012/venue.html:104
 msgid "乘坐 地铁2号线(浦东国际机场方向), 在 地铁\"中山公园站\" 下车"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:114
-#: .\apps\2012\templates\SiteView2012\venue.html:114
+#: ./apps/2011/templates/siteView/venue.html:114
+#: ./apps/2012/templates/SiteView2012/venue.html:114
 msgid "从上海火车南站前往场馆"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:116
-#: .\apps\2012\templates\SiteView2012\venue.html:116
+#: ./apps/2011/templates/siteView/venue.html:116
+#: ./apps/2012/templates/SiteView2012/venue.html:116
 msgid "出站后步行至 地铁\"上海南站\""
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:126
-#: .\apps\2012\templates\SiteView2012\venue.html:126
+#: ./apps/2011/templates/siteView/venue.html:126
+#: ./apps/2012/templates/SiteView2012/venue.html:126
 msgid "从上海火车西站前往场馆"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:128
-#: .\apps\2012\templates\SiteView2012\venue.html:128
+#: ./apps/2011/templates/siteView/venue.html:128
+#: ./apps/2012/templates/SiteView2012/venue.html:128
 msgid "出站后步行至 地铁\"上海西站\""
 msgstr ""
 
-#: .\apps\2011\templates\siteView\venue.html:130
-#: .\apps\2012\templates\SiteView2012\venue.html:130
+#: ./apps/2011/templates/siteView/venue.html:130
+#: ./apps/2012/templates/SiteView2012/venue.html:130
 msgid "乘坐 地铁11号线(江苏路方向), 在 地铁\"曹杨路站\" 下车"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:12
-#: .\apps\2012\templates\SiteView2012\volunteer.html:12 .\apps\settings.ini:46
-#: .\apps\settings.ini:56
+#: ./apps/2011/templates/siteView/volunteer.html:12
+#: ./apps/2012/templates/SiteView2012/volunteer.html:12 ./apps/settings.ini:47
+#: ./apps/settings.ini:57
 msgid "志愿者"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:14
-#: .\apps\2012\templates\SiteView2012\volunteer.html:14
+#: ./apps/2011/templates/siteView/volunteer.html:14
+#: ./apps/2012/templates/SiteView2012/volunteer.html:14
 msgid "PyCon大会的召开离不开志愿者们的共同努力，同时，如果您愿意加入志愿者的队伍，请与PyCon组委会(邮件:stingchen@topgeek.org)联系。志愿者可以免除一部分参会费用，并且在大会官网的“志愿者”页面展示个人照片及简介。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:18
-#: .\apps\2011\templates\siteView\volunteer.html:20
-#: .\apps\2012\templates\SiteView2012\volunteer.html:18
-#: .\apps\2012\templates\SiteView2012\volunteer.html:20
+#: ./apps/2011/templates/siteView/volunteer.html:18
+#: ./apps/2011/templates/siteView/volunteer.html:20
+#: ./apps/2012/templates/SiteView2012/volunteer.html:18
+#: ./apps/2012/templates/SiteView2012/volunteer.html:20
 msgid "StingChen（陈世欣）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:22
-#: .\apps\2012\templates\SiteView2012\volunteer.html:22
+#: ./apps/2011/templates/siteView/volunteer.html:22
+#: ./apps/2012/templates/SiteView2012/volunteer.html:22
 msgid "上海交大计算机系硕士 现为创业公司2Style4You.Com的CTO"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:24
-#: .\apps\2012\templates\SiteView2012\volunteer.html:24
+#: ./apps/2011/templates/siteView/volunteer.html:24
+#: ./apps/2012/templates/SiteView2012/volunteer.html:24
 msgid "个人博客"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:26
-#: .\apps\2011\templates\siteView\volunteer.html:30
-#: .\apps\2012\templates\SiteView2012\volunteer.html:26
-#: .\apps\2012\templates\SiteView2012\volunteer.html:30
+#: ./apps/2011/templates/siteView/volunteer.html:26
+#: ./apps/2011/templates/siteView/volunteer.html:30
+#: ./apps/2012/templates/SiteView2012/volunteer.html:26
+#: ./apps/2012/templates/SiteView2012/volunteer.html:30
 msgid "微博"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:28
-#: .\apps\2012\templates\SiteView2012\volunteer.html:28
+#: ./apps/2011/templates/siteView/volunteer.html:28
+#: ./apps/2012/templates/SiteView2012/volunteer.html:28
 msgid "从2006年起参加和组织社区，曾组织过python聚会，参与组织过google技术社区GTUG，ThinkinLAMP社区，参加过30多次各类社区。并成功组织了上海最大的产品经理社区PMCamp"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:32
-#: .\apps\2012\templates\SiteView2012\volunteer.html:32
+#: ./apps/2011/templates/siteView/volunteer.html:32
+#: ./apps/2012/templates/SiteView2012/volunteer.html:32
 msgid "博客"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:34
-#: .\apps\2012\templates\SiteView2012\volunteer.html:34
+#: ./apps/2011/templates/siteView/volunteer.html:34
+#: ./apps/2012/templates/SiteView2012/volunteer.html:34
 msgid "StingChen的博客地址"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:38
-#: .\apps\2011\templates\siteView\volunteer.html:40
+#: ./apps/2011/templates/siteView/volunteer.html:38
+#: ./apps/2011/templates/siteView/volunteer.html:40
 msgid "HunterPig（支晓勇）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:42
+#: ./apps/2011/templates/siteView/volunteer.html:42
 msgid "36岁, 天蝎男, 91office.com, IT总监"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:44
+#: ./apps/2011/templates/siteView/volunteer.html:44
 msgid "在anjia.com干了5年写VB和ASP，在91office.com干到现在也5年了，从ASP变成Python程序员。现在喜欢开源和自由软件，在上海的开源和Python社区算个活跃分子。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:46
+#: ./apps/2011/templates/siteView/volunteer.html:46
 msgid "现居 : 上海 闸北区"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:48
+#: ./apps/2011/templates/siteView/volunteer.html:48
 msgid "家乡 : 上海 青浦区"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:50
+#: ./apps/2011/templates/siteView/volunteer.html:50
 msgid "HunterPig的博客地址"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:54
+#: ./apps/2011/templates/siteView/volunteer.html:54
 msgid "(Dndx)孙大同"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:56
+#: ./apps/2011/templates/siteView/volunteer.html:56
 msgid "Dndx（孙大同）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:58
+#: ./apps/2011/templates/siteView/volunteer.html:58
 msgid "Dndx出生于1994年8月，是个彻彻底地的90后。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:60
+#: ./apps/2011/templates/siteView/volunteer.html:60
 msgid "Dndx完全凭借着自己的兴趣自学计算机，对 Python, Linux, High Performance Web Server(nginx&amp;lighttpd), HTML5, Web2.0, Ajax, JQuery 都有过研究，自己也独立开发过几个网站。没事的时候Dndx也会玩一玩单反，过一过\"败家\"瘾。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:62
+#: ./apps/2011/templates/siteView/volunteer.html:62
 msgid "目前Dndx负责了大会官网的前台设计及网站运维工作，如果对官网有任何建议，您可以直接与Dndx联系，Dndx的更多介绍以及联系方式可以在他的博客上找到。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:64
+#: ./apps/2011/templates/siteView/volunteer.html:64
 msgid "Dndx的博客地址"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:68
-#: .\apps\2011\templates\siteView\volunteer.html:70
-#: .\apps\2012\templates\SiteView2012\volunteer.html:38
-#: .\apps\2012\templates\SiteView2012\volunteer.html:40
+#: ./apps/2011/templates/siteView/volunteer.html:68
+#: ./apps/2011/templates/siteView/volunteer.html:70
+#: ./apps/2012/templates/SiteView2012/volunteer.html:38
+#: ./apps/2012/templates/SiteView2012/volunteer.html:40
 msgid "Zoom.Quiet （周琦）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:72 .\apps\2012\person.py:103
-#: .\apps\2012\templates\SiteView2012\volunteer.html:42
+#: ./apps/2011/templates/siteView/volunteer.html:72 ./apps/2012/person.py:103
+#: ./apps/2012/templates/SiteView2012/volunteer.html:42
 msgid "Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区\"大妈\"；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:74
-#: .\apps\2012\templates\SiteView2012\volunteer.html:44
+#: ./apps/2011/templates/siteView/volunteer.html:74
+#: ./apps/2012/templates/SiteView2012/volunteer.html:44
 msgid "Zoom.Quiet的博客地址"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:78
-#: .\apps\2011\templates\siteView\volunteer.html:80
+#: ./apps/2011/templates/siteView/volunteer.html:78
+#: ./apps/2011/templates/siteView/volunteer.html:80
 msgid "eishn（沈崴）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:82 .\apps\2012\person.py:213
+#: ./apps/2011/templates/siteView/volunteer.html:82 ./apps/2012/person.py:213
 msgid "资深 python 开发者，高效能服务器 eurasia 的作者。湖州迅普信息技术有限公司创始人，广州遛宝计算机技术有限公司联合创始人、技术总监。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:84
+#: ./apps/2011/templates/siteView/volunteer.html:84
 msgid "本次大会赞助者之一。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:86
+#: ./apps/2011/templates/siteView/volunteer.html:86
 msgid "eishn的博客地址"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:90
-#: .\apps\2011\templates\siteView\volunteer.html:92
+#: ./apps/2011/templates/siteView/volunteer.html:90
+#: ./apps/2011/templates/siteView/volunteer.html:92
 msgid "Dr. Gang LU（卢刚）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:94
+#: ./apps/2011/templates/siteView/volunteer.html:94
 msgid "动点科技TechNode.com(原动点博客MOBINODE.com)创始人和主编，亚洲互联网活动家和观察者，英国谢菲尔德大学无线通信技术博士, OpenWeb.Asia Workgroup的联合创始人，趣奇网联合创始人。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:96
+#: ./apps/2011/templates/siteView/volunteer.html:96
 msgid "动点科技为国内知名的中英文双语科技博客，致力于研究和报道中国及亚洲互联网的最新进展，长期关注亚洲互联网的成长与创新，已经成为国外了解中国互联网动态的必读信息。OpenWeb.Asia是亚洲互联网第一个独立的工作组和行业资源共享平台，其主办的OpenWebAsia亚洲互联网会议是目前唯一切实关注亚洲互联网行业的国际性会议。基于自身在无线通讯、移动网络和web2.0领域资深的学术和技术背景和丰富的市场商务经验，卢刚先生一直致力于促进亚 洲互联网与全球市场的连通，积极推动互联网的开放共享及行业交流。卢刚先生此前就职于Netvibes.com，担任其亚洲市场总监工作。Netvibes是国际互联网领域最具创新意义的公司之一，卢刚先生全面负责其在亚洲地区的市场开发和商务拓展，将全球领先的个性化主页服务，开放平台及Widget经济带入亚洲特别是中国市场。2008年1月, 他代表Netvibes和搜狐建立战略合作推出了中国互联网第一个开放平台。他还曾经作为研发工程师，就职于英国Dialogue Communications Ltd.公司，从事3G应用方面的研究和开发。目前卢刚博士担任多个新兴公司和项目的顾问工作，其中包括齐放网，其作为第一家中国互联网企业荣获世界经济论坛评选的2009年世界科技先锋奖。卢刚也是ChinaMode中文互联网开放评选的发起人之一。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:98
+#: ./apps/2011/templates/siteView/volunteer.html:98
 msgid "卢刚作为独立的互联网行业观察者在业界享有很好的口碑，他关注的范围广泛，包括互联网开放技术,商业模式,社会化媒体,互联网营销,亚洲互联网发展等。他曾受邀出席SXSW科技峰会，主持腾讯智慧高峰会议SNS营销论坛，作为讲师参加2009谷歌开发者大会演讲，受法国参议院邀请参加其组织的NetExplorateur Forum盛会，赴米兰参加米兰国际数字娱乐节等等。其MOBINODE曾被评为2007和2008年中国最佳技术性英文博客。同时他还曾担任国际知名的Web2.0技术性博客ReadWriteWeb.com的特邀编辑。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:100
+#: ./apps/2011/templates/siteView/volunteer.html:100
 msgid "Dr. Gang LU的博客地址"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:102
+#: ./apps/2011/templates/siteView/volunteer.html:102
 msgid "动点科技"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:106
-#: .\apps\2011\templates\siteView\volunteer.html:108
+#: ./apps/2011/templates/siteView/volunteer.html:106
+#: ./apps/2011/templates/siteView/volunteer.html:108
 msgid "riku（陆卫锋）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:110
+#: ./apps/2011/templates/siteView/volunteer.html:110
 msgid "知名tech blogger陆卫锋，关注新网络，ubuntu/Linux 用户，爱好设计。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:112
+#: ./apps/2011/templates/siteView/volunteer.html:112
 msgid "riku为本次大会官网设计了一个极富动感并充满中国特色的Logo。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:114
+#: ./apps/2011/templates/siteView/volunteer.html:114
 msgid "riku的博客地址"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:118
-#: .\apps\2011\templates\siteView\volunteer.html:120
+#: ./apps/2011/templates/siteView/volunteer.html:118
+#: ./apps/2011/templates/siteView/volunteer.html:120
 msgid "Daniel Lv（吕国宁）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:122
+#: ./apps/2011/templates/siteView/volunteer.html:122
 msgid "28岁的Ruby程序员，专职Ruby on Rails以及Web应用领域开发，出生于新疆乌鲁木齐，目前在上海工作。是shanghaionrails的组织者之一。好读书，喜研究算法，函数式语言等有趣的东西。 "
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:124
+#: ./apps/2011/templates/siteView/volunteer.html:124
 msgid "本次PyCon大会的主持人。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:126
+#: ./apps/2011/templates/siteView/volunteer.html:126
 msgid "Daniel Lv的博客地址"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:130
-#: .\apps\2011\templates\siteView\volunteer.html:132
+#: ./apps/2011/templates/siteView/volunteer.html:130
+#: ./apps/2011/templates/siteView/volunteer.html:132
 msgid "aegiryy（葛馨阳）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:134
+#: ./apps/2011/templates/siteView/volunteer.html:134
 msgid "南京大学大四学生。爱好广泛，从 Python 编程到 Hack Python 源代码；从 Web 应用开发到嵌入式实时系统移植都具有浓厚兴趣。热爱一切技术与非技术的东西。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:136
-#: .\apps\2011\templates\siteView\volunteer.html:148
+#: ./apps/2011/templates/siteView/volunteer.html:136
+#: ./apps/2011/templates/siteView/volunteer.html:148
 msgid "本次PyCon大会的翻译志愿者。"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:138
+#: ./apps/2011/templates/siteView/volunteer.html:138
 msgid "aegiryy的博客地址"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:142
-#: .\apps\2011\templates\siteView\volunteer.html:144
+#: ./apps/2011/templates/siteView/volunteer.html:142
+#: ./apps/2011/templates/siteView/volunteer.html:144
 msgid "Yiling Cao（曹一凌）"
 msgstr ""
 
-#: .\apps\2011\templates\siteView\volunteer.html:146
+#: ./apps/2011/templates/siteView/volunteer.html:146
 msgid "Ruby，Python，C开发者，澳大利亚墨尔本大学计算机系毕业，曾担任web 开发，硬件工程师，系统运维。感兴趣于：图像处理，计算机视觉，大规模信息处理，VOIP系统。"
 msgstr ""
 
-#: .\apps\2012\person.py:7 .\apps\2012\templates\SiteView2012\index.html:98
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:100
+#: ./apps/2012/person.py:7 ./apps/2012/templates/SiteView2012/index.html:98
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:100
 msgid "Lu Linqing"
 msgstr ""
 
-#: .\apps\2012\person.py:8 .\apps\2012\person.py:19 .\apps\2012\person.py:21
-#: .\apps\2012\person.py:22 .\apps\2012\person.py:31 .\apps\2012\person.py:32
-#: .\apps\2012\person.py:39 .\apps\2012\person.py:41 .\apps\2012\person.py:42
-#: .\apps\2012\person.py:51 .\apps\2012\person.py:60 .\apps\2012\person.py:80
-#: .\apps\2012\person.py:90 .\apps\2012\person.py:91 .\apps\2012\person.py:92
-#: .\apps\2012\person.py:111 .\apps\2012\person.py:112
-#: .\apps\2012\person.py:120 .\apps\2012\person.py:122
-#: .\apps\2012\person.py:130 .\apps\2012\person.py:140
-#: .\apps\2012\person.py:150 .\apps\2012\person.py:151
-#: .\apps\2012\person.py:161 .\apps\2012\person.py:162
-#: .\apps\2012\person.py:170 .\apps\2012\person.py:172
-#: .\apps\2012\person.py:180 .\apps\2012\person.py:181
-#: .\apps\2012\person.py:182 .\apps\2012\person.py:190
-#: .\apps\2012\person.py:210 .\apps\2012\person.py:211
-#: .\apps\2012\person.py:212 .\apps\2012\person.py:220
-#: .\apps\2012\person.py:232 .\apps\2012\person.py:242
-#: .\apps\2012\person.py:255 .\apps\2012\person.py:265
-#: .\apps\2012\person.py:275 .\apps\2012\person.py:277
-#: .\apps\2012\person.py:285 .\apps\2012\person.py:286
-#: .\apps\2012\person.py:287 .\apps\2012\person.py:296
-#: .\apps\2012\person.py:297 .\apps\2012\person.py:305
-#: .\apps\2012\person.py:306 .\apps\2012\person.py:307
-#: .\apps\2012\person.py:315 .\apps\2012\person.py:316
-#: .\apps\2012\person.py:317 .\apps\2012\person.py:326
-#: .\apps\2012\person.py:327 .\apps\2012\person.py:328
-#: .\apps\2012\person.py:336 .\apps\2012\person.py:337
-#: .\apps\2012\person.py:338
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:104
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:122
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:128
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:146
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:154
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:160
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:172
+#: ./apps/2012/person.py:8 ./apps/2012/person.py:19 ./apps/2012/person.py:21
+#: ./apps/2012/person.py:22 ./apps/2012/person.py:31 ./apps/2012/person.py:32
+#: ./apps/2012/person.py:39 ./apps/2012/person.py:41 ./apps/2012/person.py:42
+#: ./apps/2012/person.py:51 ./apps/2012/person.py:60 ./apps/2012/person.py:80
+#: ./apps/2012/person.py:90 ./apps/2012/person.py:91 ./apps/2012/person.py:92
+#: ./apps/2012/person.py:111 ./apps/2012/person.py:112
+#: ./apps/2012/person.py:120 ./apps/2012/person.py:122
+#: ./apps/2012/person.py:130 ./apps/2012/person.py:140
+#: ./apps/2012/person.py:150 ./apps/2012/person.py:151
+#: ./apps/2012/person.py:161 ./apps/2012/person.py:162
+#: ./apps/2012/person.py:170 ./apps/2012/person.py:172
+#: ./apps/2012/person.py:180 ./apps/2012/person.py:181
+#: ./apps/2012/person.py:182 ./apps/2012/person.py:190
+#: ./apps/2012/person.py:210 ./apps/2012/person.py:211
+#: ./apps/2012/person.py:212 ./apps/2012/person.py:220
+#: ./apps/2012/person.py:232 ./apps/2012/person.py:242
+#: ./apps/2012/person.py:255 ./apps/2012/person.py:265
+#: ./apps/2012/person.py:275 ./apps/2012/person.py:277
+#: ./apps/2012/person.py:285 ./apps/2012/person.py:286
+#: ./apps/2012/person.py:287 ./apps/2012/person.py:296
+#: ./apps/2012/person.py:297 ./apps/2012/person.py:305
+#: ./apps/2012/person.py:306 ./apps/2012/person.py:307
+#: ./apps/2012/person.py:315 ./apps/2012/person.py:316
+#: ./apps/2012/person.py:317 ./apps/2012/person.py:326
+#: ./apps/2012/person.py:327 ./apps/2012/person.py:328
+#: ./apps/2012/person.py:336 ./apps/2012/person.py:337
+#: ./apps/2012/person.py:338
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:104
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:122
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:128
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:146
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:154
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:160
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:172
 msgid ""
 msgstr ""
 
-#: .\apps\2012\person.py:9
+#: ./apps/2012/person.py:9
 msgid "Red Hat"
 msgstr ""
 
-#: .\apps\2012\person.py:10
+#: ./apps/2012/person.py:10
 msgid "Quality Engineer"
 msgstr ""
 
-#: .\apps\2012\person.py:11
+#: ./apps/2012/person.py:11
 msgid "Lu Linqing , Lu is a Cloud Product Evangelist for OpenShift (PaaS by Red Hat) and has also been a Quality Engineer of Cloud/Virtualization Products in Red Hat for numerous years. Lu is also a Red Hat Certified Engineers (RHCE)."
 msgstr ""
 
-#: .\apps\2012\person.py:13
+#: ./apps/2012/person.py:13
 msgid "《OpenShift - Develop and scale apps in the cloud 》"
 msgstr ""
 
-#: .\apps\2012\person.py:18 .\apps\2012\templates\SiteView2012\index.html:114
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:164
+#: ./apps/2012/person.py:18 ./apps/2012/templates/SiteView2012/index.html:114
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:164
 msgid "程辉"
 msgstr ""
 
-#: .\apps\2012\person.py:20 .\apps\2012\person.py:40
+#: ./apps/2012/person.py:20 ./apps/2012/person.py:40
 msgid "SINA"
 msgstr ""
 
-#: .\apps\2012\person.py:24
+#: ./apps/2012/person.py:24
 msgid "《OpenStack 在SAE》"
 msgstr ""
 
-#: .\apps\2012\person.py:28
+#: ./apps/2012/person.py:28
 msgid "杜玉杰"
 msgstr ""
 
-#: .\apps\2012\person.py:29
+#: ./apps/2012/person.py:29
 msgid "Ben"
 msgstr ""
 
-#: .\apps\2012\person.py:30
+#: ./apps/2012/person.py:30
 msgid "九州云"
 msgstr ""
 
-#: .\apps\2012\person.py:34
+#: ./apps/2012/person.py:34
 msgid "《在中国如何开展OpenStack 社区》"
 msgstr ""
 
-#: .\apps\2012\person.py:38
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:118
+#: ./apps/2012/person.py:38
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:118
 msgid "陈峰"
 msgstr ""
 
-#: .\apps\2012\person.py:44
+#: ./apps/2012/person.py:44
 msgid "《...待定》"
 msgstr ""
 
-#: .\apps\2012\person.py:48 .\apps\2012\templates\SiteView2012\index.html:190
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:170
+#: ./apps/2012/person.py:48 ./apps/2012/templates/SiteView2012/index.html:190
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:170
 msgid "张沈鹏"
 msgstr ""
 
-#: .\apps\2012\person.py:49
+#: ./apps/2012/person.py:49
 msgid "张教主"
 msgstr ""
 
-#: .\apps\2012\person.py:50 .\apps\2012\templates\SiteView2012\index.html:206
+#: ./apps/2012/person.py:50 ./apps/2012/templates/SiteView2012/index.html:206
 msgid "42区"
 msgstr ""
 
-#: .\apps\2012\person.py:52
+#: ./apps/2012/person.py:52
 msgid "前豆瓣工程师,前美空工程师,42区创始人!"
 msgstr ""
 
-#: .\apps\2012\person.py:54
+#: ./apps/2012/person.py:54
 msgid "《42qu.com 代码 & 架构 导读》"
 msgstr ""
 
-#: .\apps\2012\person.py:59
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:108
+#: ./apps/2012/person.py:59
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:108
 msgid "刘海锋"
 msgstr ""
 
-#: .\apps\2012\person.py:61
+#: ./apps/2012/person.py:61
 msgid "盛大"
 msgstr ""
 
-#: .\apps\2012\person.py:62
+#: ./apps/2012/person.py:62
 msgid "云引擎开发经理"
 msgstr ""
 
-#: .\apps\2012\person.py:63
+#: ./apps/2012/person.py:63
 msgid "刘海锋，2011年底加入盛大云计算公司，目前担任PaaS产品云引擎的开发经理。毕业于中国科技大学，之前曾任职于百度和雅虎北京研发中心。技术兴趣集中在分布式系统与云计算产品研发。"
 msgstr ""
 
-#: .\apps\2012\person.py:65
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:106
+#: ./apps/2012/person.py:65
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:106
 msgid "《盛大云引擎 – 发展中的PaaS平台》"
 msgstr ""
 
-#: .\apps\2012\person.py:69 .\apps\2012\templates\SiteView2012\index.html:106
+#: ./apps/2012/person.py:69 ./apps/2012/templates/SiteView2012/index.html:106
 msgid "孙毅"
 msgstr ""
 
-#: .\apps\2012\person.py:70
+#: ./apps/2012/person.py:70
 msgid "Tachikoma"
 msgstr ""
 
-#: .\apps\2012\person.py:71
+#: ./apps/2012/person.py:71
 msgid "豆瓣"
 msgstr ""
 
-#: .\apps\2012\person.py:72
+#: ./apps/2012/person.py:72
 msgid "QA工程师"
 msgstr ""
 
-#: .\apps\2012\person.py:73
+#: ./apps/2012/person.py:73
 msgid "孙毅（Tachikoma），豆瓣QA工程师，负责豆瓣阅读的质量流程保证以及测试开发，持续集成等。"
 msgstr ""
 
-#: .\apps\2012\person.py:75
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:154
+#: ./apps/2012/person.py:75
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:154
 msgid "《豆瓣从开发到发布过程中的持续集成/发布工程实践》"
 msgstr ""
 
-#: .\apps\2012\person.py:79 .\apps\2012\templates\SiteView2012\index.html:176
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:140
+#: ./apps/2012/person.py:79 ./apps/2012/templates/SiteView2012/index.html:176
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:140
 msgid "童小军"
 msgstr ""
 
-#: .\apps\2012\person.py:81
+#: ./apps/2012/person.py:81
 msgid "暴风影音"
 msgstr ""
 
-#: .\apps\2012\person.py:82
+#: ./apps/2012/person.py:82
 msgid "搜索研发组主管"
 msgstr ""
 
-#: .\apps\2012\person.py:83
+#: ./apps/2012/person.py:83
 msgid "暴风影音在线研发部-搜索研发组主管"
 msgstr ""
 
-#: .\apps\2012\person.py:85
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:138
+#: ./apps/2012/person.py:85
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:138
 msgid "《Python配合Hadoop 快速搭建开放型大数据仓库分析平台》"
 msgstr ""
 
-#: .\apps\2012\person.py:89
+#: ./apps/2012/person.py:89
 msgid "刘远亮"
 msgstr ""
 
-#: .\apps\2012\person.py:93
+#: ./apps/2012/person.py:93
 msgid "刘远亮，自述：“我每天只做三件事：玩／享乐，学习／生长，创造。 我一生追求三样东西：自由，美，爱。 我吸取三方面的知识技能：人文，技术，组织。 相信人类社会中的和平的力量，即每一个人对乐趣，美，和爱的追求。 相信是来自所有人的这些力量的合力推动着我们的社会变得更美好， 即更丰富， 更美，更有生命力。”"
 msgstr ""
 
-#: .\apps\2012\person.py:95
+#: ./apps/2012/person.py:95
 msgid "《知识引擎的设计》"
 msgstr ""
 
-#: .\apps\2012\person.py:100
+#: ./apps/2012/person.py:100
 msgid "Zoom.Quiet"
 msgstr ""
 
-#: .\apps\2012\person.py:102
+#: ./apps/2012/person.py:102
 msgid "过程改进经理"
 msgstr ""
 
-#: .\apps\2012\person.py:105
+#: ./apps/2012/person.py:105
 msgid "《如何 Pythonic 的组织技术交流》"
 msgstr ""
 
-#: .\apps\2012\person.py:110
+#: ./apps/2012/person.py:110
 msgid "Limodou"
 msgstr ""
 
-#: .\apps\2012\person.py:113
+#: ./apps/2012/person.py:113
 msgid "Python 中文社区创始人及 Python 技术的关键推广者之一。广受欢迎的 Ulipad 编辑器，以及 web框架 Uliweb 的作者。"
 msgstr ""
 
-#: .\apps\2012\person.py:115
+#: ./apps/2012/person.py:115
 msgid " 《又一年, UliPad+UliWeb 发展紀事儿》"
 msgstr ""
 
-#: .\apps\2012\person.py:119 .\apps\2012\templates\SiteView2012\index.html:128
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:132
+#: ./apps/2012/person.py:119 ./apps/2012/templates/SiteView2012/index.html:128
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:132
 msgid "杨昆"
 msgstr ""
 
-#: .\apps\2012\person.py:121
+#: ./apps/2012/person.py:121
 msgid "知乎"
 msgstr ""
 
-#: .\apps\2012\person.py:123
+#: ./apps/2012/person.py:123
 msgid "知乎服务器端 Tech Leader"
 msgstr ""
 
-#: .\apps\2012\person.py:125
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:130
+#: ./apps/2012/person.py:125
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:130
 msgid "《社会化问答网站中的Python应用》"
 msgstr ""
 
-#: .\apps\2012\person.py:129 .\apps\2012\templates\SiteView2012\index.html:160
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:148
+#: ./apps/2012/person.py:129 ./apps/2012/templates/SiteView2012/index.html:160
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:148
 msgid "周辉"
 msgstr ""
 
-#: .\apps\2012\person.py:131
+#: ./apps/2012/person.py:131
 msgid "华强方特影业投资有限公司"
 msgstr ""
 
-#: .\apps\2012\person.py:132
+#: ./apps/2012/person.py:132
 msgid "技术研发部总监"
 msgstr ""
 
-#: .\apps\2012\person.py:133
+#: ./apps/2012/person.py:133
 msgid "周辉，华强方特影业投资有限公司，担任技术研发部总监一职。之前曾担任Base FX公司IT经理"
 msgstr ""
 
-#: .\apps\2012\person.py:135
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:146
+#: ./apps/2012/person.py:135
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:146
 msgid "《视觉效果制作行业的工业语言——Python》"
 msgstr ""
 
-#: .\apps\2012\person.py:139
+#: ./apps/2012/person.py:139
 msgid "丛磊"
 msgstr ""
 
-#: .\apps\2012\person.py:141
+#: ./apps/2012/person.py:141
 msgid "新浪"
 msgstr ""
 
-#: .\apps\2012\person.py:142
+#: ./apps/2012/person.py:142
 msgid "新浪云计算首席架构师"
 msgstr ""
 
-#: .\apps\2012\person.py:143
+#: ./apps/2012/person.py:143
 msgid "丛磊，新浪云计算首席架构师，2006年毕业后加入新浪公司，2008年其带领技术团队从事云计算方向的技术研发，2009起先后经历了SAE alpha1、alpha2、beta的发布，目前负责SAE的整体技术架构和研发。"
 msgstr ""
 
-#: .\apps\2012\person.py:145
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:116
+#: ./apps/2012/person.py:145
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:116
 msgid "《SAE 对Python 的深入支持及应用》"
 msgstr ""
 
-#: .\apps\2012\person.py:149 .\apps\2012\templates\SiteView2012\index.html:144
+#: ./apps/2012/person.py:149 ./apps/2012/templates/SiteView2012/index.html:144
 msgid "陆丹峰"
 msgstr ""
 
-#: .\apps\2012\person.py:152
+#: ./apps/2012/person.py:152
 msgid "AdMaster研发副总裁"
 msgstr ""
 
-#: .\apps\2012\person.py:153
+#: ./apps/2012/person.py:153
 msgid "陆丹峰，AdMaster研发副总裁，主要负责领导公司产品研发和数据分析。组建了并负责管理北京研发团队，同时负责广告、舆情等公司核心产品线的架构与研发。曾于2005年联合创办英创思（Introns Tech.），主管产品研发，专注于大型网站质量诊断。2008 年加入日本电通广告在中国的子公司电众数码（c.），组建并主管 IT 部门，负责研发数字化媒体选择工具。陆丹峰毕业于北京大学，拥有应用数学硕士学位，曾以第一作者身份发表图像处理方向的 SCI 文章并由 Springer 收录，核心算法被多次引用。"
 msgstr ""
 
-#: .\apps\2012\person.py:155
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:124
+#: ./apps/2012/person.py:155
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:124
 msgid "《Python 在互联网广告监测分析中的应用》"
 msgstr ""
 
-#: .\apps\2012\person.py:159
+#: ./apps/2012/person.py:159
 msgid "董洵"
 msgstr ""
 
-#: .\apps\2012\person.py:160
+#: ./apps/2012/person.py:160
 msgid " Alex Dong"
 msgstr ""
 
-#: .\apps\2012\person.py:163
+#: ./apps/2012/person.py:163
 msgid "对角巷创始人, 好看簿创始人之一. 微软2004年评出的全球56个架构师MVP中唯一的中国人. 他对历史和艺术有浓厚的兴趣, 相信结构的力量. 在不工作的时候, 他喜欢品南方绿茶,听各式音乐,看历史/经济/科幻/技术书籍. 曾经是半职业游泳运动员的他更喜欢绕着玉渊潭跑上15公里,出一身汗. 他还喜欢打篮球,中投自认还不赖."
 msgstr ""
 
-#: .\apps\2012\person.py:165
+#: ./apps/2012/person.py:165
 msgid "《国外 Py 社区的组织以及技术发展特点》"
 msgstr ""
 
-#: .\apps\2012\person.py:169 .\apps\2012\templates\SiteView2012\index.html:136
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:198
+#: ./apps/2012/person.py:169 ./apps/2012/templates/SiteView2012/index.html:136
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:198
 msgid "曾庆生"
 msgstr ""
 
-#: .\apps\2012\person.py:171
+#: ./apps/2012/person.py:171
 msgid "3Gland "
 msgstr ""
 
-#: .\apps\2012\person.py:173
+#: ./apps/2012/person.py:173
 msgid "2006年加入三技科技, 从事网络相关工作, 个人长期研究大陆互联网结构, 及解决大陆复杂网络环境中的快速网络访问、多线路相关方案, 为创业型公司提供个性化高性价比的解决方案."
 msgstr ""
 
-#: .\apps\2012\person.py:175
+#: ./apps/2012/person.py:175
 msgid "《灵活的IDC业务中如何进行Python应用部属》"
 msgstr ""
 
-#: .\apps\2012\person.py:179 .\apps\2012\templates\SiteView2012\index.html:184
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:176
+#: ./apps/2012/person.py:179 ./apps/2012/templates/SiteView2012/index.html:184
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:176
 msgid "骆逸"
 msgstr ""
 
-#: .\apps\2012\person.py:183
+#: ./apps/2012/person.py:183
 msgid "@骆逸, 从事搜索引擎和推荐系统的研发，自2004年入Python教。现为毕肯互动（北京）科技有限公司总裁，之前曾任WPP ITOP 24/7公司CTO、空中网悟空搜索副总裁和美国Yahoo搜索资深工程师。毕业于清华大学和美国亚利桑那大学。"
 msgstr ""
 
-#: .\apps\2012\person.py:185
+#: ./apps/2012/person.py:185
 msgid "《廉价硬件和Python构建远程交流机器人开发计划》"
 msgstr ""
 
-#: .\apps\2012\person.py:189 .\apps\2012\templates\SiteView2012\index.html:168
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:190
+#: ./apps/2012/person.py:189 ./apps/2012/templates/SiteView2012/index.html:168
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:190
 msgid "王捷"
 msgstr ""
 
-#: .\apps\2012\person.py:191
+#: ./apps/2012/person.py:191
 msgid "扇贝网"
 msgstr ""
 
-#: .\apps\2012\person.py:192
+#: ./apps/2012/person.py:192
 msgid "扇贝网总经理"
 msgstr ""
 
-#: .\apps\2012\person.py:193
+#: ./apps/2012/person.py:193
 msgid "王捷，扇贝网总经理，毕业于东南大学和比利时鲁汶大学，曾先后在趋势科技中国研发中心，比利时Attentio，上海CIC担任开发工程师和研发总监等职位。"
 msgstr ""
 
-#: .\apps\2012\person.py:195
+#: ./apps/2012/person.py:195
 msgid "《Python小团队不妨知道的技术》"
 msgstr ""
 
-#: .\apps\2012\person.py:200
+#: ./apps/2012/person.py:200
 msgid "Sting Chen"
 msgstr ""
 
-#: .\apps\2012\person.py:201
+#: ./apps/2012/person.py:201
 msgid "2Style4You"
 msgstr ""
 
-#: .\apps\2012\person.py:202
+#: ./apps/2012/person.py:202
 msgid "CTO"
 msgstr ""
 
-#: .\apps\2012\person.py:203
+#: ./apps/2012/person.py:203
 msgid "TopGeek社区创办人，现在全球领先的时尚科技公司2Style4You.com任CTO,1999年硕士毕业于上海交通大学计算机系，具有13年的互联网技术和互联网产品技术经验，还发起PMCamp社区等。也是ThinkinLAMP，ShanghaiOnRails，CPyUG，GTUG等社区的参与者或组织者。"
 msgstr ""
 
-#: .\apps\2012\person.py:205
+#: ./apps/2012/person.py:205
 msgid "大会致辞《Python世界》"
 msgstr ""
 
-#: .\apps\2012\person.py:215
+#: ./apps/2012/person.py:215
 msgid "《游戏逻辑编写技巧》《Python 产品构建与发布指南》"
 msgstr ""
 
-#: .\apps\2012\person.py:221
+#: ./apps/2012/person.py:221
 msgid "网易"
 msgstr ""
 
-#: .\apps\2012\person.py:222
+#: ./apps/2012/person.py:222
 msgid "资深技术主管"
 msgstr ""
 
-#: .\apps\2012\person.py:223
+#: ./apps/2012/person.py:223
 msgid "网易资深技术主管，18年程序设计经验。"
 msgstr ""
 
-#: .\apps\2012\person.py:225
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:108
+#: ./apps/2012/person.py:225
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:108
 msgid "《实战游戏客户端》"
 msgstr ""
 
-#: .\apps\2012\person.py:233
+#: ./apps/2012/person.py:233
 msgid "润普科技"
 msgstr ""
 
-#: .\apps\2012\person.py:234
+#: ./apps/2012/person.py:234
 msgid "创始人，CTO"
 msgstr ""
 
-#: .\apps\2012\person.py:235
+#: ./apps/2012/person.py:235
 msgid "国内python社区最早的布道者之一，2002年开始创办Zope中文社区，同时也是润普公司创始人。2007年转向互联网软件，推出易度云办公(everydo.com)，专注企业云端办公方案。"
 msgstr ""
 
-#: .\apps\2012\person.py:237
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:118
+#: ./apps/2012/person.py:237
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:118
 msgid "《演进或革命 - 选型和架构的实践经验谈》"
 msgstr ""
 
-#: .\apps\2012\person.py:243
+#: ./apps/2012/person.py:243
 msgid "土豆网"
 msgstr ""
 
-#: .\apps\2012\person.py:244
+#: ./apps/2012/person.py:244
 msgid "技术副总裁"
 msgstr ""
 
-#: .\apps\2012\person.py:245
+#: ./apps/2012/person.py:245
 msgid "黄冬现任土豆网技术副总裁，主持设计和运营过多个大型高容量产品和系统。也是中国FreeBSD、Python社区的发起者和积极参与者，啄木鸟社区的创始人之一。此外，他还积极帮助各种创业项目，创立了彩虹流量和xBaynet系列产品。"
 msgstr ""
 
-#: .\apps\2012\person.py:247
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:126
+#: ./apps/2012/person.py:247
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:126
 msgid "《Python@土豆 （主题待定）》"
 msgstr ""
 
-#: .\apps\2012\person.py:256
+#: ./apps/2012/person.py:256
 msgid "江苏盛典"
 msgstr ""
 
-#: .\apps\2012\person.py:257
+#: ./apps/2012/person.py:257
 msgid "技术总监"
 msgstr ""
 
-#: .\apps\2012\person.py:258
+#: ./apps/2012/person.py:258
 msgid "网游行业资深从业者，有丰富的 python 游戏开发经验。由其担纲的代表游戏有，新一代 MMOCAT大作《天下盛境》等。是珠三角技术沙龙的创办人和组委之一。"
 msgstr ""
 
-#: .\apps\2012\person.py:260
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:132
+#: ./apps/2012/person.py:260
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:132
 msgid "《网游开发中的 Python 组件》"
 msgstr ""
 
-#: .\apps\2012\person.py:266
+#: ./apps/2012/person.py:266
 msgid "广州黑崖网络科技有限公司"
 msgstr ""
 
-#: .\apps\2012\person.py:267
+#: ./apps/2012/person.py:267
 msgid "总经理兼技术总监"
 msgstr ""
 
-#: .\apps\2012\person.py:268
+#: ./apps/2012/person.py:268
 msgid "广州黑崖网络科技有限公司总经理兼技术总监。网游行业资深从业者，代表作品有《富甲西游》，《喂哇游3D社区》，《月光之城online》等。"
 msgstr ""
 
-#: .\apps\2012\person.py:270
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:142
+#: ./apps/2012/person.py:270
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:142
 msgid "《自动化即时战斗游戏解决方案》"
 msgstr ""
 
-#: .\apps\2012\person.py:276
+#: ./apps/2012/person.py:276
 msgid "OpenERP"
 msgstr ""
 
-#: .\apps\2012\person.py:278
+#: ./apps/2012/person.py:278
 msgid "2005年接触开源ERP，对各个开源ERP产品均有涉猎。主持参与了weberp、openbravo、openerp的汉化工作。2007年开始做OpenERP（原TinyERP）的本地化和推广。注重基于开源+威客的商业服务模式即实现程序员参与开源的长短期收益。现集中精力做OpenERP的远程二次开发团队，Python做ERP二次开发很爽，乐在其中......是http://openerp-china.org/ 站长和http://code.google.com/p/cloudteam/ 项目经理 微博：http://weibo.com/opennewbazaar 爱好：ERP，开源，威客"
 msgstr ""
 
-#: .\apps\2012\person.py:280
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:150
+#: ./apps/2012/person.py:280
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:150
 msgid "《人人可以化半小时开发一个全功能OpenERP模块》"
 msgstr ""
 
-#: .\apps\2012\person.py:284 .\apps\2012\templates\SiteView2012\index.html:156
+#: ./apps/2012/person.py:284 ./apps/2012/templates/SiteView2012/index.html:156
 msgid "许智翔"
 msgstr ""
 
-#: .\apps\2012\person.py:288
+#: ./apps/2012/person.py:288
 msgid "许智翔(Shell909090)，现任杭州齐治上海分公司程序员，python/c程序员，有7年工作经验，擅长系统/安全，主要活跃在shlug和cpug社区。他曾主持过多个大型系统的设计和开发，是python-segment和uniproxy的作者，也是python-formalchemy和python-snappy的debian包维护者。他喜欢太极，篮球和潜水，有兴趣的可以通过邮件或email联系他。"
 msgstr ""
 
-#: .\apps\2012\person.py:290
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:158
+#: ./apps/2012/person.py:290
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:158
 msgid "元编程在redis orm中的应用"
 msgstr ""
 
-#: .\apps\2012\person.py:294 .\apps\2012\templates\SiteView2012\index.html:164
+#: ./apps/2012/person.py:294 ./apps/2012/templates/SiteView2012/index.html:164
 msgid "黄峥峼"
 msgstr ""
 
-#: .\apps\2012\person.py:295
+#: ./apps/2012/person.py:295
 msgid "Mark Huang"
 msgstr ""
 
-#: .\apps\2012\person.py:298
+#: ./apps/2012/person.py:298
 msgid "黄峥峼（Mark Huang）来自新加坡，现在在杭州一间小德国企业工作。 他已经code python四年了。 前一份工作在Lucasfilm Entertainment Company （卢卡斯电影有限公司）用Python写内部的Web Application。从Pylons Web 框架学起。他说：“我特别喜欢Python； 恨死Java。”"
 msgstr ""
 
-#: .\apps\2012\person.py:300
+#: ./apps/2012/person.py:300
 msgid "《Pyramid Web Framework for Advanced Web Applications》"
 msgstr ""
 
-#: .\apps\2012\person.py:304 .\apps\2012\templates\SiteView2012\index.html:172
+#: ./apps/2012/person.py:304 ./apps/2012/templates/SiteView2012/index.html:172
 msgid "飞龙非龙"
 msgstr ""
 
-#: .\apps\2012\person.py:308
+#: ./apps/2012/person.py:308
 msgid "飞龙非龙（李飞林），Python技术博客 http://feilong.me 博主，Tornado 开源站点 http://poweredsites.org 作者，国内Tornado传教士。"
 msgstr ""
 
-#: .\apps\2012\person.py:310
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:170
+#: ./apps/2012/person.py:310
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:170
 msgid "《用Tornado开发RESTful API应用》"
 msgstr ""
 
-#: .\apps\2012\person.py:314 .\apps\2012\templates\SiteView2012\index.html:180
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:180
+#: ./apps/2012/person.py:314 ./apps/2012/templates/SiteView2012/index.html:180
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:180
 msgid "董诣"
 msgstr ""
 
-#: .\apps\2012\person.py:318
+#: ./apps/2012/person.py:318
 msgid " 董诣，曾就职于五分钟和盛大，正在开发3D flash页游&lt;深渊&gt;，负责开发游戏服务器端功能以及建立研发体系等工作。微博：http://weibo.com/dongyi1110 "
 msgstr ""
 
-#: .\apps\2012\person.py:320
+#: ./apps/2012/person.py:320
 msgid "《网页游戏的跨界开发》"
 msgstr ""
 
-#: .\apps\2012\person.py:325
+#: ./apps/2012/person.py:325
 msgid "于夏桥"
 msgstr ""
 
-#: .\apps\2012\person.py:329
+#: ./apps/2012/person.py:329
 msgid "于夏桥，来自浙江农林大学网络中心"
 msgstr ""
 
-#: .\apps\2012\person.py:331
+#: ./apps/2012/person.py:331
 msgid "《使用 Python 和 Django 建设维护学校门户》"
 msgstr ""
 
-#: .\apps\2012\person.py:335 .\apps\2012\templates\SiteView2012\index.html:194
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:186
+#: ./apps/2012/person.py:335 ./apps/2012/templates/SiteView2012/index.html:194
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:186
 msgid "吴晗"
 msgstr ""
 
-#: .\apps\2012\person.py:339
+#: ./apps/2012/person.py:339
 msgid "吴晗，系统工程师，目前在淘宝做应用运维方面的工作，在linux系统运维方面有比较丰富的经验"
 msgstr ""
 
-#: .\apps\2012\person.py:341
+#: ./apps/2012/person.py:341
 msgid "《python在linux运维中的应用》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\about.html:12
+#: ./apps/2012/templates/SiteView2012/about.html:12
 msgid "世界Python爱好者的盛会PyCon首次在中国举办，由Python软件基金会下的PyCon.Org授权中国办第二届PyCon China Conference。本次大会由GDG， TopGeek，CPyUG联合举办。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:18
+#: ./apps/2012/templates/SiteView2012/index.html:18
 msgid "主题："
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:20
-#: .\apps\2012\templates\inc_schedule.html:5
+#: ./apps/2012/templates/SiteView2012/index.html:20
+#: ./apps/2012/templates/inc_schedule.html:5
 msgid "组织："
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:22
-#: .\apps\2012\templates\inc_schedule.html:7
+#: ./apps/2012/templates/SiteView2012/index.html:22
+#: ./apps/2012/templates/inc_schedule.html:7
 msgid "头衔："
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:24
-#: .\apps\2012\templates\inc_schedule.html:9
+#: ./apps/2012/templates/SiteView2012/index.html:24
+#: ./apps/2012/templates/inc_schedule.html:9
 msgid "简介："
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:44
+#: ./apps/2012/templates/SiteView2012/index.html:44
 msgid "创智天地"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:58
+#: ./apps/2012/templates/SiteView2012/index.html:58
 msgid "OpenShift"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:62
+#: ./apps/2012/templates/SiteView2012/index.html:62
 msgid "热酷"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:66
+#: ./apps/2012/templates/SiteView2012/index.html:66
 msgid "易度云办公"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:70
+#: ./apps/2012/templates/SiteView2012/index.html:70
 msgid "齐治科技"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:74
-#: .\apps\2012\templates\SiteView2012\sponsors.html:42
+#: ./apps/2012/templates/SiteView2012/index.html:74
+#: ./apps/2012/templates/SiteView2012/sponsors.html:42
 msgid "盛大云"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:78
+#: ./apps/2012/templates/SiteView2012/index.html:78
 msgid "3Gland"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:80
+#: ./apps/2012/templates/SiteView2012/index.html:80
 msgid "北京嘉宾"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:84
+#: ./apps/2012/templates/SiteView2012/index.html:84
 msgid "上海嘉宾"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:208
-#: .\apps\2012\templates\SiteView2012\sponsors.html:106
+#: ./apps/2012/templates/SiteView2012/index.html:208
+#: ./apps/2012/templates/SiteView2012/sponsors.html:106
 msgid "社区团体"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:226
+#: ./apps/2012/templates/SiteView2012/index.html:226
 msgid "编程马拉松"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:228
+#: ./apps/2012/templates/SiteView2012/index.html:228
 msgid "主题演讲（北京）"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:232
+#: ./apps/2012/templates/SiteView2012/index.html:232
 msgid "大会致辞 Zoom.Quiet 更加欢乐的一年"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:236
+#: ./apps/2012/templates/SiteView2012/index.html:236
 msgid "《OpenShift - Develop and scale apps in the cloud 》- Lu Linqing"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:238
+#: ./apps/2012/templates/SiteView2012/index.html:238
 msgid "《SAE 对Python 的深入支持及应用》  丛磊"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:240
+#: ./apps/2012/templates/SiteView2012/index.html:240
 msgid "《Python 在互联网广告监测分析中的应用》 陆丹峰"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:242
+#: ./apps/2012/templates/SiteView2012/index.html:242
 msgid "《社会化问答网站中的Python应用》 杨昆"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:244
+#: ./apps/2012/templates/SiteView2012/index.html:244
 msgid "《Python配合Hadoop 快速搭建开放型大数据仓库分析平台》   童小军"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:246
+#: ./apps/2012/templates/SiteView2012/index.html:246
 msgid "《视觉效果制作行业的工业语言——Python》 周辉"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:248
+#: ./apps/2012/templates/SiteView2012/index.html:248
 msgid "《豆瓣从开发到发布过程中的持续集成/发布工程实践》   孙毅"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:250
+#: ./apps/2012/templates/SiteView2012/index.html:250
 msgid "快速演讲：《知识引擎的设计》  刘远亮"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:252
+#: ./apps/2012/templates/SiteView2012/index.html:252
 msgid "快速演讲：《国外 Py 社区的组织以及技术发展特点》  Alex Dong"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:254
+#: ./apps/2012/templates/SiteView2012/index.html:254
 msgid "快速演讲：《廉价硬件和Python构建远程交流机器人开发计划》 骆逸"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:256
+#: ./apps/2012/templates/SiteView2012/index.html:256
 msgid "快速演讲：《又一年, UliPad+UliWeb 发展紀事儿》 Limodou"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:258
+#: ./apps/2012/templates/SiteView2012/index.html:258
 msgid "快速演讲：《Python小团队不妨知道的技术》 王捷"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:260
+#: ./apps/2012/templates/SiteView2012/index.html:260
 msgid "快速演讲：《灵活的IDC业务中如何进行Python应用部属》  王娇"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:262
+#: ./apps/2012/templates/SiteView2012/index.html:262
 msgid "主题演讲（上海）"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:266
+#: ./apps/2012/templates/SiteView2012/index.html:266
 msgid "大会致辞 《Python继续令世界精彩》    陈世欣"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:270
+#: ./apps/2012/templates/SiteView2012/index.html:270
 msgid "《Python 产品构建与发布指南》  沈崴"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:272
+#: ./apps/2012/templates/SiteView2012/index.html:272
 msgid "《实战游戏客户端》   林伟"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:274
+#: ./apps/2012/templates/SiteView2012/index.html:274
 msgid "《演进或革命 - 选型和架构的实践经验谈》   潘俊勇"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:276
+#: ./apps/2012/templates/SiteView2012/index.html:276
 msgid "《Python@土豆 （主题待定）》  黄冬"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:278
+#: ./apps/2012/templates/SiteView2012/index.html:278
 msgid "《网游开发中的 Python 组件》  赖勇浩"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:280
+#: ./apps/2012/templates/SiteView2012/index.html:280
 msgid "《自动化即时战斗游戏解决方案》 王健"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:282
+#: ./apps/2012/templates/SiteView2012/index.html:282
 msgid "《人人可以化半小时开发一个全功能OpenERP模块》  王剑峰"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:284
+#: ./apps/2012/templates/SiteView2012/index.html:284
 msgid "元编程在redis orm中的应用   许智翔"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:286
+#: ./apps/2012/templates/SiteView2012/index.html:286
 msgid "Pyramid Web Framework for Advanced Web Applications》    黄峥峼"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:288
+#: ./apps/2012/templates/SiteView2012/index.html:288
 msgid "《用Tornado开发RESTful API应用》   飞龙非龙"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:290
+#: ./apps/2012/templates/SiteView2012/index.html:290
 msgid "快速演讲：《网页游戏的跨界开发》    董诣"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:292
+#: ./apps/2012/templates/SiteView2012/index.html:292
 msgid "快速演讲：《python在linux运维中的应用》   吴晗"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:296 .\apps\settings.ini:43
+#: ./apps/2012/templates/SiteView2012/index.html:296 ./apps/settings.ini:44
 msgid "北京日程"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\index.html:298 .\apps\settings.ini:44
+#: ./apps/2012/templates/SiteView2012/index.html:298 ./apps/settings.ini:45
 msgid "上海日程"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:12
+#: ./apps/2012/templates/SiteView2012/registration.html:12
 msgid "会场"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:16
+#: ./apps/2012/templates/SiteView2012/registration.html:16
 msgid "地点"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:18
+#: ./apps/2012/templates/SiteView2012/registration.html:18
 msgid "北京"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:20
-#: .\apps\2012\templates\SiteView2012\registration.html:26
-#: .\apps\2012\templates\SiteView2012\registration.html:32
+#: ./apps/2012/templates/SiteView2012/registration.html:20
+#: ./apps/2012/templates/SiteView2012/registration.html:26
+#: ./apps/2012/templates/SiteView2012/registration.html:32
 msgid "2012年10月20日 9:00-18:00"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:22
+#: ./apps/2012/templates/SiteView2012/registration.html:22
 msgid "方家胡同46号,恒温车间"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:24
+#: ./apps/2012/templates/SiteView2012/registration.html:24
 msgid "上海"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:28
+#: ./apps/2012/templates/SiteView2012/registration.html:28
 msgid "上海创智天地（淞沪路388号创智天地广场7号楼会议中心，近政立路）地铁10号线江湾体育场站下步行8分钟"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:30
+#: ./apps/2012/templates/SiteView2012/registration.html:30
 msgid "杭州"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:34
+#: ./apps/2012/templates/SiteView2012/registration.html:34
 msgid "杭州数字娱乐产业园 杭州市西湖区文一西路75号 3号楼3楼"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:38
+#: ./apps/2012/templates/SiteView2012/registration.html:38
 msgid ">1100人"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:44
+#: ./apps/2012/templates/SiteView2012/registration.html:44
 msgid "北京/上海大会门票购买和须知"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:46
+#: ./apps/2012/templates/SiteView2012/registration.html:46
 msgid "1. 门票和说明"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:48
+#: ./apps/2012/templates/SiteView2012/registration.html:48
 msgid "  A）普通门票（北京上海的门票一样价钱，报名哪一个就确认哪一个）"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:50
+#: ./apps/2012/templates/SiteView2012/registration.html:50
 msgid "150元/人（包括：午餐费30元，茶歇+饮料费10元，礼品费40元，会费70元）。参会者可以通过抽奖获得各种礼品。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:52
+#: ./apps/2012/templates/SiteView2012/registration.html:52
 msgid "个人票: "
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:54
+#: ./apps/2012/templates/SiteView2012/registration.html:54
 msgid "前200人享受99元优惠票价（已经售完），第201-400人享受118元优惠票价。个人票不提供发票，可提供收据。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:56
-#: .\apps\2012\templates\SiteView2012\registration.html:62
-#: .\apps\2012\templates\SiteView2012\registration.html:68
+#: ./apps/2012/templates/SiteView2012/registration.html:56
+#: ./apps/2012/templates/SiteView2012/registration.html:62
+#: ./apps/2012/templates/SiteView2012/registration.html:68
 msgid "立刻购买"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:58
+#: ./apps/2012/templates/SiteView2012/registration.html:58
 msgid "公司票: "
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:60
+#: ./apps/2012/templates/SiteView2012/registration.html:60
 msgid "公司票与个人票一样，公司票可以开发票，但不享受任何折扣。 (社区办大会不容易，建议有条件的公司尽量买公司票)。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:64
+#: ./apps/2012/templates/SiteView2012/registration.html:64
 msgid "  B) VIP贵宾票（北京上海的门票一样价钱，报名哪一个就确认哪一个）"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:66
+#: ./apps/2012/templates/SiteView2012/registration.html:66
 msgid "贵宾票价为666元，前42位享受500元优惠价"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:70
+#: ./apps/2012/templates/SiteView2012/registration.html:70
 msgid "可享受会前VIP晚宴，结识更多业内精英；"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:72
+#: ./apps/2012/templates/SiteView2012/registration.html:72
 msgid "企业的Logo可出现在PyCon的官网支持企业栏目中；"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:74
+#: ./apps/2012/templates/SiteView2012/registration.html:74
 msgid "大会当日将安排前七排座位；"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:76
+#: ./apps/2012/templates/SiteView2012/registration.html:76
 msgid "全日会议听课、互动环节，提供午餐和休息茶歇；"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:78
+#: ./apps/2012/templates/SiteView2012/registration.html:78
 msgid "会议礼品及参考资料。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:80
+#: ./apps/2012/templates/SiteView2012/registration.html:80
 msgid "2) 填写以上报名表，用于未来电子票方式通知和确认参加者"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:82
+#: ./apps/2012/templates/SiteView2012/registration.html:82
 msgid "有淘宝名称与参会者名称不一致的，需要在报名表上注明淘宝付款人。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:84
+#: ./apps/2012/templates/SiteView2012/registration.html:84
 msgid "或者在淘宝上注明报名者真实姓名。多人合并购买更必须注明。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:86
+#: ./apps/2012/templates/SiteView2012/registration.html:86
 msgid "每人必须填写一个报名表，用于最后的电子票发放和到场确认。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:88
+#: ./apps/2012/templates/SiteView2012/registration.html:88
 msgid "3）确认收款，在报名页下显示报名者名字即表示确认完成。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:90
+#: ./apps/2012/templates/SiteView2012/registration.html:90
 msgid "只要付款即获得门票。本次大会不会进行参会者资格审核，先到先得。组织者确认收到款项，确认收款后登记并确认，并在报名页下显示报名的名字。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:92
+#: ./apps/2012/templates/SiteView2012/registration.html:92
 msgid "4）抢座网和淘宝立即确认，参会前3天发送电子邮件和二维码门票"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:94
+#: ./apps/2012/templates/SiteView2012/registration.html:94
 msgid "报名并成功支付后将在淘宝收到“已发货”的信息，同时在抢座网报名页底部出现报名者名字。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:96
+#: ./apps/2012/templates/SiteView2012/registration.html:96
 msgid "将在大会前3天收到邮件通知和短信二维码，各个会场有签到确认报名情况。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:98
+#: ./apps/2012/templates/SiteView2012/registration.html:98
 msgid "如果没有收到二维码，也可以报名字和邮件地址现场查询确认签到。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:100
+#: ./apps/2012/templates/SiteView2012/registration.html:100
 msgid "联系邮件："
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:102
+#: ./apps/2012/templates/SiteView2012/registration.html:102
 msgid "Tips"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:104
+#: ./apps/2012/templates/SiteView2012/registration.html:104
 msgid "淘宝付款备注请注明抢座网报名人姓名！"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:106
+#: ./apps/2012/templates/SiteView2012/registration.html:106
 msgid "若付款后，未审核通过，请发邮件到:stingchen@topgeek.org, 说明购买的数量，淘宝账号，抢座网报名者姓名。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\registration.html:108
+#: ./apps/2012/templates/SiteView2012/registration.html:108
 msgid "本次大会是公益性社区大会，将提供可用于报销的收据，不提供发票。如果是大额的VIP门票需要发票，请邮件告知，组委会将用其他方法提供。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:14
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:14
 msgid "北京日程安排"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:26
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:28
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:26
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:28
 msgid "2012年10月13日"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:30
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:32
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:30
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:32
 msgid "主持人"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:32
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:34
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:32
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:34
 msgid "参观豆瓣,并宣告规则"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:34
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:36
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:34
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:36
 msgid "workshop"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:36
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:38
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:36
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:38
 msgid "SAE/盛大/RedHat "
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:38
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:40
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:38
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:40
 msgid "介绍各自云平台内容"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:40
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:42
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:40
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:42
 msgid "组队"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:42
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:44
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:42
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:44
 msgid "参加人员"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:44
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:46
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:44
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:46
 msgid "午餐以及自由组队,并决定作品创意"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:46
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:72
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:48
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:74
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:46
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:72
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:48
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:74
 msgid "评定"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:48
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:50
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:48
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:50
 msgid " SAE/盛大/RedHat技术讲师"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:50
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:52
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:50
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:52
 msgid "评定作品工作量,太少或是太多的进行调整"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:52
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:54
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:52
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:54
 msgid "hackathon "
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:54
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:56
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:54
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:56
 msgid "所有参加人员"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:56
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:58
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:56
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:58
 msgid "开始编程马拉松!"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:58
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:60
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:58
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:60
 msgid "2012年10月14日"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:60
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:62
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:60
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:62
 msgid "完成"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:62
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:68
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:64
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:70
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:62
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:68
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:64
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:70
 msgid "所有团队"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:64
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:66
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:64
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:66
 msgid "完成作品开发"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:66
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:68
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:66
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:68
 msgid "发布"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:70
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:72
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:70
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:72
 msgid "完成作品的发布运行"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:74
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:76
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:74
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:76
 msgid "所有作品"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:76
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:78
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:76
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:78
 msgid "逐一进行5分钟宣讲,并现场评分,决出前5"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:78
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:80
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:78
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:80
 msgid "2012年10月20日"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:82
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:84
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:82
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:84
 msgid "开场"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:84
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:86
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:84
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:86
 msgid "组织者&赞助商"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:86
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:88
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:86
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:88
 msgid "包括来自赞助商Google，主办方GDG， TopGeek， CPyUG的代表进行组织介绍。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:88
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:88
 msgid "大会致辞  更加欢乐的一年"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:96
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:98
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:96
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:98
 msgid "播放来自美国、欧洲、澳洲，以及来自北京、深圳等地的Python高手代表的视频演讲，虽然他们不能前来参加，但是视频形式也一样可以参与。在同样用Python的世界，也许未来某一天有机会面对面。包括Python创始人Guido的视频演讲，以及Pylons框架的核心成员、前好看薄的创始人等的视频演讲等。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:98
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:98
 msgid "《 OpenShift - Develop and scale apps in the cloud 》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:102
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:102
 msgid "OpenShift is Red Hat's free, auto-scaling Platform as a Service (PaaS) for applications. As an application platform in the cloud, OpenShift manages the stack so you can focus on your code."
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:110
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:110
 msgid "介绍盛大云计算PaaS平台 - 云引擎的现状与roadmap。云引擎的应用管理框架基于CloudFoundry, 后台集成了盛大云的各种基础服务，并对Python有良好的支持"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:120
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:120
 msgid "..."
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:126
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:126
 msgid "AdMaster的产品研发中有一半以上是用到 Python 的,有基于高并发大数据量采集的， 每天应对 2~3B 的请求和处理 基于tornado pypy 。目前市面上数据分析做的最好的 weibo 营销产品 WeiboMaster，使用 Django + Celery，weibo 上企业影响力第一的 durex 是其客户。AdMaster研究院做 NLP/ML 服务都是采用 Python 写的, 还有在大数据处理 Hadoop 上，我们也用到了 Python，结合 Pig 封装了自己的 DSL。可以说，Admaster将 python 用到了任何可以用的地方，真正发挥了这门通用性语言的优势。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:134
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:136
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:134
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:136
 msgid "介绍在网站开发和运维中用到的各种Python工具和相关插件。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:142
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:142
 msgid "童小军在加入暴风搜索的数据分析团队后，经过几年努力使用 python等语言搭建了一整套一个可用的Hadoop数据平台,每天处理和分析达到几十亿行。并带领团队推出EasyHadoop(shell), ComETL(python), PhpHiveAdmin(php), CronHub(java) 等开源软件系统,丰富整个Hadoop生态系统。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:150
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:150
 msgid "初步介绍Python在视觉效果制作行业中的普及性、重要性和一些应用情况。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:156
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:156
 msgid "和大家分享豆瓣阅读这个产品开发到发布过程中的持续集成/发布工程实践。项目进行的过程中，大家针对遇到的问题一一提出完善方案，并且一起实施，这个过程，是真正的工程实践。包括本地构建环境和脚本系统；jenkins系统；代码静态检查；单元测试；api测试；webtest；打包；发布；ios自动化实践；线上监控等，全部是工程师们在项目进行的过程中不断改进的结果。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:162
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:162
 msgid "快速演讲：《OpenStack 在 SAE》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:168
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:168
 msgid "快速演讲：《42qu.com 代码 & 架构 导读》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:174
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:174
 msgid "快速演讲：《廉价硬件和Python构建远程交流机器人开发计划》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:178
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:178
 msgid "计划以iRobot Create为基础，用廉价的硬件和Python，开发一个远程交流机器人（Telepresence Robot）。独乐乐，不若众乐乐。希望找一至两位感兴趣的工程师一起来做。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:182
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:182
 msgid "快速演讲：《又一年, UliPad+UliWeb 发展紀事儿》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:188
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:188
 msgid "快速演讲：《Python小团队不妨知道的技术》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:192
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:192
 msgid "扇贝网的开发者在网站成长过程中遇到的技术问题和解决方法，包括数据安全和备份，MySQL和uwsgi服务性能优化，基于Git的开发流程管理等。希望能帮助以Python/Django为主要开发语言和框架的小技术团队少走一些弯路。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:196
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:196
 msgid "快速演讲：《灵活的IDC业务中如何进行Python应用部属》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:202
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:192
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:202
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:192
 msgid "休息 抽奖"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:204
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:194
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:204
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:194
 msgid "演示 Hackathon 前5名作品 现场演示"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulebj.html:206
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:196
+#: ./apps/2012/templates/SiteView2012/schedulebj.html:206
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:196
 msgid "结束 抽奖"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:16
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:16
 msgid "上海日程安排"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:90
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:90
 msgid "大会致辞 《Python继续令世界精彩》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:100
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:100
 msgid "《Python 产品构建与发布指南》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:112
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:112
 msgid "林伟将给大家分享他们把Py应用在游戏开发中的各种技术关键点。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:164
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:164
 msgid "Pyramid Web Framework for Advanced Web Applications》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:166
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:166
 msgid "Google查一下Python Web框架，常常会搜到Django。Django是个很棒，很容易用的框架。可是大家有没有听过Python其他的Web框架呢？其中一个比较特别的是Pyramid。在中国，Pyramid比较少人用。这个演讲将会介绍一些Pyramid特有的功能如：Traversal, Events, Subscriber, Scaffolds还有一些额外好用的包如： Webassets, Gunicorn.  整体会介绍从开发到部署的过程。希望听了我的演讲后可以考虑用用看Pyramid这个框架。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:178
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:178
 msgid "快速演讲：《网页游戏的跨界开发》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:184
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:184
 msgid "快速演讲：《python在linux运维中的应用》"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\schedulesh.html:188
+#: ./apps/2012/templates/SiteView2012/schedulesh.html:188
 msgid "介绍如何使用python做linux系统管理（一些实用工具的介绍），rpm包管理，运维系统开发，系统监控，日志分析以及文档等方面的内容。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:18
+#: ./apps/2012/templates/SiteView2012/sponsors.html:18
 msgid "创智天地位于上海市杨浦区的江湾五角场城市副中心的中部地块，占地84万平方米，总建筑面积超过100万平方米。由杨浦区政府和瑞安房地产联手规划开发，并聘请国际一流设计团队参与打造，共同实现城区再造的历史使命。创智天地由创智天地广场、创智坊、江湾体育中心、创智天地科技园四个部分组成，它们各具功能，相辅相成。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:32
+#: ./apps/2012/templates/SiteView2012/sponsors.html:32
 msgid "热酷是中国和日本领先的社会化游戏研发运营商，我们的愿景是变革全球网络游戏行业，为全球用户提供精品社会化游戏。经过近两年的高速发展，热酷的精品社会化游戏遍布全球，目前已拥有近两千万的日活跃用户，正在成为全球最大的社会化游戏公司之一。热酷总部位于中国北京，并在全球多个国家开设办事处。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:44
+#: ./apps/2012/templates/SiteView2012/sponsors.html:44
 msgid "是在整合盛大集团资源的基础上，百分百自主技术研发而成的公有云平台。2011年7月22日，“盛大云”宣布开放公测。同年9月底，“盛大云”成为盛大集团旗下的子公司开始独立运营。“盛大云”以国际领先的AWS模式，已推出国内第一家按需计费的云主机、第一家面向公有云专门开发的Key-Value云存储、第一家云硬盘、第一家自助化的CDN加速产品、第一家在线MongoDB、永久免费的云监控、及网站云、数据库云等产品。“盛大云”以用户为中心，以快速的步伐不断满足客户在主机租赁、存储扩展、网络加速、快捷建站、数据库服务等方面的基础设施需求。产品以按需使用、弹性扩展、高可靠、高安全、高可控为核心特点。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:52
+#: ./apps/2012/templates/SiteView2012/sponsors.html:52
 msgid "OpenShift是RedHat提供的免费、可自动扩展的Web应用平台即服务（PaaS）。作为云上的应用平台，OpenShift为您管理一些繁琐细节，使您可以专注于应用开发。红帽OpenShift通过为开发人员提供在语言、框架和云上的更多的选择，使开发人员可以构建、测试、运行和管理他们的应用。红帽OpenShift提供比任何PaaS更多的灵活性，它支持用于Java、Python、PHP、Perl、Ruby和Node.js的更多的开发框架，包括 Spring、Seam、Weld、CDI、Rails、Rack、Symfony、Zend Framework、Twisted、Django和Java EE。它包含SQL和NoSQL数据存储和一个分布式文件系统。OpenShift独一无二的优势是它为PaaS带来行业领先的红帽和JBoss的生态环境，使开发人员可以利用业界最广泛的中间件服务。例如，OpenShift支持MongoDB和其它获得红帽企业 Linux认证的服务。由于支持广泛的框架和语言，包括Java、PHP、Python和Ruby，红帽OpenShift为云计算的开发人员提供更全面 的功能集合。 "
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:56
+#: ./apps/2012/templates/SiteView2012/sponsors.html:56
 msgid "广州润普网络科技有限公司( http://zopen.cn )自2002年成立以来，立足于开放源代码软件的专业技术开发与服务。为客户提供基于Zopen/Plone等开放源代码软件的企业内容管理、项目管理、文档管理、知识管理和产品解决方案，提供信息系统咨询、开发、支持等服务，以及Zopen/Plone的培训服务。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:60
+#: ./apps/2012/templates/SiteView2012/sponsors.html:60
 msgid "3Gland提供专业的国内外网络访问服务网络解决方案以及数据中心业务，根据用户需求，提供对应解决方案和网络带宽，满足个性化定制。3Gland总公司辽宁三技科技有限公司成立于1997年，是全国IDC业务服务平台，具有互联网信息服务（ICP）和互联网数据中心（IDC）以及移动网增值业务经营许可证（SP）资质；也是国家通讯管理局指定的备案接入商之一。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:64
+#: ./apps/2012/templates/SiteView2012/sponsors.html:64
 msgid "齐治科技——运维堡垒机的缔造者和领导者"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:66
+#: ./apps/2012/templates/SiteView2012/sponsors.html:66
 msgid "“浙江齐治科技有限公司”原名“杭州奇智信息科技有限公司”，是一家由运维管理专家创立、国内唯一专注于运维操作管理领域的创新型科技企业，并致力于成为领先的运维操作管理整体解决方案供应商和服务商。 公司成立于2005年10月，总部位于杭州，在北京、上海、广州设有技术支持中心。目前，齐治运维操作管理系统（俗称“运维堡垒机”）已广泛被应用于运营商、金融、互联网、电力、烟草、政府等多个高端行业、超百家高端客户的核心网络中。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:72
+#: ./apps/2012/templates/SiteView2012/sponsors.html:72
 msgid "北京图灵文化发展有限公司成立于2005年6月，由人民邮电出版社投资控股，以策划出版高质量的科技书籍为核心业务，主要出版领域包括计算机、电子电气、数学统计、科普等，公司以促进科技发展为己任，通过引进国际高水平的教材、专著，以及发掘国内优秀原创作品等方式，为目标读者提供一流的内容。经过短短几年的发展，图灵公司已经成为计算机出版行业里较有影响的出版单位。公司推出了一系列高质量的畅销技术图书，如《C++ Primer中文版》、《UNIX环境高级编程》、《Linux程序设计》等，都已经成为深受广大程序员欢迎的经典著作，公司对于计算机技术发展趋势有较强的把握能力和独到的眼光，出版的图书紧跟各种技术的发展，及时满足了行业需要。在电子电气领域，公司出版了一系列国际知名专家的著作，不少作者是IEEE资深会士和业界精英。在数学方面，公司翻译和影印了一大批获菲尔兹奖和沃尔夫奖的数学家的作品，有力地开拓了读者的视野。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:76
+#: ./apps/2012/templates/SiteView2012/sponsors.html:76
 msgid "ScriptFan"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:78
+#: ./apps/2012/templates/SiteView2012/sponsors.html:78
 msgid "ScriptFan技术沙龙社区始于2010年9月,由davidx和roamin92个人发起,目前已经举办了10余期。ScriptFan是一个以技术作为导向, 以脚本语言作为基石, 以应用作为方向的一个技术型的开放社区,任何人都可以加入其中,分享自己的心得,同时收获别人的经.沙龙每个月组织一期线下活动,时间订在每个月的第二周的周六下午1点半,地点为西安软件园秦风阁D201活跃网络办公室."
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:100
+#: ./apps/2012/templates/SiteView2012/sponsors.html:100
 msgid "42区，找到给你答案的人"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:102
+#: ./apps/2012/templates/SiteView2012/sponsors.html:102
 msgid "“42区”是一个基于个人技能的C2C交易平台，用户可以向该网站上有专业技能或擅长领域的人咨询各类问题、按照时间付费，可以是网上在线咨询也可以是线下面对面咨询。"
 msgstr ""
 
-#: .\apps\2012\templates\SiteView2012\sponsors.html:104
+#: ./apps/2012/templates/SiteView2012/sponsors.html:104
 msgid "42qu.com云计算 计算生命、宇宙以及一切的终极的答案"
 msgstr ""
 
-#: .\apps\bootstrap\settings.ini:2
+#: ./apps/bootstrap/settings.ini:2
 msgid "All rights reversed!"
 msgstr ""
 
-#: .\apps\bootstrap\settings.ini:3
+#: ./apps/bootstrap/settings.ini:3
 msgid "Uliweb Plugs Demo"
 msgstr ""
 
-#: .\apps\bootstrap\settings.ini:5
+#: ./apps/bootstrap/settings.ini:5
 msgid "Home"
 msgstr ""
 
-#: .\apps\bootstrap\settings.ini:6
+#: ./apps/bootstrap/settings.ini:6
 msgid "Admin"
 msgstr ""
 
-#: .\apps\bootstrap\settings.ini:7
+#: ./apps/bootstrap/settings.ini:7
 msgid "About"
 msgstr ""
 
-#: .\apps\bootstrap\templates\404.html:3 .\apps\bootstrap\templates\500.html:3
+#: ./apps/bootstrap/templates/404.html:3 ./apps/bootstrap/templates/500.html:3
 msgid "出错了"
 msgstr ""
 
-#: .\apps\bootstrap\templates\404.html:6 .\apps\bootstrap\templates\404.html:8
+#: ./apps/bootstrap/templates/404.html:6 ./apps/bootstrap/templates/404.html:8
 msgid "您要的东西不在这儿"
 msgstr ""
 
-#: .\apps\bootstrap\templates\404.html:10
+#: ./apps/bootstrap/templates/404.html:10
 msgid "也许您使用了一个不正确的地址，您可以："
 msgstr ""
 
-#: .\apps\bootstrap\templates\404.html:14
-#: .\apps\bootstrap\templates\500.html:14
+#: ./apps/bootstrap/templates/404.html:14
+#: ./apps/bootstrap/templates/500.html:14
 msgid "回到上一页"
 msgstr ""
 
-#: .\apps\bootstrap\templates\404.html:16
-#: .\apps\bootstrap\templates\500.html:16
+#: ./apps/bootstrap/templates/404.html:16
+#: ./apps/bootstrap/templates/500.html:16
 msgid "或者"
 msgstr ""
 
-#: .\apps\bootstrap\templates\404.html:18
-#: .\apps\bootstrap\templates\500.html:18
+#: ./apps/bootstrap/templates/404.html:18
+#: ./apps/bootstrap/templates/500.html:18
 msgid "回到首页"
 msgstr ""
 
-#: .\apps\bootstrap\templates\500.html:6 .\apps\bootstrap\templates\500.html:8
+#: ./apps/bootstrap/templates/500.html:6 ./apps/bootstrap/templates/500.html:8
 msgid "服务器出错了"
 msgstr ""
 
-#: .\apps\bootstrap\templates\500.html:10
+#: ./apps/bootstrap/templates/500.html:10
 msgid "我们十分抱歉，程序员将会尽快修复，您可以："
 msgstr ""
 
-#: .\apps\settings.ini:49
+#: ./apps/settings.ini:50
 msgid "2011"
 msgstr ""
 
-#: .\apps\settings.ini:59
+#: ./apps/settings.ini:60
 msgid "2012"
 msgstr ""
 
