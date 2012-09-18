@@ -37,6 +37,12 @@
  
  
 <h2>{{=_('北京/上海大会门票购买和须知')}}</h2>
+
+<p><span class="bold">
+    {{=_('先到')}}<a class="btn btn-warning" href="http://pycon2012.51qiangzuo.com/">{{=_('抢座网')}}</a>{{=_('完成报名,再去 淘宝 支付,大会才能明确你的意愿 ;-)')}}
+</span></p>
+
+
 <p><span class="bold">{{=_('1. 门票和说明')}}</span></p>
 <p><span class="bold">{{=_('  A）普通门票（北京上海的门票一样价钱，报名哪一个就确认哪一个）')}}</span></p>
 
@@ -93,7 +99,24 @@
 </ul>
 
 
+<p><span class="bold">{{=_('小额捐赠和赞助说明')}}</span></p>
 
+<ul>
+    <li>{{=_('个人小额捐赠42元起，可以进入到cn.pycon.org官网 - 热心蟒人榜')}}</li>
+    <li>{{=_('嘉宾和志愿者也通过自己的独特贡献进入到热心蟒人榜。')}}</li>
+    <li>{{=_('捐赠通过淘宝店实现：')}}<a href="http://item.taobao.com/item.htm?id=16658891443">{{=_('点击立即捐42元')}}
+        <img src="{{=url_for_static('images/sponsors/donate.png')}}" alt="donate" width="90"/>
+        </a>
+    </li>
+    <li>{{=_('而企业捐赠则是两种途径：')}}
+        <ol>
+            <li>{{=_('购买666元的VIP票（前42张售500元）')}}，<a href="http://item.taobao.com/item.htm?id=16652035793">{{=_('点击购买')}}</a>
+            </li>
+            <li>{{=_('赞助，请邮件联系大会赞助负责人')}} <a class="btn btn-info" href="mailto:stingchen@topgeek.org">stingchen@topgeek.org</a>
+            </li>
+        </ol>
+    </li>
+</ul>
 
 
 
@@ -102,6 +125,9 @@
 <h2 class="ribbon flat">{{=_('Tips')}}</h2>
 <br />
 <ol>
+    
+    <li>{{=_('一定要先到')}}<a class="btn btn-warning" href="http://pycon2012.51qiangzuo.com/">{{=_('抢座网')}}</a>{{=_('完成报名,再去 淘宝 支付,大会才能明确你的意愿 ;-)')}}</li>
+
     <li>{{=_('淘宝付款备注请注明抢座网报名人姓名！')}}</li>
     <li>{{=_('若付款后，未审核通过，请发邮件到:stingchen@topgeek.org, 说明购买的数量，淘宝账号，抢座网报名者姓名。')}}</li>
     <li>{{=_('本次大会是公益性社区大会，将提供可用于报销的收据，不提供发票。如果是大额的VIP门票需要发票，请邮件告知，组委会将用其他方法提供。')}}</li>
