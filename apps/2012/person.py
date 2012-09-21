@@ -38,10 +38,10 @@ data = [
 	    'fullname':_('陈峰'),
 		'nickname':_(''),
 		'company':_('SINA'),
-		'position':_(''),
-		'desc':_(''),
+		'position':_('SAE Python开发工程师'),
+		'desc':_('介绍SAE Python云计算平台的现状，架构以及演变的历程。'),
 		'avatar':'',
-		'speech':_('《...待定》'),
+		'speech':_('《SAE Python的发展历程》'),
 	},
 
     {
