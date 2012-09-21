@@ -18,10 +18,10 @@ data = [
 	    'fullname':_('程辉'),
 		'nickname':_(''),
 		'company':_('SINA'),
-		'position':_(''),
-		'desc':_(''),
-		'avatar':'',
-		'speech':_('《OpenStack 在SAE》'),
+		'position':_('新浪OpenStack公有云平台(SWS)负责人'),
+		'desc':_('新浪云计算技术经理，目前是OpenStack中国社区的管理员，同时也是新浪OpenStack公有云平台(SWS)负责人。2012年8月当选为OpenStack基金会董事会成员。'),
+		'avatar':'huicheng.jpg',
+		'speech':_('《基于OpenStack建设公有云平台的开发实践》'),
 	},
 
     {
@@ -78,9 +78,9 @@ data = [
 	{
 	    'fullname':_('童小军'),
 		'nickname':_(''),
-		'company':_('暴风影音'),
-		'position':_('搜索研发组主管'),
-		'desc':_('暴风影音在线研发部-搜索研发组主管'),
+		'company':_('EasyHadoop'),
+		'position':_('创始人'),
+		'desc':_('前暴风影音在线研发部-搜索研发组主管'),
 		'avatar':'tongxiaojun.jpg',
 		'speech':_('《Python配合Hadoop 快速搭建开放型大数据仓库分析平台》'),
 	},
@@ -96,8 +96,8 @@ data = [
 	},
 
 	{
-	    'fullname':_('周琦'),
-		'nickname':_('Zoom.Quiet'),
+	    'fullname':_('Zoom.Quiet'),
+		'nickname':_(''),
 		'company':_('金山网络'),
 		'position':_('过程改进经理'),
 		'desc':_('Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区"大妈"；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。'),
