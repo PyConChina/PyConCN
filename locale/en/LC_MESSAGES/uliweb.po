@@ -181,7 +181,7 @@ msgstr "Google Groups"
 #: apps/2011/templates/siteView/index.html:190
 #: apps/2011/templates/siteView/sponsors.html:122
 msgid "Gensee 展视互动云会议"
-msgstr "Gensee"
+msgstr "Gensee Cloud Conference"
 
 #: apps/2011/templates/siteView/index.html:192
 #: apps/2012/templates/SiteView2012/index.html:232
