@@ -2304,11 +2304,11 @@ msgstr ""
 
 #: apps/2012/templates/SiteView2012/index.html:304 apps/settings.ini:44
 msgid "北京日程"
-msgstr "agenda of Beijing"
+msgstr "Beijing"
 
 #: apps/2012/templates/SiteView2012/schedulesh.html:16
 msgid "上海日程安排"
-msgstr "agenda of Shanghai"
+msgstr "Shanghai"
 
 #: apps/2012/templates/SiteView2012/sponsors.html:64
 msgid "齐治科技——运维堡垒机的缔造者和领导者"
