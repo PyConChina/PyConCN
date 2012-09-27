@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pycon China 2011\n"
 "POT-Creation-Date: 2011-11-16 10:54\n"
-"PO-Revision-Date: 2012-09-18 17:49+0700\n"
+"PO-Revision-Date: 2012-09-27 16:48+0700\n"
 "Last-Translator: Tevin Zhang <mail2tevin@gmail.com>\n"
 "Language-Team: Topgeek <stingchen@TopGeek.org>\n"
 "Language: en\n"
@@ -2274,7 +2274,7 @@ msgstr ""
 
 #: apps/2012/templates/SiteView2012/index.html:278
 msgid "《Python 产品构建与发布指南》  沈崴"
-msgstr ""
+msgstr "\"Build & Release Manual for Python product\" Shen Wei"
 
 #: apps/2012/person.py:132
 msgid "技术研发部总监"
@@ -2449,10 +2449,12 @@ msgstr ""
 #: apps/2012/templates/SiteView2012/registration.html:92
 msgid "每人必须填写一个报名表，用于最后的电子票发放和到场确认。"
 msgstr ""
+"Everyone must fill in a sign up form, for electronic ticket delivery and "
+"confirmation of attendance."
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:14
 msgid "北京日程安排"
-msgstr ""
+msgstr "Agenda of Beijing"
 
 #: apps/2012/templates/SiteView2012/registration.html:94
 msgid "3）确认收款，在报名页下显示报名者名字即表示确认完成。"
@@ -2504,16 +2506,16 @@ msgstr ""
 
 #: apps/2012/templates/SiteView2012/sponsors.html:100
 msgid "42区，找到给你答案的人"
-msgstr ""
+msgstr "42qu, meet whom knows the answer to you"
 
 #: apps/2012/templates/SiteView2012/registration.html:52
 msgid "1. 门票和说明"
-msgstr ""
+msgstr "1. ticketing and instructions"
 
 #: apps/2012/person.py:310
 #: apps/2012/templates/SiteView2012/schedulesh.html:170
 msgid "《用Tornado开发RESTful API应用》"
-msgstr ""
+msgstr "\"Develop RESTful API applications using Tornado\""
 
 #: apps/2012/person.py:222
 msgid "资深技术主管"
@@ -2522,11 +2524,11 @@ msgstr ""
 #: apps/2012/templates/SiteView2012/schedulebj.html:32
 #: apps/2012/templates/SiteView2012/schedulesh.html:34
 msgid "参观豆瓣,并宣告规则"
-msgstr ""
+msgstr "visit douban, and declare announcement"
 
 #: apps/2012/templates/SiteView2012/index.html:306 apps/settings.ini:45
 msgid "上海日程"
-msgstr ""
+msgstr "agenda of Shanghai"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:86
 #: apps/2012/templates/SiteView2012/schedulesh.html:88
@@ -2548,12 +2550,12 @@ msgstr ""
 #: apps/2012/templates/SiteView2012/registration.html:68
 #: apps/2012/templates/SiteView2012/registration.html:74
 msgid "立刻购买"
-msgstr ""
+msgstr "purchase now"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:52
 #: apps/2012/templates/SiteView2012/schedulesh.html:54
 msgid "hackathon "
-msgstr ""
+msgstr "hackathon"
 
 #: apps/2012/person.py:300
 msgid "《Pyramid Web Framework for Advanced Web Applications》"
@@ -2596,7 +2598,7 @@ msgstr ""
 
 #: apps/2012/person.py:71
 msgid "豆瓣"
-msgstr ""
+msgstr "douban"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:36
 #: apps/2012/templates/SiteView2012/schedulesh.html:38
@@ -2607,6 +2609,7 @@ msgstr ""
 #: apps/2012/templates/SiteView2012/schedulesh.html:150
 msgid "《人人可以化半小时开发一个全功能OpenERP模块》"
 msgstr ""
+"\"Everyone can develop a full-featured module for OpenERP in half an hour\""
 
 #: apps/2012/person.py:320
 msgid "《网页游戏的跨界开发》"
@@ -2620,7 +2623,7 @@ msgstr ""
 
 #: apps/2012/templates/SiteView2012/registration.html:18
 msgid "北京"
-msgstr ""
+msgstr "Beijing"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:62
 #: apps/2012/templates/SiteView2012/schedulebj.html:68
@@ -2678,7 +2681,7 @@ msgstr ""
 #: apps/2012/templates/SiteView2012/schedulebj.html:84
 #: apps/2012/templates/SiteView2012/schedulesh.html:86
 msgid "组织者&赞助商"
-msgstr ""
+msgstr "Organizers & Sponsors"
 
 #: apps/2012/templates/SiteView2012/index.html:284
 msgid "《Python@土豆 （主题待定）》  黄冬"
@@ -2686,12 +2689,12 @@ msgstr ""
 
 #: apps/2012/templates/SiteView2012/index.html:88
 msgid "北京嘉宾"
-msgstr ""
+msgstr "honoured guests of Beijing"
 
 #: apps/2012/person.py:290
 #: apps/2012/templates/SiteView2012/schedulesh.html:158
 msgid "元编程在redis orm中的应用"
-msgstr ""
+msgstr "Application of meta programming in redis orm"
 
 #: apps/2012/person.py:100
 msgid "Zoom.Quiet"
@@ -2732,7 +2735,7 @@ msgstr ""
 
 #: apps/2012/person.py:141
 msgid "新浪"
-msgstr ""
+msgstr "Sina"
 
 #: apps/2012/templates/SiteView2012/index.html:44
 msgid "创智天地"
@@ -2846,7 +2849,7 @@ msgstr ""
 #: apps/2012/templates/SiteView2012/schedulebj.html:42
 #: apps/2012/templates/SiteView2012/schedulesh.html:44
 msgid "参加人员"
-msgstr ""
+msgstr "Attendees"
 
 #: apps/2012/templates/SiteView2012/index.html:248
 msgid "《Python 在互联网广告监测分析中的应用》 陆丹峰"
@@ -2911,6 +2914,8 @@ msgstr ""
 #: apps/2012/templates/SiteView2012/index.html:290
 msgid "《人人可以化半小时开发一个全功能OpenERP模块》  王剑峰"
 msgstr ""
+"\"Everyone can develop a full-featured module of OpenERP in half an hour\" "
+"Wang Jianfeng"
 
 #: apps/2012/templates/SiteView2012/index.html:244
 msgid "《OpenShift - Develop and scale apps in the cloud 》- Lu Linqing"
@@ -3150,7 +3155,7 @@ msgstr ""
 
 #: apps/2012/person.py:72
 msgid "QA工程师"
-msgstr ""
+msgstr "QA engineer"
 
 #: apps/2012/templates/SiteView2012/registration.html:34
 msgid "杭州数字娱乐产业园 杭州市西湖区文一西路75号 3号楼3楼"
@@ -3646,11 +3651,11 @@ msgstr ""
 
 #: apps/bootstrap/templates/404.html:3 apps/bootstrap/templates/500.html:3
 msgid "出错了"
-msgstr ""
+msgstr "There is an error"
 
 #: apps/bootstrap/templates/404.html:6 apps/bootstrap/templates/404.html:8
 msgid "您要的东西不在这儿"
-msgstr ""
+msgstr "What you are finding is not here"
 
 #: apps/2012/person.py:28
 msgid "杜玉杰"
@@ -3676,11 +3681,11 @@ msgstr ""
 
 #: apps/bootstrap/templates/500.html:6 apps/bootstrap/templates/500.html:8
 msgid "服务器出错了"
-msgstr ""
+msgstr "There is an error on the server"
 
 #: apps/bootstrap/templates/500.html:10
 msgid "我们十分抱歉，程序员将会尽快修复，您可以："
-msgstr ""
+msgstr "We are sorry, the program will be fixed soon, you can:"
 
 #: apps/2012/person.py:173
 msgid ""
@@ -3768,7 +3773,7 @@ msgstr ""
 
 #: apps/bootstrap/templates/404.html:14 apps/bootstrap/templates/500.html:14
 msgid "回到上一页"
-msgstr ""
+msgstr "Previous page"
 
 #: apps/2012/person.py:59 apps/2012/templates/SiteView2012/schedulebj.html:108
 msgid "刘海锋"
@@ -3789,7 +3794,7 @@ msgstr ""
 
 #: apps/2012/templates/SiteView2012/registration.html:124
 msgid "点击购买"
-msgstr ""
+msgstr "Click to purchase"
 
 #: apps/2012/templates/SiteView2012/index.html:82
 msgid "图灵文化"
@@ -3817,7 +3822,7 @@ msgstr ""
 
 #: apps/2012/templates/SiteView2012/registration.html:116
 msgid "点击立即捐42元"
-msgstr ""
+msgstr "Click to donate 42RMB"
 
 #: apps/2012/templates/SiteView2012/registration.html:46
 msgid "先到"
@@ -3825,7 +3830,7 @@ msgstr ""
 
 #: apps/2012/templates/SiteView2012/registration.html:120
 msgid "而企业捐赠则是两种途径："
-msgstr ""
+msgstr "Enterprises can donate in two different ways:"
 
 #: apps/2012/templates/SiteView2012/registration.html:48
 #: apps/2012/templates/SiteView2012/registration.html:132
@@ -3836,6 +3841,7 @@ msgstr ""
 #: apps/2012/templates/SiteView2012/registration.html:134
 msgid "完成报名,再去 淘宝 支付,大会才能明确你的意愿 ;-)"
 msgstr ""
+"We could know your wishes only if you sign up before you pay on Taobao ;-)"
 
 #: apps/2012/templates/SiteView2012/registration.html:112
 msgid "嘉宾和志愿者也通过自己的独特贡献进入到热心蟒人榜。"
