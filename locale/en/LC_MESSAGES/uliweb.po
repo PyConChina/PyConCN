@@ -2308,7 +2308,7 @@ msgstr "Beijing"
 
 #: apps/2012/templates/SiteView2012/schedulesh.html:16
 msgid "上海日程安排"
-msgstr "agenda of Shanghai"
+msgstr "Agenda of Shanghai"
 
 #: apps/2012/templates/SiteView2012/sponsors.html:64
 msgid "齐治科技——运维堡垒机的缔造者和领导者"
