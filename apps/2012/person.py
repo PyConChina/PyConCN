@@ -15,6 +15,16 @@ data = [
 
 
     {
+	    'fullname':_('葛涵涛'),
+		'nickname':_(''),
+		'company':_('移动新观察'),
+		'position':_('北京GDG负责人'),
+		'desc':_('...'),
+		'avatar':'bjgdg_ge.jpg',
+		'speech':_('《北京GDG介绍及GoogleIO大会新技术阅览》'),
+	},
+
+    {
 	    'fullname':_('程辉'),
 		'nickname':_(''),
 		'company':_('SINA'),
