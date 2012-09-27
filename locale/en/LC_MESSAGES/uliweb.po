@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pycon China 2011\n"
 "POT-Creation-Date: 2011-11-16 10:54\n"
-"PO-Revision-Date: 2012-09-27 16:48+0700\n"
-"Last-Translator: Tevin Zhang <mail2tevin@gmail.com>\n"
+"PO-Revision-Date: 2012-09-27 17:48+0700\n"
+"Last-Translator: Tevin Zhang <lxneng@gmail.com>\n"
 "Language-Team: Topgeek <stingchen@TopGeek.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -2308,7 +2308,7 @@ msgstr "Beijing"
 
 #: apps/2012/templates/SiteView2012/schedulesh.html:16
 msgid "上海日程安排"
-msgstr "Shanghai"
+msgstr "agenda of Shanghai"
 
 #: apps/2012/templates/SiteView2012/sponsors.html:64
 msgid "齐治科技——运维堡垒机的缔造者和领导者"
@@ -2528,7 +2528,7 @@ msgstr "visit douban, and declare announcement"
 
 #: apps/2012/templates/SiteView2012/index.html:306 apps/settings.ini:45
 msgid "上海日程"
-msgstr "agenda of Shanghai"
+msgstr "Shanghai"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:86
 #: apps/2012/templates/SiteView2012/schedulesh.html:88
