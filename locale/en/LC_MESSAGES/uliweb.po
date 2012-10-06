@@ -2519,7 +2519,7 @@ msgstr "\"Develop RESTful API applications using Tornado\""
 
 #: apps/2012/person.py:222
 msgid "资深技术主管"
-msgstr ""
+msgstr "Technology Manager"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:32
 #: apps/2012/templates/SiteView2012/schedulesh.html:34
@@ -2559,15 +2559,15 @@ msgstr "hackathon"
 
 #: apps/2012/person.py:300
 msgid "《Pyramid Web Framework for Advanced Web Applications》"
-msgstr ""
+msgstr "《Pyramid Web Framework for Advanced Web Applications》"
 
 #: apps/2012/templates/SiteView2012/registration.html:12
 msgid "会场"
-msgstr ""
+msgstr "conference"
 
 #: apps/2012/templates/SiteView2012/index.html:260
 msgid "快速演讲：《国外 Py 社区的组织以及技术发展特点》  Alex Dong"
-msgstr ""
+msgstr "《Py community organize》  Alex Dong"
 
 #: apps/2012/person.py:266
 msgid "广州黑崖网络科技有限公司"
@@ -2630,7 +2630,7 @@ msgstr "Beijing"
 #: apps/2012/templates/SiteView2012/schedulesh.html:64
 #: apps/2012/templates/SiteView2012/schedulesh.html:70
 msgid "所有团队"
-msgstr ""
+msgstr "All team"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:134
 #: apps/2012/templates/SiteView2012/schedulesh.html:136
@@ -2698,7 +2698,7 @@ msgstr "Application of meta programming in redis orm"
 
 #: apps/2012/person.py:100
 msgid "Zoom.Quiet"
-msgstr ""
+msgstr "Zoom.Quiet"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:156
 msgid ""
@@ -2784,7 +2784,7 @@ msgstr ""
 
 #: apps/2012/person.py:243
 msgid "土豆网"
-msgstr ""
+msgstr "Tudou.com"
 
 #: apps/2012/person.py:278
 msgid ""
@@ -2798,7 +2798,7 @@ msgstr ""
 
 #: apps/2012/person.py:201
 msgid "2Style4You"
-msgstr ""
+msgstr "2Style4You"
 
 #: apps/2012/person.py:119 apps/2012/templates/SiteView2012/index.html:136
 #: apps/2012/templates/SiteView2012/schedulebj.html:132
@@ -2814,33 +2814,33 @@ msgstr ""
 #: apps/2012/templates/SiteView2012/schedulebj.html:44
 #: apps/2012/templates/SiteView2012/schedulesh.html:46
 msgid "午餐以及自由组队,并决定作品创意"
-msgstr ""
+msgstr "launch"
 
 #: apps/2012/person.py:82
 msgid "搜索研发组主管"
-msgstr ""
+msgstr "Search Team manager"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:66
 #: apps/2012/templates/SiteView2012/schedulesh.html:68
 msgid "发布"
-msgstr ""
+msgstr "Publish"
 
 #: apps/2012/templates/SiteView2012/registration.html:54
 msgid "  A）普通门票（北京上海的门票一样价钱，报名哪一个就确认哪一个）"
-msgstr ""
+msgstr "A）Normal Ticket"
 
 #: apps/2012/person.py:95
 msgid "《知识引擎的设计》"
-msgstr ""
+msgstr "Knowledge Engine"
 
 #: apps/2012/person.py:247
 #: apps/2012/templates/SiteView2012/schedulesh.html:126
 msgid "《Python@土豆 （主题待定）》"
-msgstr ""
+msgstr "Python@Tudou"
 
 #: apps/2012/person.py:105
 msgid "《如何 Pythonic 的组织技术交流》"
-msgstr ""
+msgstr "How to use communicate Pythonic"
 
 #: apps/2012/person.py:234
 msgid "创始人，CTO"
