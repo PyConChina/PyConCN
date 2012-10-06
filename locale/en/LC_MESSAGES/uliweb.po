@@ -181,7 +181,7 @@ msgstr "Google Groups"
 #: apps/2011/templates/siteView/index.html:190
 #: apps/2011/templates/siteView/sponsors.html:122
 msgid "Gensee 展视互动云会议"
-msgstr "Gensee"
+msgstr "Gensee Cloud Conference"
 
 #: apps/2011/templates/siteView/index.html:192
 #: apps/2012/templates/SiteView2012/index.html:232
@@ -2519,7 +2519,7 @@ msgstr "\"Develop RESTful API applications using Tornado\""
 
 #: apps/2012/person.py:222
 msgid "资深技术主管"
-msgstr ""
+msgstr "Technology Manager"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:32
 #: apps/2012/templates/SiteView2012/schedulesh.html:34
@@ -2538,13 +2538,13 @@ msgstr ""
 #: apps/2012/person.py:125
 #: apps/2012/templates/SiteView2012/schedulebj.html:130
 msgid "《社会化问答网站中的Python应用》"
-msgstr ""
+msgstr "Python in social Q&A"
 
 #: apps/2012/templates/SiteView2012/registration.html:60
 msgid ""
 "前200人享受99元优惠票价（已经售完），第201-400人享受118元优惠票价。个人票不提"
 "供发票，可提供收据。"
-msgstr ""
+msgstr "First 200 person's price is 99RMB, No.201-400 person's price is 118RMB."
 
 #: apps/2012/templates/SiteView2012/registration.html:62
 #: apps/2012/templates/SiteView2012/registration.html:68
@@ -2559,19 +2559,19 @@ msgstr "hackathon"
 
 #: apps/2012/person.py:300
 msgid "《Pyramid Web Framework for Advanced Web Applications》"
-msgstr ""
+msgstr "《Pyramid Web Framework for Advanced Web Applications》"
 
 #: apps/2012/templates/SiteView2012/registration.html:12
 msgid "会场"
-msgstr ""
+msgstr "conference"
 
 #: apps/2012/templates/SiteView2012/index.html:260
 msgid "快速演讲：《国外 Py 社区的组织以及技术发展特点》  Alex Dong"
-msgstr ""
+msgstr "《Py community organize》  Alex Dong"
 
 #: apps/2012/person.py:266
 msgid "广州黑崖网络科技有限公司"
-msgstr ""
+msgstr "Guangzhou Heiya Co.Ltd"
 
 #: apps/2012/person.py:298
 msgid ""
@@ -2579,7 +2579,8 @@ msgid ""
 "python四年了。 前一份工作在Lucasfilm Entertainment Company （卢卡斯电影有限公"
 "司）用Python写内部的Web Application。从Pylons Web 框架学起。他说：“我特别喜欢"
 "Python； 恨死Java。”"
-msgstr ""
+msgstr "Mark Huang come form Singapore. Code python for 4 years. Previouse company is Lucasfilm Entertainment.
+He use Python write Web Application. Learn from Pylons Web framework. He hate Java."
 
 #: apps/2012/person.py:7 apps/2012/templates/SiteView2012/index.html:106
 #: apps/2012/templates/SiteView2012/schedulebj.html:100
@@ -2590,7 +2591,7 @@ msgstr ""
 msgid ""
 "若付款后，未审核通过，请发邮件到:stingchen@topgeek.org, 说明购买的数量，淘宝"
 "账号，抢座网报名者姓名。"
-msgstr ""
+msgstr "If you face ording problem, please email to stingchen@topgeek.org"
 
 #: apps/2012/person.py:215
 msgid "《游戏逻辑编写技巧》《Python 产品构建与发布指南》"
@@ -2630,12 +2631,12 @@ msgstr "Beijing"
 #: apps/2012/templates/SiteView2012/schedulesh.html:64
 #: apps/2012/templates/SiteView2012/schedulesh.html:70
 msgid "所有团队"
-msgstr ""
+msgstr "All team"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:134
 #: apps/2012/templates/SiteView2012/schedulesh.html:136
 msgid "介绍在网站开发和运维中用到的各种Python工具和相关插件。"
-msgstr ""
+msgstr "Introduce how to use Python Tools in Web Development and Operation."
 
 #: apps/2012/person.py:10
 msgid "Quality Engineer"
@@ -2668,7 +2669,7 @@ msgstr ""
 
 #: apps/2012/person.py:341
 msgid "《python在linux运维中的应用》"
-msgstr ""
+msgstr "Python in Linux"
 
 #: apps/2012/person.py:160
 msgid " Alex Dong"
@@ -2698,7 +2699,7 @@ msgstr "Application of meta programming in redis orm"
 
 #: apps/2012/person.py:100
 msgid "Zoom.Quiet"
-msgstr ""
+msgstr "Zoom.Quiet"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:156
 msgid ""
@@ -2718,12 +2719,12 @@ msgstr ""
 #: apps/2012/templates/SiteView2012/schedulebj.html:38
 #: apps/2012/templates/SiteView2012/schedulesh.html:40
 msgid "介绍各自云平台内容"
-msgstr ""
+msgstr "Introduce Cloud platform"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:56
 #: apps/2012/templates/SiteView2012/schedulesh.html:58
 msgid "开始编程马拉松!"
-msgstr ""
+msgstr "Hackthon"
 
 #: apps/2012/person.py:171
 msgid "3Gland "
@@ -2761,16 +2762,16 @@ msgstr ""
 
 #: apps/2012/person.py:331
 msgid "《使用 Python 和 Django 建设维护学校门户》"
-msgstr ""
+msgstr "Use Python and Django in school"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:54
 #: apps/2012/templates/SiteView2012/schedulesh.html:56
 msgid "所有参加人员"
-msgstr ""
+msgstr "All attendee"
 
 #: apps/2012/templates/SiteView2012/registration.html:64
 msgid "公司票: "
-msgstr ""
+msgstr "Company ticket"
 
 #: apps/2012/templates/SiteView2012/registration.html:70
 msgid "  B) VIP贵宾票（北京上海的门票一样价钱，报名哪一个就确认哪一个）"
@@ -2784,7 +2785,7 @@ msgstr ""
 
 #: apps/2012/person.py:243
 msgid "土豆网"
-msgstr ""
+msgstr "Tudou.com"
 
 #: apps/2012/person.py:278
 msgid ""
@@ -2798,7 +2799,7 @@ msgstr ""
 
 #: apps/2012/person.py:201
 msgid "2Style4You"
-msgstr ""
+msgstr "2Style4You"
 
 #: apps/2012/person.py:119 apps/2012/templates/SiteView2012/index.html:136
 #: apps/2012/templates/SiteView2012/schedulebj.html:132
@@ -2814,37 +2815,37 @@ msgstr ""
 #: apps/2012/templates/SiteView2012/schedulebj.html:44
 #: apps/2012/templates/SiteView2012/schedulesh.html:46
 msgid "午餐以及自由组队,并决定作品创意"
-msgstr ""
+msgstr "launch"
 
 #: apps/2012/person.py:82
 msgid "搜索研发组主管"
-msgstr ""
+msgstr "Search Team manager"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:66
 #: apps/2012/templates/SiteView2012/schedulesh.html:68
 msgid "发布"
-msgstr ""
+msgstr "Publish"
 
 #: apps/2012/templates/SiteView2012/registration.html:54
 msgid "  A）普通门票（北京上海的门票一样价钱，报名哪一个就确认哪一个）"
-msgstr ""
+msgstr "A）Normal Ticket"
 
 #: apps/2012/person.py:95
 msgid "《知识引擎的设计》"
-msgstr ""
+msgstr "Knowledge Engine"
 
 #: apps/2012/person.py:247
 #: apps/2012/templates/SiteView2012/schedulesh.html:126
 msgid "《Python@土豆 （主题待定）》"
-msgstr ""
+msgstr "Python@Tudou"
 
 #: apps/2012/person.py:105
 msgid "《如何 Pythonic 的组织技术交流》"
-msgstr ""
+msgstr "How to use communicate Pythonic"
 
 #: apps/2012/person.py:234
 msgid "创始人，CTO"
-msgstr ""
+msgstr "Founder CTO"
 
 #: apps/2012/templates/SiteView2012/schedulebj.html:42
 #: apps/2012/templates/SiteView2012/schedulesh.html:44
