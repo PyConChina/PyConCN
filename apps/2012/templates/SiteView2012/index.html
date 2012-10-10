@@ -327,6 +327,53 @@ $(function(){
             <div class="span3"><a target="_blank" href="#"><img src="{{=url_for_static('images/sponsors/hefei_gdg_logo.jpg')}}" alt="Hefei GDG" width="150" /></a></div>
         </div><!--END grid-->
 
+    <h2 class="ribbon flat">{{=_('企业VIP门票赞助')}}</h2>
+        <div class="row show-grid underhero">
+            <div class="span3"><img src="{{=url_for_static('images/companies/ebay.gif')}}" width="150px" alt="亿贝软件工程(上海)有限公司" width="150" /></div>
+            <div class="span3"><img src="{{=url_for_static('images/companies/shineit.png')}}" width="150px" alt="上海先安科技 （Shine IT）" width="150" /></div>
+            <div class="span3"><img src="{{=url_for_static('images/companies/xiaomi.png')}}" width="150px" alt="小米" width="150" /></div>
+            <div class="span3"><img src="{{=url_for_static('images/companies/weizoom.gif')}}" width="150px" alt="北京微众文化传媒有限公司" width="150" /></div>
+        </div>
+        <div class="row show-grid underhero">
+            <div class="span3"><img src="{{=url_for_static('images/speakers/index.png')}}" width="150px" height="50px" alt="雪球" width="150" /></div>
+            <div class="span3"><span></span></div>
+        </div>
+    <h2 class="ribbon flat">{{=_('个人VIP门票赞助')}}</h2>
+        <div class="row show-grid underhero">
+            <ul class="unstyled persons clearfix">
+                {{for p in [
+                    {'name':'郭理靖', 'company':''},
+                    {'name':'李迎辉', 'company':''},
+                    ]:}}
+                    <li><b title="{{=p['company']}}">{{=p['name']}}</b></li>
+                {{pass}}
+            </ul>
+        </div>
+   
+    <h2 class="ribbon flat">{{=_('Python热心蟒人')}}</h2>
+        <div class="row show-grid underhero">
+            <ul class="unstyled persons clearfix">
+                {{for p in [
+                    {'name':'姚钢强'},
+                    {'name':'李力'},
+                    {'name':'璩金毅'},
+                    {'name':'童小军'},
+                    {'name':'Liang Sun'},
+                    {'name':'林刚'},
+                    {'name':'王振'},
+                    {'name':'张寅'},
+                    {'name':'王振振'},
+                    {'name':'郭勇'},
+                    {'name':'祝小振'},
+                    {'name':'王升优'},
+                    {'name':'陈镇铖'},
+                    {'name':'伍彬'},
+                    ]:}}
+                    <li><span>{{=p['name']}}</span></li>
+                {{pass}}
+            </ul>
+        </div>
+
         <div class="row">
             <div class="span4">
               <h2>{{=_('演讲日程')}}</h2>
