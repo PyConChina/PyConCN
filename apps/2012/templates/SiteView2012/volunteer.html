@@ -13,28 +13,135 @@
 <h2 class="ribbon flat">{{=_('志愿者')}}</h2>
 <h3>{{=_('PyCon大会的召开离不开志愿者们的共同努力，同时，如果您愿意加入志愿者的队伍，请与PyCon组委会(邮件:stingchen@topgeek.org)联系。志愿者可以免除一部分参会费用，并且在大会官网的“志愿者”页面展示个人照片及简介。')}}</h3><br />
 
+{{
+data = [
+    {
+        'name':_('StingChen(陈世欣)'),
+        'description':[
+            _('上海交大计算机系硕士 现为创业公司2Style4You.Com的CTO  微博 <a target="_blank" href="http://weibo/stingchen">http://t.sina.com.cn/stingchen</a>'),
+            _('从2006年起参加和组织社区，曾组织过python聚会，参与组织过google技术社区GTUG，ThinkinLAMP社区，参加过30多次各类社区。并成功组织了上海最大的产品经理社区PMCamp (微博 <a target="_blank" href="http://t.sina.com.cn/pmcamp">http://t.sina.com.cn/pmcamp</a>，博客 <a target="_blank" href="http://pmcamp.org">http://pmcamp.org</a>)'),
+        ],
+        'blog': 'http://bopor.com/',
+        'weibo': 'http://weibo.com/stingchen',
+        'image': 'images/volunteer/chenshixin.jpg',
+    },
+    {
+        'name':_('Zoom.Quiet(周琦)'),
+        'description':[
+            _('Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区"大妈"；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。'),
+        ],
+        'blog': 'http://blog.zoomquiet.org/',
+        'weibo': 'http://weibo.com/zoomquiet',
+        'image': 'images/volunteer/zhouqi.png',
+    },
+    {
+        'name':_('Limodou(李迎辉)'),
+        'description':[
+            _('Python 中文社区创始人 / 管理员，Python 技术的关键推广者之一。广受欢迎的 Ulipad 编辑器，以及 web框架 Uliweb 的作者。'),
+        ],
+        'blog': 'http://my.oschina.net/limodou/blog',
+        'weibo': 'http://weibo.com/u/1689940061',
+        'image': 'images/volunteer/liyinghui.jpg',
+    },
+    {
+        'name':_('何健'),
+        'description':[
+            _('目前就职于去哪儿网。互联网行业新兵。近期接触python，大爱。兴趣十分广泛，但仅限于兴趣… 豪爽、开朗，典型北方爷们。'),
+        ],
+        'blog': '',
+        'weibo': '',
+        'image': 'images/volunteer/hejian.jpg',
+    },
+    {
+        'name':_('吴庆超'),
+        'description':[
+            _('热爱设计，极度钟情简洁和美的事物，一个刚毕业进入互联网行业的新人。喜欢python，也喜欢开源，喜欢在鼓捣这些东西的折腾劲。生活第一！足球第二！还有编程！'),
+        ],
+        'blog': '',
+        'weibo': '',
+        'image': 'images/volunteer/wuqingchao.jpg',
+    },
+    {
+        'name':_('吴一超'),
+        'description':[
+            _('电子科大计算机硕士 就职于qunar.com'),
+        ],
+        'blog': '',
+        'weibo': '',
+        'image': 'images/volunteer/wuyichao.jpg',
+    },
+    {
+        'name':_('高建'),
+        'description':[
+            _('2012年应届生一枚，有点小愤青，喜欢旅游，喜欢摄影对IT技术和用户体验很感兴趣，目前就职于去哪儿网喜欢的一句话：to be or not to be ,that is a question'),
+        ],
+        'blog': '',
+        'weibo': '',
+        'image': 'images/volunteer/gaojian.jpg',
+    },
+    {
+        'name':_('adullboy(潘用新)'),
+        'description':[
+            _('毕业于世界末日之年的小本科，喜欢研究各种新奇的东西，喜欢互联网，喜欢折腾，所以大四折腾了个网站www.dudcard.com，两个相应的应用。'),
+            _('目前就职于去哪儿网。热爱生活，热爱前端，热爱幻想，热爱旅行，热爱运动，爱热闹，估计有“性格分裂症”，哈哈。'),
+        ],
+        'blog': '',
+        'weibo': '',
+        'image': 'images/volunteer/panyongxin.jpg',
+    },
+    {
+        'name':_('digin.wu(吴定骏)'),
+        'description':[
+            _('经常闲逛于啄木鸟社区。热衷与新技术。喜欢琢磨一些纠结的问题，什么反汇编啊、驱动开发啊都搞过。'),
+            _('目前就职于Qunar.com。喜欢的一句话是“人生苦 短，我用python”。'),
+        ],
+        'blog': 'http://www.diginwu.com',
+        'weibo': '',
+        'image': 'images/volunteer/wudingjun.jpg',
+    },
+    {
+        'name':_('zhengchao.deng(邓正超)'),
+        'description':[
+            _('2012年小本毕业生，喜欢Python语言，喜欢开源软件，属于新生菜鸟。'),
+            _('目前就职于去哪儿网。热爱编程，fan 英语，爱旅行，能K歌，典型的多面性格！诚交朋友,(*^__^*)'),
+        ],
+        'blog': '',
+        'weibo': '',
+        'image': 'images/volunteer/dengzhengchao.jpg',
+    },
+    {
+        'name':_('Yaya.zhang(张雅亚)'),
+        'description':[
+            _('北京师范大学毕业，从2007年开始加入Qunar，高级工程师，热心公司各种活动，负责组织公司技术部各种培训和分享。'),
+            _('热爱互联网，喜欢旅行。'),
+        ],
+        'blog': '',
+        'weibo': '',
+        'image': 'images/volunteer/zhangyaya.jpg',
+    },
+    
+]
+}}
+
+{{for row in data:}}
 <div class="row show-grid">
-    <div class="span4" style="text-align:right;"><a target="_blank" href="http://bopor.com/"><img src="{{=url_for_static('images/volunteer/chenshixin.jpg')}}" alt="{{=_('StingChen（陈世欣）')}}" width="200" /></a><br />
+    <div class="span4" style="text-align:right;"><a target="_blank" href="{{=row['blog']}}"><img src="{{=url_for_static(row['image'])}}" alt="{{=row['name']}}" width="200" /></a><br />
     </div><!--END span-->
     <div class="span8">
-        <h4>{{=_('StingChen（陈世欣）')}}</h4>
-        <p>{{=_('上海交大计算机系硕士 现为创业公司2Style4You.Com的CTO')}} {{=_('个人博客')}} <a target="_blank" href="http://bopor.com/">bopor.com</a> {{=_('微博')}} <a target="_blank" href="http://weibo/stingchen">http://t.sina.com.cn/stingchen</a></p>
-        <p>{{=_('从2006年起参加和组织社区，曾组织过python聚会，参与组织过google技术社区GTUG，ThinkinLAMP社区，参加过30多次各类社区。并成功组织了上海最大的产品经理社区PMCamp')}}({{=_('微博')}}<a target="_blank" href="http://t.sina.com.cn/pmcamp">http://t.sina.com.cn/pmcamp</a>，{{=_('博客')}} <a target="_blank" href="http://pmcamp.org">http://pmcamp.org</a>)</p>
-        <p><strong>{{=_('StingChen的博客地址')}}：</strong><a target="_blank" href="http://bopor.com/">http://bopor.com/</a></p>
+        <h4>{{=row['name']}}</h4>
+        {{for line in row['description']:}}
+            <p>{{<< line}}</p>
+        {{pass}}
+        <p>
+            {{if row['blog']:}}
+                <strong>{{=_('博客：')}}</strong><a target="_blank" href="{{=row['blog']}}">{{=row['blog']}}</a><br/>
+            {{pass}}
+            {{if row['weibo']:}}
+                <strong>{{=_('微博：')}}</strong><a target="_blank" href="{{=row['weibo']}}">{{=row['weibo']}}</a><br/>
+            {{pass}}
+        </p>
     </div><!--END span-->
 </div><!--END row-->
-
-
-
-
-<div class="row show-grid">
-    <div class="span4" style="text-align:right;"><a target="_blank" href="http://blog.zoomquiet.org/"><img src="{{=url_for_static('images/volunteer/zhouqi.png')}}" alt="{{=_('Zoom.Quiet （周琦）')}}" width="200" /></a><br />
-    </div><!--END span-->
-    <div class="span8">
-        <h4>{{=_('Zoom.Quiet （周琦）')}}</h4>
-        <p>{{=_('Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区"大妈"；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。')}}</p>
-        <p><strong>{{=_('Zoom.Quiet的博客地址')}}：</strong><a target="_blank" href="http://blog.zoomquiet.org/">http://blog.zoomquiet.org/</a></p>
-    </div><!--END span-->
-</div><!--END row-->
+{{pass}}
 
 {{end}}
