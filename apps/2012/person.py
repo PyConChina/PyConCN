@@ -257,9 +257,6 @@ data = [
 		'speech':_('《Python@土豆 （主题待定）》'),
 	},
 
-	
-	
-
 	{
 	    'fullname':_('赖勇浩'),
 		'nickname':_(''),
@@ -297,7 +294,7 @@ data = [
 		'position':_(''),
 		'desc':_('许智翔(Shell909090)，现任杭州齐治上海分公司程序员，python/c程序员，有7年工作经验，擅长系统/安全，主要活跃在shlug和cpug社区。他曾主持过多个大型系统的设计和开发，是python-segment和uniproxy的作者，也是python-formalchemy和python-snappy的debian包维护者。他喜欢太极，篮球和潜水，有兴趣的可以通过邮件或email联系他。'),
 		'avatar':'xuzhixiang.jpg',
-		'speech':_('元编程在redis orm中的应用'),
+		'speech':_('《元编程在redis orm中的应用》'),
 	},
 
 	{
@@ -350,5 +347,34 @@ data = [
 		'avatar':'',
 		'speech':_('《python在linux运维中的应用》'),
 	},
+    
+	{
+	    'fullname':_('Eric Caudal'),
+		'nickname':_(''),
+		'company':_('上海寰享网络科技公司'),
+		'position':_('CEO, OpenERP认证培训工程师, OpenERP高级项目经理'),
+		'desc':_('Eric Caudal  (法籍)上海寰享网络科技公司CEO, OpenERP认证培训工程师, OpenERP高级项目经理。他在信息系统项目管理方面有着10年以上的工作经验。Caudal先生在世界顶级食品公司McCain(炸薯条产业的世界主导者)工作12年,又在法国Panavi,欧洲顶级冷冻面包店担任规划署署长。从Mc-Cain 到Panavi, 他一直参与企业软件项目如ERP, 预先规划系统,客户关系管理系统等工作,在供应链和信息技术项目管理上获得了大量宝贵的业务经验。作为企业的管理者和/信息项目经理,Caudal先生在项目的实施中积极参与项目范围界定,信息服务跟进和关键决策制定。这些都归功于他有着和管理经验相结合,包括编程,网络或业务数据库等信息技术方面的坚实背景 。'),
+		'avatar':'eric_caudal.jpg',
+		'speech':_('《OpenERP即将推出的第7版的功能和新的编程框架介绍》'),
+	},
+
+    {
+        'fullname':_('刘飞'),
+    	'nickname':_(''),
+    	'company':_('阿里云'),
+    	'position':_('计算业务架构师'),
+    	'desc':_('刘飞，阿里云计算业务架构师，之前从事网格计算，分布式通信计算平台以及协同计算平台的研发工作。'),
+    	'avatar':'liufei.jpg',
+    	'speech':_('《阿里云之移动开发者上云》'),
+    },
+    {
+        'fullname':_('黄昶'),
+    	'nickname':_(''),
+    	'company':_('嬉相记网'),
+    	'position':_('创始人'),
+    	'desc':_('黄昶，福州人，嬉相记网站创始人，于2004年获得浙江大学计算机系硕士学位后加入IBM中国开发实验室，曾经领导超过五十人的产品研发团队，并拥有多项 专利技术。2008年他获得IBM孵化器的资助，通过企业内部创业，建立了IBM中国用户体验中心，并领导了如天涯社区、苏宁易购、中国银行网银等重大网 站用户体验重构项目。2011年，为了追逐创业梦想，黄昶离开IBM,进入INSEAD商学院深造，同年获得MBA学位。毕业后，他放弃了高薪职位，投身创办熟人兴趣社交网站 - 嬉相记。'),
+    	'avatar':'alan_huang.jpg',
+    	'speech':_('《NOSQL和MySQL在django上的混合使用》'),
+    },
 
 ]
