@@ -51,9 +51,12 @@ $(function(){
 {{end}}
 
 {{block container}}
+{{include "SiteView2012/inc_data.html"}}
+
 <style>
 #main_container {padding:0;margin-top:35px;}
 .background {background-color:#d1e5ee;maring:0;padding-top:20px;padding-bottom:60px;overflow: hidden;}
+.table td {vertical-align:middle;}
 </style>
 <div class="container-fluid background">
     <div class="container">
@@ -122,39 +125,9 @@ $(function(){
     <div class="row">
 
     <h2 class="ribbon flat">{{=_('大会赞助商')}}</h2>
-        <table class="table">
-        <tr>
-            <td><a target="_blank" href="http://www.kic.net.cn/"><img src="{{=url_for_static('images/sponsors/kic.jpg')}}" alt="{{_('创智天地')}}" width="150" /></a></td>
-            <td><a target="_blank" href="http://www.google.com/"><img src="{{=url_for_static('images/sponsors/google.png')}}" alt="Google" width="150" /></a></td>
-            <td><a target="_blank" href="http://www.tudou.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/tudou.png')}}" alt="Tudou" width="150" /></a></td>
-            <td><a target="_blank" href="http://www.douban.com/"><img style="margin-top:20px;" src="{{=url_for_static('images/sponsors/douban.gif')}}" alt="Douban" width="150" /></a></td>
-
-            <td><a target="_blank" href="http://www.ijinshan.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/jinshan.gif')}}" alt="{{=_('金山网络')}}" width="150" /></a></td>
-        </tr><!--END grid-->
-        <tr>
-            <td><a target="_blank" href="http://openshift.redhat.com"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/OpenShift-Logo-h90.jpg')}}" alt="{{=_('OpenShift')}}" high="90px" /></a></td>
-
-            <td><a target="_blank" href="http://www.rekoo.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/reku.gif')}}" alt="{{=_('热酷')}}" width="150" /></a></td>
-
-            <td><a target="_blank" href="http://www.everydo.com/"><img style="margin-top:20px;"  src="{{=url_for_static('images/sponsors/everydo.gif')}}" alt="{{_('易度云办公')}}" width="120" /></a></td>
-            <td><a target="_blank" href="http://www.shterm.com/"><img style="margin-top:20px;"  src="{{=url_for_static('images/sponsors/qizhi-logo.png')}}" alt="{{_('齐治科技')}}" width="120" /></a></td>
-            <td><a target="_blank" href="http://www.grandcloud.cn/"><img style="margin-top:20px;"  src="{{=url_for_static('images/sponsors/grandcloud.png')}}" alt="{{_('盛大云')}}" width="150" /></a></td>
-        </tr><!--END grid-->
-        <tr>
-            <td><a target="_blank" href="http://3gland.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/3gland-logo.png')}}" alt="{{=_('3Gland')}}" width="150" /></a></td>
-            <td><a target="_blank" href="http://www.ituring.com.cn/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/turingbook.gif')}}" alt="{{=_('图灵文化')}}" width="150" /></a></td>
-            <td><a target="_blank" href="http://scriptfan.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/scriptfan.jpg')}}" alt="{{=_('ScriptFan')}}" width="150" /></a></td>
-            <td><a target="_blank" href="http://zhihu.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/zhihu.png')}}" alt="{{=_('知乎')}}" width="150" height="60"/></a></td>
-            <td><a target="_blank" href="http://aliyun.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/aliyun.png')}}" alt="{{=_('阿里云')}}" width="150" height="60"/></a></td>
-        </tr><!--END grid-->
-        <tr>
-            <td><a target="_blank" href="http://www.admaster.com.cn/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/admaster.png')}}" alt="{{=_('Admaster')}}" width="150" /></a></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr><!--END grid-->
-        </table>
+        
+        {{put_data(sponsors_data)}}
+        
         <div class="row show-grid underhero speakers">
             <div class="span6">
                 <h2 style="margin-top:10px; display:inline-block; border:none;">{{=_('北京嘉宾')}}</h2><small>&nbsp;&nbsp;<a href="/2012/schedulebj">{{('查看详细演讲内容及日程安排')}} &raquo;</a></small>
@@ -287,7 +260,7 @@ $(function(){
             </div>
             -->
             <div class="span6">
-                <img src="{{=url_for_static('images/speakers/snda-liuhaifeng-200x200.jpg')}}" alt="刘海锋" />
+                <img src="{{=url_for_static('images/speakers/snda-liuhaifeng-200x200.jpg')}}" alt="刘海丰" />
             </div>
 
             <div class="span6">
@@ -326,18 +299,8 @@ $(function(){
         
     <h2 class="ribbon flat">{{=_('媒体支持')}}</h2>
         
-        <div class="row show-grid underhero">
-            <div class="span3"><a target="_blank" href="http://www.infoq.com/"><img src="{{=url_for_static('images/sponsors/infoq.gif')}}" alt="InfoQ" width="150" /></a></div>
-            <div class="span3"><a target="_blank" href="http://www.csdn.net/"><img src="{{=url_for_static('images/sponsors/csdn.gif')}}" alt="CSDN" width="150" /></a></div>
-            <div class="span3"><a target="_blank" href="http://topgeek.org/"><img src="{{=url_for_static('images/sponsors/topgeek.gif')}}" alt="TopGeek" width="150" /></a></div>
-            <div class="span3"><a target="_blank" href="http://www.42qu.com/"><img src="{{=url_for_static('images/sponsors/42qu.jpg')}}" alt="{{=_('42区')}}" width="150" /></a></div>
-        </div><!--END grid-->
-        <div class="row show-grid underhero">
-            <div class="span3"><a target="_blank" href="http://www.51cto.com/"><img src="{{=url_for_static('images/sponsors/51cto.png')}}" alt="51CTO.COM" width="150" /></a></div>
-            <div class="span3"></div>
-            <div class="span3"></div>
-            <div class="span3"></div>
-        </div><!--END grid-->
+        {{put_data(media_data)}}
+        
     <h2 class="ribbon flat">{{=_('社区团体')}}</h2>
         <div class="row show-grid underhero">
             <div class="span4"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/CPyUG.png')}}" alt="China Python User Group" width="100" height="60" /></a></div>
@@ -468,8 +431,8 @@ $(function(){
 
               <h2>{{=_('近期新闻')}}</h2>
               <ol>
-                  <li>PyCon China 2011 {{=_('大会网络直播地址：')}}<a href="http://live.topgeek.org" target="_blank">http://live.topgeek.org</a></li>
-                  <li>PyCon China 2011 {{=_('官方网站上线')}}</li>
+                  <li>PyCon China 2012 {{=_('大会网络直播地址：')}}<a href="http://live.topgeek.org" target="_blank">http://live.topgeek.org</a></li>
+                  <li>PyCon China 2012 {{=_('官方网站上线')}}</li>
                   <li>PyCon China {{=_('官方微博')}} <a href="http://weibo.com/pyconcn" target="_blank">@PyConCN</a> {{=_('上线')}}</li>
               </ol>
             </div>
