@@ -122,7 +122,7 @@ data = [
 		'position':_(''),
 		'desc':_('Python 中文社区创始人及 Python 技术的关键推广者之一。广受欢迎的 Ulipad 编辑器，以及 web框架 Uliweb 的作者。'),
 		'avatar':'liyinghui.jpg',
-		'speech':_(' 《又一年, UliPad+UliWeb 发展紀事儿》'),
+		'speech':_(' 《又一年, UliWeb 发展纪事儿》'),
 	},
 
 	{
@@ -303,13 +303,13 @@ data = [
 		'company':_(''),
 		'position':_(''),
 		'desc':_('黄峥峼（Mark Huang）来自新加坡，现在在杭州一间小德国企业工作。 他已经code python四年了。 前一份工作在Lucasfilm Entertainment Company （卢卡斯电影有限公司）用Python写内部的Web Application。从Pylons Web 框架学起。他说：“我特别喜欢Python； 恨死Java。”'),
-		'avatar':'',
+		'avatar':'markhuang.jpg',
 		'speech':_('《Pyramid Web Framework for Advanced Web Applications》'),
 	},
 
 	{
-	    'fullname':_('飞龙非龙'),
-		'nickname':_(''),
+	    'fullname':_('李飞林'),
+		'nickname':_('飞龙非龙'),
 		'company':_(''),
 		'position':_(''),
 		'desc':_('飞龙非龙（李飞林），Python技术博客 http://feilong.me 博主，Tornado 开源站点 http://poweredsites.org 作者，国内Tornado传教士。'),
@@ -344,7 +344,7 @@ data = [
 		'company':_(''),
 		'position':_(''),
 		'desc':_('吴晗，系统工程师，目前在淘宝做应用运维方面的工作，在linux系统运维方面有比较丰富的经验'),
-		'avatar':'',
+		'avatar':'wuhan.jpg',
 		'speech':_('《python在linux运维中的应用》'),
 	},
     
@@ -376,5 +376,23 @@ data = [
     	'avatar':'alan_huang.jpg',
     	'speech':_('《NOSQL和MySQL在django上的混合使用》'),
     },
-
+    {
+        'fullname':_('李小红'),
+    	'nickname':_(''),
+    	'company':_('土豆网'),
+    	'position':_('系统运营高级总监'),
+    	'desc':_(''),
+    	'avatar':'nopic.gif',
+    	'speech':_('《让程序运行更快》'),
+    },
+    {
+        'fullname':_('Tony Gu'),
+    	'nickname':_(''),
+    	'company':_('上海先安信息科技有限公司'),
+    	'position':_('联合创始人，OpenERP项目经理，前微软Dynamics AX ERP高级顾问'),
+    	'desc':_('Tony Gu - 上海先安信息科技有限公司联合创始人，OpenERP项目经理，前微软Dynamics AX ERP高级顾问。自然和科技的挚爱者，开源哲学的支持者。于2006年创建OpenERP/TinyERP中文开源社区：www.shine-it.net 。 积极组织和推动OpenERP本地化项目和社区组织建设。 2011年底创建先安科技并加入OpenERP官方合作伙伴，提供OpenERP相关专业服务。'),
+    	'avatar':'tony_gu.jpg',
+    	'speech':_('《人人可以化半小时开发一个全功能 OpenERP 模块》'),
+    },
+    
 ]

@@ -10,85 +10,12 @@
 </script>
 <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/schedule.css')}}" />
 {{include "inc_schedule.html"}}
+{{include "SiteView2012/inc_data.html"}}
 {{end}}
+
 {{block content}}
-<h2 class="ribbon flat">{{=_('上海日程安排')}}</h2>
-{{
-    data_1020 = [
-        ('08:30 - 09:15', '签到'),
-        ('09:15 - 09:30', '开场', '组织者 & 赞助商', '包括来自赞助商 Google、主办方 GDG、TopGeek、CPyUG 的代表进行组织介绍。'),
-        ('09:30 - 09:35', '大会致辞《Python 继续令世界精彩》', '陈世欣'),
-        ('09:35 - 10:15', 'Video 联播《世界各国 Python 高手的演讲》', '各国 Pythoner'),
-        ('10:15 - 11:05', '《Python 产品构建与发布指南》', '沈崴'),
-        ('11:15 - 12:00', '《Pyramid Web Framework for Advanced Web Applications》', '黄峥峼', 'Google查一下Python Web框架，常常会搜到 Django。Django 是个很棒，很容易用的框架。可是大家有没有听过 Python 其他的 Web 框架呢？其中一个比较特别的是Pyramid。在中国，Pyramid 比较少人用。这个演讲将会介绍一些 Pyramid 特有的功能如：Traversal, Events, Subscriber, Scaffolds 还有一些额外好用的包如：Webassets, Gunicorn. 整体会介绍从开发到部署的过程。希望听了我的演讲后可以考虑用用看Pyramid这个框架。'),
-        ('12:00 - 13:00', '午餐'),
-        ('13:00 - 13:45', '《OpenERP 即将推出的第 7 版的功能和新的编程框架介绍》', 'Eric Caudal'),
-        ('13:55 - 14:40', '《元编程在 Redis ORM 中的应用》', '许智翔'),
-        ('14:50 - 15:10', '《阿里云之移动开发者上云》（快速演讲）', '刘飞'),
-        ('15:10 - 15:25', '《使用 Python 和 Django 建设维护学校门户》（快速演讲）', '于夏桥'),
-        ('15:25 - 15:40', '中场休息 & 游戏专场'),
-        ('15:40 - 16:30', '《实战游戏客户端》', '林伟', '林伟将给大家分享他们把 Python 应用在游戏开发中的各种技术关键点。'),
-        ('16:40 - 17:10', '《Python 在三国游戏开发中的重要角色》', '*** 演讲者先留空 ***'),
-        ('17:10 - 17:30', '《网页游戏的跨界开发》（快速演讲）', '董诣'),
-        ('17:30 - 18:00', '抽奖等互动环节'),
-        ('19:00 - 21:00', '把酒话英雄', 'Python 爱好者与嘉宾们晚宴', 'Python 参会者们与嘉宾们在晚餐桌上继续深度沟通和交流。完全开发，全互动沟通。注意，这个晚宴人人都可报名参加，但是需要支付自己的餐费（即AA制）。'),
-    ]
-    
-    data_1021 = [
-        ('08:30 - 09:20', '签到'),
-        ('09:20 - 09:30', '日程介绍', '预告当日活动'),
-        ('09:30 - 10:15', '《网游开发中的 Python 组件》', '赖勇浩', '介绍在网站开发和运维中用到的各种 Python 工具和相关插件。'),
-        ('10:25 - 11:10', '《自动化即时战斗游戏解决方案》', '王健'),
-        ('11:20 - 12:00', '《用 Tornado 开发 RESTful API 应用》', '飞龙非龙（李飞林）'),
-        ('12:00 - 13:00', '午餐'),
-        ('13:00 - 13:45', '《Redis 队列实现》', '潘俊勇'),
-        ('13:55 - 14:40', '《人人可以化半小时开发一个全功能 OpenERP 模块》', 'Tony Gu'),
-        ('14:50 - 15:05', '《Python 在 Linux 运维中的应用》（快速演讲）', '吴晗', '介绍如何使用 Python 做 Linux 系统管理（一些实用工具的介绍），RPM 包管理，运维系统开发，系统监控，日志分析以及文档等方面的内容。'),
-        ('15:05 - 15:20', '《NOSQL 和 MySQL 在 Django 上的混合使用》（快速演讲）', '黄昶'),
-        ('15:20 - 16:00', '互动论坛 & 快速演讲现场报名', '参会的 Python 爱好者们以及嘉宾们在现场互动交流，参会者可以现场报名即兴演讲。'),
-        ('16:00 - 18:00', '快速演讲环节，穿插抽奖等互动活动'),
-    ]
-}}
-<table class="table table-striped table-bordered">
-    <colgroup>
-        <col width="100px"></col>
-        <col width="100px"></col>
-        <col width="300px"></col>
-        <col width="100px"></col>
-        <col width="*"></col>
-    </colgroup>
-    <tbody>
-        <tr>
-            <th>{{=_('日期')}}</th>
-            <th>{{=_('时间')}}</th>
-            <th>{{=_('项目')}}</th>
-            <th>{{=_('演讲者')}}</th>
-            <th>{{=_('主题')}}</th>
-        </tr>
-        {{for data, d in [(data_1020, _('2012年10月20日')), (data_1021, _('2012年10月21日'))]:}}
-            <tr>
-                <td rowspan="{{=len(data)+1}}" class="date">{{=d}}</td>
-            </tr>
-            {{for row in data:}}
-                {{if len(row)==2:}}
-                    <tr class="break">
-                        <td>{{=row[0]}}</td>
-                        <td colspan="3">{{=_(row[1])}}</td>
-                    </tr>
-                {{else:}}
-                    <tr>
-                        <td>{{=row[0]}}</td>
-                        <td>{{=_(row[1])}}</td>
-                        <td>{{=_(row[2])}}</td>
-                        {{if len(row)>3:}}
-                            <td>{{=_(row[3])}}</td>
-                        {{else:}}
-                            <td>&nbsp;</td>
-                        {{pass}}
-                    </tr>
-                {{pass}}
-            {{pass}}
-        {{pass}}
-    </tbody>  
-</table>
+    <h2 class="ribbon flat">{{=_('上海日程安排')}}</h2>
+    {{for data, d in [(schedule_sh_1020, _('2012年10月20日(星期六)')), (schedule_sh_1021, _('2012年10月21日(星期日)'))]:}}
+        {{write_schedule(data, d)}}
+    {{pass}}
 {{end}}
