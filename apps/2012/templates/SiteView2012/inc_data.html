@@ -251,7 +251,7 @@
         {
             'name':_('玩客'),
             'url':'http://newsnsgame.com/',
-            'logo':'',
+            'logo':'images/sponsors/oneclick.jpg',
             'description':[
                 _('浙江九州云信息科技有限公司是由两家领先的IDC公司上海世纪互联信息系统有限公司、北京智博瑞通电信技术有限公司，在湖州市政府鼎力支持下由湖州市信息技术服务公司、湖州吴兴区科技发展有限公司出资入股共同成立。企业于2012年5月正式运营， 注册资本1000万元。'),
                 _('九州云主营业务是提供客户基于开源云系统OpenStack的私有云建设的解决方案及混合云的搭建及运营。 公司立足华东、服务于全国和东南亚的企业和运营商， 致力打造成为中国最专业的开源云计算技术提供商。'),
@@ -438,7 +438,7 @@
         {{for index in range(0, len(rows), step):}}
             <tr>
                 {{for row in rows[index:index+step]:}}
-                    <td><a target="_blank" href="{{=row.get('url', '#')}}"><img src="{{=url_for_static(row.get('logo', ''))}}" alt="{{=row['name']}}" width="150" /></a></td>
+                    <td><a target="_blank" href="{{=row.get('url', '#')}}"><img src="{{=url_for_static(row.get('logo', ''))}}" alt="{{=row['name']}}" width="150" style="max-height:80px;"/></a></td>
                 {{pass}}
             </tr><!--END grid-->
         {{pass}}

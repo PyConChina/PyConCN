@@ -394,5 +394,14 @@ data = [
     	'avatar':'tony_gu.jpg',
     	'speech':_('《人人可以化半小时开发一个全功能 OpenERP 模块》'),
     },
+    {
+        'fullname':_('车蕙怡'),
+    	'nickname':_(''),
+    	'company':_('玩客网'),
+    	'position':_('市场总监'),
+    	'desc':_(''),
+    	'avatar':'chehuiyi.jpg',
+    	'speech':_('《Python如何帮助「逆转三国」获得成功》'),
+    },
     
 ]
