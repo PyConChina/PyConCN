@@ -399,7 +399,7 @@ data = [
     	'nickname':_(''),
     	'company':_('玩客网'),
     	'position':_('市场总监'),
-    	'desc':_(''),
+    	'desc':_('资深游戏人，知名游戏 Treasure Land 制作者，超过八年Facebook应用程序制作经验，对海外市场有独到的见解，成功为玩客开拓国际市场'),
     	'avatar':'chehuiyi.jpg',
     	'speech':_('《Python如何帮助「逆转三国」获得成功》'),
     },
