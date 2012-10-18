@@ -18,4 +18,9 @@
     {{for data, d in [(schedule_sh_1020, _('2012年10月20日(星期六)')), (schedule_sh_1021, _('2012年10月21日(星期日)'))]:}}
         {{write_schedule(data, d)}}
     {{pass}}
+    
+    <h2 class="ribbon flat">{{=_('抽奖活动')}}</h2>
+    
+    <a href="/static/lucky/index.html" class="btn btn-primary btn-large">抽奖进入</a>
+    
 {{end}}
