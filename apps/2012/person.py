@@ -17,9 +17,9 @@ data = [
     {
 	    'fullname':_('葛涵涛'),
 		'nickname':_(''),
-		'company':_('移动新观察'),
-		'position':_('北京GDG负责人'),
-		'desc':_('...'),
+		'company':_('北京GDG(Beijing Google Developer Group)'),
+		'position':_('北京GDG 创始人'),
+		'desc':_('移动新观察(www.Mobiletmt.com)创办人，现在担任科力恒(北京)科技有限公司CEO，具有8年以上无线互联网行业经验及互联网互动应用类产品技术经验，曾担任3届微软Windows Phone MVP，也是微软.NET俱乐部的发起人和组织者。'),
 		'avatar':'bjgdg_ge.jpg',
 		'speech':_('《北京GDG介绍及GoogleIO大会新技术阅览》'),
 	},
