@@ -412,5 +412,23 @@ data = [
     	'avatar':'wangli.png',
     	'speech':_('《飞天与阿里云云计算产品及服务》'),
     },
+    {
+        'fullname':_('陈钢'),
+    	'nickname':_(''),
+    	'company':_('诺基亚西门子通信技术（北京）有限公司'),
+    	'position':_('软件工程师'),
+    	'desc':_('陈钢，软件工程师。2003年毕业于南京邮电学院。目前在诺基亚西门子通信技术（北京）有限公司，从事交换机设备类的平台软件开发和测试工作。主要的技术背景是嵌入式编程和C语言。在产品测试过程中对Python产生了浓厚的兴趣，对Python的实现机制有一定的研究。'),
+    	'avatar':'chengang.jpg',
+    	'speech':_('《用myTestCase模块来做python的UT》'),
+    },
+    {
+        'fullname':_('刘明华'),
+    	'nickname':_(''),
+    	'company':_('上海嘉值云计算科技'),
+    	'position':_('python开发工程师'),
+    	'desc':_(''),
+    	'avatar':'liuminghua.jpg',
+    	'speech':_('《基于nova的自动扩展和负载均衡》'),
+    },
     
 ]
