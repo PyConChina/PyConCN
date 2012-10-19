@@ -5,176 +5,22 @@
 {{end}}
 
 {{block meta}}
-<script type="text/javascript" src="{{=url_for_static('js/bootstrap-twipsy.js')}}"></script>
 <script type="text/javascript">
     LANG = "{{=_('cn')}}"
 </script>
 <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/schedule.css')}}" />
 {{include "inc_schedule.html"}}
+{{include "SiteView2012/inc_data.html"}}
 {{end}}
+
 {{block content}}
-<h2 class="ribbon flat">{{=_('上海日程安排')}}</h2>
-<table class="table table-striped table-bordered">
-        <tr>
-            <th>{{=_('日期')}}</th>
-            <th>{{=_('时间')}}</th>
-            <th>{{=_('项目')}}</th>
-            <th>{{=_('演讲者')}}</th>
-            <th>{{=_('主题')}}</th>
-        </tr>
-
-        <tr>
-            <td rowspan="27" class="date">{{=_('2012年10月20日')}}</td>
-        </tr>
-        <tr class="break">
-            <td style="width:160px;">08:30-09:15</td>
-            <td colspan="3">{{=_('签到')}}</td>
-            
-        </tr>
-        <tr>
-            <td>09:15-09:30</td>
-            <td style="width:170px;">{{=_('开场')}}</td>
-            <td>{{=_('组织者&赞助商')}}</td>
-            <td>{{=_('包括来自赞助商Google，主办方GDG， TopGeek， CPyUG的代表进行组织介绍。')}}</td>
-        </tr>
-        <tr>
-            <td>09:30-09:35</td>
-            <td>{{=_('大会致辞 《Python继续令世界精彩》')}}</td>
-            <td>{{=_('陈世欣')}}</td>
-            <td><a href="#"></a></td>
-        </tr>
-        <tr>
-            <td>09:35-10:15</td>
-            <td>{{=_('Video联播《世界各国Python高手的演讲》')}}</td>
-            <td>{{=_('各国Pythoner')}}</td>
-            <td>{{=_('播放来自美国、欧洲、澳洲，以及来自北京、深圳等地的Python高手代表的视频演讲，虽然他们不能前来参加，但是视频形式也一样可以参与。在同样用Python的世界，也许未来某一天有机会面对面。包括Python创始人Guido的视频演讲，以及Pylons框架的核心成员、前好看薄的创始人等的视频演讲等。')}}</td>
-        </tr>
-        <tr>
-            <td>10:15-11:10</td>
-            <td>{{=_('《Python 产品构建与发布指南》')}}</td>
-            <td>{{=_('沈崴')}}</td>
-            <td>{{=_('')}}<br />
-            
-        </tr>
-        <tr class="break">
-            <td>11:10-11:15</td>
-            <td colspan="3">{{=_('休息')}}</td>
-            
-        </tr>
-        <tr>
-            <td>11:15-12:00</td>
-            <td>{{=_('《实战游戏客户端》')}}</td>
-            <td>{{=_('林伟')}}</td>
-            <td>{{=_('林伟将给大家分享他们把Py应用在游戏开发中的各种技术关键点。')}}<br />
-            <!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></td>
-            
-        </tr>
-        <tr class="break">
-            <td>12:00-12:45</td>
-            <td colspan="3">{{=_('午餐')}}</td>
-            
-        </tr>
-        <tr>
-            <td>12:50-13:35</td>
-            <td>{{=_('《演进或革命 - 选型和架构的实践经验谈》')}}</td>
-            <td>{{=_('潘俊勇')}}</td>
-            <td>{{=_('')}}<br />
-            <!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></td>
-        </tr>
-        <tr>
-            <td>13:35-14:20</td>
-            <td>{{=_('《Python@土豆 （主题待定）》')}}</td>
-            <td>黄冬</td>
-            <td>{{=_('')}}<br />
-            <!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></td>
-        </tr>
-        
-        <tr>
-            <td>14:20-15:00</td>
-            <td>{{=_('《网游开发中的 Python 组件》')}}</td>
-            <td>{{=_('赖勇浩')}}</td>
-            <td>{{=_('介绍在网站开发和运维中用到的各种Python工具和相关插件。')}}<br />
-            <!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></td>
-        </tr>
-        <tr class="break">
-            <td>15:00-15:15</td>
-            <td colspan="3">{{=_('休息')}}</td>
-            
-        </tr>
-        <tr>
-            <td>15:15-15:30</td>
-            <td>{{=_('《自动化即时战斗游戏解决方案》')}}</td>
-            <td>{{=_('王健')}}</td>
-            <td>{{=_('')}}<br />
-            <!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></td>
-        </tr>
-        <tr>
-            <td>15:30-15:45</td>
-            <td>{{=_('《人人可以化半小时开发一个全功能OpenERP模块》')}}</td>
-            <td>{{=_('王剑峰')}}</td>
-            <td>{{=_('')}}<br />
-            <!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></td>
-        </tr>
-        
-        <tr>
-            <td>15:45-16:15</td>
-            <td>{{=_('元编程在redis orm中的应用')}}</td>
-            <td>许智翔</td>
-            <td>{{=_('')}}<br />
-            <!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></td>
-        </tr>
-
-        <tr>
-            <td>16:15-16:45</td>
-            <td>{{=_('Pyramid Web Framework for Advanced Web Applications》')}}</td>
-            <td>黄峥峼</td>
-            <td>{{=_('Google查一下Python Web框架，常常会搜到Django。Django是个很棒，很容易用的框架。可是大家有没有听过Python其他的Web框架呢？其中一个比较特别的是Pyramid。在中国，Pyramid比较少人用。这个演讲将会介绍一些Pyramid特有的功能如：Traversal, Events, Subscriber, Scaffolds还有一些额外好用的包如： Webassets, Gunicorn.  整体会介绍从开发到部署的过程。希望听了我的演讲后可以考虑用用看Pyramid这个框架。')}}<br />
-            <!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></td>
-        </tr>
-        <tr>
-            <td>16:45-17:15</td>
-            <td>{{=_('《用Tornado开发RESTful API应用》')}}</td>
-            <td>飞龙非龙</td>
-            <td>{{=_('')}}<br />
-            <!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></td>
-        </tr>
-
-        <tr class="break">
-            <td>15:00-15:15</td>
-            <td colspan="3">{{=_('休息')}}</td>
-            
-        </tr>
-        
-        
-        <tr>
-            <td>17:15-17:30</td>
-            <td>{{=_('快速演讲：《网页游戏的跨界开发》')}}</td>
-            <td>{{=_('董诣')}}</td>
-            <td><!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></a></td>
-        </tr>
-        
-        <tr>
-            <td>17:45-18:00</td>
-            <td>{{=_('快速演讲：《python在linux运维中的应用》')}}</td>
-            <td>{{=_('吴晗')}}</td>
-
-            <td>{{=_('介绍如何使用python做linux系统管理（一些实用工具的介绍），rpm包管理，运维系统开发，系统监控，日志分析以及文档等方面的内容。')}}<!--<a href="http://pycon.b0.upaiyun.com/keynotes/topic/.pdf">{{=_('Keynote下载')}}</a>--></a></td>
-        </tr>
-
-        
-        <tr class="break">
-            <td>17:00-17:15</td>
-            <td colspan="3">{{=_('休息 抽奖')}}</td>
-            
-        </tr>
-
-        <tr class="break">
-            <td>19:00-21:00</td>
-            <td>{{=_('把酒话英雄 - Python爱好者与嘉宾们晚宴')}}</td>
-            <td>&nbsp;</td>
-            <td>{{=_('Python参会者们与嘉宾们在晚餐桌上继续深度沟通和交流。完全开发，全互动沟通。')}}<br />
-{{=_('注意，这个晚宴人人都可报名参加，但是需要支付自己的餐费（即AA制）。')}}</td>
-        </tr>
-        
-</table>
+    <h2 class="ribbon flat">{{=_('上海日程安排')}}</h2>
+    {{for data, d in [(schedule_sh_1020, _('2012年10月20日(星期六)')), (schedule_sh_1021, _('2012年10月21日(星期日)'))]:}}
+        {{write_schedule(data, d)}}
+    {{pass}}
+    
+    <h2 class="ribbon flat">{{=_('抽奖活动')}}</h2>
+    
+    <a href="/static/lucky/index.html" class="btn btn-primary btn-large">抽奖进入</a>
+    
 {{end}}
