@@ -1,0 +1,3 @@
+[submodule "apps/2012/static/lucky"]
+	path = apps/2012/static/lucky
+	url = git://github.com/PyConChina/lucky.git
