@@ -69,7 +69,11 @@ $(function(){
                 <tr>
             {{pass}}
                 <td>{{=row[0]}}</td>
-                <td>{{=row[1]}}</td>
+                <td>{{=row[1]}}
+                    {{if len(row)>4:}}
+                    <a href="/static/ppt/{{=row[4]}}">下载PPT </a>
+                    {{pass}}
+                </td>
                 <td>{{=row[2]}}</td>
                 {{if len(row)>3:}}
                     <td>{{=row[3]}}</td>
