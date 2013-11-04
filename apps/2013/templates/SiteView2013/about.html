@@ -1,0 +1,176 @@
+{{extend "bootstrap_layout.html"}}
+
+{{block menu}}
+  {{menu('about','MENUS2013')}}
+{{end}}
+{{block content}}
+<link rel="stylesheet" type="text/css" href="{{=url_for_static('css/sponsors.css')}}" />
+<h2 class="ribbon flat">{{=_('关于大会')}}</h2>
+
+<div class="row show-grid">
+    <div class="span3">
+        <img class="pull-right" style="margin-right:20px;" src="{{=url_for_static('images/PyConChina2012.png')}}" alt="PyCon China 2013 Logo" /></div><!--END span-->
+    <div class="span9">
+        <p>{{=_('世界Python爱好者的盛会PyCon首次在中国举办，由Python软件基金会下的PyCon.Org授权中国办第二届PyCon China Conference。本次大会由TopGeek、CPyUG、42区、GDG上海、GDG杭州、GDG西安、GDG合肥联合举办。')}}</p>
+        <p>{{=_('PyCon.Org是举办Python语言的国际性社区，在世界各地举办Python大会，是Python 爱好者的盛会，对推动Python在各地的发展有深远的影响')}}</p>
+        <div class="row">
+            <div class="span4">
+                <h4>{{=_('媒体报道（排名不分先后）：')}}</h4>
+                <ul>
+                    <li><a href="http://www.infoq.com/cn/news/2012/10/pycon-china-2012-beijing" target="_blank">PyCon China 2012北京站回顾</a></li>
+                    <li><a href="http://www.infoq.com/cn/news/2012/10/pycon-china-shanghai" target="_blank">PyCon China 2012上海站回顾</a></li>
+                </ul>
+            </div>
+            
+            <div class="span4">
+                <h4>{{=_('全球PyCon会议包括：')}}</h4>
+                <ul>
+                    <li><a target="_blank" href="http://us.pycon.org/">"PyCon" in the United States</a></li>
+                    <li><a target="_blank" href="http://www.europython.eu/">"EuroPython" in Europe</a></li>
+                    <li><a target="_blank" href="http://www.euroscipy.org/">"EuroSciPy" in Europe</a></li>
+                    <li><a target="_blank" href="http://nz.pycon.org/">"Kiwi PyCon" in New Zealand</a></li>
+                    <li><a target="_blank" href="http://apac.pycon.org/">"PyCon Asia Pacific" in Singapore</a></li>
+                    <li><a target="_blank" href="http://ar.pycon.org/">"PyCon AR" in Argentina</a></li>
+                    <li><a target="_blank" href="http://au.pycon.org/">"PyCon AU" in Australia</a></li>
+                    <li><a target="_blank" href="http://www.pythonbrasil.com.br/">"Python Brasil" in Brazil</a></li>
+                    <li><a target="_blank" href="http://de.pycon.org/">"PyCon DE" in Germany</a></li>
+                    <li><a target="_blank" href="http://fi.pycon.org/">"PyCon Finland" in Finland</a></li>
+                    <li><a target="_blank" href="http://fr.pycon.org/">"PyCon FR" in France</a></li>
+                    <li><a target="_blank" href="http://in.pycon.org/">"PyCon India"</a></li>
+                    <li><a target="_blank" href="http://python.ie/pyconireland">"PyCon Ireland"</a></li>
+                    <li><a target="_blank" href="http://www.pycon.it/">"PyCon Italia" in Italy</a></li>
+                    <li><a target="_blank" href="http://pl.pycon.org/">"PyCon PL" in Poland</a></li>
+                    <li><a target="_blank" href="http://www.pyconuk.org/">"PyCon UK" in the United Kingdom</a></li>
+                    <li><a target="_blank" href="http://ua.pycon.org/">"PyCon Ukraine" in Ukraine</a></li>
+                    <li><a target="_blank" href="http://conference.scipy.org/">"SciPy" in the United States</a></li>
+                    <li><a target="_blank" href="http://scipy.in/">"SciPy.in" in India</a></li>
+                </ul>
+            </div>
+          </div><!--END row-->
+    </div><!--END span-->
+</div><!--END row-->
+
+<h2 class="ribbon flat">{{=_('主办方')}}</h2>
+
+    <div class="row show-grid">
+        <div class="span4">
+            <a href="http://topgeek.org/">
+            <img width="250" src="{{=url_for_static('images/sponsors/topgeek.gif')}}"/>
+            </a>
+        </div>
+        <div class="span8">
+            <div class="row-fluid">
+                <div class="span6">
+                    <h4>{{=_('顶尖极客沙龙(TopGeek)')}}</h4>
+                    <p>{{=_('是面向技术极客的组织，定期举办线下活动，讨论软件和互联网的一些新的技术潮流，开发理念和经验。')}}
+                    {{=_('这个组织不以语言或行业划分圈子，打破技术分割，开拓大家思路，促进互相学习，实现资源共享。解决一些成熟技术人员进一步发展的共同问题，促进交流和发展。口号："一日为极客，终身为极客！"')}}</p>
+                </div><!--END span8-->
+                <div class="span6">
+                    <h4>{{=_('TopGeek组织的特点')}}</h4>
+                    <ol>
+                        <li>{{=_('线下活动为主，与会人员和主题不分程序开发语言、不分开源还是商业软件，不分终端是PC还是手机。提倡跨界交流。')}}</li>
+                        <li>{{=_('以高级技术人员为主，活动中鼓励频繁沟通，对问题的深入探究。')}}</li>
+                        <li>{{=_('在研究主流技术趋势、新机会的同时，也给予小众的技术流派足够关注。')}}</li>
+                    </ol>
+                </div><!--END span8-->
+            </div>
+            <div class="row-fluid">
+                <div class="span6">
+                    <h4>{{=_('关于TopGeek')}}</h4>
+                    <p><strong>{{=_('组织博客')}}：</strong><a target="_blank" href="http://topgeek.org">http://topgeek.org/</a></p>
+                    <p><strong>{{=_('新浪微博')}}：</strong><a target="_blank" href="http://weibo.com/topgeek">http://weibo.com/topgeek</a></p>
+                    <p><strong>{{=_('组织者')}}：</strong>{{=_('陈世欣（2Style4You CTO），王宏（微软中国高级经理），李锟（上海鹏图信息技术有限公司CTO），吕国宁（Intridea资深工程师），罗小能，支晓勇（91Office技术总监）')}}</p>
+                </div><!--END span8-->
+                <div class="span6">
+                    <h4>{{=_('TopGeek社区组织的历次活动')}}</h4>
+                    <ul>
+                        <li>TopGeek1，{{=_('报道请看')}}<a target="_blank" href="http://topgeek.org/?p=129">http://topgeek.org/?p=129</a></li>
+                        <li>TopGeek2，{{=_('报道请看')}}<a target="_blank" href="http://topgeek.org/?p=129">http://topgeek.org/?p=167</a></li>
+                        <li>TopGeek3，{{=_('报道请看')}}<a target="_blank" href="http://topgeek.org/?p=129">http://topgeek.org/?p=209</a></li>
+                        <li>TopGeek4，{{=_('报道请看')}}<a target="_blank" href="http://topgeek.org/?p=129">http://topgeek.org/?p=243</a></li>
+                        <li>TopGeek5，{{=_('报道请看')}}<a target="_blank" href="http://topgeek.org/?p=129">http://topgeek.org/?p=264</a></li>
+                    </ul>
+                    <p><a target="_blank" href="http://www.51qiangzuo.com/host/1105">{{=_('查看此主办方其它活动')}}</a></p>
+                </div><!--END span8-->
+            </div><!--END row-->
+        </div>
+    </div><!--END row-->
+    
+    <div class="row show-grid">
+        <div class="span4">
+            <a href="http://groups.google.com/group/python-cn">
+            <img width="250" height="60" src="{{=url_for_static('images/sponsors/CPyUG.png')}}"/>
+            </a>
+        </div>
+        <div class="span8">
+        <h4>CPyUG (China Python User Group)</h4>
+        <p>{{=_('是各个城市自发组织的本地Python爱好者的社区，也经常组织Python线下技术交流活动，主要在北京和上海，已经进行了5年多，从08年起珠三角／南昌／安徽等地都在组织。')}}</p>
+        </div>
+    </div>
+    
+    <div class="row show-grid">
+        <div class="span4">
+            <a href="http://www.42qu.com">
+            <img width="250" height="60" src="{{=url_for_static('images/sponsors/42qu.jpg')}}"/>
+            </a>
+        </div>
+        <div class="span8">
+        <h4>42区，找到给你答案的人</h4>
+        <p>{{=_('“42区”是一个基于个人技能的C2C交易平台，用户可以向该网站上有专业技能或擅长领域的人咨询各类问题、按照时间付费，可以是网上在线咨询也可以是线下面对面咨询。')}}</p>
+        </div>
+    </div>
+    
+    <div class="row show-grid">
+        <div class="span4">
+            <img src="{{=url_for_static('images/sponsors/Bejing_GDG_Logo_w200.jpg')}}"/>
+            <img src="{{=url_for_static('images/sponsors/GDGShanghai.jpg')}}"/>
+            <img src="{{=url_for_static('images/sponsors/GDGGuangZhou.jpg')}}"/>
+            <img src="{{=url_for_static('images/sponsors/HZGDG.jpg')}}"/>
+            <img src="{{=url_for_static('images/sponsors/xian_gdg_logo.jpg')}}"/>
+            <img src="{{=url_for_static('images/sponsors/hefei_gdg_logo.jpg')}}"/>
+        </div>
+        <div class="span8">
+        <h4>GDG (Google Developer Group)</h4>
+        <p>{{=_('是Google的技术爱好者在全球成立的技术交流社区，在中国主要城市都是各种组织活动。不断地推动了技术的发展。')}}</p>
+        </div>
+    </div>
+    
+    <div class="row show-grid">
+        <div class="span4">
+            <a href="http://e.weibo.com/democoffee">
+            <img width="250" src="{{=url_for_static('images/sponsors/democoffee.jpg')}}"/>
+            </a>
+        </div>
+        <div class="span8">
+        <h4>DemoCoffee</h4>
+        <p>{{=_('Demo咖啡是武汉首家立足科技领域的主题咖啡馆，由一伙资深IT人联合发起。自由、平等、分享是主旨精神，人脉、提升、机会是核心价值，科技青年最In的社交平台。')}}</p>
+        </div>
+    </div>
+
+    <div class="row show-grid">
+        <div class="span4">
+            <a href="http://mo.wps.cn">
+            <img width="250" src="{{=url_for_static('images/sponsors/wps.jpg')}}"/>
+            </a>
+        </div>
+        <div class="span8">
+        <h4>金山软件</h4>
+        <p>{{=_('金山WPS Office移动版是金山公司推出的、运行于Android平台上的全功能办公软件，国内同类产品排名第一，Google官方Android市场排名领先。用户遍布全球220多个国家和地区。完全兼容桌面办公文档，支持DOC/DOCX/WPS/XLS/XLSX/PPT/PPTX/TXT/PDF等23种文件格式。方便用户在手机和平板上使用，满足您随时随地办公的需求。')}}</p>
+        </div>
+    </div>
+    
+<h2 class="ribbon flat">{{=_('协办方')}}</h2>
+
+    <div class="row show-grid">
+        <div class="span4">
+            <a href="http://sae.sina.com.cn/">
+            <img width="250" src="{{=url_for_static('images/sponsors/sae.jpg')}}"/>
+            </a>
+        </div>
+        <div class="span8">
+        <h4>Sina App Engine</h4>
+        <p>{{=_('新浪是一家服务于中国及全球华人社群的在线媒体及移动增值服务提供商。新浪拥有多家地区性网站，以服务大中华地区与海外华人为己任，通过旗下业务主线：提供网络新闻及内容服务的新浪网(SINA.com)、提供微博客服务的微博(Weibo.com)、提供移动增值服务的新浪无线(SINA Mobile)，以及其他业务，向广大用户提供包括地区性门户网站、移动增值服务、微博、博客、影音流媒体、相册分享、网络游戏、电子邮件、搜索、分类信息、收费服务、电子商务和企业电子解决方案等在内的一系列服务。')}}</p>
+        </div>
+    </div>
+    
+{{end}}

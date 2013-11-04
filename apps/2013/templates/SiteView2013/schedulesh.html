@@ -1,0 +1,26 @@
+{{extend "bootstrap_layout.html"}}
+
+{{block menu}}
+  {{menu('schedulesh','MENUS2013')}}
+{{end}}
+
+{{block meta}}
+<script type="text/javascript">
+    LANG = "{{=_('cn')}}"
+</script>
+<link rel="stylesheet" type="text/css" href="{{=url_for_static('css/schedule.css')}}" />
+{{include "inc_schedule.html"}}
+{{include "SiteView2012/inc_data.html"}}
+{{end}}
+
+{{block content}}
+    <h2 class="ribbon flat">{{=_('上海日程安排')}}</h2>
+    {{for data, d in [(schedule_sh_1020, _('2012年10月20日(星期六)')), (schedule_sh_1021, _('2012年10月21日(星期日)'))]:}}
+        {{write_schedule(data, d)}}
+    {{pass}}
+    
+    <h2 class="ribbon flat">{{=_('抽奖活动')}}</h2>
+    
+    <a href="/static/lucky/index.html" class="btn btn-primary btn-large">抽奖进入</a>
+    
+{{end}}

@@ -1,0 +1,138 @@
+{{extend "bootstrap_layout.html"}}
+
+{{block menu}}
+  {{menu('registration','MENUS2013')}}
+{{end}}
+
+{{block content}}
+<h2 class="ribbon flat">{{=_('报名注册')}}</h2>
+
+<div class="bold" style="height:40px;float:left;">{{=_('大会时间')}}：</div>
+<table class="table table-striped table-bordered">
+        <tr>
+            <th>{{=_('会场')}}</th>
+            <th>{{=_('时间')}}</th>
+            <th>{{=_('地点')}}</th>
+        </tr>
+        <tr>
+            <td>{{=_('北京')}}</td>
+            <td>{{=_('2012年10月20日 9:00-18:00')}}</td>
+            <td>{{=_('方家胡同46号,恒温车间')}}</td>
+        </tr>
+        <tr>
+            <td>{{=_('上海')}}</td>
+            <td>{{=_('2012年10月20日 9:00-18:00')}}<br/>
+            {{=_('2012年10月21日 9:00-18:00')}}
+            </td>
+            <td>{{=_('上海创智天地（淞沪路388号创智天地广场7号楼会议中心，近政立路）地铁10号线江湾体育场站下步行8分钟')}}</td>
+        </tr>
+        <tr>
+            <td>{{=_('杭州')}}</td>
+            <td>{{=_('2012年10月20日 13:00-18:00')}}
+            </td>
+            <td>{{=_('杭州数字娱乐产业园 杭州市西湖区文一西路75号 3号楼3楼')}}</td>
+        </tr>
+</table>
+
+<p><span class="bold">{{=_('与会人数')}}：</span>{{=_('>1100人')}}</p>
+ 
+<p><span class="bold">{{=_('参会人员')}}：</span>{{=_('对Python技术痴迷的蟒粉，Python开发人员，Python初学者和对Python感兴趣的人。')}}</p>
+ 
+ 
+<h2>{{=_('北京/上海大会门票购买和须知')}}</h2>
+
+<p><span class="bold">
+    {{=_('先到')}}<a class="btn btn-warning" href="http://pycon2012.51qiangzuo.com/">{{=_('抢座网')}}</a>{{=_('完成报名,再去 淘宝 支付,大会才能明确你的意愿 ;-)')}}
+</span></p>
+
+
+<p><span class="bold">{{=_('1. 门票和说明')}}</span></p>
+<p><span class="bold">{{=_('  A）普通门票（北京上海的门票一样价钱，报名哪一个就确认哪一个）')}}</span></p>
+
+<p>{{=_('150元/人（包括：午餐费30元，茶歇+饮料费10元，礼品费40元，会费70元）。参会者可以通过抽奖获得各种礼品。')}}
+
+<p><span class="bold">{{=_('个人票: ')}}</span></p>
+<p>{{=_('前200人享受99元优惠票价（已经售完），第201-400人享受118元优惠票价。个人票不提供发票，可提供收据。')}}
+
+<a class="btn btn-primary" href="http://item.taobao.com/item.htm?spm=686.1000925.1000774.5&id=19084548861" target="_blank">{{=_('立刻购买')}} &raquo;</a>
+</p>
+
+<p><span class="bold">{{=_('公司票: ')}}</span></p>
+<p>{{=_('公司票与个人票一样，公司票可以开发票，但不享受任何折扣。 (社区办大会不容易，建议有条件的公司尽量买公司票)。')}}
+<a class="btn btn-primary" href="http://item.taobao.com/item.htm?id=16842683803" target="_blank">{{=_('立刻购买')}} &raquo;</a>
+</p>
+
+<p><span class="bold">{{=_('  B) VIP贵宾票（北京上海的门票一样价钱，报名哪一个就确认哪一个）')}}</span></p>
+<p><span class="bold">{{=_('贵宾票价为666元，前42位享受500元优惠价')}}</span> 
+<a class="btn btn-danger" href="http://item.taobao.com/item.htm?id=16652035793" target="_blank">{{=_('立刻购买')}} &raquo;</a>
+</p>
+<ol>
+    <li>{{=_('可享受会前VIP晚宴，结识更多业内精英；')}}</li>
+    <li>{{=_('企业的Logo可出现在PyCon的官网支持企业栏目中；')}}</li>
+    <li>{{=_('大会当日将安排前七排座位；')}}</li>
+    <li>{{=_('全日会议听课、互动环节，提供午餐和休息茶歇；')}}</li>
+    <li>{{=_('会议礼品及参考资料。')}}</li>
+</ol>
+
+    <div class="alert">
+    <strong>注意!</strong> 多人报名或者淘宝名字与报名表不一致的，必须在淘宝订单注明报名者名字或电话.
+    </div>
+
+
+<p><span class="bold">{{=_('2) 填写以上报名表，用于未来电子票方式通知和确认参加者')}}</span></p>
+<ul>
+    <li>{{=_('有淘宝名称与参会者名称不一致的，需要在报名表上注明淘宝付款人。')}}</li>
+    <li>{{=_('或者在淘宝上注明报名者真实姓名。多人合并购买更必须注明。')}}</li>
+    <li>{{=_('每人必须填写一个报名表，用于最后的电子票发放和到场确认。')}}</li>
+</ul>
+
+
+
+<p><span class="bold">{{=_('3）确认收款，在报名页下显示报名者名字即表示确认完成。')}}</span></p>
+
+<p>{{=_('只要付款即获得门票。本次大会不会进行参会者资格审核，先到先得。组织者确认收到款项，确认收款后登记并确认，并在报名页下显示报名的名字。')}}
+</p>
+
+<p><span class="bold">{{=_('4）抢座网和淘宝立即确认，参会前3天发送电子邮件和二维码门票')}}</span></p>
+<ul>
+    <li>{{=_('报名并成功支付后将在淘宝收到“已发货”的信息，同时在抢座网报名页底部出现报名者名字。')}}</li>
+    <li>{{=_('将在大会前3天收到邮件通知和短信二维码，各个会场有签到确认报名情况。')}}</li>
+    <li>{{=_('如果没有收到二维码，也可以报名字和邮件地址现场查询确认签到。')}}</li>
+    <li>{{=_('联系邮件：')}}<a class="btn btn-info" href="mailto:stingchen@topgeek.org">stingchen@topgeek.org</a></li>
+</ul>
+
+
+<p><span class="bold">{{=_('小额捐赠和赞助说明')}}</span></p>
+
+<ul>
+    <li>{{=_('个人小额捐赠42元起，可以进入到cn.pycon.org官网 - 热心蟒人榜')}}</li>
+    <li>{{=_('嘉宾和志愿者也通过自己的独特贡献进入到热心蟒人榜。')}}</li>
+    <li>{{=_('捐赠通过淘宝店实现：')}}<a href="http://item.taobao.com/item.htm?id=16658891443">{{=_('点击立即捐42元')}}
+        <img src="{{=url_for_static('images/sponsors/donate.png')}}" alt="donate" width="90"/>
+        </a>
+    </li>
+    <li>{{=_('而企业捐赠则是两种途径：')}}
+        <ol>
+            <li>{{=_('购买666元的VIP票（前42张售500元）')}}，<a href="http://item.taobao.com/item.htm?id=16652035793">{{=_('点击购买')}}</a>
+            </li>
+            <li>{{=_('赞助，请邮件联系大会赞助负责人')}} <a class="btn btn-info" href="mailto:stingchen@topgeek.org">stingchen@topgeek.org</a>
+            </li>
+        </ol>
+    </li>
+</ul>
+
+
+
+
+
+<h2 class="ribbon flat">{{=_('Tips')}}</h2>
+<br />
+<ol>
+    
+    <li>{{=_('一定要先到')}}<a class="btn btn-warning" href="http://pycon2012.51qiangzuo.com/">{{=_('抢座网')}}</a>{{=_('完成报名,再去 淘宝 支付,大会才能明确你的意愿 ;-)')}}</li>
+
+    <li>{{=_('淘宝付款备注请注明抢座网报名人姓名！')}}</li>
+    <li>{{=_('若付款后，未审核通过，请发邮件到:stingchen@topgeek.org, 说明购买的数量，淘宝账号，抢座网报名者姓名。')}}</li>
+    <li>{{=_('本次大会是公益性社区大会，将提供可用于报销的收据，不提供发票。如果是大额的VIP门票需要发票，请邮件告知，组委会将用其他方法提供。')}}</li>
+</ol>
+{{end}}
