@@ -264,7 +264,7 @@ data = [
 		'position':_('技术总监'),
 		'desc':_('网游行业资深从业者，有丰富的 python 游戏开发经验，也是珠三角技术沙龙的创办人和组委之一。'),
 		'avatar':'laiyonghao.jpg',
-		'speech':_('《网游开发中的 Python 组件》'),
+		'speech':_('《论 Python 与设计模式》'),
 	},
 
 	{
