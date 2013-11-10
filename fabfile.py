@@ -14,6 +14,7 @@ code_dir = '/opt/app/PyConCN'
 def deploy():
     with cd(code_dir):
         run('git pull')
+        run('bin/uliweb exportstatic static')
         restart()
 
 
