@@ -16,6 +16,47 @@ data = [
     },
 
     {
+	    'fullname':_('洪强宁'),
+		'nickname':_('洪教授'),
+		'company':_('豆瓣'),
+		'position':_('CTO'),
+		'desc':_(''),
+		'avatar':'???.jpg',
+		'speech':_('《DAE系统的设计》'),
+	},
+
+    {
+	    'fullname':_('Glow'),
+		'nickname':_('Glow'),
+		'company':_('??'),
+		'position':_('???'),
+		'desc':_(''),
+		'avatar':'???.jpg',
+		'speech':_('《Ryan 分布式设计》'),
+	},
+
+    {
+	    'fullname':_('袁昕'),
+		'nickname':_('袁昕'),
+		'company':_('??'),
+		'position':_('??'),
+		'desc':_(''),
+		'avatar':'???.jpg',
+		'speech':_('《编程教室的一些故事》'),
+	},
+	
+    {
+	    'fullname':_('赵磊'),
+		'nickname':_('赵磊'),
+		'company':_('??'),
+		'position':_('??'),
+		'desc':_(''),
+		'avatar':'???.jpg',
+		'speech':_('《Robot Operating System 机器人系统简介》'),
+	},
+
+
+    {
 	    'fullname':_('程辉'),
 		'nickname':_(''),
 		'company':_('SINA'),
