@@ -37,20 +37,21 @@ data = [
 
 
     {
-	    'fullname':_('张沈鹏'),
-		'nickname':_('张教主'),
-		'company':_('42区'),
-		'position':_(''),
-		'desc':_('前豆瓣工程师,前美空工程师,42区创始人!'),
-		'avatar':'zsp.jpg',
-		'speech':_('《42qu.com 代码 & 架构 导读》'),
+	    'fullname':_('李路'),
+		'nickname':_('李路'),
+		'company':_('Knewone.com'),
+		'position':_('联合创始人和CTO'),
+		'desc':_('是 Knewone.com 的联合创始人和CTO，毕业于北京大学电子学系，原新浪高级软件工程师，09年辞职开始创业旅程，曾联合创办了中国第一个轻博客网站宽岛（kuandao.com）。最感兴趣的事情是 Lean Startup, 网站产品设计， 以及学习各种奇葩的编程语言，最崇拜的人是 Paul Graham。'),
+		'avatar':'131111_lilu.png',
+		'speech':_('《Artisan & Artist》'),
+		'speech_desc':_('做为程序员，我们在工作时经常担任工匠（Artisan）的角色，去实现别人设计好的产品，但有时候，我们也渴望像一个艺术家（Artist）那样去创作......其实，设计并没有那么难，如果能够为你的Library设计出好的API，为你的CLI工具设计出人性化的使用方法，你就有能力设计出简洁，清晰，流畅的图形化用户体验。这个演讲将打破程序员与设计师之间的鸿沟，描绘出Unix哲学与良好的UI设计间的共同之处，让程序员也可以去尝试设计，从Artisan走向Artist。'),
 	},
 
 
 
 	{
 	    'fullname':_('Zoom.Quiet'),
-		'nickname':_(''),
+		'nickname':_('大妈'),
 		'company':_('金山网络'),
 		'position':_('过程改进经理'),
 		'desc':_('Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区"大妈"；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。'),

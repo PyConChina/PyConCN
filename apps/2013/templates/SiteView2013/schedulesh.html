@@ -10,12 +10,13 @@
 </script>
 <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/schedule.css')}}" />
 {{include "inc_schedule.html"}}
-{{include "SiteView2012/inc_data.html"}}
+{{include "SiteView2013/inc_data.html"}}
 {{end}}
 
 {{block content}}
     <h2 class="ribbon flat">{{=_('上海日程安排')}}</h2>
-    {{for data, d in [(schedule_sh_1020, _('2012年10月20日(星期六)')), (schedule_sh_1021, _('2012年10月21日(星期日)'))]:}}
+    {{for data, d in [(schedule_sh_1208, _('2013年12月08日(星期日)'))
+        ]:}}
         {{write_schedule(data, d)}}
     {{pass}}
     

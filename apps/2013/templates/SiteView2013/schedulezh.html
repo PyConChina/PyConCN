@@ -10,28 +10,19 @@
 </script>
 <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/schedule.css')}}" />
 {{include "inc_schedule.html"}}
-{{include "SiteView2012/inc_data.html"}}
+{{include "SiteView2013/inc_data.html"}}
 {{end}}
 
 {{block content}}
 
-    <h2 class="ribbon flat">{{=_('北京日程安排')}}</h2>
+    <h2 class="ribbon flat">{{=_('珠海日程安排')}}</h2>
 
-    {{for data, d in [(schedule_bj_1020, _('2012年10月20日(星期六)')), 
+    {{for data, d in [(schedule_zh_1208, _('2013年12月8日(星期日)')), 
         ]:}}
         {{write_schedule(data, d)}}
     {{pass}}
 
-        <a class="btn btn-info btn-large" href="http://woodpecker4org.b0.upaiyun.com/pyconcn/pycon2012china/index.html">资料下载</a>
-    
-    <h2 class="ribbon flat">{{=_('编程马拉松日程安排')}}</h2>
 
-    {{for data, d in [
-        (schedule_bj_1027, _('2012年10月27日(星期六)')),
-        (schedule_bj_1028, _('2012年10月28日(星期日)')),
-        ]:}}
-        {{write_schedule(data, d)}}
-    {{pass}}
 
 {{##    
     <h2 class="ribbon flat">{{=_('抽奖活动')}}</h2>
