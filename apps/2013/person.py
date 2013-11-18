@@ -30,20 +30,20 @@ data = [
 	    'fullname':_('洪强宁'),
 		'nickname':_('洪教授'),
 		'company':_('豆瓣'),
-		'position':_('CTO'),
-		'desc':_(''),
+		'position':_('豆瓣首席架构师'),
+		'desc':_('豆瓣第一位全职员工。清华毕业后，洪强宁一直做嵌入式系统。在2002年开始接触Python语言，从硬件工程师变为软件工程师，对一种语言在计算机底层如何工作有深入的理解。'),
 		'avatar':'???.jpg',
 		'speech':_('《DAE系统的设计》'),
 	},
 
     {
-	    'fullname':_('Glow Ryan'),
-		'nickname':_('Glow Ryan'),
-		'company':_('??'),
-		'position':_('???'),
-		'desc':_(''),
+	    'fullname':_('Ryan Ye'),
+		'nickname':_('Ryan Ye'),
+		'company':_('Glow'),
+		'position':_('CTO'),
+		'desc':_('Glow是创业奇才Max Levchin在继创立了Paypal，Slide.com之后的又一家公司。以大数据分析，移动计算为核心。'),
 		'avatar':'???.jpg',
-		'speech':_('《Celery分布式设计》'),
+		'speech':_('《Celery分布式任务队列》'),
 	},
 
     {
@@ -80,11 +80,11 @@ data = [
     {
 	    'fullname':_('杜玉杰'),
 		'nickname':_('Ben'),
-		'company':_('九州云'),
-		'position':_(''),
-		'desc':_(''),
+		'company':_('OpenStack'),
+		'position':_('OpenStack基金会董事'),
+		'desc':_('他在中国组织了许多OpenStack开源社区的工作，从小聚会的大型会议，如PyCon中国，社会管理器事件，中国云连接（C3）2011年上海OpenStack的首脑会议，OpenStack沙龙，2012亚洲OpenStack的的会议等。也是九州云的社区发展总监。'),
 		'avatar':'ben-duyujie.jpg',
-		'speech':_('《在中国如何开展OpenStack 社区》'),
+		'speech':_('CodeLab:用OpenStack快速实现私有云，搭建自动化运维体系'),
 	},
 
 
@@ -212,6 +212,25 @@ data = [
 		'avatar':'wangjian.jpg',
 		'speech':_('《自动化即时战斗游戏解决方案》'),
 	},
+	{
+	    'fullname':_('王剑峰'),
+		'nickname':_('剑峰王'),
+		'company':_('OpenERP'),
+		'position':_('社区主要负责人'),
+		'desc':_('曾在IBM公司负责ERP相关工作，后来投身开源ERP世界，创立了2家OpenERP的咨询服务公司。'),
+		'avatar':'wangjianfeng.jpg',
+		'speech':_('CodeLab:介绍Python的企业级应用开源软件OpenERP的快速学习和开发、维护相关技能.'),
+	},
+
+    {
+        'fullname':_('吕召刚'),
+        'nickname':_(''),
+        'company':_('大众点评'),
+        'position':_('工程师'),
+        'desc':_('???'),
+        'avatar':'',
+        'speech':_('《???》'),
+    },
 
 
 	{
