@@ -11,6 +11,9 @@ class SiteView2013(object):
     def about(self):
         return dict(page=dict(pagename='about', cndata=''),title=pagetitle)
 
+    def schedulebj(self):
+        return dict(page=dict(pagename='schedulebj', cndata=''),title=pagetitle, year=2012)
+
     def schedulezh(self):
         return dict(page=dict(pagename='schedulezh', cndata=''),title=pagetitle, year=2012)
 

@@ -16,6 +16,17 @@ data = [
     },
 
     {
+        'fullname':_('潘俊勇'),
+        'nickname':_('潘俊勇'),
+        'company':_('易度云办公'),
+        'position':_('创始人'),
+        'desc':_('python老兵，从经营开源社区到创业，至今未放下代码'),
+        'avatar':'panjy2013.jpg',
+        'speech':_('《我经历的软件重构》'),
+        'speech_desc':_('从开源软件zope/plone的重构，到易度办公平台发展过程中的重构，谈不同时机、不同策略的软件重构带来的利与弊，以及python语言对软件重构的帮助'),
+        
+    },
+    {
 	    'fullname':_('洪强宁'),
 		'nickname':_('洪教授'),
 		'company':_('豆瓣'),
@@ -97,7 +108,7 @@ data = [
 		'position':_('过程改进经理'),
 		'desc':_('Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区"大妈"；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。'),
 		'avatar':'zhouqi.jpg',
-		'speech':_('《如何 Pythonic 的组织技术交流》'),
+		'speech':_('《再再再再谈文学化编程》'),
 	},
 
 	{
@@ -144,21 +155,21 @@ data = [
 	{
 	    'fullname':_('陈世欣'),
 		'nickname':_('Sting Chen'),
-		'company':_('2Style4You'),
-		'position':_('CTO'),
-		'desc':_('TopGeek社区创办人，现在全球领先的时尚科技公司2Style4You.com任CTO,1999年硕士毕业于上海交通大学计算机系，具有13年的互联网技术和互联网产品技术经验，还发起PMCamp社区等。也是ThinkinLAMP，ShanghaiOnRails，CPyUG，GTUG等社区的参与者或组织者。'),
+		'company':_('???'),
+		'position':_('???'),
+		'desc':_('TopGeek社区创办人,1999年硕士毕业于上海交通大学计算机系，具有13年的互联网技术和互联网产品技术经验，还发起PMCamp社区等。也是ThinkinLAMP，ShanghaiOnRails，CPyUG，GTUG等社区的参与者或组织者。'),
 		'avatar':'chenshixin.jpg',
 		'speech':_('大会致辞《Python世界》'),
 	},
 
 	{
 	    'fullname':_('沈崴'),
-		'nickname':_(''),
-		'company':_(''),
-		'position':_(''),
+		'nickname':_('沈崴'),
+		'company':_('湖州迅普信息技术有限公司'),
+		'position':_('创始人'),
 		'desc':_('资深 python 开发者，高效能服务器 eurasia 的作者。湖州迅普信息技术有限公司创始人，广州遛宝计算机技术有限公司联合创始人、技术总监。'),
 		'avatar':'shenwai.jpg',
-		'speech':_('《游戏逻辑编写技巧》《Python 产品构建与发布指南》'),
+		'speech':_('《Python 产品构建与发布指南》'),
 	},
 
 	{
