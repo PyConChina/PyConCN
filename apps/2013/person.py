@@ -37,13 +37,13 @@ data = [
 	},
 
     {
-	    'fullname':_('Glow'),
-		'nickname':_('Glow'),
+	    'fullname':_('Glow Ryan'),
+		'nickname':_('Glow Ryan'),
 		'company':_('??'),
 		'position':_('???'),
 		'desc':_(''),
 		'avatar':'???.jpg',
-		'speech':_('《Ryan 分布式设计》'),
+		'speech':_('《Celery分布式设计》'),
 	},
 
     {
@@ -118,7 +118,7 @@ data = [
 		'position':_(''),
 		'desc':_('Python 中文社区创始人及 Python 技术的关键推广者之一。广受欢迎的 Ulipad 编辑器，以及 web框架 Uliweb 的作者。'),
 		'avatar':'liyinghui.jpg',
-		'speech':_(' 《又一年, UliWeb 发展纪事儿》'),
+		'speech':_(' 《再再再再再再再再再再谈UliWeb》'),
 	},
 
 	{
