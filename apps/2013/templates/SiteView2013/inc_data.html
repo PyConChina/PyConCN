@@ -224,15 +224,18 @@
     pass
 }}
 
-{{def put_data(data, step=5):}}
-    <table class="table">
+{{def put_data(data, step=4):}}
+    
         {{rows = list(get_data(data))}}
         {{for index in range(0, len(rows), step):}}
-            <tr>
+        <div class="row">
+            
                 {{for row in rows[index:index+step]:}}
-                    <td><a target="_blank" href="{{=row.get('url', '#')}}"><img src="{{=url_for_static(row.get('logo', ''))}}" alt="{{=row['name']}}" width="150" style="max-height:80px;"/></a></td>
+                <div class="col-xs-6 col-lg-3">
+                    <a target="_blank" href="{{=row.get('url', '#')}}"><img src="{{=url_for_static(row.get('logo', ''))}}" alt="{{=row['name']}}" width="150" style="max-height:80px;"/></a>
+                    </div>
                 {{pass}}
-            </tr><!--END grid-->
+            <!--END grid-->
+            </div>
         {{pass}}
-    </table>
 {{pass}}

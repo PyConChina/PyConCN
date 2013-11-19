@@ -10,8 +10,8 @@
 {{end}}
 
 {{block content}}
-<h2 class="ribbon flat">{{=_('志愿者')}}</h2>
-<h3>{{=_('PyCon大会的召开离不开志愿者们的共同努力，同时，如果您愿意加入志愿者的队伍，请与PyCon组委会(邮件:stingchen@topgeek.org)联系。志愿者可以免除一部分参会费用，并且在大会官网的“志愿者”页面展示个人照片及简介。')}}</h3><br />
+<h2 class="section-title">{{=_('志愿者')}}</h2>
+<p>{{=_('PyCon大会的召开离不开志愿者们的共同努力，同时，如果您愿意加入志愿者的队伍，请与PyCon组委会(邮件:stingchen@topgeek.org)联系。志愿者可以免除一部分参会费用，并且在大会官网的“志愿者”页面展示个人照片及简介。')}}</p>
 
 {{
 data = [
@@ -68,10 +68,9 @@ data = [
 }}
 
 {{for row in data:}}
-<div class="row show-grid">
-    <div class="span4" style="text-align:right;"><a target="_blank" href="{{=row['blog']}}"><img src="{{=url_for_static(row['image'])}}" alt="{{=row['name']}}" width="200" /></a><br />
-    </div><!--END span-->
-    <div class="span8">
+<div class="container">
+<div class="row underhero speakers">
+    <a target="_blank" href="{{=row['blog']}}"><img src="{{=url_for_static(row['image'])}}" alt="{{=row['name']}}" width="200" /></a>
         <h4>{{=row['name']}}</h4>
         {{for line in row['description']:}}
             <p>{{<< line}}</p>
@@ -83,9 +82,10 @@ data = [
             {{if row['weibo']:}}
                 <strong>{{=_('微博：')}}</strong><a target="_blank" href="{{=row['weibo']}}">{{=row['weibo']}}</a><br/>
             {{pass}}
-        </p>
-    </div><!--END span-->
+        </p><!--END span-->
+</div>
 </div><!--END row-->
 {{pass}}
+
 
 {{end}}

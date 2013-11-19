@@ -11,19 +11,27 @@
                 text-align: left;
                 padding-top: 40px;
                 padding-bottom: 30px;
-                margin-top: 100px;
+                margin-top: 50px;
                 color: #777;
                 border-top: 1px solid #E5E5E5;
+            }
+            .section-title{
+                border-bottom: 1px solid #E5E5E5;
             }
             .section-title:before {
                 content: '# ';
             }
             .speakers img {
                 float: left;
-max-width: 45%;
-margin-right: 5%;
-border: 2px solid #EEE;
-}
+                max-width: 45%;
+                margin-right: 5%;
+                border: 2px solid #EEE;
+            }
+            .underhero {
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #EEE;
+            }
         </style>
         <script src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
         {{block meta}}
@@ -67,11 +75,11 @@ border: 2px solid #EEE;
 
 
     {{block container}}
-        <div class="container">
-            {{block content}}
-            {{end}}
-        </div>
+    <div class="container">
+        {{block content}}
         {{end}}
+    </div>
+    {{end}}
 
     <footer>
         <div class="container">

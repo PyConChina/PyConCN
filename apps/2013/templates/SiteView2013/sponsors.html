@@ -9,19 +9,19 @@
 {{block content}}
 {{include "SiteView2013/inc_data.html"}}
 
-    <h2 class="ribbon flat">{{=_('赞助商')}}</h2>
+    <h2 class="section-title">{{=_('赞助商')}}</h2>
 
-    <h3>{{=_('赞助商为PyCon大会的成功举办提供了必不可少的支持。同时，如果您和您的公司愿意支持中国Python社区的交流事业，请与PyCon组委会(邮件:stingchen@topgeek.org)联系，赞助商在大会官网的首页及“赞助商”页面展示您的公司Logo及简介。')}}</h3>
+    <p>{{=_('赞助商为PyCon大会的成功举办提供了必不可少的支持。同时，如果您和您的公司愿意支持中国Python社区的交流事业，请与PyCon组委会(邮件:stingchen@topgeek.org)联系，赞助商在大会官网的首页及“赞助商”页面展示您的公司Logo及简介。')}}</p>
     
     {{for row in get_data(sponsors_data):}}
     <div class="row show-grid">
-        <div class="span4">
+        <div class="col-xs-6 col-lg-4">
             <a target="_blank" href="{{=row.get('url', '#')}}"><img src="{{=url_for_static(row.get('logo'))}}" alt="{{=row.get('name', '')}}" width="250" /></a><br />
         </div>
-        <div class="span1" style="margin-top:25px;">
+        <div class="col-xs-6 col-lg-1" style="margin-top:25px;">
             <img src="{{=url_for_static(row['level_image'])}}" title="{{=row['level_title']}}"/>
         </div>
-        <div class="span7">
+        <div class="col-lg-7">
             {{for line in row.get('description', []):}}
                 <p>{{<< line}}</p>
             {{pass}}
@@ -29,13 +29,13 @@
     </div><!--END row-->
     {{pass}}
 
-<h2 class="ribbon flat">{{=_('媒体支持')}}</h2>
+<h2 class="section-title">{{=_('媒体支持')}}</h2>
     
     {{for row in get_data(media_data):}}
     <div class="row show-grid">
-        <div class="span4"><a target="_blank" href="{{=row.get('url', '#')}}"><img src="{{=url_for_static(row.get('logo'))}}" alt="{{=row.get('name', '')}}" width="250" /></a><br />
+        <div class="col-lg-4"><a target="_blank" href="{{=row.get('url', '#')}}"><img src="{{=url_for_static(row.get('logo'))}}" alt="{{=row.get('name', '')}}" width="250" /></a><br />
         </div>
-        <div class="span8">
+        <div class="col-lg-8">
             {{for line in row.get('description', []):}}
                 <p>{{<< line}}</p>
             {{pass}}
@@ -43,25 +43,25 @@
     </div><!--END row-->
     {{pass}}
 
-<h2 class="ribbon flat">{{=_('社区团体')}}</h2>
+<h2 class="section-title">{{=_('社区团体')}}</h2>
 
     <div class="row show-grid" style="text-align:center;">
-        <div class="span4"><a target="_blank" href="http://python.cn/" title="China Python User Group"><img src="{{=url_for_static('images/sponsors/CPyUG.png')}}" alt="China Python User Group" width="100" height="60" /></a></div>
-        <div class="span4"><a target="_blank" href="https://groups.google.com/group/bpug/" title="Beijing Python User Group"><img src="{{=url_for_static('images/sponsors/beijing_pug.png')}}" alt="Beijing Python User Group" width="100" height="60" /></a></div>
-        <div class="span4"><a target="_blank" href="http://python.cn/" title="Changsan Jiao Python User Group"><img src="{{=url_for_static('images/sponsors/changsanjiao_pug.png')}}" alt="Changsan Jiao Python User Group" width="150"  /></a></div>
+        <div class="col-xs-4 col-lg-4"><a target="_blank" href="http://python.cn/" title="China Python User Group"><img src="{{=url_for_static('images/sponsors/CPyUG.png')}}" alt="China Python User Group" width="100" height="60" /></a></div>
+        <div class="col-xs-4 col-lg-4"><a target="_blank" href="https://groups.google.com/group/bpug/" title="Beijing Python User Group"><img src="{{=url_for_static('images/sponsors/beijing_pug.png')}}" alt="Beijing Python User Group" width="100" height="60" /></a></div>
+        <div class="col-xs-4 col-lg-4"><a target="_blank" href="http://python.cn/" title="Changsan Jiao Python User Group"><img src="{{=url_for_static('images/sponsors/changsanjiao_pug.png')}}" alt="Changsan Jiao Python User Group" width="150"  /></a></div>
     </div><!--END grid-->
     
     <div class="row" style="text-align:center;margin-top:18px;">
 
             <!-- <div class="span2"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/Bejing_GDG_Logo_w200.jpg')}}" alt="GDG Beijing" width="150" /></a></div>
  -->
-            <div class="span2"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/GDGGuangZhou.jpg')}}" alt="GDG GuangZhou" width="150" /></a></div>
-            <div class="span2"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/GDGShanghai.jpg')}}" alt="GDG Shanghai" width="150" /></a></div>
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/GDGGuangZhou.jpg')}}" alt="GDG GuangZhou" width="150" /></a></div>
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/GDGShanghai.jpg')}}" alt="GDG Shanghai" width="150" /></a></div>
 
-            <div class="span2"><a target="_blank" href="http://www.hz-gdg.org/"><img src="{{=url_for_static('images/sponsors/HZGDG.jpg')}}" alt="Hangzhou GDG" width="150" /></a></div>
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://www.hz-gdg.org/"><img src="{{=url_for_static('images/sponsors/HZGDG.jpg')}}" alt="Hangzhou GDG" width="150" /></a></div>
 
-            <div class="span2"><a target="_blank" href="http://weibo.com/xagdg"><img src="{{=url_for_static('images/sponsors/xian_gdg_logo.jpg')}}" alt="Xian GDG" width="150" /></a></div>
-            <div class="span2"><a target="_blank" href="#"><img src="{{=url_for_static('images/sponsors/hefei_gdg_logo.jpg')}}" alt="Hefei GDG" width="150" /></a></div>
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://weibo.com/xagdg"><img src="{{=url_for_static('images/sponsors/xian_gdg_logo.jpg')}}" alt="Xian GDG" width="150" /></a></div>
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="#"><img src="{{=url_for_static('images/sponsors/hefei_gdg_logo.jpg')}}" alt="Hefei GDG" width="150" /></a></div>
 
     </div><!--END grid-->
     
