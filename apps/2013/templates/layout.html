@@ -15,7 +15,17 @@
                 color: #777;
                 border-top: 1px solid #E5E5E5;
             }
+            .section-title:before {
+                content: '# ';
+            }
+            .speakers img {
+                float: left;
+max-width: 45%;
+margin-right: 5%;
+border: 2px solid #EEE;
+}
         </style>
+        <script src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
         {{block meta}}
         {{end}}
     </head>
@@ -70,8 +80,6 @@
             </p>
         </div>
     </footer>
-
-    <script src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
     <script src="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
     <script type="text/javascript">
 

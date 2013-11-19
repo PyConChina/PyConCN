@@ -68,174 +68,131 @@ $(function(){
 <div class="container">
     <div class="row">
 
-    <h2 class="ribbon flat">{{=_('大会赞助商')}}</h2>
+    <h2 class="section-title">{{=_('大会赞助商')}}</h2>
         
-        {{put_data(sponsors_data)}}
+    {{put_data(sponsors_data)}}
+    </div>
         
-        <div class="row show-grid underhero speakers">
-            <div class="span6">
-                <h2 style="margin-top:10px; display:inline-block; border:none;">{{=_('各地嘉宾')}}</h2><small>&nbsp;&nbsp;<a href="/2012/schedulebj">{{('查看详细演讲内容及日程安排')}} &raquo;</a></small>
-            </div>
-        </div><!--END row-->
-
-        <div class="row show-grid underhero speakers">
-            <div class="span6">
+        <h2 class="section-title" style="margin-top:10px; display:inline-block; border:none;">{{=_('各地嘉宾')}}</h2><small>&nbsp;&nbsp;<a href="/2012/schedulebj">{{('查看详细演讲内容及日程安排')}} &raquo;</a></small>
+        
+        <div class="row underhero speakers">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/zhouqi.jpg')}}" alt="{{=_('Zoom.Quiet')}}" />
             </div>
-            <div class="span6">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/chenshixin.jpg')}}" alt="{{=_('陈世欣')}}" />
             </div>
         </div><!--END row-->
 
-        <div class="row show-grid underhero speakers">
-            <div class="span6">
+        <div class="row underhero speakers">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/laiyonghao.png')}}" alt="{{=_('赖勇浩')}}" />
             </div>
-            <div class="span6">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/shenwai.jpg')}}" alt="{{=_('沈崴')}}" />
             </div>
         </div><!--END row-->
 
-        <div class="row show-grid underhero speakers">
-            <div class="span6">
+        <div class="row underhero speakers">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/panjy2013.jpg')}}" alt="{{=_('潘俊勇')}}" />
             </div>
-            <div class="span6">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/131111_lilu.png')}}" alt="{{=_('李路')}}" />
             </div>
         </div><!--END row-->
 
 
-        <div class="row show-grid underhero speakers">
-            <div class="span6">
+        <div class="row underhero speakers">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/hongqiangning.jpg')}}" alt="{{=_('洪强宁')}}" />
             </div>
-            <div class="span6">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/liyinghui.jpg')}}" alt="{{=_('李迎辉')}}" />
             </div>
         </div><!--END row-->
 
-        <div class="row show-grid underhero speakers">
-            <div class="span6">
+        <div class="row underhero speakers">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/ben-duyujie.jpg')}}" alt="{{=_('杜玉杰')}}" />
             </div>
-            <div class="span6">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/wangjianfeng.jpg')}}" alt="{{=_('王剑峰')}}" />
             </div>
         </div><!--END row-->
 
-        <div class="row show-grid underhero speakers">
-            <div class="span6">
+        <div class="row underhero speakers">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/nopic.gif')}}" alt="{{=_('袁昕')}}" />
             </div>
-            <div class="span6">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/nopic.gif')}}" alt="{{=_('赵磊')}}" />
             </div>
         </div><!--END row-->
         
-        <div class="row show-grid underhero speakers">
-            <div class="span6">
+        <div class="row underhero speakers">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/nopic.gif')}}" alt="{{=_('吕召刚')}}" />
             </div>
-            <div class="span6">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/nopic.gif')}}" alt="{{=_('段华杰')}}" />
             </div>
         </div><!--END row-->
         
-        <div class="row show-grid underhero speakers">
-            <div class="span6">
+        <div class="row underhero speakers">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/nopic.gif')}}" alt="{{=_('Ryan Ye')}}" />
             </div>
-            <div class="span6">
+            <div class="col-lg-6">
                 <img src="{{=url_for_static('images/speakers/nopic.gif')}}" alt="{{=_('???')}}" />
             </div>
         </div><!--END row-->
 
 
-    <h2 class="ribbon flat">{{=_('媒体支持')}}</h2>
+    <h2 class="section-title">{{=_('媒体支持')}}</h2>
         
         {{put_data(media_data)}}
         
-    <h2 class="ribbon flat">{{=_('社区团体')}}</h2>
-        <div class="row show-grid underhero">
-            <div class="span4"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/CPyUG.png')}}" alt="China Python User Group" width="100" height="60" /></a></div>
+    <h2 class="section-title">{{=_('社区团体')}}</h2>
+        <div class="row underhero">
+            <div class="col-lg-4"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/CPyUG.png')}}" alt="China Python User Group" width="100" height="60" /></a></div>
 
-            <div class="span4"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/beijing_pug.png')}}" alt="Beijing Python User Group" width="100" height="60" /></a></div>
+            <div class="col-lg-4"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/beijing_pug.png')}}" alt="Beijing Python User Group" width="100" height="60" /></a></div>
             
-            <div class="span4"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/changsanjiao_pug.png')}}" alt="Changsan Jiao Python User Group" width="150"  /></a></div>
+            <div class="col-lg-4"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/changsanjiao_pug.png')}}" alt="Changsan Jiao Python User Group" width="150"  /></a></div>
         </div><!--END grid-->
         
-        <div class="row show-grid underhero">
+        <div class="row underhero">
 
-            <div class="span2"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/GDGShanghai.jpg')}}" alt="GDG Shanghai" width="150" /></a></div>
-            <div class="span2"><a target="_blank" href="#"><img src="{{=url_for_static('images/sponsors/ZH_GDG_Logo_b_h80.png')}}" alt="Hefei GDG" width="150" /></a></div>
+            <div class="col-lg-2"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/GDGShanghai.jpg')}}" alt="GDG Shanghai" width="150" /></a></div>
+            <div class="col-lg-2"><a target="_blank" href="#"><img src="{{=url_for_static('images/sponsors/ZH_GDG_Logo_b_h80.png')}}" alt="Hefei GDG" width="150" /></a></div>
 
-            <div class="span2"><a target="_blank" href="http://weibo.com/xagdg"><img src="{{=url_for_static('images/sponsors/xian_gdg_logo.jpg')}}" alt="Xian GDG" width="150" /></a></div>
+            <div class="col-lg-2"><a target="_blank" href="http://weibo.com/xagdg"><img src="{{=url_for_static('images/sponsors/xian_gdg_logo.jpg')}}" alt="Xian GDG" width="150" /></a></div>
 
 
-            <div class="span2"><a target="_blank" href="http://www.hzgdg.org/activities/PyCon"><img src="{{=url_for_static('images/sponsors/HZGDG.jpg')}}" alt="Hangzhou GDG" width="150" /></a></div>
-            <div class="span2"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/hefei_gdg_logo.jpg')}}" alt="GDG Hefei" width="150" /></a></div>
-            <div class="span2"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/GDGGuangZhou.jpg')}}" alt="GDG GuangZhou" width="150" /></a></div>
+            <div class="col-lg-2"><a target="_blank" href="http://www.hzgdg.org/activities/PyCon"><img src="{{=url_for_static('images/sponsors/HZGDG.jpg')}}" alt="Hangzhou GDG" width="150" /></a></div>
+            <div class="col-lg-2"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/hefei_gdg_logo.jpg')}}" alt="GDG Hefei" width="150" /></a></div>
+            <div class="col-lg-2"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/GDGGuangZhou.jpg')}}" alt="GDG GuangZhou" width="150" /></a></div>
         </div><!--END grid-->
 
-    <h2 class="ribbon flat">{{=_('企业VIP门票赞助')}}</h2>
-        <div class="row show-grid underhero">
-
-            <div class="span3"><img src="{{=url_for_static('images/speakers/index.png')}}" width="150px" height="50px" title="" width="150" /></div>
-
-            <div class="span3"><img src="{{=url_for_static('images/speakers/index.png')}}" width="150px" height="50px" title="雪球" width="150" /></div>
-            <div class="span3"><img src="{{=url_for_static('images/speakers/index.png')}}" width="150px" height="50px" title="雪球" width="150" /></div>
-            <div class="span3"><img src="{{=url_for_static('images/speakers/index.png')}}" width="150px" height="50px" title="雪球" width="150" /></div>
-        </div>
-        <div class="row show-grid underhero">
-            <div class="span3"><img src="{{=url_for_static('images/speakers/index.png')}}" width="150px" height="50px" title="" width="150" /></div>
-            <div class="span3"><img src="{{=url_for_static('images/speakers/index.png')}}" width="150px" height="50px" title="" width="150" /></div>
-            <div class="span3"><img src="{{=url_for_static('images/speakers/index.png')}}" width="150px" height="50px" title="" width="150" /></div>
-            <div class="span3"><img src="{{=url_for_static('images/speakers/index.png')}}" width="150px" height="50px" title="" width="150" /></div>
-
-        </div>
-    <h2 class="ribbon flat">{{=_('个人VIP门票赞助')}}</h2>
-        <div class="row show-grid underhero">
-            <ul class="unstyled persons clearfix">
-                {{for p in [
-                    {'name':'李迎辉', 'company':''},
-                    ]:}}
-                    <li><b title="{{=p['company']}}">{{=p['name']}}</b></li>
-                {{pass}}
-            </ul>
-        </div>
-   
-    <h2 class="ribbon flat">{{=_('Python热心蟒人')}}</h2>
-        <div class="row show-grid underhero">
-            <ul class="unstyled persons clearfix">
-                {{for p in [
-                    {'name':'Zoom.Quiet'},
-                    {'name':'沈崴'},
-                    {'name':'支晓勇'},
-                    ]:}}
-                    <li><span>{{=p['name']}}</span></li>
-                {{pass}}
-            </ul>
-        </div>
-
         <div class="row">
-            <div class="span4">
-              <h2>{{=_('演讲日程')}}</h2>
+            <div class="col-lg-4">
+              <h3 class="section-title">{{=_('演讲日程')}}</h2>
               <p>
-                <a class="btn" href="/2013/schedulezh">{{=_('珠海日程')}} &raquo;</a><br/>
-                <a class="btn" href="/2013/schedulesh">{{=_('上海日程')}} &raquo;</a><br/>
-                <a class="btn" href="/2013/schedulebj">{{=_('北京日程')}} &raquo;</a><br/>
-                <a class="btn" href="/2013/schedulecd">{{=_('成都日程')}} &raquo;</a><br/>
+                <a class="btn" href="/2013/zhuhai">{{=_('珠海日程')}} &raquo;</a><br/>
+                <a class="btn" href="/2013/shanghai">{{=_('上海日程')}} &raquo;</a><br/>
+                <a class="btn" href="/2013/beijing">{{=_('北京日程')}} &raquo;</a><br/>
+                <a class="btn" href="/2013/xi_an">{{=_('西安日程')}} &raquo;</a><br/>
               </p>
             </div>
-            <div class="span4">
-              <h2>{{=_('关于')}} PyCon</h2>
+            <div class="col-lg-4">
+              <h3 class="section-title">{{=_('关于')}} PyCon</h2>
                <p>{{=_('PyCon.Org是举办Python语言的国际性社区，在世界各地举办Python大会，是Python 爱好者的盛会，对推动Python在各地的发展有深远的影响。')}}</p>
               <p><a class="btn" href="/2013/about">{{=_('更多细节')}} &raquo;</a></p>
            </div>
-            <div class="span4">
+            <div class="col-lg-4">
 
-              <h2>{{=_('近期新闻')}}</h2>
+              <h3 class="section-title">{{=_('近期新闻')}}</h2>
               <ol>
                   <li>PyCon China 2013 {{=_('官方网站上线')}}</li>
                   <li>PyCon China {{=_('官方微博')}} <a href="http://weibo.com/pyconcn" target="_blank">@PyConCN</a> {{=_('上线')}}</li>
