@@ -1,7 +1,10 @@
 #coding=utf-8
 from uliweb import expose
 
-pagetitle = "PyCon2013China "
+
+pagetitle = "PyCon China 2013"
+
+
 @expose('/2013')
 class SiteView2013(object):
     @expose('')
