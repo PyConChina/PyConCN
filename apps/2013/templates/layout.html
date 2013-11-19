@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>{{block title}}{{=title}}{{end}}</title>
-<link href="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="{{=url_for_static('css/layout.css')}}" />
-<style type="text/css" media="screen">
-    #main_container {margin-top:45px;}
-    footer{
-    text-align: left;
-    padding-top: 40px;
-padding-bottom: 30px;
-margin-top: 100px;
-color: #777;
-border-top: 1px solid #E5E5E5;
-    }
-</style>
-{{block meta}}
-{{end}}
-</head>
-<body>
-{{include "menu.html"}}
-{{block topbar}}
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{{block title}}{{=title}}{{end}}</title>
+        <link href="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/layout.css')}}" />
+        <style type="text/css" media="screen">
+            #main_container {margin-top:45px;}
+            footer{
+                text-align: left;
+                padding-top: 40px;
+                padding-bottom: 30px;
+                margin-top: 100px;
+                color: #777;
+                border-top: 1px solid #E5E5E5;
+            }
+        </style>
+        {{block meta}}
+        {{end}}
+    </head>
+    <body>
+        {{include "menu.html"}}
+        {{block topbar}}
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -36,64 +36,64 @@ border-top: 1px solid #E5E5E5;
                 <div class="collapse navbar-collapse">
                     {{block nav}}
                     <ul class="nav navbar-nav">
-                      {{block menu}}
-                      {{menu('home')}}
-                      {{end}}
-                      <li><a href="http://weibo.com/pyconcn" target="_blank"><span>官方微博</span></a></li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">往年大会 <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/2012">PyConChina 2012</a></li>
-                          <li><a href="/2011">PyConChina 2011</a></li>
-                        </ul>
-                      </li>
+                        {{block menu}}
+                        {{menu('home')}}
+                        {{end}}
+                        <li><a href="http://weibo.com/pyconcn" target="_blank"><span>官方微博</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">往年大会 <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/2012">PyConChina 2012</a></li>
+                                <li><a href="/2011">PyConChina 2011</a></li>
+                            </ul>
+                        </li>
                     </ul>
                     {{end}}
                 </div><!--/.nav-collapse -->
             </div>
-      </div>
+        </div>
     </div>
-{{end}}
-<div class="container-fluid" id="main_container">
-    <!--[if lt IE 7]><div style=" clear: both; height: 59px; padding:0 0 0 15px; position: relative;"> <a target="_blank" href="http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.cn/img/banner/upgrade.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
-    {{if not True:}} <!--In what condition to show messages-->
+    {{end}}
+    <div class="container-fluid" id="main_container">
+        <!--[if lt IE 7]><div style=" clear: both; height: 59px; padding:0 0 0 15px; position: relative;"> <a target="_blank" href="http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.cn/img/banner/upgrade.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        {{if not True:}} <!--In what condition to show messages-->
         {{include "inc_show_messages.html"}}
         {{message('Test', 'info')}} <!--Show message "Test" with level info, optical levels are "warning", "success", "error", "info"-->
         {{message('<b>Test:</b> testest.', 'success')}}
-    {{pass}}
+        {{pass}}
 
-    {{block container}}
-    <div class="container">
-    {{block content}}
-    {{end}}
-    </div>
-    {{end}}
+        {{block container}}
+        <div class="container">
+            {{block content}}
+            {{end}}
+        </div>
+        {{end}}
 
 
     </div><!--END container-->
 
     <footer>
-      <div class="container">
-        <p>
-          <b>PyCon China 2013</b><br/>Site built by <a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPyUG</a> using <a href="https://github.com/limodou/uliweb">UliWeb</a>, <a href="http://www.jquery.com/">jQuery</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://www.nginx.org/">Nginx</a>&amp;<a href="http://gunicorn.org/">gunicorn</a> as Web Server.<br/>Website CDN provider: <a href="http://www.qiniu.com/">七牛云存储</a> <br/><a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0</a>
-        </p>
-      </div>
+        <div class="container">
+            <p>
+                <b>PyCon China 2013</b><br/>Site built by <a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPyUG</a> using <a href="https://github.com/limodou/uliweb">UliWeb</a>, <a href="http://www.jquery.com/">jQuery</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://www.nginx.org/">Nginx</a>&amp;<a href="http://gunicorn.org/">gunicorn</a> as Web Server.<br/>Website CDN provider: <a href="http://www.qiniu.com/">七牛云存储</a> <br/><a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0</a>
+            </p>
+        </div>
     </footer>
 
     <script src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
     <script src="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
-<script type="text/javascript">
+    <script type="text/javascript">
 
- var _gaq = _gaq || [];
- _gaq.push(['_setAccount', 'UA-26284394-1']);
- _gaq.push(['_trackPageview']);
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-26284394-1']);
+        _gaq.push(['_trackPageview']);
 
- (function() {
-   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
- })();
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
 
-</script>
+    </script>
 </body>
 </html>

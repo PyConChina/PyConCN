@@ -14,19 +14,9 @@
 {{end}}
 
 {{block content}}
-
     <h2 class="ribbon flat">{{=_('北京日程安排')}}</h2>
-
     {{for data, d in [(schedule_bj_1208, _('2013年12月14日(星期六)')), 
         ]:}}
         {{write_schedule(data, d)}}
     {{pass}}
-
-
-
-{{##    
-    <h2 class="ribbon flat">{{=_('抽奖活动')}}</h2>
-
-    <a href="/static/lucky/index.html" class="btn btn-primary btn-large">抽奖进入</a>
-##}}
 {{end}}
