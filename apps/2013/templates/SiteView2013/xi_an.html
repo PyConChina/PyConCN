@@ -1,7 +1,7 @@
 {{extend "layout.html"}}
 
 {{block menu}}
-  {{menu('schedulebj','MENUS2013')}}
+  {{menu('xi_an','MENUS2013')}}
 {{end}}
 
 {{block meta}}
@@ -15,9 +15,9 @@
 
 {{block content}}
 
-    <h2 class="ribbon flat">{{=_('北京日程安排')}}</h2>
+    <h2 class="ribbon flat">{{=_('西安日程安排')}}</h2>
 
-    {{for data, d in [(schedule_bj_1208, _('2013年12月14日(星期六)')), 
+    {{for data, d in [(schedule_cd_1208, _('2013年12月08日(星期日)')), 
         ]:}}
         {{write_schedule(data, d)}}
     {{pass}}
