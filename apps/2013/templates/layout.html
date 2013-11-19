@@ -6,7 +6,7 @@
         <link href="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/layout.css')}}" />
         <style type="text/css" media="screen">
-            #main_container {margin-top:45px;}
+            body {margin-top:45px;}
             footer{
                 text-align: left;
                 padding-top: 40px;
@@ -54,23 +54,14 @@
         </div>
     </div>
     {{end}}
-    <div class="container-fluid" id="main_container">
-        <!--[if lt IE 7]><div style=" clear: both; height: 59px; padding:0 0 0 15px; position: relative;"> <a target="_blank" href="http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.cn/img/banner/upgrade.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
-        {{if not True:}} <!--In what condition to show messages-->
-        {{include "inc_show_messages.html"}}
-        {{message('Test', 'info')}} <!--Show message "Test" with level info, optical levels are "warning", "success", "error", "info"-->
-        {{message('<b>Test:</b> testest.', 'success')}}
-        {{pass}}
 
-        {{block container}}
+
+    {{block container}}
         <div class="container">
             {{block content}}
             {{end}}
         </div>
         {{end}}
-
-
-    </div><!--END container-->
 
     <footer>
         <div class="container">

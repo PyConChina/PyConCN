@@ -58,70 +58,13 @@ $(function(){
 .background {background-color:#d1e5ee;maring:0;padding-top:20px;padding-bottom:60px;overflow: hidden;}
 .table td {vertical-align:middle;}
 </style>
-<div class="container-fluid background">
-    <div class="container">
-        <div id="content" class="row">
-            <div class="hero-content" id="first-hero">
-                <div class="row show-grid">
-                    <div class="span4 left">
-                        <img src="{{=url_for_static('images/PyCon2013cn.png')}}" alt="PyCon China 2013 Logo" />
-                    </div>
-                    <div class="span8 right" style="text-align:right;">
-                        <h1 style="border:none; padding-bottom:0;">PyConChina2013</h1><h1>Is There!</h1>
-                        <p>2013.12.8 9:30 ~ 17:30 </p>
-                        <p>+ Shanghai, </p>
-                        <p>+ Zhuhai</p>
-                        <p>+ Chendu</p>
-                        <p>Same Time, Treble City!</p>
-                        <p style="text-align:right;"><a class="btn btn-primary btn-large" href="/2013/registration ">{{=_('立即报名！')}} &raquo;</a></p>
-                    </div>
-                </div><!--END grid-->
-            </div><!--END hero-content-->
-
-            <div class="hero-content" id="third-hero">
-                <div class="row show-grid">
-                    <div class="span4 left" style="text-align:center;">
-                        <img src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/6e85c569jw1e8wx8gkzi9j20hs0vkdja.jpg" width="250" alt="Guido van Rossum" />
-                        <br />
-                        <strong>Guido van Rossum + "人生苦短"</strong>
-                    </div>
-                    <div class="span8 right" style="text-align:right">
-                        <p><strong>Christmas, 1989: </strong>Python was invented by<br/> Guido van Rossum.</p>
-                        <img src="{{=url_for_static('images/heroes/Python-old.png')}}" width="150" alt="Python old Logo" />
-                        <p><strong>January, 1994: </strong>Python 1.0 Released.</p>
-                        <p><strong>October 16, 2000: </strong>Python 2.0 Released.</p>
-                        <img src="{{=url_for_static('images/heroes/Python-new.gif')}}" width="150" alt="Python new Logo" />
-                        <p><strong>December 3, 2008: </strong>Python 3.0 Released.</p>
-                        <p><strong>27 October 2013: </strong>Python 3.3.3 Release.</p>
-                        <p><strong>29 October 2013: </strong>Python 2.6.9 final.</p>
-                        <p>......</p>
-                    </div>
-                </div><!--END grid-->
-            </div><!--END hero-content-->
-
-            <div class="hero-content" id="forth-hero">
-                <div class="row show-grid">
-                    <div class="span4 left" style="text-align:center;">
-                        <h1 style="border:none; margin-left:10px;">@ US on</h1>
-                        <img style="margin-top:50px;" src="http://img.t.sinajs.cn/t4/style/images/staticlogo/download/Brand_Group/PNG/Cn_En_Group/Sina_Weibo_Logo_RGB_C_E.png" width="250" alt="Sina Weibo Logo" />
-                    </div>
-                    <div class="span6 right" style="text-align:right;">
-                        <iframe width="350" height="310" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=350&amp;height=310&amp;fansRow=2&amp;ptype=1&amp;speed=0&amp;skin=1&amp;isTitle=1&amp;noborder=1&amp;isWeibo=1&amp;isFans=0&amp;uid=2464646734&amp;verifier=aad42972"></iframe>
-                    </div>
-                </div><!--END grid-->
-            </div><!--END hero-content-->
-
-
-            <!--NEW hero insert here-->
-        </div><!--END content--><div class="row show-grid" id="hero-selector">
-            <div class="span1" id="first">1</div>
-            <div class="span1" id="third">2</div>
-            <div class="span1" id="forth">3</div>
-        </div>
-    </div>
- <!-- END row-->
-</div><!-- END hero-unit-->
-
+<div class="jumbotron">
+      <div class="container">
+        <h1>PyCon China 2013</h1>
+        <p>世界Python爱好者的盛会PyCon首次在中国举办，由Python软件基金会下的PyCon.Org授权中国办第二届PyCon China Conference。本次大会由TopGeek、CPyUG、42区、GDG上海、GDG杭州、GDG西安、GDG合肥联合举办。</p>
+        <p><a class="btn btn-primary btn-lg" role="button" href="/2013/registration">立刻报名 »</a></p>
+      </div>
+</div>
 <div class="container">
     <div class="row">
 
