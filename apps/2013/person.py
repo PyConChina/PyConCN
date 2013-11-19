@@ -66,6 +66,35 @@ data = [
 		'speech':_('《Robot Operating System 机器人系统简介》'),
 	},
 
+	{
+	    'fullname':_('王剑峰'),
+		'nickname':_('剑峰王'),
+		'company':_('OpenERP'),
+		'position':_('社区主要负责人'),
+		'desc':_('曾在IBM公司负责ERP相关工作，后来投身开源ERP世界，创立了2家OpenERP的咨询服务公司。'),
+		'avatar':'wangjianfeng.jpg',
+		'speech':_('CodeLab:介绍Python的企业级应用开源软件OpenERP的快速学习和开发、维护相关技能.'),
+	},
+
+    {
+        'fullname':_('吕召刚'),
+        'nickname':_(''),
+        'company':_('大众点评'),
+        'position':_('搜索研发经理'),
+        'desc':_('长期专注于搜索算法，python爱好者，爱好折腾各种技术'),
+        'avatar':'???',
+        'speech':_('《如何在2天内开发一个校园招聘系统-python在大众点评中的应用》'),
+    },
+
+    {
+        'fullname':_('段华杰'),
+        'nickname':_(''),
+        'company':_('大众点评'),
+        'position':_('段华杰'),
+        'desc':_('python爱好者'),
+        'avatar':'???',
+        'speech':_('《如何在2天内开发一个校园招聘系统-python在大众点评中的应用》'),
+    },
 
     {
 	    'fullname':_('程辉'),
@@ -212,25 +241,6 @@ data = [
 		'avatar':'wangjian.jpg',
 		'speech':_('《自动化即时战斗游戏解决方案》'),
 	},
-	{
-	    'fullname':_('王剑峰'),
-		'nickname':_('剑峰王'),
-		'company':_('OpenERP'),
-		'position':_('社区主要负责人'),
-		'desc':_('曾在IBM公司负责ERP相关工作，后来投身开源ERP世界，创立了2家OpenERP的咨询服务公司。'),
-		'avatar':'wangjianfeng.jpg',
-		'speech':_('CodeLab:介绍Python的企业级应用开源软件OpenERP的快速学习和开发、维护相关技能.'),
-	},
-
-    {
-        'fullname':_('吕召刚'),
-        'nickname':_(''),
-        'company':_('大众点评'),
-        'position':_('工程师'),
-        'desc':_('???'),
-        'avatar':'',
-        'speech':_('《???》'),
-    },
 
 
 	{
