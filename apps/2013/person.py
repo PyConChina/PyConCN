@@ -37,7 +37,7 @@ data = [
 	},
 
     {
-	    'fullname':_('Ryan Ye'),
+	    'fullname':_('叶剑烨'),
 		'nickname':_('Ryan Ye'),
 		'company':_('Glow'),
 		'position':_('CTO'),
