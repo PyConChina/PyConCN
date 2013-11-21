@@ -5,39 +5,7 @@
         <title>{{block title}}{{=title}}{{end}}</title>
         <link href="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/layout.css')}}" />
-        <style type="text/css" media="screen">
-            body {margin-top:45px;}
-            footer{
-                text-align: left;
-                padding-top: 40px;
-                padding-bottom: 30px;
-                margin-top: 50px;
-                color: #777;
-                border-top: 1px solid #E5E5E5;
-            }
-            .section-title{
-                border-bottom: 1px solid #E5E5E5;
-            }
-            .section-title:before {
-                content: '# ';
-            }
-            .speakers img{
-                float: left;
-                max-width: 45%;
-                margin-right: 5%;
-                border: 2px solid #EEE;
-            }
-            .jumbotron img {
-                float: left;
-                max-width: 200px;
-                margin-right: 20px;
-            }
-            .underhero {
-                margin-bottom: 10px;
-                padding-bottom: 10px;
-                border-bottom: 1px solid #EEE;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/layout_2013.css')}}" />
         <script src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
         {{block meta}}
         {{end}}
