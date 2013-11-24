@@ -23,8 +23,8 @@ class SiteView2013(object):
         return dict(page=dict(pagename='zhuhai', cndata=''),
                     title=pagetitle, year=2013)
 
-    def xi_an(self):
-        return dict(page=dict(pagename='xi_an', cndata=''),
+    def hangzhou(self):
+        return dict(page=dict(pagename='zhangzhou', cndata=''),
                     title=pagetitle, year=2013)
 
     def shanghai(self):

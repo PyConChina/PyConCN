@@ -244,13 +244,13 @@ data = [
 
 
 	{
-	    'fullname':_('李飞林'),
-		'nickname':_('飞龙非龙'),
-		'company':_(''),
-		'position':_(''),
-		'desc':_('飞龙非龙（李飞林），Python技术博客 http://feilong.me 博主，Tornado 开源站点 http://poweredsites.org 作者，国内Tornado传教士。'),
-		'avatar':'feilong.jpg',
-		'speech':_('《用Tornado开发RESTful API应用》'),
+	    'fullname':_('屈兴永'),
+		'nickname':_('Nimo Xu'),
+		'company':_('弘文教育'),
+		'position':_('产品经理'),
+		'desc':_('08年开始服务于视频娱乐、游戏公司，负责web实时定向数据抓取，实现网页游戏、视频等内容聚合。目前在学习推荐系统、内容挖掘相关知识，欢迎大家交流讨论。'),
+		'avatar':'',
+		'speech':_('待定'),
 	},
 
 
