@@ -1,0 +1,24 @@
+{{extend "layout.html"}}
+
+{{block menu}}
+  {{menu('hangzhou','MENUS2013')}}
+{{end}}
+
+{{block meta}}
+<script type="text/javascript">
+    LANG = "{{=_('cn')}}"
+</script>
+<link rel="stylesheet" type="text/css" href="{{=url_for_static('css/schedule.css')}}" />
+{{include "inc_schedule.html"}}
+{{include "SiteView2013/inc_data.html"}}
+{{end}}
+
+{{block content}}
+
+    <h2 class="section-title">{{=_('hangzhou日程安排')}}</h2>
+
+    {{for data, d in [(schedule_hangzhou_1208, _('2013年12月08日(星期日)')), 
+        ]:}}
+        {{write_schedule(data, d)}}
+    {{pass}}
+{{end}}
