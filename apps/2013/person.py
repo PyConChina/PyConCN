@@ -82,7 +82,7 @@ data = [
         'company':_('大众点评'),
         'position':_('搜索研发经理'),
         'desc':_('长期专注于搜索算法，python爱好者，爱好折腾各种技术'),
-        'avatar':'???',
+        'avatar':'lvshaogang.png',
         'speech':_('《如何在2天内开发一个校园招聘系统-python在大众点评中的应用》'),
     },
 
@@ -90,9 +90,9 @@ data = [
         'fullname':_('段华杰'),
         'nickname':_(''),
         'company':_('大众点评'),
-        'position':_('段华杰'),
-        'desc':_('python爱好者'),
-        'avatar':'???',
+        'position':_(''),
+        'desc':_('上海交大计算机系硕士毕业，安徽桐城人，2013年4月正式加入大众点评网。在点评网的这段时间，使用django框架开发完成了众包系统、搜索运营系统、开放平台数据管理系统、大众点评面试评估系统。2011年正式学习python，接触后就被python的特性深深折服：简约而不简单。'),
+        'avatar':'duanhuajie.png',
         'speech':_('《如何在2天内开发一个校园招聘系统-python在大众点评中的应用》'),
     },
 
@@ -184,11 +184,11 @@ data = [
 	{
 	    'fullname':_('陈世欣'),
 		'nickname':_('Sting Chen'),
-		'company':_('???'),
-		'position':_('???'),
-		'desc':_('TopGeek社区创办人,1999年硕士毕业于上海交通大学计算机系，具有13年的互联网技术和互联网产品技术经验，还发起PMCamp社区等。也是ThinkinLAMP，ShanghaiOnRails，CPyUG，GTUG等社区的参与者或组织者。'),
-		'avatar':'chenshixin.jpg',
-		'speech':_('大会致辞《Python世界》'),
+		'company':_('永泰红磡养老产业投资集团'),
+		'position':_('信息技术总监'),
+		'desc':_('在14年的互联网生涯后，投身到到永泰红磡养老产业投资集团做夕阳事业，跨界发展。他是TopGeek技术社区的创办人也是上海GDG的负责人，并参与CPyUG社区的管理。还发起PMCamp产品经理社区，儿童社区乐创园等。'),
+		'avatar':'chenshixin_2013.png',
+		'speech':_('大会致辞《一个神奇的语言》'),
 	},
 
 	{
