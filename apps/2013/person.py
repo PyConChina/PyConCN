@@ -32,18 +32,8 @@ data = [
 
 
     {
-        'fullname':_('王健'),
-        'nickname':_(''),
-        'company':_('广州黑崖网络科技有限公司'),
-        'position':_('总经理兼技术总监'),
-        'desc':_('广州黑崖网络科技有限公司总经理兼技术总监。网游行业资深从业者，代表作品有《富甲西游》，《喂哇游3D社区》，《月光之城online》等。'),
-        'avatar':'wangjian.jpg',
-        'speech':_('《自动化即时战斗游戏解决方案》'),
-    },
-
-    {
         'fullname':_('李路'),
-        'nickname':_('李路'),
+        'nickname':_(' '),
         'company':_('Knewone.com'),
         'position':_('联合创始人和CTO'),
         'desc':_('是 Knewone.com 的联合创始人和CTO，毕业于北京大学电子学系，原新浪高级软件工程师，09年辞职开始创业旅程，曾联合创办了中国第一个轻博客网站宽岛（kuandao.com）。最感兴趣的事情是 Lean Startup, 网站产品设计， 以及学习各种奇葩的编程语言，最崇拜的人是 Paul Graham。'),
@@ -55,15 +45,81 @@ data = [
 
     {
         'fullname':_('潘俊勇'),
-        'nickname':_('潘俊勇'),
+        'nickname':_('老潘'),
         'company':_('易度云办公'),
-        'position':_('创始人'),
-        'desc':_('python老兵，从经营开源社区到创业，至今未放下代码'),
-        'avatar':'panjy2013.jpg',
+        'position':_('创始人，CTO'),
+        'desc':_('python老兵，国内python社区最早的布道者之一， 从经营开源社区到创业，至今未放下代码。2002年开始创办Zope中文社区，同时也是润普公司创始人。2007年转向互联网软件，推出易度云办公(everydo.com)，专注企业云端办公方案。'),
+        'avatar':'panjunyong.jpg',
         'speech':_('《我经历的软件重构》'),
         'speech_desc':_('从开源软件zope/plone的重构，到易度办公平台发展过程中的重构，谈不同时机、不同策略的软件重构带来的利与弊，以及python语言对软件重构的帮助'),
-        
     },
+
+
+    {
+        'fullname':_('殷海明'),
+        'nickname':_(''),
+        'company':_('一家投资顾问咨询公司'),
+        'position':_('技术总监'),
+        'desc':_('关注新技术，热爱 Python, Linux，云计算，自动化交易。喜欢美食和美女。'),
+        'avatar':'???.png',
+        'speech':_('《Pandas实战体验》'),
+        'speech_desc':_(' 倾向介绍我的 Datafeed，或 Pandas，或 Python 科学计算生态 :-)'),
+    },
+
+    {
+        'fullname':_('王健'),
+        'nickname':_('Beckie'),
+        'company':_(''),
+        'position':_('技术总监'),
+        'desc':_('网游行业资深从业者，技术发烧友，丰富的Python经验，代表作品有《富甲西游》，《月光之城》等'),
+        'avatar':'131125_wangjian.jpg',
+        'speech':_('《用Python架设大型多人在线游戏服务端》'),
+        'speech_desc':_('支持海量用户数据存储，海量用户在线，Python将如何发挥自己的特点 '),
+    },
+
+    {
+        'fullname':_('揭光发'),
+        'nickname':_('Jeff'),
+        'company':_('广州图锐信息科技有限公司 '),
+        'position':_('创始人兼CTO'),
+        'desc':_('Jeff，原一介文科生，误入工科学堂。几年间创业迫使自己练得周身刀，但可惜木有一把是锋利的 >_< ！能写点python，略懂iOS客户端编程，能弹几首儿歌哄女儿睡觉，偶尔客串做下男声优。是珠三角技术沙龙组委兼现任主席，始终坚持奋战于代码前线。相信every one can code。 '),
+        'avatar':'131123_jeff.png',
+        'speech':_('《 使用sentry来管理你应用的异常及日志》'),
+        'speech_desc':_(' 暂定Sentry相关的主题，视情况可能会调整。'),
+    },
+
+    {
+        'fullname':_('黄毅'),
+        'nickname':_('codeplayer'),
+        'company':_('???'),
+        'position':_('???'),
+        'desc':_('???'),
+        'avatar':'???.jpg',
+        'speech':_('《Python性能优化实践》'),
+    },
+
+    {
+        'fullname':_('刘宇'),
+        'nickname':_('Martin Liu'),
+        'company':_('???'),
+        'position':_('???'),
+        'desc':_('???'),
+        'avatar':'???.jpg',
+        'speech':_('《TEDx 的社区生长》'),
+    },
+
+
+    {
+        'fullname':_('StephanieYR'),
+        'nickname':_(''),
+        'company':_('???'),
+        'position':_('???'),
+        'desc':_('???'),
+        'avatar':'???.jpg',
+        'speech':_('《???》)'),
+    },
+
+
 ##############################################################################
 #
 #   上海  讲师信息
@@ -114,7 +170,7 @@ data = [
 
     {
 	    'fullname':_('袁昕'),
-		'nickname':_('袁昕'),
+		'nickname':_(' '),
 		'company':_('创业中'),
 		'position':_('??'),
 		'desc':_('他在独自创业后运营自媒体编程教室, 主要推广python语言'),
@@ -124,7 +180,7 @@ data = [
 	
     {
 	    'fullname':_('赵磊'),
-		'nickname':_('赵磊'),
+		'nickname':_(' '),
 		'company':_('新车间'),
 		'position':_('创客'),
 		'desc':_('Python的用途多种多样, 你之前有没有听说过 ROS? 机器人的控制系统, 为什么我们不能简单的写一个程序控制步进电机? 为什么在机器人的世界里我们又遇到了框架问题'),
@@ -141,21 +197,6 @@ data = [
 		'avatar':'wangjianfeng.jpg',
 		'speech':_('CodeLab:介绍Python的企业级应用开源软件OpenERP的快速学习和开发、维护相关技能.'),
 	},
-
-##############################################################################
-#
-#   北京  讲师信息
-#
-##############################################################################
-    {
-        'fullname':_('李迎辉'),
-        'nickname':_('Limodou'),
-        'company':_(''),
-        'position':_(''),
-        'desc':_('Python 中文社区创始人及 Python 技术的关键推广者之一。广受欢迎的 Ulipad 编辑器，以及 web框架 Uliweb 的作者。'),
-        'avatar':'liyinghui.jpg',
-        'speech':_(' 《再再再再再再再再再再谈UliWeb》'),
-    },
     {
         'fullname':_('吕召刚'),
         'nickname':_(''),
@@ -176,6 +217,32 @@ data = [
         'speech':_('《如何在2天内开发一个校园招聘系统-python在大众点评中的应用》'),
     },
 
+
+    {
+        'fullname':_('屈兴永'),
+        'nickname':_('Nimo Qu'),
+        'company':_('弘文教育'),
+        'position':_('产品经理'),
+        'desc':_('08年开始服务于视频娱乐、游戏公司，负责web实时定向数据抓取，实现网页游戏、视频等内容聚合。目前在学习推荐系统、内容挖掘相关知识，欢迎大家交流讨论。'),
+        'avatar':'quxingyong.jpg',
+        'speech':_('内容聚合与数据抓取'),
+    },
+
+##############################################################################
+#
+#   北京  讲师信息
+#
+##############################################################################
+    {
+        'fullname':_('李迎辉'),
+        'nickname':_('Limodou'),
+        'company':_(''),
+        'position':_(''),
+        'desc':_('Python 中文社区创始人及 Python 技术的关键推广者之一。广受欢迎的 Ulipad 编辑器，以及 web框架 Uliweb 的作者。'),
+        'avatar':'liyinghui.jpg',
+        'speech':_(' 《再再再再再再再再再再谈UliWeb》'),
+    },
+
     {
 	    'fullname':_('程辉'),
 		'nickname':_(''),
@@ -186,17 +253,45 @@ data = [
 		'speech':_('《基于OpenStack建设公有云平台的开发实践》'),
 	},
 
+    {
+        'fullname':_('卢亿雷'),
+        'nickname':_(' '),
+        'company':_('???'),
+        'position':_('???'),
+        'desc':_('???'),
+        'avatar':'???.jpg',
+        'speech':_('《Python在广告监测数据中的分析应用》'),
+    },
 
+    {
+        'fullname':_('梁瀚'),
+        'nickname':_(' '),
+        'company':_('???'),
+        'position':_('???'),
+        'desc':_('???'),
+        'avatar':'???.jpg',
+        'speech':_('《网络射击手游High Noon 2基于Python的服务器架构》'),
+    },
 
-	{
-	    'fullname':_('屈兴永'),
-		'nickname':_('Nimo Qu'),
-		'company':_('弘文教育'),
-		'position':_('产品经理'),
-		'desc':_('08年开始服务于视频娱乐、游戏公司，负责web实时定向数据抓取，实现网页游戏、视频等内容聚合。目前在学习推荐系统、内容挖掘相关知识，欢迎大家交流讨论。'),
-		'avatar':'quxingyong.jpg',
-		'speech':_('内容聚合与数据抓取'),
-	},
+    {
+        'fullname':_('潘凌涛'),
+        'nickname':_(' '),
+        'company':_('???'),
+        'position':_('???'),
+        'desc':_('???'),
+        'avatar':'???.jpg',
+        'speech':_('《介绍 Seafile，开源、专业的私有云存储》'),
+    },
+
+    {
+        'fullname':_('黄昆'),
+        'nickname':_(' '),
+        'company':_('???'),
+        'position':_('???'),
+        'desc':_('???'),
+        'avatar':'???.jpg',
+        'speech':_('《   python in openstack》(codelab)'),
+    },
 
 ##############################################################################
 #
@@ -205,7 +300,7 @@ data = [
 ##############################################################################
     {
         'fullname':_('沈崴'),
-        'nickname':_('沈崴'),
+        'nickname':_('沈游侠'),
         'company':_('湖州迅普信息技术有限公司'),
         'position':_('创始人'),
         'desc':_('资深 python 开发者，高效能服务器 eurasia 的作者。湖州迅普信息技术有限公司创始人，广州遛宝计算机技术有限公司联合创始人、技术总监。'),
@@ -225,15 +320,6 @@ data = [
         'speech':_('《Python小团队不妨知道的技术》'),
     },
 
-    {
-        'fullname':_('潘俊勇'),
-        'nickname':_(''),
-        'company':_('易度云办公'),
-        'position':_('创始人，CTO'),
-        'desc':_('python老兵，国内python社区最早的布道者之一， 从经营开源社区到创业，至今未放下代码。2002年开始创办Zope中文社区，同时也是润普公司创始人。2007年转向互联网软件，推出易度云办公(everydo.com)，专注企业云端办公方案。'),
-        'avatar':'panjunyong.jpg',
-        'speech':_('《我经历的软件重构》'),
-    },
 
     {
         'fullname':_('林伟'),
@@ -246,7 +332,7 @@ data = [
     },
     {
         'fullname':_('黄冬'),
-        'nickname':_(''),
+        'nickname':_('老黄'),
         'company':_('土豆网'),
         'position':_('技术副总裁'),
         'desc':_('黄冬现任土豆网技术副总裁，主持设计和运营过多个大型高容量产品和系统。也是中国FreeBSD、Python社区的发起者和积极参与者，啄木鸟社区的创始人之一。此外，他还积极帮助各种创业项目，创立了彩虹流量和xBaynet系列产品。'),
@@ -265,16 +351,6 @@ data = [
         'speech':_('《国外 Py 社区的组织以及技术发展特点》'),
     },
 
-
-    {
-        'fullname':_('骆逸'),
-        'nickname':_(''),
-        'company':_(''),
-        'position':_(''),
-        'desc':_('@骆逸, 从事搜索引擎和推荐系统的研发，自2004年入Python教。现为毕肯互动（北京）科技有限公司总裁，之前曾任WPP ITOP 24/7公司CTO、空中网悟空搜索副总裁和美国Yahoo搜索资深工程师。毕业于清华大学和美国亚利桑那大学。'),
-        'avatar':'luoyi.jpg',
-        'speech':_('《廉价硬件和Python构建远程交流机器人开发计划》'),
-    },
 
 
     
