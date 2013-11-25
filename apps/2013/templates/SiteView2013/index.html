@@ -60,7 +60,7 @@ $(function(){
 </style>
 <div class="jumbotron">
       <div class="container">
-        <img src="{{=url_for_static('images/PyCon2013cn.png')}}" alt="PyCon China 2013" />
+        <img src="{{=url_for_static('images/PyCon2013CHIna_logo_w200.png')}}" alt="PyCon China 2013" />
         <h1>PyCon China 2013</h1>
         <p>世界Pythonista 的品牌盛会PyCon! 由Python软件基金会下的PyCon.org授权中国办第三届PyCon China大会。本次大会由TopGeek、CPyUG、GDG在上海、北京、珠海、杭州同时举办。</p>
         <p><a class="btn btn-primary btn-lg" role="button" href="/2013/registration">立刻报名 »</a></p>
@@ -71,87 +71,100 @@ $(function(){
     <h2 class="section-title">{{=_('大会赞助商')}}</h2>
         
     {{put_data(sponsors_data)}}
-        
-        <h2 class="section-title">{{=_('各地嘉宾')}}</h2>
-        
-        <div class="row underhero speakers">
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/zhouqi.jpg')}}" alt="{{=_('Zoom.Quiet')}}" />
-            </div>
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/chenshixin_2013.png')}}" alt="{{=_('陈世欣')}}" />
-            </div>
-        </div><!--END row-->
 
-        <div class="row underhero speakers">
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/laiyonghao.png')}}" alt="{{=_('赖勇浩')}}" />
-            </div>
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/shenwai.jpg')}}" alt="{{=_('沈崴')}}" />
-            </div>
-        </div><!--END row-->
+    <h2 class="section-title">{{=_('各地嘉宾')}}</h2>
+    
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/zhouqi.jpg')}}" alt="{{=_('Zoom.Quiet')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/chenshixin_2013.png')}}" alt="{{=_('陈世欣')}}" />
+        </div>
+    </div><!--END row-->
 
-        <div class="row underhero speakers">
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/panjy2013.jpg')}}" alt="{{=_('潘俊勇')}}" />
-            </div>
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/131111_lilu.png')}}" alt="{{=_('李路')}}" />
-            </div>
-        </div><!--END row-->
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/laiyonghao.png')}}" alt="{{=_('赖勇浩')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/shenwai.jpg')}}" alt="{{=_('沈崴')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/panjy2013.jpg')}}" alt="{{=_('潘俊勇')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131111_lilu.png')}}" alt="{{=_('李路')}}" />
+        </div>
+    </div><!--END row-->
 
 
-        <div class="row underhero speakers">
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/hongqiangning.jpg')}}" alt="{{=_('洪强宁')}}" />
-            </div>
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/liyinghui.jpg')}}" alt="{{=_('李迎辉')}}" />
-            </div>
-        </div><!--END row-->
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/hongqiangning.jpg')}}" alt="{{=_('洪强宁')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/liyinghui.jpg')}}" alt="{{=_('李迎辉')}}" />
+        </div>
+    </div><!--END row-->
 
-        <div class="row underhero speakers">
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/ben-duyujie.jpg')}}" alt="{{=_('杜玉杰')}}" />
-            </div>
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/wangjianfeng.jpg')}}" alt="{{=_('王剑峰')}}" />
-            </div>
-        </div><!--END row-->
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/ben-duyujie.jpg')}}" alt="{{=_('杜玉杰')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/wangjianfeng.jpg')}}" alt="{{=_('王剑峰')}}" />
+        </div>
+    </div><!--END row-->
 
-        <div class="row underhero speakers">
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/nopic.gif')}}" alt="{{=_('袁昕')}}" />
-            </div>
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/nopic.gif')}}" alt="{{=_('赵磊')}}" />
-            </div>
-        </div><!--END row-->
-        
-        <div class="row underhero speakers">
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/lvshaogang.png')}}" alt="{{=_('吕召刚')}}" />
-            </div>
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/duanhuajie.png')}}" alt="{{=_('段华杰')}}" />
-            </div>
-        </div><!--END row-->
-        
-        <div class="row underhero speakers">
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/RyanYe.jpg')}}" alt="{{=_('叶剑烨')}}" />
-            </div>
-            <div class="col-lg-6">
-                <img src="{{=url_for_static('images/speakers/quxingyong.jpg')}}" alt="{{=_('屈兴永')}}" />
-            </div>
-        </div><!--END row-->
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/nopic.gif')}}" alt="{{=_('袁昕')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/nopic.gif')}}" alt="{{=_('赵磊')}}" />
+        </div>
+    </div><!--END row-->
+    
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/lvshaogang.png')}}" alt="{{=_('吕召刚')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/duanhuajie.png')}}" alt="{{=_('段华杰')}}" />
+        </div>
+    </div><!--END row-->
+    
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/RyanYe.jpg')}}" alt="{{=_('叶剑烨')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/quxingyong.jpg')}}" alt="{{=_('屈兴永')}}" />
+        </div>
+    </div><!--END row-->
 
 
     <h2 class="section-title">{{=_('媒体支持')}}</h2>
         
         {{put_data(media_data)}}
-        
+
+
+    <h2 class="section-title">{{=_('蠎人赞助')}}</h2>
+        <div class="row show-grid underhero">
+            <ul class="unstyled persons clearfix">
+                {{for p in [
+                    {'name':'张江阁', 'nickname':'胡萝卜92'},
+                    {'name':'王升优', 'nickname':'googlgoogle'},
+                    ]:}}
+                    <li><b title="{{=p['nickname']}}">{{=p['name']}}</b></li>
+                {{pass}}
+            </ul>
+        </div>
+    
     <h2 class="section-title">{{=_('社区团体')}}</h2>
         <div class="row underhero">
             <div class="col-xs-6 col-lg-4"><a target="_blank" href="http://python.cn/"><img src="{{=url_for_static('images/sponsors/CPyUG.png')}}" alt="China Python User Group" width="100" height="60" /></a></div>
