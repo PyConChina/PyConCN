@@ -245,12 +245,12 @@ data = [
 
 	{
 	    'fullname':_('屈兴永'),
-		'nickname':_('Nimo Xu'),
+		'nickname':_('Nimo Qu'),
 		'company':_('弘文教育'),
 		'position':_('产品经理'),
 		'desc':_('08年开始服务于视频娱乐、游戏公司，负责web实时定向数据抓取，实现网页游戏、视频等内容聚合。目前在学习推荐系统、内容挖掘相关知识，欢迎大家交流讨论。'),
-		'avatar':'',
-		'speech':_('待定'),
+		'avatar':'quxingyong.jpg',
+		'speech':_('内容聚合与数据抓取'),
 	},
 
 

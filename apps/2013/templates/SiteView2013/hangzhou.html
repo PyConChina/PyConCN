@@ -14,11 +14,13 @@
 {{end}}
 
 {{block content}}
-
-    <h2 class="section-title">{{=_('hangzhou日程安排')}}</h2>
-
+	<h2 class="section-title">PyConChina_杭州</h2>
+	<h4>时间: <small>12月8日(周日) 14:00-17:00</small></h4>
+	<h4>地点: <small>西湖区通普路 贝塔咖啡</small></h4>
+    <h2 class="section-title">{{=_('日程安排')}}</h2>
     {{for data, d in [(schedule_hangzhou_1208, _('2013年12月08日(星期日)')), 
         ]:}}
         {{write_schedule(data, d)}}
     {{pass}}
+
 {{end}}
