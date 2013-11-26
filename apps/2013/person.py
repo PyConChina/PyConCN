@@ -56,17 +56,6 @@ data = [
 
 
     {
-        'fullname':_('殷海明'),
-        'nickname':_(''),
-        'company':_('一家投资顾问咨询公司'),
-        'position':_('技术总监'),
-        'desc':_('关注新技术，热爱 Python, Linux，云计算，自动化交易。喜欢美食和美女。'),
-        'avatar':'???.png',
-        'speech':_('《Pandas实战体验》'),
-        'speech_desc':_(' 倾向介绍我的 Datafeed，或 Pandas，或 Python 科学计算生态 :-)'),
-    },
-
-    {
         'fullname':_('王健'),
         'nickname':_('Beckie'),
         'company':_(''),
@@ -308,6 +297,17 @@ data = [
         'speech':_('《Python 产品构建与发布指南》'),
     },
 
+
+    {
+        'fullname':_('殷海明'),
+        'nickname':_(''),
+        'company':_('一家投资顾问咨询公司'),
+        'position':_('技术总监'),
+        'desc':_('关注新技术，热爱 Python, Linux，云计算，自动化交易。喜欢美食和美女。'),
+        'avatar':'???.png',
+        'speech':_('《Pandas实战体验》'),
+        'speech_desc':_(' 倾向介绍我的 Datafeed，或 Pandas，或 Python 科学计算生态 :-)'),
+    },
 
 
     {
