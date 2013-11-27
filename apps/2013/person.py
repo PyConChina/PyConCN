@@ -30,6 +30,17 @@ data = [
         
     },
 
+    {
+        'fullname':_('翁伟'),
+        'nickname':_('问天'),
+        'company':_('Zalora South East Asia'),
+        'company_desc':_('是时尚与美妆零售商，总部设在新加坡，在印度尼西亚、马来西亚、文莱、菲律宾、泰国、越南以及中国香港等地区均有业务'),
+        'position':_('软件架构师'),
+        'desc':_('热爱美食的编程员，熟悉服务器端开发，喜欢折腾，.net转python再转php又开始转GO'),
+        'avatar':'131126_wengwei_sg.png',
+        'speech':_('《论使用Python开发推荐引擎的优越性》'),
+        'speech_desc':_('适合使用python开发推荐引擎的场景介绍以及相应的工具推荐,'),
+    },
 
     {
         'fullname':_('李路'),
