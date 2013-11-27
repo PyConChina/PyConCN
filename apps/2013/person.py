@@ -32,7 +32,7 @@ data = [
 
     {
         'fullname':_('翁伟'),
-        'nickname':_('问天'),
+        'nickname':_('Wuvist'),
         'company':_('Zalora South East Asia'),
         'company_desc':_('是时尚与美妆零售商，总部设在新加坡，在印度尼西亚、马来西亚、文莱、菲律宾、泰国、越南以及中国香港等地区均有业务'),
         'position':_('软件架构师'),
