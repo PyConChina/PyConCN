@@ -263,7 +263,7 @@ data = [
         'position':_(''),
         'desc':_('Python 中文社区创始人及 Python 技术的关键推广者之一。广受欢迎的 Ulipad 编辑器，以及 web框架 Uliweb 的作者。'),
         'avatar':'liyinghui.jpg',
-        'speech':_(' 《再再再再再再再再再再谈UliWeb》'),
+        'speech':_('《Uliweb比较与实践》'),
     },
 
     {
