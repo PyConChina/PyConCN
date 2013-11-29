@@ -29,6 +29,21 @@
     </div><!--END row-->
     {{pass}}
 
+<h2 class="section-title">{{=_('合作伙伴')}}</h2>
+    
+    {{for row in get_data(partners_data):}}
+    <div class="row show-grid">
+        <div class="col-lg-4"><a target="_blank" href="{{=row.get('url', '#')}}"><img src="{{=url_for_static(row.get('logo'))}}" alt="{{=row.get('name', '')}}" width="250" /></a><br />
+        </div>
+        <div class="col-lg-8">
+            {{for line in row.get('description', []):}}
+                <p>{{<< line}}</p>
+            {{pass}}
+        </div>
+    </div><!--END row-->
+    {{pass}}
+
+
 <h2 class="section-title">{{=_('媒体支持')}}</h2>
     
     {{for row in get_data(media_data):}}

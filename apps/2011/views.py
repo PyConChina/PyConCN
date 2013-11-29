@@ -12,7 +12,6 @@ class siteView(object):
         return {"year":2011, "title":"PyCon China 2011"}
     
     def about(self):
-        
         return dict(page=dict(pagename='about',cndata=''),title=pagetitle) 
     
     def schedule(self):
