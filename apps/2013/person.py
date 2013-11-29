@@ -185,7 +185,7 @@ data = [
 		'company':_('新车间'),
 		'position':_('创客'),
 		'desc':_('Python的用途多种多样, 你之前有没有听说过 ROS? 机器人的控制系统, 为什么我们不能简单的写一个程序控制步进电机? 为什么在机器人的世界里我们又遇到了框架问题'),
-		'avatar':'???.jpg',
+		'avatar':'131129_zhaolei.JPG',
 		'speech':_('《Robot Operating System 机器人系统简介》'),
 	},
 
