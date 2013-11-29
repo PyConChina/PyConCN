@@ -91,11 +91,11 @@ data = [
     {
         'fullname':_('黄毅'),
         'nickname':_('codeplayer'),
-        'company':_('???'),
-        'position':_('???'),
-        'desc':_('???'),
-        'avatar':'???.jpg',
-        'speech':_('《Python性能优化实践》'),
+        'company':_('深圳云悦科技'),
+        'position':_('技术负责人'),
+        'desc':_('深圳手游公司，上线游戏有《圣将三国Online》python 代码性能分析，以及cython的使用'),
+        'avatar':'huangyi_1.jpeg',
+        'speech':_('《Python 代码性能分析》'),
     },
 
     {
