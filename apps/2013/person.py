@@ -175,7 +175,7 @@ data = [
 		'company':_('创业中'),
 		'position':_('??'),
 		'desc':_('他在独自创业后运营自媒体编程教室, 主要推广python语言'),
-		'avatar':'???.jpg',
+		'avatar':'131130_sh_yuanxin.png',
 		'speech':_('《编程教室的一些故事》'),
 	},
 	
