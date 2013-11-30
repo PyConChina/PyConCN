@@ -268,55 +268,70 @@ data = [
     },
 
     {
-	    'fullname':_('程辉'),
-		'nickname':_(''),
-		'company':_('SINA'),
-		'position':_('新浪OpenStack公有云平台(SWS)负责人'),
-		'desc':_('新浪云计算技术经理，目前是OpenStack中国社区的管理员，同时也是新浪OpenStack公有云平台(SWS)负责人。2012年8月当选为OpenStack基金会董事会成员。'),
-		'avatar':'huicheng.jpg',
-		'speech':_('《基于OpenStack建设公有云平台的开发实践》'),
-	},
-
-    {
         'fullname':_('卢亿雷'),
         'nickname':_(' '),
-        'company':_('???'),
-        'position':_('???'),
-        'desc':_('???'),
-        'avatar':'???.jpg',
-        'speech':_('《Python在广告监测数据中的分析应用》'),
+        'company':_('AdMaster'),
+        'position':_('高级技术总监'),
+        'desc':_('曾在联想研究院联想网盘、百度基础架构部、Carbonite China工作，06年研究生毕业后一直从事分布式存储架构，大数据挖掘分析相关工作。对分布式存储和分布式计算、超大集群等有较多实践经验，对Lustre，HDFS，HBase，MapReduce，MongoDB等有比较多的理解。有两个发明专利，《一种分布式文件系统及其数据访问方法》和《一种数据备份的版本管理方法及装置》。'),
+        'avatar':'131130_bj_lyd.png',
+        'speech':_('《Python在广告监测数据中的分析应用Python在广告监测数据中的分析应用》'),
     },
 
     {
         'fullname':_('梁瀚'),
         'nickname':_(' '),
         'company':_('???'),
-        'position':_('???'),
-        'desc':_('???'),
-        'avatar':'???.jpg',
+        'position':_('Server Engine/Tool Engineer'),
+        'desc':_('High Noon是实时PvP网络对战手游，玩家可以跟世界各地的所有玩家对战，因此服务器并无分组概念，这就要求服务器高稳定高可扩展。我们将跟大家分享服务器开发过程中遇到的挑战以及我们的解决方案，以及相关经验和教训'),
+        'avatar':'131130_bj_lh.png',
         'speech':_('《网络射击手游High Noon 2基于Python的服务器架构》'),
     },
 
     {
         'fullname':_('潘凌涛'),
         'nickname':_(' '),
-        'company':_('???'),
-        'position':_('???'),
-        'desc':_('???'),
-        'avatar':'???.jpg',
+        'company':_('北京海文互知网络技术有限公司'),
+        'position':_('CEO'),
+        'desc':_('2010年毕业于清华大学计算机系，曾任于网易有道。 介绍 Seafile 的特点， Seafile 系统的架构，一路上使用 Python 的经验，项目的现状和展望'),
+        'avatar':'131130_bj_plt.png',
         'speech':_('《介绍 Seafile，开源、专业的私有云存储》'),
     },
 
     {
         'fullname':_('黄昆'),
         'nickname':_(' '),
-        'company':_('???'),
-        'position':_('???'),
-        'desc':_('???'),
+        'company':_('UnitedStack'),
+        'position':_('工程师'),
+        'desc':_('做为基于python的大型项目，openstack不仅仅在云计算的领域翻天覆地，而且也在python的世界里增添了大量新鲜的血液。这次讲座将以部署加简单应用一个openstack环境为线索，来介绍openstack本身和它与python的联系。'),
         'avatar':'???.jpg',
-        'speech':_('《   python in openstack》(codelab)'),
+        'speech':_('《python in openstack》(codelab)'),
     },
 
+
+    {
+        'fullname':_('邹义鹏'),
+        'nickname':_('??'),
+        'company':_('??'),
+        'position':_('???'),
+        'desc':_('崇尚简单、高效的工作方式，热衷于尝试新技术，致力于安全后台自动化程度的持续提升。'),
+        'avatar':'???.jpg',
+        'speech':_('《 Python 隐藏的玄机 》'),
+    },
+
+    {
+        'fullname':_('陆研'),
+        'nickname':_('去哪儿'),
+        'company':_('??'),
+        'position':_('???'),
+        'desc':_('??'),
+        'avatar':'???.jpg',
+        'speech':_('《 从底层系统到产品应用——Python在去哪儿实际生产中的实践 》'),
+    },
+
+
+
+
+    
 ##############################################################################
 #
 #   失效  讲师信息
@@ -376,5 +391,15 @@ data = [
         'speech':_('《国外 Py 社区的组织以及技术发展特点》'),
     },
 
+
+    {
+        'fullname':_('程辉'),
+        'nickname':_(''),
+        'company':_('SINA'),
+        'position':_('新浪OpenStack公有云平台(SWS)负责人'),
+        'desc':_('新浪云计算技术经理，目前是OpenStack中国社区的管理员，同时也是新浪OpenStack公有云平台(SWS)负责人。2012年8月当选为OpenStack基金会董事会成员。'),
+        'avatar':'huicheng.jpg',
+        'speech':_('《基于OpenStack建设公有云平台的开发实践》'),
+    },
     
 ]
