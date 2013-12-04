@@ -298,15 +298,24 @@ data = [
     },
 
     {
+        'fullname':_('薛斌雷'),
+        'nickname':_(' '),
+        'company':_('北京立仁泰华商贸中心'),
+        'position':_('电气销售工程师'),
+        'desc':_('曾任职淘宝, 毕业后选择转入电气自动化行业. 白天上班, 晚上coding. Python狂热者, 非常爱折腾, 对新鲜事物没有抵抗力.我们通常使用pip或者easy_install搭配virtualenv来安装依赖, 但是site-packages看起来很乱, 而且依赖升级不方便. Buildout给了我们一种全新的管理方式, 依赖都转化成.egg文件, 所有的东西可以像maven一样写在配置文件里面. 不光如此, 利用它的recipe机制, 你可以做任何你想做到的事情'),
+        'avatar':'131204_bj_xuebinlei.png',
+        'speech':_('《使用buildout管理项目)'),
+    },
+
+    {
         'fullname':_('黄昆'),
         'nickname':_(' '),
         'company':_('UnitedStack'),
         'position':_('工程师'),
         'desc':_('做为基于python的大型项目，openstack不仅仅在云计算的领域翻天覆地，而且也在python的世界里增添了大量新鲜的血液。这次讲座将以部署加简单应用一个openstack环境为线索，来介绍openstack本身和它与python的联系。'),
-        'avatar':'???.jpg',
+        'avatar':'131204_bj_huangkun.png',
         'speech':_('《python in openstack》(codelab)'),
     },
-
 
     {
         'fullname':_('邹义鹏'),
