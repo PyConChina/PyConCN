@@ -14,6 +14,7 @@ code_dir = '/opt/app/PyConCN'
 def deploy():
     with cd(code_dir):
         run('git pull')
+        run('/opt/sbin/_package_linux_amd64/qrsync -skipsym /opt/sbin/7niu-conf.json')
         run('bin/uliweb exportstatic static')
         restart()
 
