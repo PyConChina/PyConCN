@@ -216,6 +216,8 @@ data = [
         'avatar':'duanhuajie.png',
         'speech':_('《如何在2天内开发一个校园招聘系统-python在大众点评中的应用》'),
     },
+
+
     {
         'fullname':_('曹文炯'),
         'nickname':_(''),
@@ -226,6 +228,47 @@ data = [
         'speech':_('《小清新的文艺复兴 --Python与堆糖的工业化实践》'),
     },
 
+    {
+        'fullname':_('Yusei TAHARA'),
+        'nickname':_(''),
+        'company':_('Nexedi'),
+        'position':_('CEO'),
+        'desc':_('...'),
+        'avatar':'131205_sh_yusei.png',
+        'speech':_('《 没有文件系统的Python 》'),
+    },
+
+
+    {
+        'fullname':_('KJ'),
+        'nickname':_(''),
+        'company':_(' '),
+        'position':_(' '),
+        'desc':_('...'),
+        'avatar':'131205_sh_KJ_1.jpg',
+        'speech':_('《 Python 社区产品的更新 》'),
+    },
+
+
+    {
+        'fullname':_('Hsiaoming Yang'),
+        'nickname':_(''),
+        'company':_(' '),
+        'position':_(' '),
+        'desc':_('...'),
+        'avatar':'???.png',
+        'speech':_('《 Me & Open Source 》'),
+    },
+
+    {
+        'fullname':_('Adieu'),
+        'nickname':_(''),
+        'company':_(' '),
+        'position':_(' '),
+        'desc':_('...'),
+        'avatar':'??.png',
+        'speech':_('《 用docker+buildbot+git来实现持续集成以及服务部署的经验 》'),
+    },
 ##############################################################################
 #
 #   杭州  讲师信息
