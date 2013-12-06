@@ -245,7 +245,7 @@ data = [
         'company':_(' '),
         'position':_(' '),
         'desc':_('...'),
-        'avatar':'???.png',
+        'avatar':'Hsiaoming.jpg',
         'speech':_('《 Me & Open Source 》'),
     },
 
@@ -255,7 +255,7 @@ data = [
         'company':_(' '),
         'position':_(' '),
         'desc':_('...'),
-        'avatar':'??.png',
+        'avatar':'adieu.png',
         'speech':_('《 用docker+buildbot+git来实现持续集成以及服务部署的经验 》'),
     },
 ##############################################################################
