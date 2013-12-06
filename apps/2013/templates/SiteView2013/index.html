@@ -264,15 +264,16 @@ $(function(){
     <h2 class="section-title">{{=_('蠎人赞助')}}</h2>
         <div class="row show-grid underhero">
             <ul class="unstyled persons clearfix">
-                {{for p in [
-                    {'name':'张江阁', 'nickname':'胡萝卜92'},
-                    {'name':'王升优', 'nickname':'googlgoogle'},
+{{for p in [
+    {'name':'张江阁', 'nickname':'胡萝卜92'},
+    {'name':'王升优', 'nickname':'googlgoogle'},
 
-                    {'name':'郭勇', 'nickname':'wolfg'},
-                    
-                    {'name':'tuds', 'nickname':'tuds'},
+    {'name':'郭勇', 'nickname':'wolfg'},
+    
+    {'name':'tuds', 'nickname':'tuds'},
+    {'name':'詹青朋', 'nickname':'小朋光年'},
 
-                    ]:}}
+    ]:}}
                     <li><b title="{{=p['nickname']}}">{{=p['name']}}</b></li>
                 {{pass}}
             </ul>
