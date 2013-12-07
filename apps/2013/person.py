@@ -220,7 +220,7 @@ data = [
     {
         'fullname':_('Yusei TAHARA'),
         'nickname':_(''),
-        'company':_('Nexedi'),
+        'company':_('Nexedi KK'),
         'position':_('CEO'),
         'desc':_('...'),
         'avatar':'131205_sh_yusei.png',
