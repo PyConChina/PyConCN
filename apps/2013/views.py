@@ -36,7 +36,8 @@ class SiteView2013(object):
                     title=pagetitle)
 
     def registration(self):
-        return redirect('/2013')
+        return dict(page=dict(pagename='registration', cndata=''),
+                    title=pagetitle)
 
     def sponsors(self):
         return dict(page=dict(pagename='sponsors', cndata=''),
