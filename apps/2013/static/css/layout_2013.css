@@ -48,3 +48,7 @@ footer{
     border-top-color: #eee;
     border-bottom-color: #eee;
 }
+img, video, audio, embed {
+  max-width:100%;
+  height:auto !important;
+}
