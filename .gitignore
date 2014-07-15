@@ -9,3 +9,4 @@ local/
 .python-version
 local_settings.ini
 ppt/
+.idea/

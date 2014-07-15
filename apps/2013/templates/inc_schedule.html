@@ -1,6 +1,6 @@
 <script>
 $(function(){
-    $.get('/'+ {{=year}} +'/speakers', function(data){
+    $.get('/'+ {{=year}} +'/speakers.json', function(data){
         var $tds = $("tr td:nth-child(3)");
         $tds.each(function(i, e){
             var speaker;

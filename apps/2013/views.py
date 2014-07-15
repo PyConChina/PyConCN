@@ -47,6 +47,7 @@ class SiteView2013(object):
         return dict(page=dict(pagename='volunteer', cndata=''),
                     title=pagetitle)
 
+    @expose('speakers.json')
     def speakers(self):
         from person import data
         return json(data)
