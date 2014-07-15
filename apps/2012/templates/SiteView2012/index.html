@@ -13,7 +13,7 @@
 <script type="text/javascript" src="{{=url_for_static('js/index.js')}}"></script>
 <script>
 function load_person(year){
-    $.get('/'+year+'/speakers', function(data){
+    $.get('/'+year+'/speakers.json', function(data){
         var $imgs = $(".speakers img");
         $imgs.each(function(i, e){
             var speaker;
