@@ -1,9 +1,12 @@
 *.pyc
+*.log
+_html/
 bin/
 include/
 lib/
 local/
 .DS_Store
+.python-version
 local_settings.ini
 ppt/
 .idea/
