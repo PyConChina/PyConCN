@@ -1,0 +1,54 @@
+body {margin-top:45px;}
+footer{
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    color: #777;
+    border-top: 1px solid #E5E5E5;
+}
+.section-title{
+    border-bottom: 1px solid #E5E5E5;
+}
+.section-title:before {
+    content: '# ';
+}
+.speakers img{
+    float: left;
+    max-width: 45%;
+    margin-right: 5%;
+    border: 2px solid #EEE;
+}
+.jumbotron img {
+    float: left;
+    max-width: 200px;
+    margin-right: 20px;
+}
+.underhero {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EEE;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    color: #FFF;
+    background-color: #2A6496;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #FFF;
+    background-color: #2A6496;
+}
+.navbar-inverse {
+    background-color: #3276B1;
+    border-color: #285E8E;
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+    color: #eee;
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-top-color: #eee;
+    border-bottom-color: #eee;
+}
+img, video, audio, embed {
+  max-width:100%;
+  height:auto !important;
+}

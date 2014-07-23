@@ -1,0 +1,91 @@
+{{extend "layout2014.html"}}
+
+{{block menu}}
+  {{menu('volunteer','MENUS2014')}}
+{{end}}
+
+
+{{block meta}}
+<link rel="stylesheet" type="text/css" href="{{=url_for_static('css/volunteer.css')}}" />
+{{end}}
+
+{{block content}}
+<h2 class="section-title">{{=_('志愿者')}}</h2>
+<p>{{=_('PyCon大会的召开离不开志愿者们的共同努力，同时，如果您愿意加入志愿者的队伍，请与PyCon组委会(邮件:stingchen@topgeek.org)联系。志愿者可以免除一部分参会费用，并且在大会官网的“志愿者”页面展示个人照片及简介。')}}</p>
+
+{{
+data = [
+    {
+        'name':_('StingChen(陈世欣)'),
+        'description':[
+            _('永泰红磡养老产业投资集团的信息技术总监'),
+            _('在14年的互联网生涯后，投身到到永泰红磡养老产业投资集团做夕阳事业，跨界发展。他是TopGeek技术社区的创办人也是上海GDG的负责人，并参与CPyUG社区的管理。还发起PMCamp产品经理社区，儿童社区乐创园等。 (微博 <a target="_blank" href="http://t.sina.com.cn/pmcamp">http://t.sina.com.cn/pmcamp</a>，博客 <a target="_blank" href="http://pmcamp.org">http://pmcamp.org</a>)'),
+        ],
+        'blog': 'http://sting.topgeek.org/',
+        'weibo': 'http://weibo.com/stingchen',
+        'image': 'images/volunteer/chenshixin_2013.png',
+    },
+    {
+        'name':_('Zoom.Quiet(大妈)'),
+        'description':[
+            _('Python 中文社区创始人 / 管理员，热心于python社区的公益事业，大家熟知的社区"大妈"；OBP及蟒营工程设计者 /主持人；参与并主持各种线上 / 线下活动，主持编撰了《可爱的Python》；坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造！目前就职于金山软件。'),
+        ],
+        'blog': 'http://blog.zoomquiet.org/',
+        'weibo': 'http://weibo.com/zoomquiet',
+        'image': 'images/volunteer/zhouqi.png',
+    },
+    {
+        'name':_('Limodou(李迎辉)'),
+        'description':[
+            _('Python 中文社区创始人 / 管理员，Python 技术的关键推广者之一。广受欢迎的 Ulipad 编辑器，以及 web框架 Uliweb 的作者。'),
+        ],
+        'blog': 'http://my.oschina.net/limodou/blog',
+        'weibo': 'http://weibo.com/u/1689940061',
+        'image': 'images/volunteer/liyinghui.jpg',
+    },
+    {
+        'name':_('Eric Lo(罗小能)'),
+        'description':[
+        _('从2008年开始接触Python并喜欢上Python, 活跃于沪上各类线下技术社区, <a target="_blank" href="http://topgeek.org">TopGeek</a>和<a target="_blank" href="http://pmcamp.org">PMCamp</a>社区组织者之一, 目前就职于东渡国际旗下的亲巢网络, 负责Web端的产品和技术.'),
+        ],
+        'blog': 'http://lxneng.com',
+        'weibo': 'http://weibo.com/lxneng',
+        'image': 'images/volunteer/lxneng.jpg',
+    },
+
+    {
+        'name':_('刘星辰'),
+        'description':[
+            _('金山办公软件公司 移动Office运营组 产品运营专员'),
+            _('2007~2011: 首都师范大学毕业;2011~至今：就职于珠海金山办公软件公司移动运营部,广泛参与移动应用市场的推广社区:机锋论坛（http://bbs.gfan.com/）安卓论坛（http://bbs.hiapk.com/）豆瓣/stackoverflow/G+/facebook/twitter'),
+        ],
+        'blog': '',
+        'weibo': '',
+        'image': 'images/volunteer/liuxingchen.jpg',
+    },
+
+]
+}}
+
+{{for row in data:}}
+<div class="container">
+<div class="row underhero speakers">
+    <a target="_blank" href="{{=row['blog']}}"><img src="{{=url_for_static(row['image'])}}" alt="{{=row['name']}}" width="200" /></a>
+        <h4>{{=row['name']}}</h4>
+        {{for line in row['description']:}}
+            <p>{{<< line}}</p>
+        {{pass}}
+        <p>
+            {{if row['blog']:}}
+                <strong>{{=_('博客：')}}</strong><a target="_blank" href="{{=row['blog']}}">{{=row['blog']}}</a><br/>
+            {{pass}}
+            {{if row['weibo']:}}
+                <strong>{{=_('微博：')}}</strong><a target="_blank" href="{{=row['weibo']}}">{{=row['weibo']}}</a><br/>
+            {{pass}}
+        </p><!--END span-->
+</div>
+</div><!--END row-->
+{{pass}}
+
+
+{{end}}

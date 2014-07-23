@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{block title}}{{=title}}{{end}}</title>
+        <link href="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/layout.css')}}" />
+        <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/layout_2013.css')}}" />
+        <script src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
+        {{block meta}}
+        {{end}}
+    </head>
+    <body>
+        {{include "menu.html"}}
+        {{block topbar}}
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" style="background:url({{=settings.LAYOUT.LOGO}}) no-repeat; padding-left:45px;" href="/">{{block title}}{{=title}}{{end}}</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    {{block nav}}
+                    <ul class="nav navbar-nav">
+                        {{block menu}}
+                        {{menu('home')}}
+                        {{end}}
+                        <li><a href="http://weibo.com/pyconcn" target="_blank"><span>官方微博</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">往年大会 <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/2013">PyConChina 2013</a></li>
+                                <li><a href="/2012">PyConChina 2012</a></li>
+                                <li><a href="/2011">PyConChina 2011</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    {{end}}
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+    {{end}}
+
+
+    {{block container}}
+    <div class="container">
+        {{block content}}
+        {{end}}
+    </div>
+    {{end}}
+
+    <footer>
+        <div class="container">
+            <p>
+                <b>PyCon China 2014</b><br/>Site built by <a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPyUG</a> using <a href="https://github.com/limodou/uliweb">UliWeb</a>, <a href="http://www.jquery.com/">jQuery</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://www.nginx.org/">Nginx</a>&amp;<a href="http://gunicorn.org/">gunicorn</a> as Web Server.<br/>Website CDN provider: <a href="http://www.qiniu.com/">七牛云存储</a> <br/><a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0</a>
+            </p>
+        </div>
+    </footer>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-26284394-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <script>$.ajaxSetup({cache:false, traditional:true});</script>
+</body>
+</html>

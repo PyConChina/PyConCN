@@ -1,0 +1,32 @@
+{{extend "layout2014.html"}}
+
+{{block menu}}
+  {{menu('zhuhai','MENUS2014')}}
+{{end}}
+
+{{block meta}}
+<script type="text/javascript">
+    LANG = "{{=_('cn')}}"
+</script>
+<link rel="stylesheet" type="text/css" href="{{=url_for_static('css/schedule.css')}}" />
+{{include "inc_schedule.html"}}
+{{include "SiteView2014/inc_data.html"}}
+{{end}}
+
+{{block content}}
+	<h2 class="section-title">PyConChina_珠海</h2>
+	<h4>时间: <small>2013年12月08日 9:30 ~ 17:30</small>
+        地点: <small>金山软件大厦</small>
+
+    <h2 class="section-title">{{=_('实际日程')}}</h2>
+
+    {{for data, d in [(schedule_zh_1208, _('2013年12月8日(星期日)')),
+        ]:}}
+        {{write_schedule(data, d)}}
+    {{pass}}
+
+<a href="http://zhgdg.gitcafe.com/2013-12/et16-pycon-zh/">
+    <img src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/PyCon2013ZH_mm.png"/>
+</a>
+{{end}}
+

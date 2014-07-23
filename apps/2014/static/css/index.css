@@ -1,0 +1,65 @@
+/*
+    Styles for PyCon China Offical Website
+    Author: Datong Sun (Dndx)
+    Blog: idndx.com
+    Version: 2011.10.31
+*/
+@charset "utf-8";
+.hero-unit{overflow:hidden;}
+#hero-selector{float:right; position:relative; top:25px;}
+#content{width:99999px; position:relative;}
+.hero-content{float:left; width:1280px; margin-right:60px;}
+#hero-selector.show-grid [class*="span"] {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    line-height: 15px;
+    min-height: 15px;
+    text-align: center;
+    font-size:16px;
+    color:#999;
+}
+#hero-selector.show-grid > div {
+  -webkit-transition: background-color linear 0.2s;
+  -moz-transition: background-color linear 0.2s;
+  -ms-transition: background-color linear 0.2s;
+  -o-transition: background-color linear 0.2s;
+  transition: background-color linear 0.2s;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+#hero-selector.show-grid > div{cursor:pointer;}
+#hero-selector.show-grid > div:hover{background-color:#bdd5ff;}
+#hero-selector.show-grid > div.active{background-color:#049CDB; font-weight:bold; cursor:default; color:#000;}
+.span6 p{line-height:20px;}
+.sub_schedule{display:none;}
+.has_sub_schedule{cursor:pointer;}
+.sub_schedule{cursor:text;}
+
+#first-hero img {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+#second-hero h2{border:none;}
+
+#third-hero{margin-left:20px;}
+#third-hero img{margin-bottom:10px;}
+
+.hero-content h1{font-family:Stencil,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:48px;}
+.hero-content h2{margin-top:10px;margin-bottom:10px;padding:0;}
+.hero-content p{font-size: 18px;font-weight:200;}
+
+.underhero h2 {border:none; text-align:right; padding:0;}
+.underhero {margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #EEEEEE;}
+.underhero img{border:1px solid #FFF;}
+.underhero img:hover{border:1px solid #EEEEEE;}
+
+.speakers img{width:100px; float:left; margin-right:1em;}
+
+.persons li{float:left; line-height:25px;padding:2px;margin-right:4px;}
+.persons li b, .persons li span{font-size:16px;}
+.persons li b:hover, .persons li span:hover{border-bottom:1px solid #D26911;}

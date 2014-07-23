@@ -1,0 +1,84 @@
+{{extend "layout2014.html"}}
+
+{{block menu}}
+  {{menu('registration','MENUS2014')}}
+{{end}}
+
+{{block content}}
+<h2 class="section-title">{{=_('报名注册')}}</h2>
+
+<div class="bold" style="height:40px;float:left;">{{=_('大会时间')}}：</div>
+<table class="table table-striped table-bordered">
+        <tr>
+            <th>{{=_('会场')}}</th>
+            <th>{{=_('时间')}}</th>
+            <th>{{=_('地点')}}</th>
+            <th>{{=_('报名')}}</th>
+        </tr>
+        <tr>
+            <td>{{=_('北京')}}</td>
+            <td>{{=_('2013年12月14日 9:30 - 17:30')}}</td>
+            <td>{{=_('中国科学院中关村园区教学楼(北四环保福寺桥南恒兴大厦向西200米)  S201教室')}}</td>
+            <td><button class="btn btn-inverse">{{=_('报名已关闭')}}</button> </td>
+
+        </tr>
+        <tr>
+            <td>{{=_('上海')}}</td>
+            <td>{{=_('2013年12月08日 09:00 - 17:00')}}</td>
+            <td>{{=_('浦东新区博云路2号浦软大厦')}}</td>
+            <td><button class="btn btn-inverse">{{=_('大会已结束')}}</button> </td>
+        </tr>
+        <tr>
+            <td>{{=_('珠海')}}</td>
+            <td>{{=_('2013年12月08日 9:30 - 17:30')}}</td>
+            <td>{{=_('金山软件大厦')}}</td>
+            <td><button class="btn btn-inverse">{{=_('大会已结束')}}</button> </td>
+
+
+        </tr>
+        <tr>
+            <td>{{=_('杭州')}}</td>
+            <td>{{=_('2013年12月08日 14:00 - 17:00')}}</td>
+            <td>{{=_('西湖区通普路 贝塔咖啡')}}</td>
+            <td><button class="btn btn-inverse">{{=_('大会已结束')}}</button> </td>
+        </tr>
+
+</table>
+
+<p><span class="bold">{{=_('与会人数')}}：</span>
+    <b>{{=_('> 1142人')}}</b>
+    </p>
+
+<p><span class="bold">{{=_('参会人员')}}：</span>{{=_('认同 Pythonic 精神的实践者, CPyUG 的华蠎行者, 主动推广Python 的Pythonner, 日常开发习惯Python的Pythonista, Python初学小伙伴,和对Python 有感兴趣的好人...')}}</p>
+
+
+
+
+<h2 class="section-title">{{=_('小额捐赠和赞助说明')}}</h2>
+<br />
+
+
+<ul>
+    <li>{{=_('个人小额捐赠100元起，可以进入到cn.pycon.org官网 - 热心蟒人榜')}}</li>
+    <li>{{=_('嘉宾和志愿者也通过自己的独特贡献进入到热心蟒人榜。')}}</li>
+    <li>{{=_('捐赠通过淘宝店实现：')}}<a href="http://item.taobao.com/item.htm?spm=a1z10.3.w4002-1248026241.18.JfxMBq&id=36132563312">{{=_('点击捐助100元')}}
+        <img src="{{=url_for_static('images/sponsors/donate.png')}}" alt="donate" width="90"/>
+        </a>
+    </li>
+    <li>{{=_('而企业捐赠则是两种途径：')}}
+        <ol>
+            <li>{{=_('购买600元的"小团队赞助"')}}，<a href="http://item.taobao.com/item.htm?spm=a1z10.3.w4002-1248026241.21.JfxMBq&id=36132863427">{{=_('点击捐助600元')}}
+                <img src="{{=url_for_static('images/sponsors/donate.png')}}" alt="donate" width="90"/>
+                </a>
+            </li>
+            <li>{{=_('赞助，请邮件联系大会赞助负责人')}} <a class="btn btn-info" href="mailto:stingchen@topgeek.org">stingchen@topgeek.org</a>
+            </li>
+        </ol>
+    </li>
+</ul>
+
+
+
+{{end}}
+
+

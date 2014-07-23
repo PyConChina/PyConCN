@@ -1,0 +1,26 @@
+{{extend "layout2014.html"}}
+
+{{block menu}}
+  {{menu('home','MENUS2014')}}
+{{end}}
+
+{{block meta}}
+{{end}}
+
+{{block content}}
+<h1>{{=_('大会集锦')}}</h1>
+<h3>{{=_('PyCon China 2011 于12月4日完美落幕。')}}</h3>
+<h4>{{=_('会议现场照片请移步')}} <a target="_blank" href="http://www.yupoo.com/photos/pycon/albums/4808251/">PyCon China 2011 {{=_('又拍相册')}}</a></h4>
+<h4>{{=_('会议视频回放请移步')}} <a target="_blank" href="http://live.topgeek.org/">The PyCon China 2011 Playback</a></h4>
+<h4>{{=_('演讲Keynote下载请移步')}} <a href="/2011/schedule">{{=_('官网“日程安排”页面')}}</a></h4>
+<h4>{{=_('媒体报道请移步')}} <a href="/2011/about">{{=_('官网“关于大会”页面')}}</a></h4>
+
+<hr />
+
+<h3>{{=_('会议中涉及的开源项目地址：')}}</h3>
+    <ul>
+        <li><a href="https://github.com/pyhunterpig/PyConCN/tree/enversion" target="_blank">{{=_('PyCon China 2011 官网开源项目')}}</a> - {{=_('快速演讲：《PyCon China官网的开发及搭建》')}}</li>
+        <li><a href="https://github.com/adieu/xunlei/" target="_blank">{{=_('迅雷离线脚本Python版')}}</a> - {{=_('快速演讲：《用Python改进迅雷离线 — A Python Successful Story》')}}</li>
+        <li><a href="https://github.com/adieu/xbmc-xunlei" target="_blank">{{=_('迅雷离线XBMC插件')}}</a> - {{=_('快速演讲：《用Python改进迅雷离线 — A Python Successful Story》')}}</li>
+    </ul>
+{{end}}

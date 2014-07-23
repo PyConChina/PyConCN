@@ -1,0 +1,86 @@
+{{extend "layout2014.html"}}
+{{block menu}}
+  {{menu('sponsors','MENUS2014')}}
+{{end}}
+{{block meta}}
+<link rel="stylesheet" type="text/css" href="{{=url_for_static('css/sponsors.css')}}" />
+{{end}}
+
+{{block content}}
+{{include "SiteView2014/inc_data.html"}}
+
+    <h2 class="section-title">{{=_('赞助商')}}</h2>
+
+    <p>{{=_('赞助商为PyCon大会的成功举办提供了必不可少的支持。同时，如果您和您的公司愿意支持中国Python社区的交流事业，请与PyCon组委会(邮件:stingchen@topgeek.org)联系，赞助商在大会官网的首页及“赞助商”页面展示您的公司Logo及简介。')}}</p>
+
+    {{for row in get_data(sponsors_data):}}
+    <div class="row show-grid">
+        <div class="col-xs-6 col-lg-4">
+            <a target="_blank" href="{{=row.get('url', '#')}}"><img src="{{=url_for_static(row.get('logo'))}}" alt="{{=row.get('name', '')}}" width="250" /></a><br />
+        </div>
+        <div class="col-xs-6 col-lg-1" style="margin-top:25px;">
+            <img src="{{=url_for_static(row['level_image'])}}" title="{{=row['level_title']}}"/>
+        </div>
+        <div class="col-lg-7">
+            {{for line in row.get('description', []):}}
+                <p>{{<< line}}</p>
+            {{pass}}
+        </div>
+    </div><!--END row-->
+    {{pass}}
+
+<h2 class="section-title">{{=_('合作伙伴')}}</h2>
+
+    {{for row in get_data(partners_data):}}
+    <div class="row show-grid">
+        <div class="col-lg-4"><a target="_blank" href="{{=row.get('url', '#')}}"><img src="{{=url_for_static(row.get('logo'))}}" alt="{{=row.get('name', '')}}" width="250" /></a><br />
+        </div>
+        <div class="col-lg-8">
+            {{for line in row.get('description', []):}}
+                <p>{{<< line}}</p>
+            {{pass}}
+        </div>
+    </div><!--END row-->
+    {{pass}}
+
+
+<h2 class="section-title">{{=_('媒体支持')}}</h2>
+
+    {{for row in get_data(media_data):}}
+    <div class="row show-grid">
+        <div class="col-lg-4"><a target="_blank" href="{{=row.get('url', '#')}}"><img src="{{=url_for_static(row.get('logo'))}}" alt="{{=row.get('name', '')}}" width="250" /></a><br />
+        </div>
+        <div class="col-lg-8">
+            {{for line in row.get('description', []):}}
+                <p>{{<< line}}</p>
+            {{pass}}
+        </div>
+    </div><!--END row-->
+    {{pass}}
+
+<h2 class="section-title">{{=_('社区团体')}}</h2>
+
+    <div class="row show-grid" style="text-align:center;">
+        <div class="col-xs-4 col-lg-4"><a target="_blank" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="China Python User Group"><img src="{{=url_for_static('images/sponsors/CPyUG.png')}}" alt="China Python User Group" width="100" height="60" /></a></div>
+        <div class="col-xs-4 col-lg-4"><a target="_blank" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="Beijing Python User Group"><img src="{{=url_for_static('images/sponsors/beijing_pug.png')}}" alt="Beijing Python User Group" width="100" height="60" /></a></div>
+        <div class="col-xs-4 col-lg-4"><a target="_blank" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="Changsan Jiao Python User Group"><img src="{{=url_for_static('images/sponsors/changsanjiao_pug.png')}}" alt="Changsan Jiao Python User Group" width="150"  /></a></div>
+    </div><!--END grid-->
+
+    <div class="row" style="text-align:center;margin-top:18px;">
+
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://weibo.com/shgdg"><img src="{{=url_for_static('images/sponsors/GDGShanghai.jpg')}}" alt="GDG Shanghai" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="https://plus.google.com/u/0/113382777332300419074/about"><img src="{{=url_for_static('images/sponsors/ZH_GDG_Logo_b_h80.png')}}" alt="GDG Zhuhai" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://weibo.com/gtug"><img src="{{=url_for_static('images/sponsors/Bejing_GDG_Logo_w200.jpg')}}" alt="GDG Beijing" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://www.hzgdg.org"><img src="{{=url_for_static('images/sponsors/HZGDG.jpg')}}" alt="Hangzhou GDG" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://topgeek.org/"><img src="{{=url_for_static('images/sponsors/topgeek.gif')}}" alt="Topgeek.org" width="150" /></a></div>
+
+
+    </div><!--END grid-->
+
+
+{{end}}

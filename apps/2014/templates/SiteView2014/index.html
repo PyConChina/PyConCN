@@ -1,0 +1,336 @@
+{{extend "layout2014.html"}}
+{{block title}}PyCon China 2014{{end}}
+
+{{block menu}}
+  {{menu('home','MENUS2014')}}
+{{end}}
+{{block meta}}
+<link rel="stylesheet" type="text/css" href="{{=url_for_static('css/index.css')}}" />
+<script type="text/javascript" src="{{=url_for_static('js/QTransform.js')}}"></script>
+<script type="text/javascript">
+    LANG = "{{=_('cn')}}"
+</script>
+<script type="text/javascript" src="{{=url_for_static('js/index.js')}}"></script>
+<script>
+function load_person(year){
+    $.get('/'+year+'/speakers.json', function(data){
+        var $imgs = $(".speakers img");
+        $imgs.each(function(i, e){
+            var speaker;
+            var fullname = $(e).attr('alt');
+            for (var i=0; i<data.length; i++){
+                if (data[i].fullname == fullname){
+                    speaker = data[i];
+                    break;
+                }
+            }
+            var html = "";
+            if (speaker.nickname){
+                html += '<h4>' + speaker.nickname + '(' + fullname + ')</h4>';
+            }else{
+                html += '<h4>' + fullname + '</h4>';
+            }
+            html += "<strong>"+"{{=_('主题：')}}"+"</strong>" + speaker.speech + '<br />';
+            if (speaker.company){
+                html += "<strong>"+"{{=_('组织：')}}"+"</strong>" + speaker.company + '<br />';
+            }
+            if (speaker.position){
+                html += "<strong>"+"{{=_('头衔：')}}"+"</strong>" + speaker.position + '<br />';
+            }
+            html += "<strong>"+"{{=_('简介：')}}"+"</strong>" + speaker.desc;
+            html += '<div style="clear:both; "></div>'
+            $(html).insertAfter(e)
+        })
+    })
+}
+
+$(function(){
+    load_person({{=year}});
+});
+</script>
+{{end}}
+
+{{block container}}
+{{include "SiteView2014/inc_data.html"}}
+
+<style>
+#main_container {padding:0;margin-top:35px;}
+.background {background-color:#d1e5ee;maring:0;padding-top:20px;padding-bottom:60px;overflow: hidden;}
+.table td {vertical-align:middle;}
+</style>
+<div class="jumbotron">
+      <div class="container">
+        <img src="{{=url_for_static('images/PyCon2013CHIna_logo_w200.png')}}" alt="PyCon China 2013" />
+        <h1>PyCon China 2014</h1>
+        <p>世界Pythonista 的品牌盛会PyCon! 由Python软件基金会下的PyCon.org授权中国办第三届PyCon China大会。本次大会由TopGeek、CPyUG、GDG在上海、北京、珠海、杭州同时举办。
+
+      </div>
+</div>
+<div class="container">
+
+    <h2 class="section-title">{{=_('大会赞助商')}}</h2>
+
+    {{put_data(sponsors_data)}}
+
+    <h2 class="section-title">{{=_('合作伙伴')}}</h2>
+
+    {{put_data(partners_data)}}
+
+    <h2 class="section-title">{{=_('各地嘉宾')}}</h2>
+
+    <h3 class="section-title">上海</h3>
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/chenshixin_2013.png')}}" alt="{{=_('陈世欣')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/hongqiangning.jpg')}}" alt="{{=_('洪强宁')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/RyanYe.jpg')}}" alt="{{=_('叶剑烨')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131130_sh_yuanxin.png')}}" alt="{{=_('袁昕')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/lvshaogang.png')}}" alt="{{=_('吕召刚')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/duanhuajie.png')}}" alt="{{=_('段华杰')}}" />
+        </div>
+    </div><!--END row-->
+
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/ben-duyujie.jpg')}}" alt="{{=_('杜玉杰')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/wangjianfeng.jpg')}}" alt="{{=_('王剑峰')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/caowenjiong.jpg')}}" alt="{{=_('曹文炯')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131205_sh_KJ_1.jpg')}}" alt="{{=_('KJ')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131205_sh_yusei.png')}}" alt="{{=_('Yusei TAHARA')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/Hsiaoming.jpg')}}" alt="{{=_('Hsiaoming Yang')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/adieu.png')}}" alt="{{=_('Adieu')}}" />
+        </div>
+    </div><!--END row-->
+
+
+
+
+
+
+
+
+
+    <h3 class="section-title">珠海</h3>
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/zhouqi.jpg')}}" alt="{{=_('Zoom.Quiet')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/laiyonghao.png')}}" alt="{{=_('赖勇浩')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/panjy2013.jpg')}}" alt="{{=_('潘俊勇')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131111_lilu.png')}}" alt="{{=_('李路')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131125_wangjian.jpg')}}" alt="{{=_('王健')}}" />
+        </div>
+            <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131123_jeff.png')}}" alt="{{=_('揭光发')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/huangyi_1.jpeg')}}" alt="{{=_('黄毅')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131126_martinliu.jpg')}}" alt="{{=_('刘宇')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131126_wengwei_sg.png')}}" alt="{{=_('翁伟')}}" />
+        </div>
+
+    </div><!--END row-->
+
+
+
+
+
+
+
+    <h3 class="section-title">北京</h3>
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/liyinghui.jpg')}}" alt="{{=_('李迎辉')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/hongqiangning.jpg')}}" alt="{{=_('洪强宁')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131130_bj_plt.png')}}" alt="{{=_('潘凌涛')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131130_bj_lh.png')}}" alt="{{=_('梁瀚')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/luyan.jpg')}}" alt="{{=_('陆研')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/zouyipeng.jpg')}}" alt="{{=_('邹义鹏')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131204_bj_huangkun.png')}}" alt="{{=_('黄昆')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131130_bj_lyd.png')}}" alt="{{=_('卢亿雷')}}" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131204_bj_xuebinlei.png')}}" alt="{{=_('薛斌雷')}}" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/131212_bj_liyulai.png')}}" alt="{{=_('李雨来')}}" />
+        </div>
+
+    </div><!--END row-->
+
+
+
+
+
+
+
+    <h3 class="section-title">杭州</h3>
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/HepoChen.jpg')}}" alt="HepoChen" />
+        </div>
+        <div class="col-lg-6">
+            <img src="{{=url_for_static('images/speakers/quxingyong.jpg')}}" alt="{{=_('屈兴永')}}" />
+        </div>
+    </div>
+
+    <h2 class="section-title">{{=_('媒体支持')}}</h2>
+        {{put_data(media_data)}}
+
+    <h2 class="section-title">{{=_('蠎人赞助')}}</h2>
+        <div class="row show-grid underhero">
+            <ul class="unstyled persons clearfix">
+{{for p in [
+    {'name':'张江阁', 'nickname':'胡萝卜92'},
+    {'name':'王升优', 'nickname':'googlgoogle'},
+
+    {'name':'郭勇', 'nickname':'wolfg'},
+
+    {'name':'tuds', 'nickname':'tuds'},
+    {'name':'詹青朋', 'nickname':'小朋光年'},
+
+    {'name':'韩晓磊', 'nickname':'zurak'},
+
+    ]:}}
+                    <li><b title="{{=p['nickname']}}">{{=p['name']}}</b></li>
+                {{pass}}
+            </ul>
+        </div>
+
+    <h2 class="section-title">{{=_('社区团体')}}</h2>
+        <div class="row underhero">
+            <div class="col-xs-6 col-lg-4"><a target="_blank" href="http://wiki.woodpecker.org.cn/moin/CPUG"><img src="{{=url_for_static('images/sponsors/CPyUG.png')}}" alt="China Python User Group" width="100" height="60" /></a></div>
+
+            <div class="col-xs-6 col-lg-4"><a target="_blank" href="http://wiki.woodpecker.org.cn/moin/CPUG"><img src="{{=url_for_static('images/sponsors/beijing_pug.png')}}" alt="Beijing Python User Group" width="100" height="60" /></a></div>
+
+            <div class="col-xs-6 col-lg-4"><a target="_blank" href="http://wiki.woodpecker.org.cn/moin/CPUG"><img src="{{=url_for_static('images/sponsors/changsanjiao_pug.png')}}" alt="Changsan Jiao Python User Group" width="150"  /></a></div>
+        </div><!--END grid-->
+
+        <div class="row underhero">
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://weibo.com/shgdg"><img src="{{=url_for_static('images/sponsors/GDGShanghai.jpg')}}" alt="GDG Shanghai" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="https://plus.google.com/u/0/113382777332300419074/about"><img src="{{=url_for_static('images/sponsors/ZH_GDG_Logo_b_h80.png')}}" alt="GDG Zhuhai" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://weibo.com/gtug"><img src="{{=url_for_static('images/sponsors/Bejing_GDG_Logo_w200.jpg')}}" alt="GDG Beijing" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://www.hzgdg.org"><img src="{{=url_for_static('images/sponsors/HZGDG.jpg')}}" alt="Hangzhou GDG" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://topgeek.org/"><img src="{{=url_for_static('images/sponsors/topgeek.gif')}}" alt="Topgeek.org" width="150" /></a></div>
+
+        </div><!--END grid-->
+
+        <div class="row">
+            <div class="col-lg-4">
+              <h3 class="section-title">{{=_('演讲日程')}}</h2>
+              <p>
+                <a class="btn" href="/2013/shanghai">{{=_('上海日程')}} &raquo;</a><br/>
+                <a class="btn" href="/2013/zhuhai">{{=_('珠海日程')}} &raquo;</a><br/>
+                <a class="btn" href="/2013/beijing">{{=_('北京日程')}} &raquo;</a><br/>
+                <a class="btn" href="/2013/hangzhou">{{=_('杭州日程')}} &raquo;</a><br/>
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <h3 class="section-title">{{=_('关于')}} PyCon</h2>
+               <p>{{=_('PyCon.Org是举办Python语言的国际性社区，在世界各地举办Python大会，是Python 爱好者的盛会，对推动Python在各地的发展有深远的影响。')}}</p>
+              <p><a class="btn" href="/2013/about">{{=_('更多细节')}} &raquo;</a></p>
+           </div>
+            <div class="col-lg-4">
+
+              <h3 class="section-title">{{=_('近期新闻')}}</h2>
+              <ol>
+                  <li>PyCon China 2014 {{=_('官方网站上线')}}</li>
+                  <li>PyCon China {{=_('官方微博')}} <a href="http://weibo.com/pyconcn" target="_blank">@PyConCN</a> {{=_('上线')}}</li>
+              </ol>
+            </div>
+          </div>
+    </div>
+</div>
+{{end}}
