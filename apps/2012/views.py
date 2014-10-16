@@ -2,7 +2,8 @@
 from uliweb import expose
 
 pagetitle = "PyCon China 2012"
-@expose('/2012')
+
+@expose('/uli/2012')
 class SiteView2012(object):
     @expose('')
     def index(self):

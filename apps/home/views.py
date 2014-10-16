@@ -1,6 +1,6 @@
 #coding=utf-8
 from uliweb import expose
 
-@expose('/')
+@expose('/uli')
 def index():
-    return redirect('/2014')
+    return redirect('/uli/2013')
